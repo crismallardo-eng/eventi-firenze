@@ -21,7 +21,8 @@ ITALIAN_WEEKDAYS = {
 
 # Display order for category pills (most likely to be of interest first).
 CATEGORY_ORDER = [
-    "Concerti", "Cinema", "Mostre", "Circoli", "Biblioteche", "Civici", "Altro",
+    "Concerti", "Cinema", "Film italiani", "Mostre", "Circoli",
+    "Biblioteche", "Civici", "Altro",
 ]
 
 

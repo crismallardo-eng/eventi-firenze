@@ -29,6 +29,7 @@ SOURCE_MODULES = [
     "sources.biblioteche",
     "sources.unifi",
     "sources.firenze_al_cinema",
+    "sources.mymovies_cinema",
     "sources.il_progresso",
     "sources.museo_novecento",
     "sources.palazzo_strozzi",

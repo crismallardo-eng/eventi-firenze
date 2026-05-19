@@ -1,19 +1,22 @@
-"""MYmovies.it — programmazione cinema Firenze: originali e film italiani.
+"""MYmovies.it — film di produzione italiana nei cinema fiorentini.
 
-Scrapa le pagine giornaliere per i prossimi DAYS_AHEAD giorni.
-Include solo:
-  • proiezioni con "Versione originale" (VO/VOS con sottotitoli)
-  • film di produzione italiana (link country=italia nel testo lancio)
+Categoria dedicata "Film italiani" per consentire un filtro separato
+rispetto alle proiezioni VOS (gestite da sources.firenze_al_cinema).
+
+Filtro: include solo film con almeno una nazionalità "Italia" nel campo
+nazionalità di MYmovies (link href con country=italia nel testo lancio).
+Non include i film stranieri in versione originale: quelli arrivano da
+firenze_al_cinema con il tag (VOS) nel titolo.
 
 URL pattern:
-    https://www.mymovies.it/cinema/firenze/{id}/?giorno=DD-MM-YYYY
+    Firenze:           https://www.mymovies.it/cinema/firenze/{id}/?giorno=DD-MM-YYYY
+    Sesto Fiorentino:  https://www.mymovies.it/cinema/firenze/sestofiorentino/{id}/?giorno=DD-MM-YYYY
 
-Struttura card (una per film, dentro div.mm-row):
-    div.mm-white > div.schedine-titolo > a   → titolo + URL film
-    div.mm-white > div.schedine-lancio       → trama + link nazionalità
+Card film (una per film, dentro div.mm-row):
+    div.mm-white > div.schedine-titolo > a            → titolo + URL film
+    div.mm-white > div.schedine-lancio                → trama + link nazionalità
     div.mm-white > div.mm-light-grey > div.orari-dettaglio
-        div.mm-medium                        → etichetta versione
-        div.stonda3 span.mm-weight-700       → orario HH:MM
+        div.stonda3 span.mm-weight-700                → orario HH:MM
 """
 from __future__ import annotations
 
@@ -27,22 +30,24 @@ from bs4 import BeautifulSoup
 from sources.base import Event, ROME, http_get
 
 SOURCE_NAME = "Cinema Firenze"
-CATEGORY = "Cinema"
+CATEGORY = "Film italiani"
 BASE_URL = "https://www.mymovies.it"
 
-# ID MYmovies dei cinema fiorentini disponibili
-CINEMAS: dict[int, str] = {
-    22449: "La Compagnia",
-    4976:  "Fiorella",
-    5045:  "Spazio Alfieri",
-    5042:  "Astra",
-    5036:  "Adriano",
-    5048:  "Fiamma",
-    5053:  "Marconi",
-    5049:  "Portico",
-    5050:  "Principe",
-    5039:  "Giunti Odeon",
-    6208:  "Castello",
+# Mappa cinema → (path_segment, nome_visibile).
+# Firenze ha il path "firenze/{id}", Sesto Fiorentino "firenze/sestofiorentino/{id}".
+CINEMAS: dict[int, tuple[str, str]] = {
+    22449: ("firenze",                  "La Compagnia"),
+    4976:  ("firenze",                  "Fiorella"),
+    5045:  ("firenze",                  "Spazio Alfieri"),
+    5042:  ("firenze",                  "Astra"),
+    5036:  ("firenze",                  "Adriano"),
+    5048:  ("firenze",                  "Fiamma"),
+    5053:  ("firenze",                  "Marconi"),
+    5049:  ("firenze",                  "Portico"),
+    5050:  ("firenze",                  "Principe"),
+    5039:  ("firenze",                  "Giunti Odeon"),
+    6208:  ("firenze",                  "Castello"),
+    4853:  ("firenze/sestofiorentino",  "Grotta, Sesto Fiorentino"),
 }
 
 DAYS_AHEAD = 7
@@ -51,21 +56,16 @@ REQUEST_TIMEOUT = 20
 
 _TIME_RE = re.compile(r'\b(\d{1,2}):(\d{2})\b')
 _ITALIA_RE = re.compile(r'country=italia', re.I)
-_ORIGINALE_RE = re.compile(r'version[ei]\s+original[ei]', re.I)
 
 
-def _include_film(lancio_el, orari_el) -> bool:
-    """True solo se la proiezione è in versione originale con sottotitoli."""
-    if orari_el:
-        label = orari_el.find('div', class_='mm-medium')
-        if label and _ORIGINALE_RE.search(label.get_text()):
-            return True
-    return False
+def _is_italian_production(lancio_el) -> bool:
+    """True se la card ha un link 'country=italia' fra le nazionalità."""
+    return bool(lancio_el and lancio_el.find('a', href=_ITALIA_RE))
 
 
-def _events_for_cinema_day(cinema_id: int, cinema_name: str, d: date) -> list[Event]:
+def _events_for_cinema_day(cinema_id: int, path_seg: str, cinema_name: str, d: date) -> list[Event]:
     giorno = d.strftime('%d-%m-%Y')
-    url = f"{BASE_URL}/cinema/firenze/{cinema_id}/?giorno={giorno}"
+    url = f"{BASE_URL}/cinema/{path_seg}/{cinema_id}/?giorno={giorno}"
     try:
         resp = http_get(url, timeout=REQUEST_TIMEOUT)
     except Exception:
@@ -84,7 +84,7 @@ def _events_for_cinema_day(cinema_id: int, cinema_name: str, d: date) -> list[Ev
             continue
         film_url = urljoin(BASE_URL, title_a['href'])
         if film_url in seen_film_urls:
-            continue  # salta duplicati mobile/desktop
+            continue  # duplicati mobile/desktop
 
         # Risali al div.mm-white che contiene tutto il blocco film
         container = title_div
@@ -96,11 +96,10 @@ def _events_for_cinema_day(cinema_id: int, cinema_name: str, d: date) -> list[Ev
             continue
 
         lancio_el = container.find('div', class_='schedine-lancio')
-        orari_el  = container.find('div', class_='orari-dettaglio')
-
-        if not _include_film(lancio_el, orari_el):
+        if not _is_italian_production(lancio_el):
             continue
 
+        orari_el = container.find('div', class_='orari-dettaglio')
         if orari_el is None:
             continue
         times_found: list[time] = []
@@ -129,13 +128,17 @@ def _events_for_cinema_day(cinema_id: int, cinema_name: str, d: date) -> list[Ev
 def fetch() -> list[Event]:
     today = datetime.now(tz=ROME).date()
     days = [today + timedelta(days=i) for i in range(DAYS_AHEAD)]
-    jobs = [(cid, name, d) for cid, name in CINEMAS.items() for d in days]
+    jobs = [
+        (cid, path_seg, name, d)
+        for cid, (path_seg, name) in CINEMAS.items()
+        for d in days
+    ]
 
     events: list[Event] = []
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:
         futures = [
-            ex.submit(_events_for_cinema_day, cid, name, d)
-            for cid, name, d in jobs
+            ex.submit(_events_for_cinema_day, cid, path_seg, name, d)
+            for cid, path_seg, name, d in jobs
         ]
         for fut in as_completed(futures):
             try:
@@ -143,7 +146,7 @@ def fetch() -> list[Event]:
             except Exception:
                 continue
 
-    # Deduplica finale per (titolo, inizio, venue)
+    # Dedup finale per (titolo, inizio, venue)
     seen: set[tuple] = set()
     unique: list[Event] = []
     for e in events:
