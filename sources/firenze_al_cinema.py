@@ -13,9 +13,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, time, timedelta
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
 
-from sources.base import Event, ROME, http_get
+from sources.base import DEFAULT_HEADERS, Event, ROME
 
 SOURCE_NAME = "Firenze al Cinema"
 CATEGORY = "Cinema"
@@ -38,7 +39,7 @@ ORIGINAL_LANGUAGE_CINEMA_IDS = {25}  # Original Sound = always VO
 
 DAYS_AHEAD = 7
 PARALLEL_WORKERS = 10
-REQUEST_TIMEOUT = 10
+REQUEST_TIMEOUT = 5  # risponde in ~1s quando è up; fallisce subito altrimenti
 
 _VO_TAG_RE = re.compile(r"\((?:VOS?|V\.?O\.?S?\.?)\)", re.IGNORECASE)
 _TIME_RE = re.compile(r"\b(\d{1,2}),(\d{2})\b")
@@ -69,7 +70,10 @@ def _parse_times(cell_text: str) -> list[time]:
 def _events_for_cinema_day(cinema_id: int, cinema_name: str, d: date) -> list[Event]:
     url = f"{BASE_URL}?pag=orari&tipo=cine&day={_format_dmy(d)}&id={cinema_id}"
     try:
-        response = http_get(url, timeout=REQUEST_TIMEOUT)
+        # Nessun retry: il sito risponde subito o non risponde affatto.
+        # http_get riproverebbe raddoppiando il tempo di fallimento.
+        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
     except Exception:
         return []
 
@@ -135,4 +139,15 @@ def fetch() -> list[Event]:
             continue
         seen.add(key)
         unique.append(e)
+
+    # Fallback: se firenzealcinema.info non ha restituito nulla (timeout su
+    # tutte le richieste, sito giù), pesca le proiezioni VOS da MYmovies.
+    # Tag invariato: gli eventi finiscono comunque nella categoria "Cinema".
+    if not unique:
+        try:
+            from sources.mymovies_cinema import fetch_vos
+            return fetch_vos()
+        except Exception:
+            return []
+
     return unique
