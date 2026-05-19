@@ -319,9 +319,18 @@ JS_TEMPLATE = """
     document.querySelectorAll('.filter-pill[data-category]').forEach(p => {
         p.addEventListener('click', () => {
             const cat = p.dataset.category;
-            if (state.cats.has(cat)) state.cats.delete(cat);
-            else state.cats.add(cat);
-            if (state.cats.size === 0) state.cats = new Set(allCategories);
+            if (state.cats.size === allCategories.length) {
+                // Si parte da "tutto attivo": il primo click isola la categoria scelta.
+                state.cats = new Set([cat]);
+            } else if (state.cats.has(cat)) {
+                // Categoria gia' attiva: la rimuovo (toggle off).
+                state.cats.delete(cat);
+                // Se ho appena rimosso l'ultima, torno al default "tutto attivo".
+                if (state.cats.size === 0) state.cats = new Set(allCategories);
+            } else {
+                // Categoria non attiva: la aggiungo all'accumulo.
+                state.cats.add(cat);
+            }
             saveState(state); apply();
         });
     });
