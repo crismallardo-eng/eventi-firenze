@@ -38,11 +38,13 @@ def _parse_time(text: str) -> time | None:
     return None
 
 
-def _events_for_day(d: date) -> list[Event]:
+def _events_for_day(d: date, *, raise_on_error: bool = False) -> list[Event]:
     url = DAY_URL.format(date=d.isoformat())
     try:
         response = http_get(url)
     except Exception:
+        if raise_on_error:
+            raise
         return []
 
     soup = BeautifulSoup(response.text, "html.parser")
@@ -83,11 +85,14 @@ def _events_for_day(d: date) -> list[Event]:
 
 def fetch() -> list[Event]:
     today = datetime.now(tz=ROME).date()
-    days = [today + timedelta(days=i) for i in range(DAYS_AHEAD)]
+    # Probe today synchronously so a site-wide failure (403/5xx/timeout)
+    # surfaces as an error on the page instead of silently dropping all
+    # library events.
+    events: list[Event] = list(_events_for_day(today, raise_on_error=True))
 
-    events: list[Event] = []
+    remaining = [today + timedelta(days=i) for i in range(1, DAYS_AHEAD)]
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:
-        futures = {ex.submit(_events_for_day, d): d for d in days}
+        futures = {ex.submit(_events_for_day, d): d for d in remaining}
         for fut in as_completed(futures):
             try:
                 events.extend(fut.result())

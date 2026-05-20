@@ -47,6 +47,11 @@ def fetch() -> list[Event]:
         try:
             resp = http_get(url)
         except Exception:
+            # On the first page, propagate so a site-wide failure (403/5xx)
+            # surfaces in "Fonti fallite" instead of vanishing. On later
+            # pages a missing page is normal (less than MAX_PAGES exist).
+            if page == 0:
+                raise
             break
 
         soup = BeautifulSoup(resp.text, "html.parser")
