@@ -14,7 +14,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from sources.base import Event, ROME, http_get
+from sources.base import Event, ROME, http_get, new_session
 
 SOURCE_NAME = "Biblioteche Comunali"
 CATEGORY = "Biblioteche"
@@ -22,7 +22,10 @@ BASE_URL = "https://cultura.comune.fi.it"
 DAY_URL = f"{BASE_URL}/eventi-biblioteche/{{date}}"
 
 DAYS_AHEAD = 30
-PARALLEL_WORKERS = 6
+# Lower parallelism: hitting a Drupal site behind a WAF with many
+# concurrent connections from the same IP increases 403s. 3 is gentle
+# enough to avoid rate-limit triggers and still fast.
+PARALLEL_WORKERS = 3
 
 _TIME_RE = re.compile(r"(\d{1,2})\s*:\s*(\d{2})")
 
@@ -38,10 +41,18 @@ def _parse_time(text: str) -> time | None:
     return None
 
 
-def _events_for_day(d: date, *, raise_on_error: bool = False) -> list[Event]:
+def _events_for_day(
+    d: date,
+    *,
+    session=None,
+    raise_on_error: bool = False,
+) -> list[Event]:
     url = DAY_URL.format(date=d.isoformat())
+    # Set Referer to the site root so each per-day request looks like
+    # navigation from the previous page (anti-bot friendlier).
+    headers = {"Referer": BASE_URL + "/"}
     try:
-        response = http_get(url)
+        response = http_get(url, session=session, headers=headers)
     except Exception:
         if raise_on_error:
             raise
@@ -85,14 +96,28 @@ def _events_for_day(d: date, *, raise_on_error: bool = False) -> list[Event]:
 
 def fetch() -> list[Event]:
     today = datetime.now(tz=ROME).date()
+    # A shared Session keeps cookies (PHPSESSID, WAF challenge tokens,
+    # etc.) across requests — needed because the day pages reject
+    # cold-start clients.
+    session = new_session()
+    # Warm the session with a hit to the site root so cookies are set
+    # before we start hitting deeper URLs.
+    try:
+        http_get(BASE_URL + "/", session=session)
+    except Exception:
+        # Continue anyway: the per-day fetch will surface the real error.
+        pass
+
     # Probe today synchronously so a site-wide failure (403/5xx/timeout)
     # surfaces as an error on the page instead of silently dropping all
     # library events.
-    events: list[Event] = list(_events_for_day(today, raise_on_error=True))
+    events: list[Event] = list(
+        _events_for_day(today, session=session, raise_on_error=True)
+    )
 
     remaining = [today + timedelta(days=i) for i in range(1, DAYS_AHEAD)]
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:
-        futures = {ex.submit(_events_for_day, d): d for d in remaining}
+        futures = {ex.submit(_events_for_day, d, session=session): d for d in remaining}
         for fut in as_completed(futures):
             try:
                 events.extend(fut.result())

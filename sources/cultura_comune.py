@@ -27,7 +27,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from sources.base import Event, ROME, http_get
+from sources.base import Event, ROME, http_get, new_session
 from sources.italian_dates import parse_italian_datetime
 
 SOURCE_NAME = "Cultura Comune Firenze"
@@ -42,10 +42,20 @@ def fetch() -> list[Event]:
     events: list[Event] = []
     seen_urls: set[str] = set()
 
+    # Shared session so cookies set by the site root carry into the
+    # listing pages — needed when the host is behind a WAF that issues
+    # a challenge cookie.
+    session = new_session()
+    try:
+        http_get(BASE_URL + "/", session=session)
+    except Exception:
+        pass  # let the listing call below surface the real error
+
     for page in range(MAX_PAGES):
         url = LIST_URL if page == 0 else f"{LIST_URL}?page={page}"
+        headers = {"Referer": BASE_URL + "/" if page == 0 else LIST_URL}
         try:
-            resp = http_get(url)
+            resp = http_get(url, session=session, headers=headers)
         except Exception:
             # On the first page, propagate so a site-wide failure (403/5xx)
             # surfaces in "Fonti fallite" instead of vanishing. On later
