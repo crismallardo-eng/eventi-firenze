@@ -35,6 +35,11 @@ SOURCE_MODULES = [
     "sources.palazzo_strozzi",
     "sources.mad",
     "sources.cultura_comune",
+    "sources.teatro_maggio",
+    "sources.teatro_pergola",
+    "sources.teatro_verdi",
+    "sources.tempo_reale",
+    "sources.estate_fiorentina",
 ]
 
 # Only show events within this window from "now". Past events are dropped.
