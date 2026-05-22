@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import importlib
+import json
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeout
@@ -92,6 +93,9 @@ def main() -> int:
     all_events: list[Event] = []
     errors: list[tuple[str, str]] = []
     successful_sources = 0
+    # Per-source counts (post-filter), per health monitoring.
+    source_counts: dict[str, int] = {}
+    failed_sources: list[str] = []
 
     for module_path in SOURCE_MODULES:
         try:
@@ -112,10 +116,14 @@ def main() -> int:
                 ex.shutdown(wait=False, cancel_futures=True)
                 errors.append((name, f"timeout dopo {SOURCE_TIMEOUT_SEC}s"))
                 print(f"  {name}: TIMEOUT (>{SOURCE_TIMEOUT_SEC}s, abbandonato)")
+                source_counts[name] = 0
+                failed_sources.append(name)
                 continue
             except Exception as exc:  # noqa: BLE001
                 errors.append((name, f"{type(exc).__name__}: {exc}"))
                 print(f"  {name}: ERRORE — {type(exc).__name__}: {exc}")
+                source_counts[name] = 0
+                failed_sources.append(name)
                 continue
 
         kept = 0
@@ -142,6 +150,7 @@ def main() -> int:
             all_events.append(ev)
             kept += 1
         successful_sources += 1
+        source_counts[name] = kept
         suffix = f" ({skipped_family} family esclusi)" if skipped_family else ""
         print(f"  {name}: {kept} eventi{suffix}")
 
@@ -156,6 +165,19 @@ def main() -> int:
         source_count=successful_sources,
     )
     output_path.write_text(html_str, encoding="utf-8")
+
+    # Summary per health-check (consumato da scripts/health_check.py).
+    summary = {
+        "date": now.date().isoformat(),
+        "generated_at": now.isoformat(),
+        "total_events": len(all_events),
+        "successful_sources": successful_sources,
+        "sources": source_counts,
+        "failed_sources": failed_sources,
+    }
+    (output_dir / "run_summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
     print(f"\nGenerati {len(all_events)} eventi totali da {successful_sources} fonti.")
     if errors:
