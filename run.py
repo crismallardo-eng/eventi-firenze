@@ -31,6 +31,7 @@ SOURCE_MODULES = [
     "sources.firenze_al_cinema",
     "sources.mymovies_cinema",
     "sources.il_progresso",
+    "sources.arci_firenze",
     "sources.museo_novecento",
     "sources.palazzo_strozzi",
     "sources.mad",
