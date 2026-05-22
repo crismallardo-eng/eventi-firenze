@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import calendar
+import hashlib
 import html
 from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta
@@ -42,6 +43,16 @@ def _esc(text: str | None) -> str:
 
 def _slug(text: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in text).strip("-")
+
+
+def _event_id(ev: Event) -> str:
+    """Stable opaque ID for localStorage hide-tracking.
+
+    Built from source+url+title so identity survives across daily scrapes
+    even if start time shifts by minutes.
+    """
+    raw = f"{ev.source}|{ev.url}|{ev.title}".encode("utf-8")
+    return hashlib.sha1(raw).hexdigest()[:12]
 
 
 CSS = """
@@ -147,13 +158,34 @@ h2.day {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: .85rem 1rem;
+    padding: .85rem 2.2rem .85rem 1rem;
     margin-bottom: .6rem;
     display: grid;
     grid-template-columns: 64px 1fr;
     gap: 0 .9rem;
+    position: relative;
 }
 .event.hidden, h2.day.hidden { display: none; }
+.hide-btn {
+    position: absolute;
+    top: .25rem;
+    right: .35rem;
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 1.05rem;
+    line-height: 1;
+    padding: .25rem .4rem;
+    border-radius: 4px;
+    opacity: .35;
+    transition: opacity .15s, color .15s, background .15s;
+}
+.hide-btn:hover {
+    opacity: 1;
+    color: var(--accent);
+    background: rgba(255, 106, 74, 0.08);
+}
 .event .time {
     font-variant-numeric: tabular-nums;
     color: var(--muted);
@@ -195,21 +227,44 @@ h2.day {
 .empty-filter { display: none; text-align: center; color: var(--muted); padding: 3rem 0; }
 
 .ongoing-section { margin-top: 1.5rem; }
-.ongoing-section h2 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--accent);
+.ongoing-section .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .5rem;
     border-bottom: 1px solid var(--border);
     padding-bottom: .25rem;
     margin: 0 0 .75rem;
 }
+.ongoing-section h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.section-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    cursor: pointer;
+    font-size: .8rem;
+    line-height: 1;
+    padding: .3rem .55rem;
+    border-radius: 4px;
+    transition: color .15s, border-color .15s;
+}
+.section-toggle:hover { color: var(--accent); border-color: var(--accent); }
+.ongoing-list.collapsed { display: none; }
 .ongoing-section.hidden { display: none; }
 .ongoing-event {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: .75rem 1rem;
+    padding: .75rem 2.2rem .75rem 1rem;
     margin-bottom: .5rem;
+    position: relative;
 }
 .ongoing-event.hidden { display: none; }
 .ongoing-event .title { margin: 0 0 .15rem; font-size: 1rem; font-weight: 600; }
@@ -222,6 +277,8 @@ h2.day {
 JS_TEMPLATE = """
 (function() {
     const STORAGE_KEY = 'eventi-firenze-filters';
+    const HIDDEN_KEY = 'eventi-firenze-hidden';
+    const UI_KEY = 'eventi-firenze-ui';
     const WEEK_END = __WEEK_END__;
     const MONTH_END = __MONTH_END__;
     const WEEKEND_START = __WEEKEND_START__;
@@ -253,10 +310,44 @@ JS_TEMPLATE = """
         } catch (e) {}
     }
 
+    function loadHidden() {
+        try {
+            const raw = localStorage.getItem(HIDDEN_KEY);
+            return raw ? new Set(JSON.parse(raw)) : new Set();
+        } catch (e) { return new Set(); }
+    }
+    function saveHidden(s) {
+        try { localStorage.setItem(HIDDEN_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
+    }
+
+    function loadUI() {
+        try {
+            const raw = localStorage.getItem(UI_KEY);
+            const obj = raw ? JSON.parse(raw) : {};
+            return {
+                ongoingCollapsed: !!obj.ongoingCollapsed,
+                showHidden: !!obj.showHidden,
+            };
+        } catch (e) { return { ongoingCollapsed: false, showHidden: false }; }
+    }
+    function saveUI(s) {
+        try { localStorage.setItem(UI_KEY, JSON.stringify(s)); } catch (e) {}
+    }
+
     let state = loadState();
     if (state.cats.size === 0) state.cats = new Set(allCategories);
+    let hidden = loadHidden();
+    let ui = loadUI();
 
     function passes(el) {
+        const id = el.dataset.eventId;
+        const isHidden = id && hidden.has(id);
+        // "Nascosti" mode flips the meaning: only hidden items are shown.
+        if (ui.showHidden) {
+            if (!isHidden) return false;
+        } else {
+            if (isHidden) return false;
+        }
         if (!state.cats.has(el.dataset.category)) return false;
         // Ongoing exhibits (in the "Mostre in corso" section) always pass
         // window/time-of-day filters because they're open today by definition.
@@ -311,6 +402,36 @@ JS_TEMPLATE = """
         document.querySelectorAll('.filter-pill[data-weekday-time]').forEach(p => {
             p.classList.toggle('active', state.weekdayTime === p.dataset.weekdayTime);
         });
+        // Per-event hide button: × normally, ↺ when in "Nascosti" mode on a hidden item.
+        document.querySelectorAll('.hide-btn').forEach(btn => {
+            const id = btn.dataset.eventId;
+            const isHidden = id && hidden.has(id);
+            btn.textContent = isHidden ? '↺' : '×';
+            btn.title = isHidden ? 'Ripristina questo evento' : 'Nascondi questo evento';
+        });
+        // "Nascosti" pill: visible only if there's at least one hidden item.
+        const nascostiPill = document.getElementById('filter-nascosti');
+        if (nascostiPill) {
+            const n = hidden.size;
+            const countEl = nascostiPill.querySelector('.count');
+            if (countEl) countEl.textContent = n;
+            nascostiPill.style.display = n > 0 ? '' : 'none';
+            nascostiPill.classList.toggle('active', ui.showHidden);
+            if (n === 0 && ui.showHidden) {
+                // Auto-leave "Nascosti" mode when nothing is hidden anymore.
+                ui.showHidden = false;
+                saveUI(ui);
+                nascostiPill.classList.remove('active');
+            }
+        }
+        // Ongoing section collapse state.
+        const ongoingList = document.getElementById('ongoing-list');
+        const ongoingToggle = document.getElementById('ongoing-toggle');
+        if (ongoingList) ongoingList.classList.toggle('collapsed', ui.ongoingCollapsed);
+        if (ongoingToggle) {
+            ongoingToggle.textContent = ui.ongoingCollapsed ? 'Mostra' : 'Nascondi';
+            ongoingToggle.setAttribute('aria-expanded', ui.ongoingCollapsed ? 'false' : 'true');
+        }
         const anyVisible = document.querySelector('.event:not(.hidden), .ongoing-event:not(.hidden)');
         const empty = document.getElementById('empty-filter');
         if (empty) empty.style.display = anyVisible ? 'none' : 'block';
@@ -354,6 +475,38 @@ JS_TEMPLATE = """
         state = defaultState();
         saveState(state); apply();
     });
+
+    document.querySelectorAll('.hide-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const id = btn.dataset.eventId;
+            if (!id) return;
+            if (hidden.has(id)) hidden.delete(id);
+            else hidden.add(id);
+            saveHidden(hidden);
+            apply();
+        });
+    });
+
+    const nascostiPill = document.getElementById('filter-nascosti');
+    if (nascostiPill) {
+        nascostiPill.addEventListener('click', () => {
+            if (hidden.size === 0) return;
+            ui.showHidden = !ui.showHidden;
+            saveUI(ui);
+            apply();
+        });
+    }
+
+    const ongoingToggle = document.getElementById('ongoing-toggle');
+    if (ongoingToggle) {
+        ongoingToggle.addEventListener('click', () => {
+            ui.ongoingCollapsed = !ui.ongoingCollapsed;
+            saveUI(ui);
+            apply();
+        });
+    }
 
     apply();
 })();
@@ -430,9 +583,16 @@ def render(
         '<div class="filter-pill" data-weekday-time="after14">Feriali dalle 14:00</div>'
         '<div class="filter-pill" data-weekday-time="after17">Feriali dalle 17:00</div>'
     )
+    # Always render the "Nascosti" pill; JS hides it when count is 0.
+    nascosti_pill_html = (
+        '<div class="filter-pill" id="filter-nascosti" style="display:none">'
+        'Nascosti<span class="count">0</span>'
+        '</div>'
+    )
     filters_html = (
         '<div class="filters">'
         f'<div class="filter-row"><span class="filter-label">Categorie</span>{cat_pills_html}'
+        f'{nascosti_pill_html}'
         '<div class="filter-actions"><button id="filter-all">Reset</button></div></div>'
         f'<div class="filter-row"><span class="filter-label">Periodo</span>{window_pills_html}</div>'
         f'<div class="filter-row"><span class="filter-label">Orario</span>{weekday_time_pills_html}</div>'
@@ -445,7 +605,13 @@ def render(
     if ongoing:
         ongoing_html_parts = [
             f'<div class="ongoing-section" id="ongoing-section">'
+            f'<div class="section-header">'
             f'<h2>Mostre in corso ({len(ongoing)})</h2>'
+            f'<button class="section-toggle" id="ongoing-toggle" '
+            f'aria-expanded="true" aria-controls="ongoing-list" '
+            f'title="Mostra/nascondi la lista">Nascondi</button>'
+            f'</div>'
+            f'<div class="ongoing-list" id="ongoing-list">'
         ]
         for ev in ongoing:
             end_date = ev.end.date() if ev.end else None
@@ -460,14 +626,19 @@ def render(
                 f'<a href="{_esc(ev.url)}" target="_blank" rel="noopener">{_esc(ev.title)}</a>'
                 if ev.url else _esc(ev.title)
             )
+            ev_id = _event_id(ev)
             ongoing_html_parts.append(
-                f'<div class="ongoing-event" data-category="{_esc(ev.category or "Altro")}">'
+                f'<div class="ongoing-event" '
+                f'data-category="{_esc(ev.category or "Altro")}" '
+                f'data-event-id="{ev_id}">'
+                f'<button class="hide-btn" data-event-id="{ev_id}" '
+                f'title="Nascondi questo evento">×</button>'
                 f'<p class="title">{title_html}</p>'
                 f'<div class="meta-line">{" · ".join(meta_bits)}</div>'
                 f'<div class="closing">{_esc(closing_str)}</div>'
                 f'</div>'
             )
-        ongoing_html_parts.append('</div>')
+        ongoing_html_parts.append('</div></div>')
         body_parts.append("".join(ongoing_html_parts))
 
     if not events:
@@ -492,17 +663,21 @@ def render(
                 )
                 iso_date = ev.start.date().isoformat()
                 time_min = ev.start.strftime("%H:%M")
+                ev_id = _event_id(ev)
                 body_parts.append(
                     f'<div class="event" '
                     f'data-category="{_esc(ev.category or "Altro")}" '
                     f'data-iso-date="{iso_date}" '
-                    f'data-time-min="{time_min}">'
+                    f'data-time-min="{time_min}" '
+                    f'data-event-id="{ev_id}">'
                     f'<div class="time">{_esc(time_str)}</div>'
                     f'<div class="body">'
                     f'<p class="title">{title_html}</p>'
                     f'<div class="meta-line">{" · ".join(meta_bits)}</div>'
                     f'{desc_html}'
                     f'</div>'
+                    f'<button class="hide-btn" data-event-id="{ev_id}" '
+                    f'title="Nascondi questo evento">×</button>'
                     f'</div>'
                 )
         body_parts.append(
