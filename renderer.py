@@ -158,7 +158,7 @@ h2.day {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: .85rem 2.2rem .85rem 1rem;
+    padding: .85rem 3.6rem .85rem 1rem;
     margin-bottom: .6rem;
     display: grid;
     grid-template-columns: 64px 1fr;
@@ -166,10 +166,9 @@ h2.day {
     position: relative;
 }
 .event.hidden, h2.day.hidden { display: none; }
-.hide-btn {
+.hide-btn, .star-btn {
     position: absolute;
     top: .25rem;
-    right: .35rem;
     background: none;
     border: none;
     color: var(--muted);
@@ -181,10 +180,21 @@ h2.day {
     opacity: .35;
     transition: opacity .15s, color .15s, background .15s;
 }
+.hide-btn { right: 1.85rem; }
+.star-btn { right: .35rem; font-size: 1.15rem; }
 .hide-btn:hover {
     opacity: 1;
     color: var(--accent);
     background: rgba(255, 106, 74, 0.08);
+}
+.star-btn:hover {
+    opacity: 1;
+    color: #ffcc44;
+    background: rgba(255, 204, 68, 0.10);
+}
+.star-btn.starred {
+    opacity: 1;
+    color: #ffcc44;
 }
 .event .time {
     font-variant-numeric: tabular-nums;
@@ -262,10 +272,55 @@ h2.day {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: .75rem 2.2rem .75rem 1rem;
+    padding: .75rem 3.6rem .75rem 1rem;
     margin-bottom: .5rem;
     position: relative;
 }
+
+.starred-section {
+    margin: 1.5rem 0 .75rem;
+    padding: .9rem 1rem 1rem;
+    background: linear-gradient(180deg, rgba(255,204,68,.06), transparent);
+    border: 1px solid rgba(255,204,68,.25);
+    border-radius: 10px;
+}
+.starred-section.empty { display: none; }
+.starred-section .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .5rem;
+    margin: 0 0 .75rem;
+}
+.starred-section h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffcc44;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.starred-section .starred-event {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: .75rem 3.6rem .75rem 1rem;
+    margin-bottom: .5rem;
+    position: relative;
+}
+.starred-section .starred-event .time {
+    color: var(--muted);
+    font-size: .85rem;
+    margin-right: .35rem;
+    font-variant-numeric: tabular-nums;
+}
+.starred-section .starred-event .title { margin: 0 0 .15rem; font-size: 1rem; font-weight: 600; }
+.starred-section .starred-event .title a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--border); }
+.starred-section .starred-event .title a:hover { border-bottom-color: #ffcc44; }
+.starred-section .starred-event .meta-line { color: var(--muted); font-size: .85rem; }
+.starred-section .starred-event .desc { color: var(--muted); font-size: .85rem; margin-top: .25rem; }
+.starred-section .starred-event .closing { color: var(--accent); font-size: .82rem; margin-top: .2rem; }
+
 .ongoing-event.hidden { display: none; }
 .ongoing-event .title { margin: 0 0 .15rem; font-size: 1rem; font-weight: 600; }
 .ongoing-event .title a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--border); }
@@ -278,6 +333,7 @@ JS_TEMPLATE = """
 (function() {
     const STORAGE_KEY = 'eventi-firenze-filters';
     const HIDDEN_KEY = 'eventi-firenze-hidden';
+    const STARRED_KEY = 'eventi-firenze-starred';
     const UI_KEY = 'eventi-firenze-ui';
     const WEEK_END = __WEEK_END__;
     const MONTH_END = __MONTH_END__;
@@ -320,6 +376,16 @@ JS_TEMPLATE = """
         try { localStorage.setItem(HIDDEN_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
     }
 
+    function loadStarred() {
+        try {
+            const raw = localStorage.getItem(STARRED_KEY);
+            return raw ? new Set(JSON.parse(raw)) : new Set();
+        } catch (e) { return new Set(); }
+    }
+    function saveStarred(s) {
+        try { localStorage.setItem(STARRED_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
+    }
+
     function loadUI() {
         try {
             const raw = localStorage.getItem(UI_KEY);
@@ -337,7 +403,47 @@ JS_TEMPLATE = """
     let state = loadState();
     if (state.cats.size === 0) state.cats = new Set(allCategories);
     let hidden = loadHidden();
+    let starred = loadStarred();
     let ui = loadUI();
+
+    // Ricostruisce la sezione "I tuoi preferiti" clonando le card originali
+    // marcate come starred. I cloni perdono la classe .event/.ongoing-event
+    // così non vengono toccati da apply()/passes() e non si auto-nascondono.
+    function renderStarred() {
+        const section = document.getElementById('starred-section');
+        const list = document.getElementById('starred-list');
+        const count = document.getElementById('starred-count');
+        if (!section || !list) return;
+        list.innerHTML = '';
+        let n = 0;
+        starred.forEach(id => {
+            // Cerco originale (esclude eventuali cloni)
+            const orig = document.querySelector(
+                '.event[data-event-id="' + id + '"], .ongoing-event[data-event-id="' + id + '"]'
+            );
+            if (!orig) return;
+            const clone = orig.cloneNode(true);
+            clone.classList.remove('event', 'ongoing-event', 'hidden');
+            clone.classList.add('starred-event');
+            // I cloni mantengono lo stesso data-event-id: i bottoni × / ★
+            // (via delegation) operano sull'evento originale.
+            list.appendChild(clone);
+            n++;
+        });
+        if (count) count.textContent = n ? '(' + n + ')' : '';
+        section.classList.toggle('empty', n === 0);
+        refreshStarButtons();
+    }
+
+    function refreshStarButtons() {
+        document.querySelectorAll('.star-btn').forEach(btn => {
+            const id = btn.dataset.eventId;
+            const isStar = id && starred.has(id);
+            btn.textContent = isStar ? '★' : '☆';
+            btn.title = isStar ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti';
+            btn.classList.toggle('starred', !!isStar);
+        });
+    }
 
     function passes(el) {
         const id = el.dataset.eventId;
@@ -476,17 +582,30 @@ JS_TEMPLATE = """
         saveState(state); apply();
     });
 
-    document.querySelectorAll('.hide-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            const id = btn.dataset.eventId;
+    // Event delegation: gestisce × e ★ anche sui cloni della sezione preferiti.
+    document.addEventListener('click', (e) => {
+        const hideBtn = e.target.closest('.hide-btn');
+        if (hideBtn) {
+            e.preventDefault(); e.stopPropagation();
+            const id = hideBtn.dataset.eventId;
             if (!id) return;
             if (hidden.has(id)) hidden.delete(id);
             else hidden.add(id);
             saveHidden(hidden);
             apply();
-        });
+            return;
+        }
+        const starBtn = e.target.closest('.star-btn');
+        if (starBtn) {
+            e.preventDefault(); e.stopPropagation();
+            const id = starBtn.dataset.eventId;
+            if (!id) return;
+            if (starred.has(id)) starred.delete(id);
+            else starred.add(id);
+            saveStarred(starred);
+            renderStarred();
+            return;
+        }
     });
 
     const nascostiPill = document.getElementById('filter-nascosti');
@@ -509,6 +628,7 @@ JS_TEMPLATE = """
     }
 
     apply();
+    renderStarred();
 })();
 """
 
@@ -601,6 +721,18 @@ def render(
 
     body_parts: list[str] = []
 
+    # "I tuoi preferiti" section: populated by JS at load time from localStorage.
+    # Rendered always (hidden via .empty class while empty).
+    body_parts.append(
+        '<div class="starred-section empty" id="starred-section">'
+        '<div class="section-header">'
+        '<h2>★ I tuoi preferiti</h2>'
+        '<span class="starred-count" id="starred-count"></span>'
+        '</div>'
+        '<div class="starred-list" id="starred-list"></div>'
+        '</div>'
+    )
+
     # "Mostre in corso" section: long-running exhibits already open today.
     if ongoing:
         ongoing_html_parts = [
@@ -633,6 +765,8 @@ def render(
                 f'data-event-id="{ev_id}">'
                 f'<button class="hide-btn" data-event-id="{ev_id}" '
                 f'title="Nascondi questo evento">×</button>'
+                f'<button class="star-btn" data-event-id="{ev_id}" '
+                f'title="Aggiungi ai preferiti">☆</button>'
                 f'<p class="title">{title_html}</p>'
                 f'<div class="meta-line">{" · ".join(meta_bits)}</div>'
                 f'<div class="closing">{_esc(closing_str)}</div>'
@@ -678,6 +812,8 @@ def render(
                     f'</div>'
                     f'<button class="hide-btn" data-event-id="{ev_id}" '
                     f'title="Nascondi questo evento">×</button>'
+                    f'<button class="star-btn" data-event-id="{ev_id}" '
+                    f'title="Aggiungi ai preferiti">☆</button>'
                     f'</div>'
                 )
         body_parts.append(
