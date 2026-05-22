@@ -48,10 +48,13 @@ def _slug(text: str) -> str:
 def _event_id(ev: Event) -> str:
     """Stable opaque ID for localStorage hide-tracking.
 
-    Built from source+url+title so identity survives across daily scrapes
-    even if start time shifts by minutes.
+    Comprende anche venue e start (giorno+orario) per distinguere proiezioni
+    dello stesso film in cinema/orari diversi — altrimenti nascondendo
+    "Le città di pianura" alle 19:00 alla Fiorella si nasconderebbe anche
+    quella delle 21:00 al Marconi (stesso source+url+title).
     """
-    raw = f"{ev.source}|{ev.url}|{ev.title}".encode("utf-8")
+    start_key = ev.start.strftime("%Y-%m-%dT%H:%M") if ev.start else ""
+    raw = f"{ev.source}|{ev.url}|{ev.venue or ''}|{ev.title}|{start_key}".encode("utf-8")
     return hashlib.sha1(raw).hexdigest()[:12]
 
 
