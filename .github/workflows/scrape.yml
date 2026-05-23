@@ -113,6 +113,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (with one retry on transient 401)
         id: deployment
+        uses: actions/deploy-pages@v4
+        # GitHub Pages a volte risponde 401 "Bad credentials" su run
+        # schedulate per problemi transient col token OIDC. Un singolo retry
+        # dopo qualche secondo è quasi sempre sufficiente.
+        continue-on-error: true
+      - name: Retry deploy if first attempt failed
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
