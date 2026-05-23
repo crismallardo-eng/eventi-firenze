@@ -45,6 +45,25 @@ def _slug(text: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in text).strip("-")
 
 
+"""Quanto a lungo, dopo lo start, un evento è ancora considerato 'in corso'
+quando non ha un end esplicito. 2 ore copre la maggior parte di concerti,
+spettacoli, talk; eventi più brevi (es. proiezioni di 90 minuti) restano
+visibili ancora per ~30 min dopo la fine, che è una grazia ragionevole."""
+_DEFAULT_DURATION_HOURS = 2
+
+
+def _is_past_today(ev: Event, now: datetime, today: date) -> bool:
+    """True se l'evento è di oggi ma è già finito (e non è un all-day)."""
+    if ev.start.date() != today:
+        return False
+    # All-day (mostra/sagra/giornata): resta visibile tutto il giorno.
+    if ev.start.hour == 0 and ev.start.minute == 0:
+        return False
+    if ev.end is not None and ev.end > ev.start:
+        return now > ev.end
+    return now > ev.start + timedelta(hours=_DEFAULT_DURATION_HOURS)
+
+
 def _event_id(ev: Event) -> str:
     """Stable opaque ID for localStorage hide-tracking.
 
@@ -87,6 +106,44 @@ body {
 header { border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 1rem; }
 header h1 { margin: 0 0 .25rem; font-size: 1.6rem; }
 header .meta { color: var(--muted); font-size: .9rem; }
+
+/* Layout 2 colonne su desktop: sidebar filtri a sinistra, eventi a destra.
+   Su mobile (default) tutto in colonna singola come prima. */
+@media (min-width: 960px) {
+    .container {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+    header { grid-column: 1 / -1; }
+    .sidebar {
+        position: sticky;
+        top: 1rem;
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+    }
+    /* Su desktop in sidebar i filtri vanno verticali: etichetta sopra,
+       pill sotto a wrap. Il container .filters perde la stretta orizzontale. */
+    .sidebar .filters {
+        border-bottom: none;
+        padding: 0;
+        margin: 0;
+    }
+    .sidebar .filter-row {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1.25rem;
+    }
+    .sidebar .filter-row .filter-label {
+        margin-bottom: .35rem;
+    }
+    .sidebar .filter-actions {
+        margin-left: 0;
+        margin-top: .35rem;
+    }
+}
 
 .filters {
     padding: 1rem 0 1.25rem;
@@ -169,6 +226,19 @@ h2.day {
     position: relative;
 }
 .event.hidden, h2.day.hidden { display: none; }
+
+/* Eventi gia' passati di oggi (orario di inizio < now-2h e nessuna end).
+   Collassati: visibili ma compatti, opacita' ridotta e descrizione nascosta. */
+.event.past-today {
+    opacity: .45;
+    padding-top: .45rem;
+    padding-bottom: .45rem;
+}
+.event.past-today .desc { display: none; }
+.event.past-today .meta-line { font-size: .78rem; }
+.event.past-today .title { font-size: .92rem; font-weight: 500; }
+/* Quando il toggle "Nascondi passati" e' attivo, spariscono del tutto. */
+body.hide-past .event.past-today { display: none; }
 .hide-btn, .star-btn {
     position: absolute;
     top: .25rem;
@@ -396,8 +466,9 @@ JS_TEMPLATE = """
             return {
                 ongoingCollapsed: !!obj.ongoingCollapsed,
                 showHidden: !!obj.showHidden,
+                hidePast: !!obj.hidePast,
             };
-        } catch (e) { return { ongoingCollapsed: false, showHidden: false }; }
+        } catch (e) { return { ongoingCollapsed: false, showHidden: false, hidePast: false }; }
     }
     function saveUI(s) {
         try { localStorage.setItem(UI_KEY, JSON.stringify(s)); } catch (e) {}
@@ -541,6 +612,26 @@ JS_TEMPLATE = """
             ongoingToggle.textContent = ui.ongoingCollapsed ? 'Mostra' : 'Nascondi';
             ongoingToggle.setAttribute('aria-expanded', ui.ongoingCollapsed ? 'false' : 'true');
         }
+        // Toggle "Nascondi passati di oggi": classe sul body + stato pill.
+        document.body.classList.toggle('hide-past', ui.hidePast);
+        const hidePastPill = document.getElementById('filter-hide-past');
+        if (hidePastPill) {
+            const pastCount = document.querySelectorAll('.event.past-today').length;
+            hidePastPill.style.display = pastCount > 0 ? '' : 'none';
+            hidePastPill.classList.toggle('active', ui.hidePast);
+            // Aggiorno la label con il count
+            hidePastPill.firstChild.nodeValue = pastCount > 0
+                ? 'Nascondi passati '
+                : 'Nascondi passati';
+            // Aggiungo span count se non c'e'
+            let countEl = hidePastPill.querySelector('.count');
+            if (!countEl && pastCount > 0) {
+                countEl = document.createElement('span');
+                countEl.className = 'count';
+                hidePastPill.appendChild(countEl);
+            }
+            if (countEl) countEl.textContent = pastCount;
+        }
         const anyVisible = document.querySelector('.event:not(.hidden), .ongoing-event:not(.hidden)');
         const empty = document.getElementById('empty-filter');
         if (empty) empty.style.display = anyVisible ? 'none' : 'block';
@@ -630,6 +721,15 @@ JS_TEMPLATE = """
         });
     }
 
+    const hidePastPill = document.getElementById('filter-hide-past');
+    if (hidePastPill) {
+        hidePastPill.addEventListener('click', () => {
+            ui.hidePast = !ui.hidePast;
+            saveUI(ui);
+            apply();
+        });
+    }
+
     apply();
     renderStarred();
 })();
@@ -663,7 +763,8 @@ def render(
     generated_at: datetime,
     source_count: int,
 ) -> str:
-    today = generated_at.astimezone(ROME).date()
+    now = generated_at.astimezone(ROME)
+    today = now.date()
     bounds = _compute_boundaries(today)
     events = sorted(events, key=lambda e: e.sort_key())
 
@@ -712,13 +813,19 @@ def render(
         'Nascosti<span class="count">0</span>'
         '</div>'
     )
+    # Pill "Nascondi passati di oggi". Visibile sempre, JS la disattiva se
+    # non ci sono past-today da nascondere.
+    hide_past_pill_html = (
+        '<div class="filter-pill" id="filter-hide-past" title="Nascondi gli '
+        'eventi di oggi che sono gi&agrave; finiti">Nascondi passati</div>'
+    )
     filters_html = (
         '<div class="filters">'
         f'<div class="filter-row"><span class="filter-label">Categorie</span>{cat_pills_html}'
         f'{nascosti_pill_html}'
         '<div class="filter-actions"><button id="filter-all">Reset</button></div></div>'
         f'<div class="filter-row"><span class="filter-label">Periodo</span>{window_pills_html}</div>'
-        f'<div class="filter-row"><span class="filter-label">Orario</span>{weekday_time_pills_html}</div>'
+        f'<div class="filter-row"><span class="filter-label">Orario</span>{weekday_time_pills_html}{hide_past_pill_html}</div>'
         '</div>'
     )
 
@@ -801,8 +908,19 @@ def render(
                 iso_date = ev.start.date().isoformat()
                 time_min = ev.start.strftime("%H:%M")
                 ev_id = _event_id(ev)
+                # Per il calcolo "passato di oggi" servono start/end aware.
+                start_aware = ev.start if ev.start.tzinfo else ev.start.replace(tzinfo=ROME)
+                end_aware = None
+                if ev.end is not None:
+                    end_aware = ev.end if ev.end.tzinfo else ev.end.replace(tzinfo=ROME)
+                past = _is_past_today(
+                    Event(source=ev.source, title=ev.title, start=start_aware,
+                          url=ev.url, end=end_aware),
+                    now, today,
+                )
+                past_class = " past-today" if past else ""
                 body_parts.append(
-                    f'<div class="event" '
+                    f'<div class="event{past_class}" '
                     f'data-category="{_esc(ev.category or "Altro")}" '
                     f'data-iso-date="{iso_date}" '
                     f'data-time-min="{time_min}" '
@@ -863,9 +981,13 @@ def render(
 <h1>Eventi Firenze</h1>
 <div class="meta">{n} eventi da {source_count} fonti · aggiornato il {gen_str}</div>
 </header>
+<aside class="sidebar">
 {filters_html}
+</aside>
+<main class="main-content">
 {''.join(body_parts)}
 {errors_html}
+</main>
 </div>
 <script>{js}</script>
 </body>
