@@ -2,8 +2,13 @@ name: Scrape e pubblica eventi
 
 on:
   schedule:
-    # Ogni giorno alle 06:00 UTC (07:00 inverno / 08:00 estate in Italia).
-    - cron: '0 6 * * *'
+    # GitHub Actions ritarda i workflow schedulati nelle ore tonde (00, 06,
+    # 07...) per congestione. Uso minuti dispari + più orari al giorno per
+    # garantire l'aggiornamento mattutino IT.
+    #   05:13 UTC ≈ 07:13 IT estate / 06:13 IT inverno
+    #   07:43 UTC ≈ 09:43 IT estate / 08:43 IT inverno (backup)
+    - cron: '13 5 * * *'
+    - cron: '43 7 * * *'
   workflow_dispatch:        # consente lancio manuale dalla UI di GitHub
   push:
     branches: [main]
