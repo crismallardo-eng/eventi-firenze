@@ -143,6 +143,86 @@ header .meta { color: var(--muted); font-size: .9rem; }
         margin-left: 0;
         margin-top: .35rem;
     }
+    /* Su desktop il toggle "Filtri" non serve: la sidebar è sempre aperta. */
+    #filters-toggle { display: none; }
+}
+
+/* === Mobile-friendly tweaks (default & < 960px) === */
+/* Bottone "Filtri" che apre/chiude la sezione filtri su mobile.
+   Stato salvato in localStorage (default chiuso così non occupa schermo). */
+#filters-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    margin: .75rem 0 .25rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--fg);
+    padding: .5rem .9rem;
+    border-radius: 8px;
+    font-size: .95rem;
+    cursor: pointer;
+    user-select: none;
+}
+#filters-toggle:hover { border-color: var(--accent); }
+#filters-toggle .chev {
+    transition: transform .15s;
+    display: inline-block;
+}
+#filters-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+#filters-toggle .filters-count {
+    color: var(--muted);
+    font-size: .82rem;
+    margin-left: .25rem;
+}
+.sidebar.collapsed .filters { display: none; }
+
+/* Header giorno sticky mentre scrolli, così sai sempre in che data sei.
+   Sfondo opaco che copre gli eventi sotto quando si "appiccica". */
+h2.day {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 5;
+    padding-top: .5rem;
+    /* Piccolo "scrim" sotto per stacco visivo quando è sticky */
+    box-shadow: 0 6px 6px -6px var(--bg);
+}
+
+/* Stile più compatto su schermi piccoli */
+@media (max-width: 600px) {
+    body { padding: 1rem .75rem 3rem; }
+    header h1 { font-size: 1.35rem; }
+    header .meta { font-size: .82rem; }
+    .event {
+        padding: .65rem 3.4rem .65rem .8rem;
+        margin-bottom: .45rem;
+        grid-template-columns: 52px 1fr;
+        gap: 0 .65rem;
+    }
+    .event .time { font-size: .9rem; }
+    .event .title { font-size: .97rem; }
+    .event .meta-line { font-size: .8rem; }
+    .event .desc { font-size: .84rem; margin-top: .25rem; }
+    .ongoing-event {
+        padding: .6rem 3.4rem .6rem .8rem;
+        margin-bottom: .4rem;
+    }
+    h2.day {
+        font-size: 1rem;
+        margin: 1.25rem 0 .5rem;
+    }
+    /* Tap-target più grandi per ×/★ */
+    .hide-btn, .star-btn {
+        opacity: .55;          /* su mobile sempre un po' visibili */
+        padding: .35rem .55rem;
+        font-size: 1.1rem;
+    }
+    .star-btn { font-size: 1.2rem; }
+    .filter-pill {
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
 }
 
 .filters {
@@ -467,8 +547,9 @@ JS_TEMPLATE = """
                 ongoingCollapsed: !!obj.ongoingCollapsed,
                 showHidden: !!obj.showHidden,
                 hidePast: !!obj.hidePast,
+                filtersOpen: !!obj.filtersOpen,
             };
-        } catch (e) { return { ongoingCollapsed: false, showHidden: false, hidePast: false }; }
+        } catch (e) { return { ongoingCollapsed: false, showHidden: false, hidePast: false, filtersOpen: false }; }
     }
     function saveUI(s) {
         try { localStorage.setItem(UI_KEY, JSON.stringify(s)); } catch (e) {}
@@ -612,6 +693,22 @@ JS_TEMPLATE = """
             ongoingToggle.textContent = ui.ongoingCollapsed ? 'Mostra' : 'Nascondi';
             ongoingToggle.setAttribute('aria-expanded', ui.ongoingCollapsed ? 'false' : 'true');
         }
+        // Toggle filtri (mobile): sidebar aperta/chiusa + label conteggio attivi.
+        const sidebar = document.getElementById('sidebar-filters');
+        const filtersToggle = document.getElementById('filters-toggle');
+        if (sidebar && filtersToggle) {
+            sidebar.classList.toggle('collapsed', !ui.filtersOpen);
+            filtersToggle.setAttribute('aria-expanded', ui.filtersOpen ? 'true' : 'false');
+            // Conteggio filtri attivi (categorie non-default + periodo + orario)
+            let activeBits = 0;
+            if (state.cats.size && state.cats.size < allCategories.length) activeBits++;
+            if (state.window) activeBits++;
+            if (state.weekdayTime) activeBits++;
+            if (ui.hidePast) activeBits++;
+            if (ui.showHidden) activeBits++;
+            const countEl = document.getElementById('filters-active-count');
+            if (countEl) countEl.textContent = activeBits ? `· ${activeBits} attiv${activeBits === 1 ? 'o' : 'i'}` : '';
+        }
         // Toggle "Nascondi passati di oggi": classe sul body + stato pill.
         document.body.classList.toggle('hide-past', ui.hidePast);
         const hidePastPill = document.getElementById('filter-hide-past');
@@ -725,6 +822,15 @@ JS_TEMPLATE = """
     if (hidePastPill) {
         hidePastPill.addEventListener('click', () => {
             ui.hidePast = !ui.hidePast;
+            saveUI(ui);
+            apply();
+        });
+    }
+
+    const filtersToggleBtn = document.getElementById('filters-toggle');
+    if (filtersToggleBtn) {
+        filtersToggleBtn.addEventListener('click', () => {
+            ui.filtersOpen = !ui.filtersOpen;
             saveUI(ui);
             apply();
         });
@@ -981,7 +1087,10 @@ def render(
 <h1>Eventi Firenze</h1>
 <div class="meta">{n} eventi da {source_count} fonti · aggiornato il {gen_str}</div>
 </header>
-<aside class="sidebar">
+<button id="filters-toggle" type="button" aria-controls="sidebar-filters" aria-expanded="false">
+<span>🎚 Filtri</span><span class="chev">▾</span><span class="filters-count" id="filters-active-count"></span>
+</button>
+<aside class="sidebar collapsed" id="sidebar-filters">
 {filters_html}
 </aside>
 <main class="main-content">
