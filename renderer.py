@@ -107,6 +107,37 @@ header { border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bo
 header h1 { margin: 0 0 .25rem; font-size: 1.6rem; }
 header .meta { color: var(--muted); font-size: .9rem; }
 
+/* Bottone "Filtri" — visibile solo su mobile (su desktop la sidebar è
+   sempre aperta e il bottone viene nascosto dalla media query sotto).
+   DEVE essere dichiarato PRIMA della media query desktop altrimenti il
+   `display: inline-flex` vince per ordine di cascata. */
+#filters-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    margin: .75rem 0 .25rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--fg);
+    padding: .5rem .9rem;
+    border-radius: 8px;
+    font-size: .95rem;
+    cursor: pointer;
+    user-select: none;
+}
+#filters-toggle:hover { border-color: var(--accent); }
+#filters-toggle .chev {
+    transition: transform .15s;
+    display: inline-block;
+}
+#filters-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+#filters-toggle .filters-count {
+    color: var(--muted);
+    font-size: .82rem;
+    margin-left: .25rem;
+}
+.sidebar.collapsed .filters { display: none; }
+
 /* Layout 2 colonne su desktop: sidebar filtri a sinistra, eventi a destra.
    Breakpoint basso (720px) così anche finestre non massimizzate sui PC
    mostrano la sidebar laterale invece di un viewport stretto di tipo mobile. */
@@ -149,36 +180,6 @@ header .meta { color: var(--muted); font-size: .9rem; }
     /* In desktop la sidebar è sempre visibile, ignoro la classe collapsed. */
     .sidebar.collapsed .filters { display: block; }
 }
-
-/* === Mobile-friendly tweaks (default & < 720px) === */
-/* Bottone "Filtri" che apre/chiude la sezione filtri su mobile.
-   Stato salvato in localStorage (default chiuso così non occupa schermo). */
-#filters-toggle {
-    display: inline-flex;
-    align-items: center;
-    gap: .4rem;
-    margin: .75rem 0 .25rem;
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    color: var(--fg);
-    padding: .5rem .9rem;
-    border-radius: 8px;
-    font-size: .95rem;
-    cursor: pointer;
-    user-select: none;
-}
-#filters-toggle:hover { border-color: var(--accent); }
-#filters-toggle .chev {
-    transition: transform .15s;
-    display: inline-block;
-}
-#filters-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
-#filters-toggle .filters-count {
-    color: var(--muted);
-    font-size: .82rem;
-    margin-left: .25rem;
-}
-.sidebar.collapsed .filters { display: none; }
 
 /* Header giorno sticky mentre scrolli, così sai sempre in che data sei.
    Sfondo opaco che copre gli eventi sotto quando si "appiccica". */
