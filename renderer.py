@@ -192,8 +192,8 @@ h2.day {
     box-shadow: 0 6px 6px -6px var(--bg);
 }
 
-/* Stile più compatto SOLO su schermi davvero piccoli (telefoni) */
-@media (max-width: 480px) {
+/* Stile compatto per smartphone (incluso landscape ~600px) */
+@media (max-width: 600px) {
     body { padding: 1rem .75rem 3rem; }
     header h1 { font-size: 1.35rem; }
     header .meta { font-size: .82rem; }
