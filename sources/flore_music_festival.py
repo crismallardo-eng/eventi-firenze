@@ -93,24 +93,43 @@ def _pick_description(card, title: str, venue: str | None) -> str | None:
     return None
 
 
+def _find_card(heading):
+    """Risale dagli antenati di un heading fino a trovare la card:
+    il primo container con data+ora+una sola heading dentro."""
+    node = heading.parent
+    while node is not None and node.name not in ("body", "html"):
+        text = node.get_text(" ", strip=True)
+        if _DATE_RE.search(text) and _TIME_RE.search(text):
+            # Una sola heading dentro = è UNA card, non un wrapper di più card.
+            if len(node.find_all(["h1", "h2", "h3", "h4"])) == 1:
+                return node
+            return None
+        node = node.parent
+    return None
+
+
 def fetch() -> list[Event]:
     session = new_session()
     response = http_get(LIST_URL, session=session)
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Candidate cards: <article> first; if the theme uses divs, fall back to
-    # common card class names used by Elementor / WP event themes.
-    cards = list(soup.find_all("article"))
-    if not cards:
-        cards = list(soup.select(
-            "[class*='event-card'], [class*='event-item'], [class*='ec-card'], "
-            "[class*='post-item'], [class*='elementor-post'], [class*='tribe-events']"
-        ))
-
     events: list[Event] = []
-    seen: set[str] = set()
+    seen_cards: set[int] = set()
+    seen_keys: set[str] = set()
 
-    for card in cards:
+    # Per ogni heading della pagina cerca il suo container-card. Indipendente
+    # da classi CSS o framework (Elementor, Tribe, custom theme...).
+    for h in soup.find_all(["h1", "h2", "h3", "h4"]):
+        title = h.get_text(" ", strip=True)
+        if len(title) < 4:
+            continue
+        card = _find_card(h)
+        if card is None:
+            continue
+        if id(card) in seen_cards:
+            continue
+        seen_cards.add(id(card))
+
         text = card.get_text(" ", strip=True)
         date_m = _DATE_RE.search(text)
         if not date_m:
@@ -123,25 +142,20 @@ def fetch() -> list[Event]:
         hour, minute = 0, 0
         tm = _TIME_RE.search(text)
         if tm:
-            h, mi = int(tm.group(1)), int(tm.group(2))
-            if 0 <= h <= 23 and 0 <= mi <= 59:
-                hour, minute = h, mi
+            hcand, mcand = int(tm.group(1)), int(tm.group(2))
+            if 0 <= hcand <= 23 and 0 <= mcand <= 59:
+                hour, minute = hcand, mcand
 
         try:
             start = datetime(FESTIVAL_YEAR, month, day, hour, minute, tzinfo=ROME)
         except ValueError:
             continue
 
-        title = _pick_title(card)
-        if not title:
-            continue
-
         url = _pick_detail_url(card) or LIST_URL
-        # De-dup by url+date (same concert can appear in multiple sections).
         key = f"{url}|{start.isoformat()}"
-        if key in seen:
+        if key in seen_keys:
             continue
-        seen.add(key)
+        seen_keys.add(key)
 
         venue = _pick_venue(card)
         description = _pick_description(card, title, venue)
