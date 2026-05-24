@@ -34,14 +34,24 @@ def _strip_html(html_str: str) -> str:
 def _parse_iso_date(text: str) -> datetime | None:
     """EventON emits dates like '2026-5-22T20:30+1:00' (single-digit timezone).
 
+    Bug noto: il sito emette il tzoffset come +01:00 fisso (CET) anche
+    d'estate, quando l'ora locale italiana è +02:00 (CEST). Risultato: un
+    evento che termina alle "23:00 +01:00" sul sito coincide con la
+    mezzanotte ITA del giorno dopo, e finisce per restare visibile come
+    "non passato" il giorno successivo. Ignoriamo il tzoffset emesso e
+    re-applichiamo Europe/Rome — le date sono sempre ora locale italiana.
+
     `dateutil.parser` handles most variants; if it fails we fall back to None.
     """
     if not text:
         return None
     try:
-        return dateparser.parse(text)
+        dt = dateparser.parse(text)
     except (ValueError, TypeError):
         return None
+    if dt is None:
+        return None
+    return dt.replace(tzinfo=None).replace(tzinfo=ROME)
 
 
 def _extract_event_jsonld(html_text: str) -> dict | None:

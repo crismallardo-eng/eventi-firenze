@@ -45,13 +45,21 @@ def _strip_html(html_str: str) -> str:
 
 
 def _parse_iso_date(text: str) -> datetime | None:
-    """EventON emette date tipo '2026-5-10T21:30+2:00' (mese/timezone non zero-padded)."""
+    """EventON emette date tipo '2026-5-10T21:30+2:00' (mese/timezone non zero-padded).
+
+    Il tzoffset del sito è inaffidabile (+01:00 anche d'estate quando dovrebbe
+    essere +02:00). Lo ignoriamo e ri-applichiamo Europe/Rome: le date sono
+    sempre ora locale italiana.
+    """
     if not text:
         return None
     try:
-        return dateparser.parse(text)
+        dt = dateparser.parse(text)
     except (ValueError, TypeError):
         return None
+    if dt is None:
+        return None
+    return dt.replace(tzinfo=None).replace(tzinfo=ROME)
 
 
 def _extract_event_jsonld(html_text: str) -> dict | None:
