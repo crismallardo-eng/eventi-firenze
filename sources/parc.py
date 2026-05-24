@@ -6,7 +6,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 from sources.base import Event, ROME, http_get
-from sources.italian_dates import parse_italian_datetime
+from sources.italian_dates import parse_italian_datetime, parse_italian_time
 
 SOURCE_NAME = "PARC Firenze"
 CATEGORY = "Concerti"
@@ -27,6 +27,16 @@ def fetch() -> list[Event]:
         start = parse_italian_datetime(date_text)
         if start is None:
             continue
+
+        # Su PARC l'ora ("ORE 19") sta in un elemento separato dalla data
+        # ("DOMENICA 24 MAGGIO 2026"), per cui parse_italian_datetime ritorna
+        # un orario 00:00. Se la data non porta gia' un orario, cerca "ore HH"
+        # in tutto il testo della card.
+        if start.hour == 0 and start.minute == 0:
+            article_text = article.get_text(" ", strip=True)
+            t = parse_italian_time(article_text)
+            if t:
+                start = start.replace(hour=t.hour, minute=t.minute)
 
         # PARC marks upcoming articles with the CSS class "prossimamente",
         # but pare lo rimuova il giorno stesso dell'evento — quindi un
