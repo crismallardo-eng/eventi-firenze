@@ -108,8 +108,9 @@ header h1 { margin: 0 0 .25rem; font-size: 1.6rem; }
 header .meta { color: var(--muted); font-size: .9rem; }
 
 /* Layout 2 colonne su desktop: sidebar filtri a sinistra, eventi a destra.
-   Su mobile (default) tutto in colonna singola come prima. */
-@media (min-width: 960px) {
+   Breakpoint basso (720px) così anche finestre non massimizzate sui PC
+   mostrano la sidebar laterale invece di un viewport stretto di tipo mobile. */
+@media (min-width: 720px) {
     .container {
         max-width: 1200px;
         display: grid;
@@ -145,9 +146,11 @@ header .meta { color: var(--muted); font-size: .9rem; }
     }
     /* Su desktop il toggle "Filtri" non serve: la sidebar è sempre aperta. */
     #filters-toggle { display: none; }
+    /* In desktop la sidebar è sempre visibile, ignoro la classe collapsed. */
+    .sidebar.collapsed .filters { display: block; }
 }
 
-/* === Mobile-friendly tweaks (default & < 960px) === */
+/* === Mobile-friendly tweaks (default & < 720px) === */
 /* Bottone "Filtri" che apre/chiude la sezione filtri su mobile.
    Stato salvato in localStorage (default chiuso così non occupa schermo). */
 #filters-toggle {
@@ -189,8 +192,8 @@ h2.day {
     box-shadow: 0 6px 6px -6px var(--bg);
 }
 
-/* Stile più compatto su schermi piccoli */
-@media (max-width: 600px) {
+/* Stile più compatto SOLO su schermi davvero piccoli (telefoni) */
+@media (max-width: 480px) {
     body { padding: 1rem .75rem 3rem; }
     header h1 { font-size: 1.35rem; }
     header .meta { font-size: .82rem; }
@@ -554,9 +557,10 @@ JS_TEMPLATE = """
                 ongoingCollapsed: !!obj.ongoingCollapsed,
                 showHidden: !!obj.showHidden,
                 hidePast: !!obj.hidePast,
-                filtersOpen: !!obj.filtersOpen,
+                // filtri aperti di default; l'utente li chiude se vuole.
+                filtersOpen: obj.filtersOpen !== false,
             };
-        } catch (e) { return { ongoingCollapsed: false, showHidden: false, hidePast: false, filtersOpen: false }; }
+        } catch (e) { return { ongoingCollapsed: false, showHidden: false, hidePast: false, filtersOpen: true }; }
     }
     function saveUI(s) {
         try { localStorage.setItem(UI_KEY, JSON.stringify(s)); } catch (e) {}
@@ -1144,10 +1148,10 @@ def render(
 <h1>Eventi Firenze</h1>
 <div class="meta">{n} eventi da {source_count} fonti · aggiornato il {gen_str}</div>
 </header>
-<button id="filters-toggle" type="button" aria-controls="sidebar-filters" aria-expanded="false">
+<button id="filters-toggle" type="button" aria-controls="sidebar-filters" aria-expanded="true">
 <span>🎚 Filtri</span><span class="chev">▾</span><span class="filters-count" id="filters-active-count"></span>
 </button>
-<aside class="sidebar collapsed" id="sidebar-filters">
+<aside class="sidebar" id="sidebar-filters">
 {filters_html}
 </aside>
 <main class="main-content">
