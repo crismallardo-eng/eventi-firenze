@@ -489,9 +489,16 @@ JS_TEMPLATE = """
     const STARRED_KEY = 'eventi-firenze-starred';
     const UI_KEY = 'eventi-firenze-ui';
     const WEEK_END = __WEEK_END__;
+    const NEXT_WEEK_START = __NEXT_WEEK_START__;
+    const NEXT_WEEK_END = __NEXT_WEEK_END__;
     const MONTH_END = __MONTH_END__;
+    const NEXT_MONTH_START = __NEXT_MONTH_START__;
+    const NEXT_MONTH_END = __NEXT_MONTH_END__;
     const WEEKEND_START = __WEEKEND_START__;
     const WEEKEND_END = __WEEKEND_END__;
+    const NEXT_WEEKEND_START = __NEXT_WEEKEND_START__;
+    const NEXT_WEEKEND_END = __NEXT_WEEKEND_END__;
+    const WINDOW_VALUES = ['week', 'next-week', 'weekend', 'next-weekend', 'month', 'next-month'];
 
     const allCategories = Array.from(document.querySelectorAll('.filter-pill[data-category]'))
         .map(p => p.dataset.category);
@@ -506,7 +513,7 @@ JS_TEMPLATE = """
             const obj = JSON.parse(raw);
             return {
                 cats: new Set(Array.isArray(obj.cats) ? obj.cats.filter(c => allCategories.includes(c)) : allCategories),
-                window: ['week', 'month', 'weekend'].includes(obj.window) ? obj.window : null,
+                window: WINDOW_VALUES.includes(obj.window) ? obj.window : null,
                 weekdayTime: ['after14', 'after17'].includes(obj.weekdayTime) ? obj.weekdayTime : null,
             };
         } catch (e) { return defaultState(); }
@@ -615,8 +622,11 @@ JS_TEMPLATE = """
         if (el.classList.contains('ongoing-event')) return true;
         const iso = el.dataset.isoDate;
         if (state.window === 'week' && iso > WEEK_END) return false;
+        if (state.window === 'next-week' && (iso < NEXT_WEEK_START || iso > NEXT_WEEK_END)) return false;
         if (state.window === 'month' && iso > MONTH_END) return false;
+        if (state.window === 'next-month' && (iso < NEXT_MONTH_START || iso > NEXT_MONTH_END)) return false;
         if (state.window === 'weekend' && (iso < WEEKEND_START || iso > WEEKEND_END)) return false;
+        if (state.window === 'next-weekend' && (iso < NEXT_WEEKEND_START || iso > NEXT_WEEKEND_END)) return false;
         if (state.weekdayTime) {
             const dow = new Date(iso + 'T00:00:00').getDay();
             const isWeekday = dow >= 1 && dow <= 5;
@@ -843,23 +853,61 @@ JS_TEMPLATE = """
 
 
 def _compute_boundaries(today: date) -> dict[str, str]:
-    """ISO date boundaries for the time-window filter pills."""
-    # weekday(): Mon=0, Sun=6 → days to next Sunday inclusive
-    week_end = today + timedelta(days=(6 - today.weekday()))
+    """ISO date boundaries per i pill 'Periodo'.
+
+    Definizioni:
+      week        = oggi → domenica della settimana corrente
+      next-week   = lunedì → domenica della settimana successiva
+      weekend     = venerdì → domenica del weekend in corso o più imminente
+                    (il venerdì è incluso, anche se è passato e siamo già a
+                     sabato/domenica: gli eventi passati sono comunque
+                     filtrati a monte da run.py).
+      next-weekend = il weekend Ven-Dom dopo quello "weekend".
+      month       = oggi → ultimo giorno del mese corrente
+      next-month  = primo → ultimo giorno del mese successivo
+    """
+    wd = today.weekday()  # 0=Lun, 6=Dom
+
+    # Questa settimana → fino a domenica corrente
+    week_end = today + timedelta(days=(6 - wd))
+    # Prossima settimana → lun-dom successivi
+    next_week_start = today + timedelta(days=(7 - wd))
+    next_week_end = next_week_start + timedelta(days=6)
+
+    # Weekend = Ven + Sab + Dom
+    if wd <= 4:  # Lun-Ven
+        weekend_start = today + timedelta(days=(4 - wd))
+    elif wd == 5:  # Sab → ven era ieri
+        weekend_start = today - timedelta(days=1)
+    else:  # Dom → ven era 2 giorni fa
+        weekend_start = today - timedelta(days=2)
+    weekend_end = weekend_start + timedelta(days=2)
+
+    # Prossimo weekend = +7 giorni rispetto a quello corrente
+    next_weekend_start = weekend_start + timedelta(days=7)
+    next_weekend_end = weekend_end + timedelta(days=7)
+
+    # Mesi
     last_dom = calendar.monthrange(today.year, today.month)[1]
     month_end = today.replace(day=last_dom)
-    if today.weekday() == 5:  # Saturday
-        weekend_start, weekend_end = today, today + timedelta(days=1)
-    elif today.weekday() == 6:  # Sunday
-        weekend_start, weekend_end = today, today
-    else:  # Mon–Fri: upcoming Sat–Sun
-        weekend_start = today + timedelta(days=(5 - today.weekday()))
-        weekend_end = weekend_start + timedelta(days=1)
+    nm_year = today.year + (1 if today.month == 12 else 0)
+    nm_month = 1 if today.month == 12 else today.month + 1
+    next_month_start = date(nm_year, nm_month, 1)
+    next_month_end = date(
+        nm_year, nm_month, calendar.monthrange(nm_year, nm_month)[1]
+    )
+
     return {
         "week_end": week_end.isoformat(),
-        "month_end": month_end.isoformat(),
+        "next_week_start": next_week_start.isoformat(),
+        "next_week_end": next_week_end.isoformat(),
         "weekend_start": weekend_start.isoformat(),
         "weekend_end": weekend_end.isoformat(),
+        "next_weekend_start": next_weekend_start.isoformat(),
+        "next_weekend_end": next_weekend_end.isoformat(),
+        "month_end": month_end.isoformat(),
+        "next_month_start": next_month_start.isoformat(),
+        "next_month_end": next_month_end.isoformat(),
     }
 
 
@@ -906,8 +954,11 @@ def render(
     )
     window_pills_html = (
         '<div class="filter-pill" data-window="week">Questa settimana</div>'
+        '<div class="filter-pill" data-window="next-week">Prossima settimana</div>'
         '<div class="filter-pill" data-window="weekend">Weekend</div>'
+        '<div class="filter-pill" data-window="next-weekend">Prossimo weekend</div>'
         '<div class="filter-pill" data-window="month">Questo mese</div>'
+        '<div class="filter-pill" data-window="next-month">Prossimo mese</div>'
     )
     weekday_time_pills_html = (
         '<div class="filter-pill" data-weekday-time="after14">Feriali dalle 14:00</div>'
@@ -1068,9 +1119,15 @@ def render(
     js = (
         JS_TEMPLATE
         .replace("__WEEK_END__", f'"{bounds["week_end"]}"')
+        .replace("__NEXT_WEEK_START__", f'"{bounds["next_week_start"]}"')
+        .replace("__NEXT_WEEK_END__", f'"{bounds["next_week_end"]}"')
         .replace("__MONTH_END__", f'"{bounds["month_end"]}"')
+        .replace("__NEXT_MONTH_START__", f'"{bounds["next_month_start"]}"')
+        .replace("__NEXT_MONTH_END__", f'"{bounds["next_month_end"]}"')
         .replace("__WEEKEND_START__", f'"{bounds["weekend_start"]}"')
         .replace("__WEEKEND_END__", f'"{bounds["weekend_end"]}"')
+        .replace("__NEXT_WEEKEND_START__", f'"{bounds["next_weekend_start"]}"')
+        .replace("__NEXT_WEEKEND_END__", f'"{bounds["next_weekend_end"]}"')
     )
 
     return f"""<!DOCTYPE html>
