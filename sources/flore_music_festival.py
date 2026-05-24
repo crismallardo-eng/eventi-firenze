@@ -108,6 +108,70 @@ def _find_card(heading):
     return None
 
 
+def _parse_ewpe_card(card) -> Event | None:
+    """Parser dedicato alle card del widget Elementor `ewpe-*` usato da Flore.
+
+    Le card del programma hanno una struttura precisa che possiamo leggere
+    senza euristiche, evitando di catturare sezioni laterali della pagina
+    (es. la sezione 'biblioteche per bambini' che combacia con l'euristica
+    data+ora ma non sono concerti del festival).
+
+    Struttura:
+        .ewpe-ev-day            "05"          giorno
+        .ewpe-ev-mo             "Giu"         mese (italiano abbreviato)
+        .ewpe-ev-yr             "20:30"       (sic) il widget mette qui l'orario
+        .ewpe-event-title       "TITOLO | Artista"
+        .ewpe-event-venue-details "Chiesa di X, Firenze"
+        .ewpe-evt-category      "Concerti in Divenire 2026"
+    """
+    day_el = card.find(class_="ewpe-ev-day")
+    mo_el = card.find(class_="ewpe-ev-mo")
+    yr_el = card.find(class_="ewpe-ev-yr")
+    title_el = card.find(class_="ewpe-event-title")
+    venue_el = card.find(class_="ewpe-event-venue-details")
+    cat_el = card.find(class_="ewpe-evt-category")
+    if not (day_el and mo_el and title_el):
+        return None
+
+    try:
+        day = int(day_el.get_text(strip=True))
+    except ValueError:
+        return None
+    month_name = mo_el.get_text(strip=True).lower().rstrip(".")
+    month = ITALIAN_MONTHS.get(month_name)
+    if month is None:
+        return None
+
+    hour, minute = 20, 30
+    if yr_el:
+        tm = _TIME_RE.search(yr_el.get_text())
+        if tm:
+            h, m = int(tm.group(1)), int(tm.group(2))
+            if 0 <= h <= 23 and 0 <= m <= 59:
+                hour, minute = h, m
+
+    try:
+        start = datetime(FESTIVAL_YEAR, month, day, hour, minute, tzinfo=ROME)
+    except ValueError:
+        return None
+
+    title = title_el.get_text(" ", strip=True)
+    if not title:
+        return None
+    venue = venue_el.get_text(" ", strip=True) if venue_el else None
+    description = cat_el.get_text(" ", strip=True) if cat_el else None
+    url = _pick_detail_url(card) or LIST_URL
+
+    return Event(
+        source=SOURCE_NAME,
+        title=title,
+        start=start,
+        url=url,
+        venue=venue,
+        description=description,
+    )
+
+
 def fetch() -> list[Event]:
     session = new_session()
     response = http_get(LIST_URL, session=session)
@@ -117,8 +181,26 @@ def fetch() -> list[Event]:
     seen_cards: set[int] = set()
     seen_keys: set[str] = set()
 
-    # Per ogni heading della pagina cerca il suo container-card. Indipendente
-    # da classi CSS o framework (Elementor, Tribe, custom theme...).
+    # 1) Strada primaria: card Elementor con classi ewpe-* — selettori
+    #    precisi che catturano SOLO i concerti del festival.
+    for card in soup.find_all("div", class_="ewpe-inner-wrapper"):
+        ev = _parse_ewpe_card(card)
+        if ev is None:
+            continue
+        if id(card) in seen_cards:
+            continue
+        seen_cards.add(id(card))
+        key = f"{ev.url}|{ev.start.isoformat()}"
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        events.append(ev)
+
+    if events:
+        return events
+
+    # 2) Fallback euristico: se il widget cambia struttura o si rompe,
+    #    cerchiamo qualsiasi heading + container col pattern data+ora.
     for h in soup.find_all(["h1", "h2", "h3", "h4"]):
         title = h.get_text(" ", strip=True)
         if len(title) < 4:
