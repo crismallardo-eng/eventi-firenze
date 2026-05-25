@@ -78,6 +78,28 @@ jobs:
           mkdir -p site
           cp output/eventi.html site/index.html
 
+      - name: Ensure Pages source is GitHub Actions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Forza il build_type a "workflow" (= GitHub Actions) via API.
+          # PUT aggiorna se Pages esiste già; se non esiste (404), POST lo crea.
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" -X PUT \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages" \
+            -d '{"build_type":"workflow"}')
+          if [ "$CODE" = "404" ]; then
+            curl -s -X POST \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages" \
+              -d '{"build_type":"workflow","source":{"branch":"main","path":"/"}}'
+            echo "Pages creato con source=GitHub Actions"
+          else
+            echo "Pages aggiornato (HTTP $CODE)"
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
