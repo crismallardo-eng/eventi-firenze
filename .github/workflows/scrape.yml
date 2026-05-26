@@ -15,6 +15,8 @@ on:
 
 permissions:
   contents: write   # serve per committare health_history.jsonl e pushare gh-pages
+  pages: write
+  id-token: write
   issues: write     # serve per aprire issue su anomalie
 
 concurrency:
@@ -87,6 +89,16 @@ jobs:
           git commit -m "Deploy eventi $(date -u +%Y-%m-%d_%H:%M)"
           git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+        continue-on-error: true
+
       - name: Apri issue se anomalie
         if: steps.health.outputs.anomalies == 'true'
         env:
@@ -112,3 +124,13 @@ jobs:
               --label health-anomaly
           fi
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    continue-on-error: true
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
