@@ -140,9 +140,35 @@ def fetch() -> list[Event]:
         seen.add(key)
         unique.append(e)
 
-    # Fallback: se firenzealcinema.info non ha restituito nulla (timeout su
-    # tutte le richieste, sito giù), pesca le proiezioni VOS da MYmovies.
-    # Tag invariato: gli eventi finiscono comunque nella categoria "Cinema".
+    # Integro SEMPRE i VOS da MYmovies sopra a quelli di firenzealcinema.info.
+    # firenzealcinema.info include solo i film con (VOS) esplicitamente nel
+    # titolo; molti cinema (es. La Compagnia) non lo taggano, ma su MYmovies
+    # quegli stessi film hanno l'etichetta strutturata "Versione originale
+    # con sottotitoli". Dedupplico con normalizzazione case-insensitive sul
+    # titolo e venue (i due siti usano formati leggermente diversi).
+    def _norm_title(t: str) -> str:
+        return (t or "").lower().strip()
+    def _norm_venue(v: str | None) -> str:
+        if not v: return ""
+        s = v.lower().strip()
+        if s.startswith("cinema "):
+            s = s[len("cinema "):]
+        return s
+    seen_keys = {(_norm_title(e.title), e.start, _norm_venue(e.venue)) for e in unique}
+    try:
+        from sources.mymovies_cinema import fetch_vos
+        mymovies_vos = fetch_vos()
+    except Exception:
+        mymovies_vos = []
+    for ev in mymovies_vos:
+        key = (_norm_title(ev.title), ev.start, _norm_venue(ev.venue))
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        unique.append(ev)
+
+    # Fallback storico: se davvero nessuna delle due fonti ha restituito
+    # nulla (entrambi i siti down), esci con lista vuota.
     if not unique:
         try:
             from sources.mymovies_cinema import fetch_vos
