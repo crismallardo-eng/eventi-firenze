@@ -2,15 +2,24 @@ name: Scrape e pubblica eventi
 
 on:
   schedule:
-    # 5 tentativi distribuiti nella mattina italiana. Il cron di GitHub Actions
-    # e' inaffidabile (salta run su piani free sotto carico), ma la probabilita'
-    # che li salti TUTTI e 5 e' bassissima. I minuti dispari evitano le ore
-    # tonde dove il carico e' massimo.
-    - cron: '13 5 * * *'    # 07:13 IT estate / 06:13 IT inverno
-    - cron: '37 6 * * *'    # 08:37 IT estate / 07:37 IT inverno
-    - cron: '51 7 * * *'    # 09:51 IT estate / 08:51 IT inverno
-    - cron: '19 9 * * *'    # 11:19 IT estate / 10:19 IT inverno
-    - cron: '43 11 * * *'   # 13:43 IT estate / 12:43 IT inverno
+    # 12 tentativi distribuiti tra le 07:13 e le 13:43 ora italiana.
+    # GitHub Actions cron e' notoriamente inaffidabile sui piani free:
+    # tipicamente ne salta 60-90%. Con 12 tentativi e una probabilita'
+    # di skip del 90%, la probabilita' che falliscano TUTTI scende a
+    # ~28%; con 80% scende a ~7%. La concurrency group + early-exit
+    # garantiscono che nonostante 12 trigger ne giri solo UNO al giorno.
+    - cron: '13 5 * * *'    # 07:13 IT
+    - cron: '47 5 * * *'    # 07:47 IT
+    - cron: '17 6 * * *'    # 08:17 IT
+    - cron: '47 6 * * *'    # 08:47 IT
+    - cron: '13 7 * * *'    # 09:13 IT
+    - cron: '43 7 * * *'    # 09:43 IT
+    - cron: '17 8 * * *'    # 10:17 IT
+    - cron: '47 8 * * *'    # 10:47 IT
+    - cron: '23 9 * * *'    # 11:23 IT
+    - cron: '53 10 * * *'   # 12:53 IT
+    - cron: '23 11 * * *'   # 13:23 IT
+    - cron: '53 11 * * *'   # 13:53 IT
   workflow_dispatch:        # consente lancio manuale dalla UI di GitHub
   push:
     branches: [main]
@@ -37,20 +46,47 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Skip se gia' aggiornato oggi
+        id: already_today
+        run: |
+          # I cron sono 12 al giorno per garantire affidabilita'. Il primo
+          # che parte fa il lavoro e committa la riga di today nello storico
+          # health. I successivi vedono che today c'e' gia' ed escono subito,
+          # risparmiando minuti di Actions.
+          # workflow_dispatch (lancio manuale) bypassa il check per forzare
+          # un re-scrape se l'utente lo vuole.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Lancio manuale, bypasso early-exit."
+            exit 0
+          fi
+          TODAY=$(TZ=Europe/Rome date +%Y-%m-%d)
+          if grep -q "\"date\": \"$TODAY\"" data/health_history.jsonl 2>/dev/null; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Aggiornamento per $TODAY gia' presente, esco."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Nessun aggiornamento per $TODAY, procedo."
+          fi
+
       - name: Setup Python 3.12
+        if: steps.already_today.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
 
       - name: Install dependencies
+        if: steps.already_today.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Run scraper
+        if: steps.already_today.outputs.skip != 'true'
         run: python run.py
 
       - name: Health check (appende storico + flagga anomalie)
         id: health
+        if: steps.already_today.outputs.skip != 'true'
         run: |
           set +e
           python scripts/health_check.py
@@ -64,6 +100,7 @@ jobs:
           exit 0
 
       - name: Commit storico health (se modificato)
+        if: steps.already_today.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -76,11 +113,13 @@ jobs:
           fi
 
       - name: Prepare site (rename to index.html)
+        if: steps.already_today.outputs.skip != 'true'
         run: |
           mkdir -p site
           cp output/eventi.html site/index.html
 
       - name: Deploy to gh-pages branch
+        if: steps.already_today.outputs.skip != 'true'
         run: |
           cd site
           git init
@@ -92,17 +131,19 @@ jobs:
           git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
 
       - name: Setup Pages
+        if: steps.already_today.outputs.skip != 'true'
         uses: actions/configure-pages@v5
         continue-on-error: true
 
       - name: Upload artifact
+        if: steps.already_today.outputs.skip != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
         continue-on-error: true
 
       - name: Apri issue se anomalie
-        if: steps.health.outputs.anomalies == 'true'
+        if: steps.already_today.outputs.skip != 'true' && steps.health.outputs.anomalies == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
