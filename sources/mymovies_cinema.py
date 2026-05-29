@@ -74,6 +74,29 @@ def _is_vos(_lancio_el, orari_el) -> bool:
     return bool(label and _ORIGINALE_RE.search(label.get_text()))
 
 
+# Cache module-level delle pagine MYmovies parsate: serve perché fetch()
+# (Film italiani) e fetch_vos() (Cinema VOS) iterano sugli STESSI cinema/giorni
+# applicando filtri diversi. Senza cache colpiamo la rete due volte e sforiamo
+# il timeout di 90s per source in run.py.
+_PAGE_CACHE: dict[tuple, BeautifulSoup | None] = {}
+_CACHE_LOCK = None  # niente lock: dict.setdefault è atomic sotto GIL
+
+
+def _get_page_soup(cinema_id: int, path_seg: str, d: date) -> BeautifulSoup | None:
+    key = (cinema_id, path_seg, d.isoformat())
+    if key in _PAGE_CACHE:
+        return _PAGE_CACHE[key]
+    giorno = d.strftime('%d-%m-%Y')
+    url = f"{BASE_URL}/cinema/{path_seg}/{cinema_id}/?giorno={giorno}"
+    try:
+        resp = http_get(url, timeout=REQUEST_TIMEOUT)
+        soup = BeautifulSoup(resp.text, 'html.parser')
+    except Exception:
+        soup = None
+    _PAGE_CACHE[key] = soup
+    return soup
+
+
 def _events_for_cinema_day(
     cinema_id: int,
     path_seg: str,
@@ -82,14 +105,9 @@ def _events_for_cinema_day(
     include: FilterFn,
     category: str,
 ) -> list[Event]:
-    giorno = d.strftime('%d-%m-%Y')
-    url = f"{BASE_URL}/cinema/{path_seg}/{cinema_id}/?giorno={giorno}"
-    try:
-        resp = http_get(url, timeout=REQUEST_TIMEOUT)
-    except Exception:
+    soup = _get_page_soup(cinema_id, path_seg, d)
+    if soup is None:
         return []
-
-    soup = BeautifulSoup(resp.text, 'html.parser')
     out: list[Event] = []
     seen_film_urls: set[str] = set()
 
