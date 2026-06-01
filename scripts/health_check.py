@@ -35,6 +35,9 @@ SEASONAL_SOURCES = {
     "Estate Fiorentina",
     "Pistoia Blues",
     "MetJazz",
+    # Todo Modo: scraper statico, può legittimamente svuotarsi fra una
+    # newsletter e l'altra finché l'utente non aggiorna sources/todomodo.py.
+    "Todo Modo",
 }
 
 
