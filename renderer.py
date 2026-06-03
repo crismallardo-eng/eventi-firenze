@@ -65,15 +65,24 @@ def _is_past_today(ev: Event, now: datetime, today: date) -> bool:
 
 
 def _event_id(ev: Event) -> str:
-    """Stable opaque ID for localStorage hide-tracking.
+    """Stable opaque ID for localStorage hide/favorite tracking.
 
-    Comprende anche venue e start (giorno+orario) per distinguere proiezioni
-    dello stesso film in cinema/orari diversi — altrimenti nascondendo
-    "Le città di pianura" alle 19:00 alla Fiorella si nasconderebbe anche
-    quella delle 21:00 al Marconi (stesso source+url+title).
+    Include venue per distinguere lo stesso film in cinema diversi (es.
+    "Le città di pianura" alla Fiorella vs al Marconi).
+
+    Usa solo la DATA, non l'orario, perché preferiti/nascosti devono
+    sopravvivere ai re-parse degli scraper: se un fix dello scraper
+    cambia l'orario di un evento (es. PARC passato da 00:00 a 19:00
+    quando ho fatto leggere lo span "ORE 19" separato), l'orario al
+    minuto cambia ma l'evento è lo stesso — non vogliamo che l'utente
+    perda i suoi preferiti per questa ragione.
+
+    Trade-off accettato: due proiezioni dello stesso film nello stesso
+    cinema lo stesso giorno (es. matinée + serale) condividono l'ID e
+    quindi anche il preferito/nascondi. Caso raro, costo accettabile.
     """
-    start_key = ev.start.strftime("%Y-%m-%dT%H:%M") if ev.start else ""
-    raw = f"{ev.source}|{ev.url}|{ev.venue or ''}|{ev.title}|{start_key}".encode("utf-8")
+    date_key = ev.start.strftime("%Y-%m-%d") if ev.start else ""
+    raw = f"{ev.source}|{ev.url}|{ev.venue or ''}|{ev.title}|{date_key}".encode("utf-8")
     return hashlib.sha1(raw).hexdigest()[:12]
 
 
