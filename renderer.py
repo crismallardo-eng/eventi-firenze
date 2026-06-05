@@ -601,6 +601,25 @@ JS_TEMPLATE = """
             const clone = orig.cloneNode(true);
             clone.classList.remove('event', 'ongoing-event', 'hidden');
             clone.classList.add('starred-event');
+            // Nella lista originale la data è nel <h2.day> sopra: il clone
+            // perde quel contesto. Inietto giorno+mese nella cella .time così
+            // l'utente vede sempre quando avviene un suo preferito.
+            const isoDate = clone.dataset.isoDate;
+            const timeEl = clone.querySelector('.time');
+            if (isoDate && timeEl) {
+                const d = new Date(isoDate + 'T00:00:00');
+                if (!isNaN(d)) {
+                    let dayLabel = d.toLocaleDateString('it-IT', {
+                        weekday: 'short', day: 'numeric', month: 'short'
+                    });
+                    // Capitalize prima lettera (es. "sab 6 giu" -> "Sab 6 giu")
+                    dayLabel = dayLabel.charAt(0).toUpperCase() + dayLabel.slice(1);
+                    const currentTime = timeEl.textContent.trim();
+                    timeEl.textContent = currentTime
+                        ? dayLabel + ' · ' + currentTime
+                        : dayLabel;
+                }
+            }
             // I cloni mantengono lo stesso data-event-id: i bottoni × / ★
             // (via delegation) operano sull'evento originale.
             list.appendChild(clone);
