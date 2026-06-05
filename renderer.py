@@ -64,11 +64,28 @@ def _is_past_today(ev: Event, now: datetime, today: date) -> bool:
     return now > ev.start + timedelta(hours=_DEFAULT_DURATION_HOURS)
 
 
+_WS_RE = __import__("re").compile(r"\s+")
+
+
+def _norm_for_id(s: str | None) -> str:
+    """Normalizza una stringa per la generazione dell'event-id.
+
+    Lowercase + collapse di whitespace + strip. Così differenze innocue
+    come "Cinema Firenze" vs "Cinema  Firenze" (doppio spazio) o
+    "Lo Straniero" vs "Lo straniero" non cambiano l'ID, preservando i
+    preferiti/nascosti dell'utente attraverso gli aggiornamenti.
+    """
+    if not s:
+        return ""
+    return _WS_RE.sub(" ", s).strip().lower()
+
+
 def _event_id(ev: Event) -> str:
     """Stable opaque ID for localStorage hide/favorite tracking.
 
-    Include venue per distinguere lo stesso film in cinema diversi (es.
-    "Le città di pianura" alla Fiorella vs al Marconi).
+    Include source+url+venue+titolo+data, ognuno normalizzato (lowercase,
+    whitespace compattati) per essere resiliente alle piccole variazioni
+    di formato che gli scraper possono introdurre fra una run e l'altra.
 
     Usa solo la DATA, non l'orario, perché preferiti/nascosti devono
     sopravvivere ai re-parse degli scraper: se un fix dello scraper
@@ -77,12 +94,22 @@ def _event_id(ev: Event) -> str:
     minuto cambia ma l'evento è lo stesso — non vogliamo che l'utente
     perda i suoi preferiti per questa ragione.
 
+    Venue è incluso per distinguere lo stesso film in cinema diversi
+    (es. "Le città di pianura" alla Fiorella vs al Marconi).
+
     Trade-off accettato: due proiezioni dello stesso film nello stesso
     cinema lo stesso giorno (es. matinée + serale) condividono l'ID e
     quindi anche il preferito/nascondi. Caso raro, costo accettabile.
     """
     date_key = ev.start.strftime("%Y-%m-%d") if ev.start else ""
-    raw = f"{ev.source}|{ev.url}|{ev.venue or ''}|{ev.title}|{date_key}".encode("utf-8")
+    parts = [
+        _norm_for_id(ev.source),
+        _norm_for_id(ev.url),
+        _norm_for_id(ev.venue),
+        _norm_for_id(ev.title),
+        date_key,
+    ]
+    raw = "|".join(parts).encode("utf-8")
     return hashlib.sha1(raw).hexdigest()[:12]
 
 
