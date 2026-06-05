@@ -306,7 +306,32 @@ h2.day {
     padding-bottom: .25rem;
     margin: 2rem 0 .75rem;
     text-transform: capitalize;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .5rem;
 }
+h2.day .day-label { flex: 1; min-width: 0; }
+.day-collapse {
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    padding: .25rem .55rem;
+    border-radius: 4px;
+    transition: color .15s, transform .15s, background .15s;
+    flex-shrink: 0;
+}
+.day-collapse:hover {
+    color: var(--accent);
+    background: rgba(255, 106, 74, 0.08);
+}
+/* Quando il giorno e' collassato, il chevron punta verso destra. */
+h2.day.collapsed .day-collapse { transform: rotate(-90deg); }
+/* Gli eventi del giorno collassato sono nascosti finche' non viene riaperto. */
+.event.day-collapsed { display: none; }
 .event {
     background: var(--card-bg);
     border: 1px solid var(--border);
@@ -500,6 +525,7 @@ JS_TEMPLATE = """
     const STORAGE_KEY = 'eventi-firenze-filters';
     const HIDDEN_KEY = 'eventi-firenze-hidden';
     const STARRED_KEY = 'eventi-firenze-starred';
+    const COLLAPSED_DAYS_KEY = 'eventi-firenze-collapsed-days';
     const UI_KEY = 'eventi-firenze-ui';
     const WEEK_END = __WEEK_END__;
     const NEXT_WEEK_START = __NEXT_WEEK_START__;
@@ -559,6 +585,16 @@ JS_TEMPLATE = """
         try { localStorage.setItem(STARRED_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
     }
 
+    function loadCollapsedDays() {
+        try {
+            const raw = localStorage.getItem(COLLAPSED_DAYS_KEY);
+            return raw ? new Set(JSON.parse(raw)) : new Set();
+        } catch (e) { return new Set(); }
+    }
+    function saveCollapsedDays(s) {
+        try { localStorage.setItem(COLLAPSED_DAYS_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
+    }
+
     function loadUI() {
         try {
             const raw = localStorage.getItem(UI_KEY);
@@ -580,6 +616,7 @@ JS_TEMPLATE = """
     if (state.cats.size === 0) state.cats = new Set(allCategories);
     let hidden = loadHidden();
     let starred = loadStarred();
+    let collapsedDays = loadCollapsedDays();
     let ui = loadUI();
 
     // Ricostruisce la sezione "I tuoi preferiti" clonando le card originali
@@ -679,8 +716,18 @@ JS_TEMPLATE = """
     function apply() {
         document.querySelectorAll('.event, .ongoing-event').forEach(el => {
             el.classList.toggle('hidden', !passes(el));
+            // Stato "giorno collassato": indipendente da filtri/nascosti.
+            const iso = el.dataset.isoDate;
+            el.classList.toggle('day-collapsed', !!(iso && collapsedDays.has(iso)));
         });
         document.querySelectorAll('h2.day').forEach(h => {
+            const iso = h.dataset.isoDate;
+            // Stato visivo collassato (chevron ruotato).
+            h.classList.toggle('collapsed', !!(iso && collapsedDays.has(iso)));
+            // Cerca almeno un evento del giorno che passi i filtri. Se il
+            // giorno è collassato l'h2 rimane comunque visibile (cosi'
+            // l'utente puo' riaprirlo), a meno che TUTTI gli eventi siano
+            // filtrati via — in quel caso nasconde anche l'h2.
             let sib = h.nextElementSibling;
             let hasVisible = false;
             while (sib && !(sib.tagName === 'H2' && sib.classList.contains('day'))) {
@@ -838,6 +885,17 @@ JS_TEMPLATE = """
             else starred.add(id);
             saveStarred(starred);
             renderStarred();
+            return;
+        }
+        const dayBtn = e.target.closest('.day-collapse');
+        if (dayBtn) {
+            e.preventDefault(); e.stopPropagation();
+            const iso = dayBtn.dataset.isoDate;
+            if (!iso) return;
+            if (collapsedDays.has(iso)) collapsedDays.delete(iso);
+            else collapsedDays.add(iso);
+            saveCollapsedDays(collapsedDays);
+            apply();
             return;
         }
     });
@@ -1081,7 +1139,15 @@ def render(
         body_parts.append('<p class="empty">Nessun evento trovato.</p>')
     else:
         for day in sorted(by_day.keys()):
-            body_parts.append(f'<h2 class="day">{_esc(_format_date_header(day))}</h2>')
+            day_iso = day.isoformat()
+            body_parts.append(
+                f'<h2 class="day" data-iso-date="{day_iso}">'
+                f'<span class="day-label">{_esc(_format_date_header(day))}</span>'
+                f'<button class="day-collapse" data-iso-date="{day_iso}" '
+                f'title="Nascondi/mostra gli eventi di questo giorno" '
+                f'aria-label="Collassa giorno">▾</button>'
+                f'</h2>'
+            )
             for ev in by_day[day]:
                 time_str = _format_time(ev.start)
                 meta_bits = [f'<span class="badge">{_esc(ev.source)}</span>']
