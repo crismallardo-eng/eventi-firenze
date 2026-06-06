@@ -628,14 +628,85 @@ JS_TEMPLATE = """
         try { localStorage.setItem(HIDDEN_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
     }
 
+    // Preferiti come Map<id, snapshot>. Lo snapshot è una fotografia
+    // completa dell'evento (titolo, data, luogo...) così il preferito resta
+    // visibile anche se l'evento esce dal feed o se cambiano gli scraper —
+    // niente più preferiti persi ad ogni aggiornamento.
+    // Retrocompat: il vecchio formato era un array di soli id; lo carico come
+    // Map con snapshot null e lo "promuovo" automaticamente alla prima
+    // visualizzazione catturando i dati dalla card live.
     function loadStarred() {
         try {
             const raw = localStorage.getItem(STARRED_KEY);
-            return raw ? new Set(JSON.parse(raw)) : new Set();
-        } catch (e) { return new Set(); }
+            if (!raw) return new Map();
+            const parsed = JSON.parse(raw);
+            if (Array.isArray(parsed)) {
+                return new Map(parsed.map(id => [id, null]));  // legacy
+            }
+            return new Map(Object.entries(parsed));
+        } catch (e) { return new Map(); }
     }
-    function saveStarred(s) {
-        try { localStorage.setItem(STARRED_KEY, JSON.stringify(Array.from(s))); } catch (e) {}
+    function saveStarred(m) {
+        try {
+            localStorage.setItem(STARRED_KEY, JSON.stringify(Object.fromEntries(m)));
+        } catch (e) {}
+    }
+
+    function _escapeHtml(s) {
+        const d = document.createElement('div');
+        d.textContent = s || '';
+        return d.innerHTML;
+    }
+    // Cattura i dati visibili di una card per ricostruirla in futuro.
+    function captureSnapshot(card) {
+        const titleEl = card.querySelector('.title');
+        const metaEl = card.querySelector('.meta-line');
+        const descEl = card.querySelector('.desc');
+        const closingEl = card.querySelector('.closing');
+        const timeEl = card.querySelector('.time');
+        return {
+            titleHtml: titleEl ? titleEl.innerHTML : '',
+            metaHtml: metaEl ? metaEl.innerHTML : '',
+            desc: descEl ? descEl.textContent.trim() : '',
+            closing: closingEl ? closingEl.textContent.trim() : '',
+            isoDate: card.dataset.isoDate || '',
+            time: timeEl ? timeEl.textContent.trim() : '',
+            category: card.dataset.category || ''
+        };
+    }
+    // Ricostruisce una card della sezione preferiti a partire dallo snapshot.
+    function buildStarredCard(id, snap) {
+        const div = document.createElement('div');
+        div.className = 'starred-event';
+        div.dataset.eventId = id;
+        if (snap.category) div.dataset.category = snap.category;
+        if (snap.isoDate) div.dataset.isoDate = snap.isoDate;
+
+        // Etichetta tempo: "Sab 6 giu · 21:00" (le mostre con 'closing' no).
+        let timeLabel = snap.time || '';
+        if (!snap.closing && snap.isoDate) {
+            const d = new Date(snap.isoDate + 'T00:00:00');
+            if (!isNaN(d)) {
+                let dl = d.toLocaleDateString('it-IT', {
+                    weekday: 'short', day: 'numeric', month: 'short'
+                });
+                dl = dl.charAt(0).toUpperCase() + dl.slice(1);
+                timeLabel = snap.time ? dl + ' · ' + snap.time : dl;
+            }
+        }
+
+        let inner = '';
+        if (timeLabel) inner += '<div class="time">' + _escapeHtml(timeLabel) + '</div>';
+        inner += '<div class="body">';
+        if (snap.titleHtml) inner += '<p class="title">' + snap.titleHtml + '</p>';
+        if (snap.metaHtml) inner += '<div class="meta-line">' + snap.metaHtml + '</div>';
+        if (snap.desc) inner += '<div class="desc">' + _escapeHtml(snap.desc) + '</div>';
+        if (snap.closing) inner += '<div class="closing">' + _escapeHtml(snap.closing) + '</div>';
+        inner += '</div>';
+        inner += '<button class="hide-btn" data-event-id="' + id + '" title="Nascondi questo evento">×</button>';
+        inner += '<button class="star-btn starred" data-event-id="' + id + '" title="Rimuovi dai preferiti">★</button>';
+        div.innerHTML = inner;
+        return div;
     }
 
     function loadCollapsedDays() {
@@ -672,51 +743,41 @@ JS_TEMPLATE = """
     let collapsedDays = loadCollapsedDays();
     let ui = loadUI();
 
-    // Ricostruisce la sezione "I tuoi preferiti" clonando le card originali
-    // marcate come starred. I cloni perdono la classe .event/.ongoing-event
-    // così non vengono toccati da apply()/passes() e non si auto-nascondono.
+    // Ricostruisce la sezione "I tuoi preferiti" dagli snapshot salvati.
+    // I preferiti restano visibili indipendentemente dal feed corrente.
     function renderStarred() {
         const section = document.getElementById('starred-section');
         const list = document.getElementById('starred-list');
         const count = document.getElementById('starred-count');
         if (!section || !list) return;
         list.innerHTML = '';
-        let n = 0;
-        starred.forEach(id => {
-            // Cerco originale (esclude eventuali cloni)
-            const orig = document.querySelector(
-                '.event[data-event-id="' + id + '"], .ongoing-event[data-event-id="' + id + '"]'
-            );
-            if (!orig) return;
-            const clone = orig.cloneNode(true);
-            clone.classList.remove('event', 'ongoing-event', 'hidden');
-            clone.classList.add('starred-event');
-            // Nella lista originale la data è nel <h2.day> sopra: il clone
-            // perde quel contesto. Inietto giorno+mese nella cella .time così
-            // l'utente vede sempre quando avviene un suo preferito.
-            const isoDate = clone.dataset.isoDate;
-            const timeEl = clone.querySelector('.time');
-            if (isoDate && timeEl) {
-                const d = new Date(isoDate + 'T00:00:00');
-                if (!isNaN(d)) {
-                    let dayLabel = d.toLocaleDateString('it-IT', {
-                        weekday: 'short', day: 'numeric', month: 'short'
-                    });
-                    // Capitalize prima lettera (es. "sab 6 giu" -> "Sab 6 giu")
-                    dayLabel = dayLabel.charAt(0).toUpperCase() + dayLabel.slice(1);
-                    const currentTime = timeEl.textContent.trim();
-                    timeEl.textContent = currentTime
-                        ? dayLabel + ' · ' + currentTime
-                        : dayLabel;
-                }
+
+        // Pass 1: promuovi i legacy (snapshot null) catturando dalla card live.
+        let mutated = false;
+        starred.forEach((snap, id) => {
+            if (!snap) {
+                const orig = document.querySelector(
+                    '.event[data-event-id="' + id + '"], .ongoing-event[data-event-id="' + id + '"]'
+                );
+                if (orig) { starred.set(id, captureSnapshot(orig)); mutated = true; }
             }
-            // I cloni mantengono lo stesso data-event-id: i bottoni × / ★
-            // (via delegation) operano sull'evento originale.
-            list.appendChild(clone);
-            n++;
         });
-        if (count) count.textContent = n ? '(' + n + ')' : '';
-        section.classList.toggle('empty', n === 0);
+        if (mutated) saveStarred(starred);
+
+        // Pass 2: raccogli i renderizzabili, scarta i passati (non-mostra),
+        // ordina per data e costruisci le card.
+        const todayIso = new Date().toLocaleDateString('en-CA');  // YYYY-MM-DD locale
+        const items = [];
+        starred.forEach((snap, id) => {
+            if (!snap) return;  // legacy non ancora in feed: non renderizzabile
+            if (snap.isoDate && snap.isoDate < todayIso && !snap.closing) return;
+            items.push([id, snap]);
+        });
+        items.sort((a, b) => (a[1].isoDate || '').localeCompare(b[1].isoDate || ''));
+        items.forEach(([id, snap]) => list.appendChild(buildStarredCard(id, snap)));
+
+        if (count) count.textContent = items.length ? '(' + items.length + ')' : '';
+        section.classList.toggle('empty', items.length === 0);
         refreshStarButtons();
     }
 
@@ -934,8 +995,14 @@ JS_TEMPLATE = """
             e.preventDefault(); e.stopPropagation();
             const id = starBtn.dataset.eventId;
             if (!id) return;
-            if (starred.has(id)) starred.delete(id);
-            else starred.add(id);
+            if (starred.has(id)) {
+                starred.delete(id);
+            } else {
+                // Cattura lo snapshot dalla card cliccata così il preferito
+                // sopravvive anche se l'evento poi esce dal feed.
+                const card = starBtn.closest('.event, .ongoing-event, .starred-event');
+                starred.set(id, card ? captureSnapshot(card) : {});
+            }
             saveStarred(starred);
             renderStarred();
             return;
