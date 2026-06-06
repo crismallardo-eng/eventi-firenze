@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import calendar
+import dataclasses
 import hashlib
 import html
 from collections import Counter, defaultdict
@@ -50,6 +51,31 @@ quando non ha un end esplicito. 2 ore copre la maggior parte di concerti,
 spettacoli, talk; eventi più brevi (es. proiezioni di 90 minuti) restano
 visibili ancora per ~30 min dopo la fine, che è una grazia ragionevole."""
 _DEFAULT_DURATION_HOURS = 2
+
+# Oltre questa durata un evento con end è una "mostra in corso" (sezione
+# dedicata), non un festival da espandere giorno-per-giorno nel programma.
+_MULTIDAY_MAX_SPAN_DAYS = 14
+
+
+def _expand_multiday(ev: Event, today: date) -> list[Event]:
+    """Espande un festival (evento con end di pochi giorni) in una card per
+    ogni giornata, da oggi alla chiusura. Ogni copia ha la stessa ora di
+    inizio, nessun `end` (è atomica sul suo giorno) e una descrizione
+    prefissata con 'Giorno N di M'."""
+    total = (ev.end.date() - ev.start.date()).days + 1
+    out: list[Event] = []
+    for i in range(total):
+        day = ev.start.date() + timedelta(days=i)
+        if day < today:
+            continue  # salta i giorni già passati del festival
+        day_start = ev.start.replace(year=day.year, month=day.month, day=day.day)
+        label = f"Giorno {i + 1} di {total}"
+        desc = ev.description or ""
+        new_desc = f"{label} · {desc}" if desc else label
+        out.append(dataclasses.replace(
+            ev, start=day_start, end=None, description=new_desc
+        ))
+    return out
 
 
 def _is_past_today(ev: Event, now: datetime, today: date) -> bool:
@@ -1043,10 +1069,17 @@ def render(
     ongoing: list[Event] = []
     regular: list[Event] = []
     for ev in events:
-        # An "ongoing" event has a known end date AND its window straddles today
-        # (started in the past or today, ends today or in the future).
-        if ev.end is not None and ev.start.date() <= today <= ev.end.date() and ev.start.date() != ev.end.date():
+        span = (ev.end.date() - ev.start.date()).days if ev.end is not None else 0
+        if (
+            ev.end is not None
+            and span > _MULTIDAY_MAX_SPAN_DAYS
+            and ev.start.date() <= today <= ev.end.date()
+        ):
+            # Mostra lunga attualmente in corso → sezione "Mostre in corso".
             ongoing.append(ev)
+        elif ev.end is not None and 1 <= span <= _MULTIDAY_MAX_SPAN_DAYS:
+            # Festival/rassegna breve → una card per ogni giornata.
+            regular.extend(_expand_multiday(ev, today))
         else:
             regular.append(ev)
     # Sort ongoing by closest-to-end first (so the user sees what's about to close).
