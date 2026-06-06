@@ -46,6 +46,8 @@ SOURCE_MODULES = [
     "sources.pistoia_blues",
     "sources.flore_music_festival",
     "sources.todomodo",
+    "sources.secret_florence",
+    "sources.firenze_rocks",
     "sources.lumen",
 ]
 

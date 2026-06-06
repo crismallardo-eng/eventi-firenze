@@ -40,6 +40,12 @@ SEASONAL_SOURCES = {
     "Todo Modo",
     # Lumen: scraper statico con il calendario stagionale.
     "Lumen",
+    # Firenze Rocks: lineup pubblicata come immagine, scraper statico
+    # (vuoto finché non si inseriscono a mano le date dell'edizione).
+    "Firenze Rocks",
+    # Secret Florence: rassegna estiva, fuori stagione la pagina programma
+    # dell'anno può non esistere ancora.
+    "Secret Florence",
 }
 
 
