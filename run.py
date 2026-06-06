@@ -46,6 +46,7 @@ SOURCE_MODULES = [
     "sources.pistoia_blues",
     "sources.flore_music_festival",
     "sources.todomodo",
+    "sources.lumen",
 ]
 
 # Only show events within this window from "now". Past events are dropped.
