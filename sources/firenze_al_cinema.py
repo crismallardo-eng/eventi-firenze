@@ -172,8 +172,22 @@ def fetch() -> list[Event]:
     if not unique:
         try:
             from sources.mymovies_cinema import fetch_vos
-            return fetch_vos()
+            return _mark_vos(fetch_vos())
         except Exception:
             return []
 
-    return unique
+    return _mark_vos(unique)
+
+
+def _mark_vos(events: list[Event]) -> list[Event]:
+    """Garantisce che ogni film di questa categoria mostri la dicitura (VOS).
+
+    I VOS presi da firenzealcinema.info a volte hanno già "(VOS)" nel titolo,
+    quelli da MYmovies (etichetta strutturata) no. Normalizziamo: togliamo
+    eventuali varianti "(VO)/(V.O.S.)/(VOS)" e aggiungiamo un "(VOS)" pulito
+    in coda, così l'utente riconosce sempre i film in lingua originale.
+    """
+    for e in events:
+        base = _VO_TAG_RE.sub("", e.title).strip().rstrip("-–").strip()
+        e.title = f"{base} (VOS)"
+    return events
