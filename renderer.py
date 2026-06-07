@@ -169,79 +169,114 @@ header { border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bo
 header h1 { margin: 0 0 .25rem; font-size: 1.6rem; }
 header .meta { color: var(--muted); font-size: .9rem; }
 
-/* Bottone "Filtri" — visibile solo su mobile (su desktop la sidebar è
-   sempre aperta e il bottone viene nascosto dalla media query sotto).
-   DEVE essere dichiarato PRIMA della media query desktop altrimenti il
-   `display: inline-flex` vince per ordine di cascata. */
-#filters-toggle {
+/* ===== Barra filtri a dropdown (Categorie / Periodo / Orario) ===== */
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+    margin: 1rem 0 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+.dropdown { position: relative; }
+.dd-btn {
     display: inline-flex;
     align-items: center;
-    gap: .4rem;
-    margin: .75rem 0 .25rem;
+    gap: .45rem;
     background: var(--card-bg);
     border: 1px solid var(--border);
     color: var(--fg);
-    padding: .5rem .9rem;
+    padding: .55rem 1rem;
     border-radius: 8px;
     font-size: .95rem;
     cursor: pointer;
     user-select: none;
 }
-#filters-toggle:hover { border-color: var(--accent); }
-#filters-toggle .chev {
-    transition: transform .15s;
-    display: inline-block;
+.dd-btn:hover { border-color: var(--accent); }
+.dropdown.open .dd-btn { border-color: var(--accent); }
+.dd-btn .chev { font-size: .75rem; transition: transform .15s; }
+.dropdown.open .dd-btn .chev { transform: rotate(180deg); }
+.dd-badge {
+    background: var(--accent);
+    color: #1a1a1a;
+    font-size: .72rem;
+    font-weight: 600;
+    border-radius: 999px;
+    padding: .05rem .45rem;
+    min-width: 1.3em;
+    text-align: center;
 }
-#filters-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
-#filters-toggle .filters-count {
+.dd-badge:empty { display: none; }
+.dd-panel {
+    position: absolute;
+    top: calc(100% + .35rem);
+    left: 0;
+    z-index: 30;
+    min-width: 240px;
+    max-width: calc(100vw - 2rem);
+    max-height: 65vh;
+    overflow-y: auto;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .4rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,.45);
+    display: none;
+}
+.dropdown.open .dd-panel { display: block; }
+.dd-all {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
     color: var(--muted);
-    font-size: .82rem;
-    margin-left: .25rem;
+    padding: .5rem .55rem;
+    margin-bottom: .25rem;
+    cursor: pointer;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
 }
-.sidebar.collapsed .filters { display: none; }
-
-/* Layout 2 colonne su desktop: sidebar filtri a sinistra, eventi a destra.
-   Breakpoint basso (720px) così anche finestre non massimizzate sui PC
-   mostrano la sidebar laterale invece di un viewport stretto di tipo mobile. */
-@media (min-width: 720px) {
-    .container {
-        max-width: 1200px;
-        display: grid;
-        grid-template-columns: 260px 1fr;
-        gap: 2rem;
-        align-items: start;
-    }
-    header { grid-column: 1 / -1; }
-    .sidebar {
-        position: sticky;
-        top: 1rem;
-        max-height: calc(100vh - 2rem);
-        overflow-y: auto;
-    }
-    /* Su desktop in sidebar i filtri vanno verticali: etichetta sopra,
-       pill sotto a wrap. Il container .filters perde la stretta orizzontale. */
-    .sidebar .filters {
-        border-bottom: none;
-        padding: 0;
-        margin: 0;
-    }
-    .sidebar .filter-row {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 1.25rem;
-    }
-    .sidebar .filter-row .filter-label {
-        margin-bottom: .35rem;
-    }
-    .sidebar .filter-actions {
-        margin-left: 0;
-        margin-top: .35rem;
-    }
-    /* Su desktop il toggle "Filtri" non serve: la sidebar è sempre aperta. */
-    #filters-toggle { display: none; }
-    /* In desktop la sidebar è sempre visibile, ignoro la classe collapsed. */
-    .sidebar.collapsed .filters { display: block; }
+.dd-all:hover { color: var(--accent); }
+.dd-opt {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: var(--fg);
+    padding: .5rem .55rem;
+    border-radius: 6px;
+    font-size: .92rem;
+    cursor: pointer;
 }
+.dd-opt:hover { background: rgba(255,255,255,.05); }
+.dd-opt::before {
+    content: '✓';
+    width: 1.1em;
+    flex-shrink: 0;
+    color: var(--accent);
+    font-weight: 700;
+    opacity: 0;
+}
+.dd-opt[aria-pressed="true"]::before { opacity: 1; }
+.dd-opt .dd-lbl { flex: 1; }
+.dd-opt .dd-count { color: var(--muted); font-size: .8rem; }
+.dd-panel hr { border: none; border-top: 1px solid var(--border); margin: .35rem 0; }
+.dd-reset {
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: .85rem;
+    text-decoration: underline;
+    padding: .5rem .35rem;
+}
+.dd-reset:hover { color: var(--accent); }
 
 /* Header giorno sticky mentre scrolli, così sai sempre in che data sei.
    Sfondo opaco che copre gli eventi sotto quando si "appiccica". */
@@ -592,7 +627,7 @@ JS_TEMPLATE = """
     const NEXT_WEEKEND_END = __NEXT_WEEKEND_END__;
     const WINDOW_VALUES = ['week', 'next-week', 'weekend', 'next-weekend', 'month', 'next-month'];
 
-    const allCategories = Array.from(document.querySelectorAll('.filter-pill[data-category]'))
+    const allCategories = Array.from(document.querySelectorAll('.dd-opt[data-category]'))
         .map(p => p.dataset.category);
 
     function defaultState() {
@@ -671,7 +706,15 @@ JS_TEMPLATE = """
             closing: closingEl ? closingEl.textContent.trim() : '',
             isoDate: card.dataset.isoDate || '',
             time: timeEl ? timeEl.textContent.trim() : '',
-            category: card.dataset.category || ''
+            category: card.dataset.category || '',
+            // Campi per l'export .ics (presi dai data-* della card).
+            title: card.dataset.title || (titleEl ? titleEl.textContent.trim() : ''),
+            venue: card.dataset.venue || '',
+            url: card.dataset.url || '',
+            isoEndDate: card.dataset.isoEndDate || '',
+            timeMin: card.dataset.timeMin || '',
+            timeEnd: card.dataset.timeEnd || '',
+            allday: card.dataset.allday || '0'
         };
     }
     // Ricostruisce una card della sezione preferiti a partire dallo snapshot.
@@ -752,10 +795,12 @@ JS_TEMPLATE = """
         if (!section || !list) return;
         list.innerHTML = '';
 
-        // Pass 1: promuovi i legacy (snapshot null) catturando dalla card live.
+        // Pass 1: promuovi gli snapshot legacy (null o senza i campi .ics
+        // recenti) ri-catturandoli dalla card live, se presente nel feed.
         let mutated = false;
         starred.forEach((snap, id) => {
-            if (!snap) {
+            const stale = !snap || snap.title === undefined;
+            if (stale) {
                 const orig = document.querySelector(
                     '.event[data-event-id="' + id + '"], .ongoing-event[data-event-id="' + id + '"]'
                 );
@@ -858,23 +903,51 @@ JS_TEMPLATE = """
             const anyOngoing = ongoingSection.querySelector('.ongoing-event:not(.hidden)');
             ongoingSection.classList.toggle('hidden', !anyOngoing);
         }
-        document.querySelectorAll('.filter-pill[data-category]').forEach(p => {
-            p.classList.toggle('active', state.cats.has(p.dataset.category));
+        // --- Sincronizza lo stato visivo dei dropdown ---
+        document.querySelectorAll('.dd-opt[data-category]').forEach(b => {
+            b.setAttribute('aria-pressed', state.cats.has(b.dataset.category) ? 'true' : 'false');
         });
-        document.querySelectorAll('.filter-pill[data-window]').forEach(p => {
-            p.classList.toggle('active', state.window === p.dataset.window);
+        document.querySelectorAll('.dd-opt[data-window]').forEach(b => {
+            const w = b.dataset.window;
+            const on = (w === '' && !state.window) || (w === state.window);
+            b.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
-        document.querySelectorAll('.filter-pill[data-weekday-time]').forEach(p => {
-            p.classList.toggle('active', state.weekdayTime === p.dataset.weekdayTime);
+        document.querySelectorAll('.dd-opt[data-weekday-time]').forEach(b => {
+            const w = b.dataset.weekdayTime;
+            const on = (w === '' && !state.weekdayTime) || (w === state.weekdayTime);
+            b.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
-        // Per-event hide button: × normally, ↺ when in "Nascosti" mode on a hidden item.
+        const hidePastOpt = document.getElementById('opt-hidepast');
+        if (hidePastOpt) hidePastOpt.setAttribute('aria-pressed', ui.hidePast ? 'true' : 'false');
+
+        const catsAll = document.getElementById('cats-all');
+        if (catsAll) catsAll.textContent =
+            (state.cats.size >= allCategories.length) ? 'Deseleziona tutti' : 'Seleziona tutti';
+
+        const badgeCats = document.getElementById('badge-cats');
+        if (badgeCats) badgeCats.textContent =
+            (state.cats.size < allCategories.length) ? String(state.cats.size) : '';
+        const badgePeriod = document.getElementById('badge-period');
+        if (badgePeriod) badgePeriod.textContent = state.window ? '1' : '';
+        const badgeTime = document.getElementById('badge-time');
+        if (badgeTime) {
+            let t = 0;
+            if (state.weekdayTime) t++;
+            if (ui.hidePast) t++;
+            badgeTime.textContent = t ? String(t) : '';
+        }
+
+        // Toggle "Nascondi passati": classe sul body.
+        document.body.classList.toggle('hide-past', ui.hidePast);
+
+        // Per-event hide button: × normalmente, ↺ in modalità "Nascosti".
         document.querySelectorAll('.hide-btn').forEach(btn => {
             const id = btn.dataset.eventId;
             const isHidden = id && hidden.has(id);
             btn.textContent = isHidden ? '↺' : '×';
             btn.title = isHidden ? 'Ripristina questo evento' : 'Nascondi questo evento';
         });
-        // "Nascosti" pill: visible only if there's at least one hidden item.
+        // "Nascosti" pill: visibile solo se c'è almeno un nascosto.
         const nascostiPill = document.getElementById('filter-nascosti');
         if (nascostiPill) {
             const n = hidden.size;
@@ -883,7 +956,6 @@ JS_TEMPLATE = """
             nascostiPill.style.display = n > 0 ? '' : 'none';
             nascostiPill.classList.toggle('active', ui.showHidden);
             if (n === 0 && ui.showHidden) {
-                // Auto-leave "Nascosti" mode when nothing is hidden anymore.
                 ui.showHidden = false;
                 saveUI(ui);
                 nascostiPill.classList.remove('active');
@@ -897,83 +969,75 @@ JS_TEMPLATE = """
             ongoingToggle.textContent = ui.ongoingCollapsed ? 'Mostra' : 'Nascondi';
             ongoingToggle.setAttribute('aria-expanded', ui.ongoingCollapsed ? 'false' : 'true');
         }
-        // Toggle filtri (mobile): sidebar aperta/chiusa + label conteggio attivi.
-        const sidebar = document.getElementById('sidebar-filters');
-        const filtersToggle = document.getElementById('filters-toggle');
-        if (sidebar && filtersToggle) {
-            sidebar.classList.toggle('collapsed', !ui.filtersOpen);
-            filtersToggle.setAttribute('aria-expanded', ui.filtersOpen ? 'true' : 'false');
-            // Conteggio filtri attivi (categorie non-default + periodo + orario)
-            let activeBits = 0;
-            if (state.cats.size && state.cats.size < allCategories.length) activeBits++;
-            if (state.window) activeBits++;
-            if (state.weekdayTime) activeBits++;
-            if (ui.hidePast) activeBits++;
-            if (ui.showHidden) activeBits++;
-            const countEl = document.getElementById('filters-active-count');
-            if (countEl) countEl.textContent = activeBits ? `· ${activeBits} attiv${activeBits === 1 ? 'o' : 'i'}` : '';
-        }
-        // Toggle "Nascondi passati di oggi": classe sul body + stato pill.
-        document.body.classList.toggle('hide-past', ui.hidePast);
-        const hidePastPill = document.getElementById('filter-hide-past');
-        if (hidePastPill) {
-            const pastCount = document.querySelectorAll('.event.past-today').length;
-            hidePastPill.style.display = pastCount > 0 ? '' : 'none';
-            hidePastPill.classList.toggle('active', ui.hidePast);
-            // Aggiorno la label con il count
-            hidePastPill.firstChild.nodeValue = pastCount > 0
-                ? 'Nascondi passati '
-                : 'Nascondi passati';
-            // Aggiungo span count se non c'e'
-            let countEl = hidePastPill.querySelector('.count');
-            if (!countEl && pastCount > 0) {
-                countEl = document.createElement('span');
-                countEl.className = 'count';
-                hidePastPill.appendChild(countEl);
-            }
-            if (countEl) countEl.textContent = pastCount;
-        }
         const anyVisible = document.querySelector('.event:not(.hidden), .ongoing-event:not(.hidden)');
         const empty = document.getElementById('empty-filter');
         if (empty) empty.style.display = anyVisible ? 'none' : 'block';
     }
 
-    document.querySelectorAll('.filter-pill[data-category]').forEach(p => {
-        p.addEventListener('click', () => {
-            const cat = p.dataset.category;
-            if (state.cats.size === allCategories.length) {
-                // Si parte da "tutto attivo": il primo click isola la categoria scelta.
-                state.cats = new Set([cat]);
-            } else if (state.cats.has(cat)) {
-                // Categoria gia' attiva: la rimuovo (toggle off).
-                state.cats.delete(cat);
-                // Se ho appena rimosso l'ultima, torno al default "tutto attivo".
-                if (state.cats.size === 0) state.cats = new Set(allCategories);
-            } else {
-                // Categoria non attiva: la aggiungo all'accumulo.
-                state.cats.add(cat);
-            }
+    // --- Apertura/chiusura dropdown ---
+    function closeDropdowns(except) {
+        document.querySelectorAll('.dropdown.open').forEach(d => {
+            if (d !== except) d.classList.remove('open');
+        });
+    }
+    document.querySelectorAll('.dropdown .dd-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const dd = btn.closest('.dropdown');
+            const wasOpen = dd.classList.contains('open');
+            closeDropdowns(dd);
+            dd.classList.toggle('open', !wasOpen);
+        });
+    });
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.dropdown')) closeDropdowns(null);
+    });
+
+    // --- Categorie (multi-select) ---
+    document.querySelectorAll('.dd-opt[data-category]').forEach(opt => {
+        opt.addEventListener('click', () => {
+            const cat = opt.dataset.category;
+            if (state.cats.has(cat)) state.cats.delete(cat);
+            else state.cats.add(cat);
+            if (state.cats.size === 0) state.cats = new Set(allCategories);  // mai vuoto
             saveState(state); apply();
         });
     });
-    document.querySelectorAll('.filter-pill[data-window]').forEach(p => {
-        p.addEventListener('click', () => {
-            const w = p.dataset.window;
-            state.window = (state.window === w) ? null : w;
+    const catsAllBtn = document.getElementById('cats-all');
+    if (catsAllBtn) catsAllBtn.addEventListener('click', () => {
+        state.cats = (state.cats.size >= allCategories.length)
+            ? new Set([allCategories[0]])   // "deseleziona tutti" → tiene 1 (mai vuoto)
+            : new Set(allCategories);
+        saveState(state); apply();
+    });
+
+    // --- Periodo (single-select) ---
+    document.querySelectorAll('.dd-opt[data-window]').forEach(opt => {
+        opt.addEventListener('click', () => {
+            state.window = opt.dataset.window || null;
             saveState(state); apply();
+            closeDropdowns(null);
         });
     });
-    document.querySelectorAll('.filter-pill[data-weekday-time]').forEach(p => {
-        p.addEventListener('click', () => {
-            const t = p.dataset.weekdayTime;
-            state.weekdayTime = (state.weekdayTime === t) ? null : t;
+    // --- Orario (single-select) ---
+    document.querySelectorAll('.dd-opt[data-weekday-time]').forEach(opt => {
+        opt.addEventListener('click', () => {
+            state.weekdayTime = opt.dataset.weekdayTime || null;
             saveState(state); apply();
+            closeDropdowns(null);
         });
+    });
+    const hidePastOptBtn = document.getElementById('opt-hidepast');
+    if (hidePastOptBtn) hidePastOptBtn.addEventListener('click', () => {
+        ui.hidePast = !ui.hidePast;
+        saveUI(ui); apply();
     });
 
     const allBtn = document.getElementById('filter-all');
     if (allBtn) allBtn.addEventListener('click', () => {
         state = defaultState();
+        ui.hidePast = false;
+        saveUI(ui);
         saveState(state); apply();
     });
 
@@ -1039,24 +1103,6 @@ JS_TEMPLATE = """
         });
     }
 
-    const hidePastPill = document.getElementById('filter-hide-past');
-    if (hidePastPill) {
-        hidePastPill.addEventListener('click', () => {
-            ui.hidePast = !ui.hidePast;
-            saveUI(ui);
-            apply();
-        });
-    }
-
-    const filtersToggleBtn = document.getElementById('filters-toggle');
-    if (filtersToggleBtn) {
-        filtersToggleBtn.addEventListener('click', () => {
-            ui.filtersOpen = !ui.filtersOpen;
-            saveUI(ui);
-            apply();
-        });
-    }
-
     // Esporta gli eventi preferiti come file .ics (iCalendar standard,
     // importabile in Google Calendar, Apple Calendar, Outlook, ecc.).
     function icsEscape(s) {
@@ -1093,19 +1139,20 @@ JS_TEMPLATE = """
             'CALSCALE:GREGORIAN',
             'METHOD:PUBLISH',
         ];
+        const todayIso = new Date().toLocaleDateString('en-CA');
         let n = 0;
-        starred.forEach(id => {
-            const orig = document.querySelector(
-                '.event[data-event-id="' + id + '"], .ongoing-event[data-event-id="' + id + '"]'
-            );
-            if (!orig) return;
-            const title = orig.dataset.title || '';
-            const venue = orig.dataset.venue || '';
-            const url = orig.dataset.url || '';
-            const startDate = orig.dataset.isoDate || '';
-            const endDate = orig.dataset.isoEndDate || startDate;
-            const allday = orig.dataset.allday === '1';
+        // starred è una Map<id, snapshot>: iterazione (value, key).
+        starred.forEach((snap, id) => {
+            if (!snap) return;
+            const title = snap.title || '';
+            const venue = snap.venue || '';
+            const url = snap.url || '';
+            const startDate = snap.isoDate || '';
+            const endDate = snap.isoEndDate || startDate;
+            const allday = snap.allday === '1';
             if (!startDate || !title) return;
+            // Salta i passati (ma tieni le mostre/all-day in corso).
+            if (startDate < todayIso && !allday && !snap.closing) return;
 
             lines.push('BEGIN:VEVENT');
             lines.push('UID:' + id + '@eventi-firenze');
@@ -1114,8 +1161,10 @@ JS_TEMPLATE = """
             const stamp = now.getUTCFullYear() + pad(now.getUTCMonth() + 1) + pad(now.getUTCDate())
                 + 'T' + pad(now.getUTCHours()) + pad(now.getUTCMinutes()) + pad(now.getUTCSeconds()) + 'Z';
             lines.push('DTSTAMP:' + stamp);
-            if (allday) {
-                // Per all-day in ICS l'end e' esclusivo, quindi end+1
+            const startTime = snap.timeMin || '';
+            if (allday || !startTime) {
+                // Evento all-day (mostra) o senza orario: VEVENT a giornata.
+                // In ICS l'end di un all-day è esclusivo → end+1.
                 lines.push('DTSTART;VALUE=DATE:' + icsDate(startDate));
                 const [y, m, d] = endDate.split('-').map(Number);
                 const endPlus = new Date(y, m - 1, d + 1);
@@ -1123,12 +1172,10 @@ JS_TEMPLATE = """
                     + pad(endPlus.getMonth() + 1) + '-' + pad(endPlus.getDate());
                 lines.push('DTEND;VALUE=DATE:' + icsDate(endIso));
             } else {
-                const startTime = orig.dataset.timeMin || '00:00';
-                let endTime = orig.dataset.timeEnd || '';
+                let endTime = snap.timeEnd || '';
                 let realEndDate = endDate;
-                if (!endTime || endTime === '') {
-                    // default +2h
-                    const e = addHours(startDate, startTime, 2);
+                if (!endTime) {
+                    const e = addHours(startDate, startTime, 2);  // durata default 2h
                     realEndDate = e.iso;
                     endTime = e.time;
                 }
@@ -1138,8 +1185,8 @@ JS_TEMPLATE = """
             lines.push('SUMMARY:' + icsEscape(title));
             if (venue) lines.push('LOCATION:' + icsEscape(venue));
             if (url) lines.push('URL:' + url);
-            // DESCRIPTION: link cliccabile dentro Google Cal
             const descParts = [];
+            if (snap.desc) descParts.push(snap.desc);
             if (url) descParts.push(url);
             if (descParts.length) lines.push('DESCRIPTION:' + icsEscape(descParts.join('\\n')));
             lines.push('END:VEVENT');
@@ -1274,44 +1321,70 @@ def render(
     ordered_cats = [c for c in CATEGORY_ORDER if c in cat_counts] + sorted(
         c for c in seen_cats if c not in CATEGORY_ORDER
     )
-    cat_pills_html = "".join(
-        f'<div class="filter-pill active" data-category="{_esc(c)}">'
-        f'{_esc(c)}<span class="count">{cat_counts[c]}</span>'
-        f'</div>'
+    # --- Categorie: opzioni multi-select (checkbox-like) ---
+    cat_opts_html = "".join(
+        f'<button type="button" class="dd-opt" data-category="{_esc(c)}" aria-pressed="true">'
+        f'<span class="dd-lbl">{_esc(c)}</span><span class="dd-count">{cat_counts[c]}</span>'
+        f'</button>'
         for c in ordered_cats
     )
-    window_pills_html = (
-        '<div class="filter-pill" data-window="week">Questa settimana</div>'
-        '<div class="filter-pill" data-window="next-week">Prossima settimana</div>'
-        '<div class="filter-pill" data-window="weekend">Weekend</div>'
-        '<div class="filter-pill" data-window="next-weekend">Prossimo weekend</div>'
-        '<div class="filter-pill" data-window="month">Questo mese</div>'
-        '<div class="filter-pill" data-window="next-month">Prossimo mese</div>'
+    # --- Periodo: opzioni mutuamente esclusive ("Tutto" = nessun filtro) ---
+    period_opts = [
+        ("", "Tutto il periodo"),
+        ("week", "Questa settimana"),
+        ("next-week", "Prossima settimana"),
+        ("weekend", "Weekend"),
+        ("next-weekend", "Prossimo weekend"),
+        ("month", "Questo mese"),
+        ("next-month", "Prossimo mese"),
+    ]
+    window_opts_html = "".join(
+        f'<button type="button" class="dd-opt" data-window="{w}">'
+        f'<span class="dd-lbl">{lbl}</span></button>'
+        for w, lbl in period_opts
     )
-    weekday_time_pills_html = (
-        '<div class="filter-pill" data-weekday-time="after14">Feriali dalle 14:00</div>'
-        '<div class="filter-pill" data-weekday-time="after17">Feriali dalle 17:00</div>'
+    # --- Orario: opzioni mutuamente esclusive + toggle "nascondi passati" ---
+    time_opts = [
+        ("", "Qualsiasi orario"),
+        ("after14", "Feriali dalle 14:00"),
+        ("after17", "Feriali dalle 17:00"),
+    ]
+    time_opts_html = "".join(
+        f'<button type="button" class="dd-opt" data-weekday-time="{w}">'
+        f'<span class="dd-lbl">{lbl}</span></button>'
+        for w, lbl in time_opts
     )
-    # Always render the "Nascosti" pill; JS hides it when count is 0.
+    time_opts_html += (
+        '<hr>'
+        '<button type="button" class="dd-opt" id="opt-hidepast">'
+        '<span class="dd-lbl">Nascondi eventi gi&agrave; finiti</span></button>'
+    )
+    # Pill "Nascosti": fuori dai dropdown, visibile solo se ci sono nascosti.
     nascosti_pill_html = (
         '<div class="filter-pill" id="filter-nascosti" style="display:none">'
         'Nascosti<span class="count">0</span>'
         '</div>'
     )
-    # Pill "Nascondi passati di oggi". Visibile sempre, JS la disattiva se
-    # non ci sono past-today da nascondere.
-    hide_past_pill_html = (
-        '<div class="filter-pill" id="filter-hide-past" title="Nascondi gli '
-        'eventi di oggi che sono gi&agrave; finiti">Nascondi passati</div>'
-    )
+
+    def _dropdown(dd_id, label, badge_id, panel_inner, all_btn=""):
+        return (
+            f'<div class="dropdown" id="{dd_id}">'
+            f'<button type="button" class="dd-btn">{label}'
+            f'<span class="dd-badge" id="{badge_id}"></span>'
+            f'<span class="chev">&#9662;</span></button>'
+            f'<div class="dd-panel">{all_btn}{panel_inner}</div>'
+            f'</div>'
+        )
+
+    cats_all_btn = '<button type="button" class="dd-all" id="cats-all">Deseleziona tutti</button>'
     filters_html = (
-        '<div class="filters">'
-        f'<div class="filter-row"><span class="filter-label">Categorie</span>{cat_pills_html}'
-        f'{nascosti_pill_html}'
-        '<div class="filter-actions"><button id="filter-all">Reset</button></div></div>'
-        f'<div class="filter-row"><span class="filter-label">Periodo</span>{window_pills_html}</div>'
-        f'<div class="filter-row"><span class="filter-label">Orario</span>{weekday_time_pills_html}{hide_past_pill_html}</div>'
-        '</div>'
+        '<div class="filter-bar">'
+        + _dropdown("dd-cats", "Categorie", "badge-cats", cat_opts_html, cats_all_btn)
+        + _dropdown("dd-period", "Periodo", "badge-period", window_opts_html)
+        + _dropdown("dd-time", "Orario", "badge-time", time_opts_html)
+        + '<button type="button" id="filter-all" class="dd-reset">Reset</button>'
+        + nascosti_pill_html
+        + '</div>'
     )
 
     body_parts: list[str] = []
@@ -1501,12 +1574,7 @@ def render(
 <h1>Eventi Firenze</h1>
 <div class="meta">{n} eventi da {source_count} fonti · aggiornato il {gen_str}</div>
 </header>
-<button id="filters-toggle" type="button" aria-controls="sidebar-filters" aria-expanded="true">
-<span>🎚 Filtri</span><span class="chev">▾</span><span class="filters-count" id="filters-active-count"></span>
-</button>
-<aside class="sidebar" id="sidebar-filters">
 {filters_html}
-</aside>
 <main class="main-content">
 {''.join(body_parts)}
 {errors_html}
