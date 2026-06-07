@@ -1057,6 +1057,116 @@ JS_TEMPLATE = """
         });
     }
 
+    // Esporta gli eventi preferiti come file .ics (iCalendar standard,
+    // importabile in Google Calendar, Apple Calendar, Outlook, ecc.).
+    function icsEscape(s) {
+        if (!s) return '';
+        return String(s)
+            .replace(/\\\\/g, '\\\\\\\\')
+            .replace(/;/g, '\\\\;')
+            .replace(/,/g, '\\\\,')
+            .replace(/\\n/g, '\\\\n');
+    }
+    function icsDate(iso) {
+        return iso.replace(/-/g, '');  // YYYY-MM-DD -> YYYYMMDD
+    }
+    function icsDateTime(iso, hhmm) {
+        const [hh, mm] = hhmm.split(':');
+        return icsDate(iso) + 'T' + hh + mm + '00';
+    }
+    function addHours(iso, hhmm, hours) {
+        const [y, m, d] = iso.split('-').map(Number);
+        const [h, mi] = hhmm.split(':').map(Number);
+        const dt = new Date(y, m - 1, d, h, mi);
+        dt.setHours(dt.getHours() + hours);
+        const pad = n => String(n).padStart(2, '0');
+        return {
+            iso: dt.getFullYear() + '-' + pad(dt.getMonth() + 1) + '-' + pad(dt.getDate()),
+            time: pad(dt.getHours()) + ':' + pad(dt.getMinutes()),
+        };
+    }
+    function buildIcs() {
+        const lines = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//eventi-firenze//IT',
+            'CALSCALE:GREGORIAN',
+            'METHOD:PUBLISH',
+        ];
+        let n = 0;
+        starred.forEach(id => {
+            const orig = document.querySelector(
+                '.event[data-event-id="' + id + '"], .ongoing-event[data-event-id="' + id + '"]'
+            );
+            if (!orig) return;
+            const title = orig.dataset.title || '';
+            const venue = orig.dataset.venue || '';
+            const url = orig.dataset.url || '';
+            const startDate = orig.dataset.isoDate || '';
+            const endDate = orig.dataset.isoEndDate || startDate;
+            const allday = orig.dataset.allday === '1';
+            if (!startDate || !title) return;
+
+            lines.push('BEGIN:VEVENT');
+            lines.push('UID:' + id + '@eventi-firenze');
+            const now = new Date();
+            const pad = n => String(n).padStart(2, '0');
+            const stamp = now.getUTCFullYear() + pad(now.getUTCMonth() + 1) + pad(now.getUTCDate())
+                + 'T' + pad(now.getUTCHours()) + pad(now.getUTCMinutes()) + pad(now.getUTCSeconds()) + 'Z';
+            lines.push('DTSTAMP:' + stamp);
+            if (allday) {
+                // Per all-day in ICS l'end e' esclusivo, quindi end+1
+                lines.push('DTSTART;VALUE=DATE:' + icsDate(startDate));
+                const [y, m, d] = endDate.split('-').map(Number);
+                const endPlus = new Date(y, m - 1, d + 1);
+                const endIso = endPlus.getFullYear() + '-'
+                    + pad(endPlus.getMonth() + 1) + '-' + pad(endPlus.getDate());
+                lines.push('DTEND;VALUE=DATE:' + icsDate(endIso));
+            } else {
+                const startTime = orig.dataset.timeMin || '00:00';
+                let endTime = orig.dataset.timeEnd || '';
+                let realEndDate = endDate;
+                if (!endTime || endTime === '') {
+                    // default +2h
+                    const e = addHours(startDate, startTime, 2);
+                    realEndDate = e.iso;
+                    endTime = e.time;
+                }
+                lines.push('DTSTART;TZID=Europe/Rome:' + icsDateTime(startDate, startTime));
+                lines.push('DTEND;TZID=Europe/Rome:' + icsDateTime(realEndDate, endTime));
+            }
+            lines.push('SUMMARY:' + icsEscape(title));
+            if (venue) lines.push('LOCATION:' + icsEscape(venue));
+            if (url) lines.push('URL:' + url);
+            // DESCRIPTION: link cliccabile dentro Google Cal
+            const descParts = [];
+            if (url) descParts.push(url);
+            if (descParts.length) lines.push('DESCRIPTION:' + icsEscape(descParts.join('\\n')));
+            lines.push('END:VEVENT');
+            n++;
+        });
+        lines.push('END:VCALENDAR');
+        return { ics: lines.join('\\r\\n'), count: n };
+    }
+    function downloadIcs() {
+        const { ics, count } = buildIcs();
+        if (count === 0) {
+            alert('Nessun evento preferito da esportare. Stella prima qualche evento col tasto ☆.');
+            return;
+        }
+        const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'eventi-firenze-preferiti.ics';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    const exportBtn = document.getElementById('export-ics');
+    if (exportBtn) exportBtn.addEventListener('click', downloadIcs);
+
     apply();
     renderStarred();
 })();
@@ -1213,6 +1323,9 @@ def render(
         '<div class="section-header">'
         '<h2>★ I tuoi preferiti</h2>'
         '<span class="starred-count" id="starred-count"></span>'
+        '<button class="section-toggle" id="export-ics" '
+        'title="Scarica un file .ics da importare in Google Calendar / Apple Calendar / Outlook">'
+        '📅 Esporta calendario</button>'
         '</div>'
         '<div class="starred-list" id="starred-list"></div>'
         '</div>'
@@ -1244,9 +1357,17 @@ def render(
                 if ev.url else _esc(ev.title)
             )
             ev_id = _event_id(ev)
+            iso_start = ev.start.date().isoformat()
+            iso_end = ev.end.date().isoformat() if ev.end else iso_start
             ongoing_html_parts.append(
                 f'<div class="ongoing-event" '
                 f'data-category="{_esc(ev.category or "Altro")}" '
+                f'data-iso-date="{iso_start}" '
+                f'data-iso-end-date="{iso_end}" '
+                f'data-title="{_esc(ev.title)}" '
+                f'data-venue="{_esc(ev.venue or "")}" '
+                f'data-url="{_esc(ev.url or "")}" '
+                f'data-allday="1" '
                 f'data-event-id="{ev_id}">'
                 f'<button class="hide-btn" data-event-id="{ev_id}" '
                 f'title="Nascondi questo evento">×</button>'
@@ -1302,11 +1423,21 @@ def render(
                     now, today,
                 )
                 past_class = " past-today" if past else ""
+                # data-* per export .ics: titolo, venue, url, end (se noto)
+                time_end = ev.end.strftime("%H:%M") if ev.end else ""
+                iso_end = ev.end.date().isoformat() if ev.end else ""
+                is_allday = "1" if (time_min == "00:00") else "0"
                 body_parts.append(
                     f'<div class="event{past_class}" '
                     f'data-category="{_esc(ev.category or "Altro")}" '
                     f'data-iso-date="{iso_date}" '
                     f'data-time-min="{time_min}" '
+                    f'data-iso-end-date="{iso_end}" '
+                    f'data-time-end="{time_end}" '
+                    f'data-allday="{is_allday}" '
+                    f'data-title="{_esc(ev.title)}" '
+                    f'data-venue="{_esc(ev.venue or "")}" '
+                    f'data-url="{_esc(ev.url or "")}" '
                     f'data-event-id="{ev_id}">'
                     f'<div class="time">{_esc(time_str)}</div>'
                     f'<div class="body">'
