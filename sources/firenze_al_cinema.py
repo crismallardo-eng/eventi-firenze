@@ -115,7 +115,28 @@ def _events_for_cinema_day(cinema_id: int, cinema_name: str, d: date) -> list[Ev
     return out
 
 
-def fetch() -> list[Event]:
+# Cinema presenti SOLO su firenzealcinema.info e non su MYmovies. Per tutti
+# gli altri MYmovies è la fonte primaria (vedi fetch()): teniamo questi da
+# firenzealcinema solo per non perdere copertura. "Original Sound" è IL cinema
+# in lingua originale, quindi è importante non perderlo.
+FIRENZEALCINEMA_ONLY = {"cabiria", "original sound"}
+
+
+def _norm_title(t: str) -> str:
+    return (t or "").lower().strip()
+
+
+def _norm_venue(v: str | None) -> str:
+    if not v:
+        return ""
+    s = v.lower().strip()
+    if s.startswith("cinema "):
+        s = s[len("cinema "):]
+    return s
+
+
+def _fetch_firenzealcinema() -> list[Event]:
+    """Scrape grezzo di firenzealcinema.info (tutti i cinema del circuito)."""
     today = datetime.now(tz=ROME).date()
     days = [today + timedelta(days=i) for i in range(DAYS_AHEAD)]
 
@@ -129,8 +150,7 @@ def fetch() -> list[Event]:
             except Exception:
                 continue
 
-    # Deduplicate (some films can show under multiple cinemas at the same time
-    # in the same showroom — keep one entry per (title, start, venue) combo).
+    # Dedup interno per (titolo, inizio, venue).
     seen = set()
     unique: list[Event] = []
     for e in events:
@@ -139,42 +159,49 @@ def fetch() -> list[Event]:
             continue
         seen.add(key)
         unique.append(e)
+    return unique
 
-    # Integro SEMPRE i VOS da MYmovies sopra a quelli di firenzealcinema.info.
-    # firenzealcinema.info include solo i film con (VOS) esplicitamente nel
-    # titolo; molti cinema (es. La Compagnia) non lo taggano, ma su MYmovies
-    # quegli stessi film hanno l'etichetta strutturata "Versione originale
-    # con sottotitoli". Dedupplico con normalizzazione case-insensitive sul
-    # titolo e venue (i due siti usano formati leggermente diversi).
-    def _norm_title(t: str) -> str:
-        return (t or "").lower().strip()
-    def _norm_venue(v: str | None) -> str:
-        if not v: return ""
-        s = v.lower().strip()
-        if s.startswith("cinema "):
-            s = s[len("cinema "):]
-        return s
-    seen_keys = {(_norm_title(e.title), e.start, _norm_venue(e.venue)) for e in unique}
+
+def fetch() -> list[Event]:
+    """VOS combinati: MYmovies primario, firenzealcinema solo per i suoi cinema esclusivi.
+
+    Storia del bug: firenzealcinema.info è spesso down o risponde con dati
+    parziali, e per i cinema in comune (es. Grotta) usava un nome diverso
+    ("Cinema Grotta" vs "Cinema Grotta, Sesto Fiorentino") e a volte orari
+    diversi da MYmovies. Mergiando le due fonti nascevano doppioni con orari
+    fantasma. Soluzione: una sola fonte per ciascun cinema.
+      • MYmovies → fonte primaria (strutturata, orari affidabili, copre quasi
+        tutti i cinema).
+      • firenzealcinema → solo per i cinema che MYmovies non ha
+        (FIRENZEALCINEMA_ONLY: Original Sound, Cabiria).
+      • Se MYmovies è giù → fallback completo su firenzealcinema.
+    """
     try:
         from sources.mymovies_cinema import fetch_vos
         mymovies_vos = fetch_vos()
     except Exception:
         mymovies_vos = []
-    for ev in mymovies_vos:
+
+    firenze = _fetch_firenzealcinema()
+
+    if mymovies_vos:
+        # Da firenzealcinema teniamo SOLO i cinema che MYmovies non copre,
+        # così evitiamo doppioni e conflitti di orario sui cinema in comune.
+        extra = [e for e in firenze if _norm_venue(e.venue) in FIRENZEALCINEMA_ONLY]
+        combined = mymovies_vos + extra
+    else:
+        # MYmovies non ha restituito nulla: ripiego su tutto firenzealcinema.
+        combined = firenze
+
+    # Dedup finale per (titolo, inizio, venue normalizzato).
+    seen_keys: set[tuple] = set()
+    unique: list[Event] = []
+    for ev in combined:
         key = (_norm_title(ev.title), ev.start, _norm_venue(ev.venue))
         if key in seen_keys:
             continue
         seen_keys.add(key)
         unique.append(ev)
-
-    # Fallback storico: se davvero nessuna delle due fonti ha restituito
-    # nulla (entrambi i siti down), esci con lista vuota.
-    if not unique:
-        try:
-            from sources.mymovies_cinema import fetch_vos
-            return _mark_vos(fetch_vos())
-        except Exception:
-            return []
 
     return _mark_vos(unique)
 
