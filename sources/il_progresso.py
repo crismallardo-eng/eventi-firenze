@@ -118,14 +118,35 @@ def fetch() -> list[Event]:
         if link:
             links_titles.append((link, _strip_html(title)))
 
+    if not links_titles:
+        # REST API risponde 200 ma con lista vuota: lo segnalo per non
+        # far sparire la fonte silenziosamente.
+        raise RuntimeError(
+            "REST API /ajde_events ha risposto OK ma con 0 eventi pubblicati. "
+            "Verificare circoloilprogresso.it/eventi nel browser."
+        )
+
     events: list[Event] = []
+    failed_details = 0
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:
         futures = [ex.submit(_event_from_link, link, title) for link, title in links_titles]
         for fut in as_completed(futures):
             try:
                 ev = fut.result()
-                if ev is not None:
-                    events.append(ev)
             except Exception:
+                failed_details += 1
                 continue
+            if ev is not None:
+                events.append(ev)
+            else:
+                failed_details += 1
+
+    # Se ho la lista di eventi dalla REST API ma TUTTE le pagine di dettaglio
+    # hanno fallito il parsing, e' un problema strutturale (es. JSON-LD
+    # rimosso dal tema): lo segnalo invece di tornare [] in silenzio.
+    if events == [] and failed_details == len(links_titles):
+        raise RuntimeError(
+            f"REST API ha ritornato {len(links_titles)} eventi ma nessuna "
+            "pagina di dettaglio espone JSON-LD parsabile."
+        )
     return events

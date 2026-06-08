@@ -144,15 +144,22 @@ def fetch() -> list[Event]:
     today = datetime.now(tz=ROME)
     # Raccoglie link dalle prime PAGES_TO_FETCH pagine del REST API.
     links_titles: list[tuple[str, str]] = []
+    first_page_error: Exception | None = None
     for page in range(1, PAGES_TO_FETCH + 1):
         url = f"{LIST_API}?per_page={PER_PAGE}&orderby=date&order=desc&page={page}"
         try:
             resp = http_get(url, headers={"Accept": "application/json"}, timeout=REQUEST_TIMEOUT)
-        except Exception:
+        except Exception as exc:
+            # Sul primo errore di prima pagina propaga: vogliamo vedere il
+            # 403/5xx in "Fonti fallite" invece di restituire 0 silenziosi.
+            if page == 1:
+                raise
             break
         try:
             items = resp.json()
-        except Exception:
+        except Exception as exc:
+            if page == 1:
+                raise RuntimeError(f"REST API non ha ritornato JSON valido: {exc}") from exc
             break
         if not items:
             break
@@ -163,7 +170,13 @@ def fetch() -> list[Event]:
                 links_titles.append((link, _strip_html(title)))
 
     if not links_titles:
-        return []
+        # La REST API ha risposto 200 ma con lista vuota: lo segnalo come
+        # eccezione cosi' compare in "Fonti fallite" e l'utente sa che
+        # qualcosa non torna (vs sparire silenziosamente).
+        raise RuntimeError(
+            "REST API /ajde_events ha risposto OK ma con 0 eventi pubblicati "
+            "(o ha cambiato struttura). Verificare arcifirenze.it/eventi nel browser."
+        )
 
     # Scarica le pagine di dettaglio in parallelo.
     events: list[Event] = []
