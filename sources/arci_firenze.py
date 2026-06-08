@@ -31,7 +31,17 @@ from sources.base import Event, ROME, http_get
 SOURCE_NAME = "Arci Firenze"
 CATEGORY = "Circoli"
 BASE_URL = "https://www.arcifirenze.it"
-LIST_API = f"{BASE_URL}/wp-json/wp/v2/ajde_events"
+# Il sito ha spostato il front-end da /eventi/ a /agenda/ — probabilmente
+# il post type WP e' cambiato di conseguenza. Provo i candidati piu'
+# plausibili in ordine, il primo che ritorna >= 1 elemento vince.
+LIST_API_CANDIDATES = [
+    f"{BASE_URL}/wp-json/wp/v2/agenda",          # nuovo, matcha /agenda/
+    f"{BASE_URL}/wp-json/wp/v2/ajde_events",     # vecchio EventON
+    f"{BASE_URL}/wp-json/wp/v2/event",
+    f"{BASE_URL}/wp-json/wp/v2/events",
+    f"{BASE_URL}/wp-json/wp/v2/evento",
+    f"{BASE_URL}/wp-json/wp/v2/eventi",
+]
 PAGES_TO_FETCH = 2
 PER_PAGE = 50
 PARALLEL_WORKERS = 8
@@ -140,42 +150,50 @@ def _event_from_link(link: str, fallback_title: str, today: datetime) -> Event |
     )
 
 
-def fetch() -> list[Event]:
-    today = datetime.now(tz=ROME)
-    # Raccoglie link dalle prime PAGES_TO_FETCH pagine del REST API.
-    links_titles: list[tuple[str, str]] = []
-    first_page_error: Exception | None = None
+def _fetch_links_from(list_api: str) -> list[tuple[str, str]]:
+    """Prova un singolo endpoint REST. Ritorna lista link/titolo, lista
+    vuota se l'endpoint risponde male o ha 0 elementi."""
+    out: list[tuple[str, str]] = []
     for page in range(1, PAGES_TO_FETCH + 1):
-        url = f"{LIST_API}?per_page={PER_PAGE}&orderby=date&order=desc&page={page}"
+        url = f"{list_api}?per_page={PER_PAGE}&orderby=date&order=desc&page={page}"
         try:
             resp = http_get(url, headers={"Accept": "application/json"}, timeout=REQUEST_TIMEOUT)
-        except Exception as exc:
-            # Sul primo errore di prima pagina propaga: vogliamo vedere il
-            # 403/5xx in "Fonti fallite" invece di restituire 0 silenziosi.
-            if page == 1:
-                raise
-            break
+        except Exception:
+            return out
         try:
             items = resp.json()
-        except Exception as exc:
-            if page == 1:
-                raise RuntimeError(f"REST API non ha ritornato JSON valido: {exc}") from exc
-            break
-        if not items:
-            break
+        except Exception:
+            return out
+        if not isinstance(items, list) or not items:
+            return out
         for item in items:
             link = item.get("link", "")
             title = (item.get("title") or {}).get("rendered", "") or ""
             if link:
-                links_titles.append((link, _strip_html(title)))
+                out.append((link, _strip_html(title)))
+    return out
+
+
+def fetch() -> list[Event]:
+    today = datetime.now(tz=ROME)
+    # Prova gli endpoint candidati nell'ordine: il primo che torna
+    # qualcosa vince.
+    links_titles: list[tuple[str, str]] = []
+    tried = []
+    for endpoint in LIST_API_CANDIDATES:
+        links_titles = _fetch_links_from(endpoint)
+        tried.append((endpoint, len(links_titles)))
+        if links_titles:
+            break
 
     if not links_titles:
-        # La REST API ha risposto 200 ma con lista vuota: lo segnalo come
-        # eccezione cosi' compare in "Fonti fallite" e l'utente sa che
-        # qualcosa non torna (vs sparire silenziosamente).
+        # Nessuno dei candidati ha ritornato eventi: segnalo errore con
+        # i tentativi cosi' si capisce dove stiamo
+        summary = ", ".join(f"{u.rsplit('/', 1)[-1]}={n}" for u, n in tried)
         raise RuntimeError(
-            "REST API /ajde_events ha risposto OK ma con 0 eventi pubblicati "
-            "(o ha cambiato struttura). Verificare arcifirenze.it/eventi nel browser."
+            f"Nessun endpoint REST ha ritornato eventi. Tentativi: {summary}. "
+            "Probabilmente il post type ha cambiato nome — verifica "
+            "https://www.arcifirenze.it/wp-json/wp/v2/types nel browser."
         )
 
     # Scarica le pagine di dettaglio in parallelo.

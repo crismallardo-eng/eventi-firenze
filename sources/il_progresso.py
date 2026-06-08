@@ -119,12 +119,11 @@ def fetch() -> list[Event]:
             links_titles.append((link, _strip_html(title)))
 
     if not links_titles:
-        # REST API risponde 200 ma con lista vuota: lo segnalo per non
-        # far sparire la fonte silenziosamente.
-        raise RuntimeError(
-            "REST API /ajde_events ha risposto OK ma con 0 eventi pubblicati. "
-            "Verificare circoloilprogresso.it/eventi nel browser."
-        )
+        # REST API risponde 200 ma con lista vuota: situazione legittima
+        # per un circolo piccolo che pubblica eventi a sprazzi. Torno []
+        # senza segnalare errore (non e' rotto, semplicemente non hanno
+        # eventi futuri in calendario).
+        return []
 
     events: list[Event] = []
     failed_details = 0
