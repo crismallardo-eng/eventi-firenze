@@ -1,220 +1,276 @@
 """Arci Firenze — eventi dai circoli ARCI fiorentini (Vie Nuove, Quinto Basso, ecc.).
 
 Arci Firenze federa decine di circoli che pubblicano i loro eventi sul portale
-centralizzato arcifirenze.it. Il sito gira su WordPress + EventON, identico a
-Circolo Il Progresso ma con catalogo più ampio.
+centralizzato arcifirenze.it (WordPress + EventON, protetto da Wordfence).
 
-Approccio:
-  1. /wp-json/wp/v2/ajde_events?per_page=50&orderby=date&order=desc
-     → 100 eventi più recentemente pubblicati (2 pagine)
-  2. Per ciascuno, fetch della pagina di dettaglio e parsing del JSON-LD Event
-     emesso da EventON (startDate, endDate, location, description)
-  3. Filtro: tengo solo gli eventi con startDate >= oggi
+STORIA — perché NON si usa il REST WordPress (/wp-json/wp/v2/ajde_events):
+  1. Ordina per data di PUBBLICAZIONE, non per data dell'evento: con 4000+
+     eventi in archivio e i circoli che pubblicano a ridosso della data, gli
+     eventi futuri sono sepolti in profondità → il filtro "futuri" su 100 post
+     recenti restituiva quasi nulla.
+  2. Richiedeva ~100 fetch di pagine di dettaglio in parallelo: Wordfence
+     (il firewall del sito) bloccava l'IP con un 503 "access limited",
+     azzerando la fonte per ore.
 
-Il `location.name` del JSON-LD identifica il singolo circolo: viene usato
-come venue dell'Event, così l'utente vede "Brillante - Nuovo Teatro Lippi",
-"Vie Nuove", "Quinto Basso", ecc.
+APPROCCIO ATTUALE — l'endpoint AJAX di EventON, lo stesso usato dalla pagina
+/agenda/ del sito:
+  1. GET /agenda/  → estrae lo shortcode del calendario (attributo data-sc)
+     e i nonce ("n" e "nonce" nel config evo_general_params).
+  2. POST /?evo-ajax=eventon_get_events con lo shortcode serializzato come
+     campi form annidati (shortcode[chiave]=valore, come fa jQuery)
+     → JSON con html della lista eventi del mese corrente.
+  3. Stessa POST con ajaxtype=switch/month_incre=1 → mese successivo.
+  Totale: 3 richieste HTTP invece di ~103. Wordfence contento.
+
+PARSING — si usa l'HTML della lista (campo "html" della risposta), NON i
+timestamp unix del campo "json": i circoli inseriscono le date con timezone
+incoerenti, quindi i timestamp sono inaffidabili (verificato: nessuna
+conversione combacia con gli orari mostrati per tutte le righe). L'orario
+visualizzato in .evo_start/.evo_end è l'unica fonte di verità.
+
+L'anno non è mostrato: si inferisce scegliendo l'occorrenza più vicina nel
+futuro (con tolleranza di qualche giorno nel passato per eventi in corso).
 """
 from __future__ import annotations
 
 import json
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
+import time as _time
+from datetime import date, datetime, time, timedelta
 from html import unescape
 
+import requests
 from bs4 import BeautifulSoup
-from dateutil import parser as dateparser
 
-from sources.base import Event, ROME, http_get
+from sources.base import Event, ROME, new_session
 
 SOURCE_NAME = "Arci Firenze"
 CATEGORY = "Circoli"
 BASE_URL = "https://www.arcifirenze.it"
-# Il sito ha spostato il front-end da /eventi/ a /agenda/ — probabilmente
-# il post type WP e' cambiato di conseguenza. Provo i candidati piu'
-# plausibili in ordine, il primo che ritorna >= 1 elemento vince.
-LIST_API_CANDIDATES = [
-    f"{BASE_URL}/wp-json/wp/v2/agenda",          # nuovo, matcha /agenda/
-    f"{BASE_URL}/wp-json/wp/v2/ajde_events",     # vecchio EventON
-    f"{BASE_URL}/wp-json/wp/v2/event",
-    f"{BASE_URL}/wp-json/wp/v2/events",
-    f"{BASE_URL}/wp-json/wp/v2/evento",
-    f"{BASE_URL}/wp-json/wp/v2/eventi",
-]
-PAGES_TO_FETCH = 2
-PER_PAGE = 50
-PARALLEL_WORKERS = 8
-REQUEST_TIMEOUT = 10
+AGENDA_URL = f"{BASE_URL}/agenda/"
+AJAX_URL = f"{BASE_URL}/?evo-ajax=eventon_get_events"
+REQUEST_TIMEOUT = 30
+POLITE_DELAY = 1.0  # pausa fra le (poche) richieste, per non irritare Wordfence
 
-_TAG_RE = re.compile(r"<[^>]+>")
+_SC_RE = re.compile(r'data-sc="(\{.*?\})"')
+_N_RE = re.compile(r'"n":"([0-9a-f]+)"')
+_NONCE_RE = re.compile(r'"nonce":"([0-9a-f]+)"')
+_TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\b")
+
+_MONTHS_IT = {
+    "gen": 1, "feb": 2, "mar": 3, "apr": 4, "mag": 5, "giu": 6,
+    "lug": 7, "ago": 8, "set": 9, "ott": 10, "nov": 11, "dic": 12,
+}
 
 
-def _strip_html(html_str: str) -> str:
-    return unescape(_TAG_RE.sub(" ", html_str)).strip()
+def _polite_get(session: requests.Session, url: str) -> requests.Response | None:
+    """GET senza retry-storm: su 503 (= Wordfence) molla subito.
 
-
-def _parse_iso_date(text: str) -> datetime | None:
-    """EventON emette date tipo '2026-5-10T21:30+2:00' (mese/timezone non zero-padded).
-
-    Il tzoffset del sito è inaffidabile (+01:00 anche d'estate quando dovrebbe
-    essere +02:00). Lo ignoriamo e ri-applichiamo Europe/Rome: le date sono
-    sempre ora locale italiana.
+    Ritentare durante un blocco Wordfence lo PROLUNGA soltanto. Un solo
+    retry, e solo per errori di rete (non per status code).
     """
-    if not text:
-        return None
-    try:
-        dt = dateparser.parse(text)
-    except (ValueError, TypeError):
-        return None
-    if dt is None:
-        return None
-    return dt.replace(tzinfo=None).replace(tzinfo=ROME)
-
-
-def _extract_event_jsonld(html_text: str) -> dict | None:
-    soup = BeautifulSoup(html_text, "html.parser")
-    for script in soup.find_all("script", type="application/ld+json"):
-        body = script.string or script.get_text() or ""
-        if "Event" not in body:
-            continue
+    for attempt in (0, 1):
         try:
-            data = json.loads(body)
-        except json.JSONDecodeError:
-            continue
-        candidates = data if isinstance(data, list) else [data]
-        for c in candidates:
-            if isinstance(c, dict) and c.get("@type") == "Event":
-                return c
+            resp = session.get(url, timeout=REQUEST_TIMEOUT)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 0:
+                _time.sleep(2)
+                continue
+            return None
+        return resp if resp.status_code == 200 else None
     return None
 
 
-def _extract_venue(jsonld: dict) -> str | None:
-    loc = jsonld.get("location")
-    if isinstance(loc, dict):
-        name = loc.get("name")
-        if isinstance(name, str) and name.strip():
-            return unescape(name.strip())
-    elif isinstance(loc, list) and loc:
-        first = loc[0]
-        if isinstance(first, dict):
-            name = first.get("name")
-            if isinstance(name, str) and name.strip():
-                return unescape(name.strip())
-    return None
+def _shortcode_payload(sc: dict) -> dict[str, str]:
+    """Serializza lo shortcode come campi form annidati, alla maniera di jQuery."""
+    out: dict[str, str] = {}
+    for k, v in sc.items():
+        if v is None:
+            out[f"shortcode[{k}]"] = ""
+        elif isinstance(v, (dict, list)):
+            out[f"shortcode[{k}]"] = json.dumps(v)
+        else:
+            out[f"shortcode[{k}]"] = str(v)
+    return out
 
 
-def _event_from_link(link: str, fallback_title: str, today: datetime) -> Event | None:
+def _fetch_month_html(
+    session: requests.Session, sc: dict, n: str, nonce: str, *, next_month: bool
+) -> str | None:
+    sc_eff = dict(sc)
+    payload = _shortcode_payload(sc_eff)
+    if next_month:
+        sc_eff["month_incre"] = 1
+        payload = _shortcode_payload(sc_eff)
+        payload.update({"direction": "next", "ajaxtype": "switch"})
+    else:
+        payload.update({"direction": "none", "ajaxtype": "init"})
+    payload.update({"nonce": n, "nonceX": nonce})
+    # Il server a volte tronca la connessione sulle risposte grosse (~400KB):
+    # un retry con pausa lunga di solito basta. "Connection: close" evita di
+    # riusare una keep-alive già degradata.
+    resp = None
+    for attempt in (0, 1, 2):
+        if attempt:
+            _time.sleep(5 * attempt)
+        try:
+            resp = session.post(
+                AJAX_URL, data=payload,
+                headers={"Connection": "close"},
+                timeout=REQUEST_TIMEOUT,
+            )
+            break
+        except (requests.ConnectionError, requests.Timeout):
+            resp = None
+    if resp is None or resp.status_code != 200:
+        return None
     try:
-        response = http_get(link, timeout=REQUEST_TIMEOUT)
-    except Exception:
+        data = resp.json()
+    except ValueError:
         return None
+    return data.get("html") or None
 
-    jsonld = _extract_event_jsonld(response.text)
-    if not jsonld:
-        return None
 
-    start = _parse_iso_date(jsonld.get("startDate", ""))
-    if start is None:
+def _parse_dm(block) -> tuple[int, int, time | None] | None:
+    """Da un blocco .evo_start/.evo_end estrae (giorno, mese, orario)."""
+    if block is None:
         return None
-    if start.tzinfo is None:
-        start = start.replace(tzinfo=ROME)
-    # Filtro lato scraper: scarta eventi passati (la list_api ritorna anche
-    # eventi recentemente pubblicati la cui data è già passata).
-    if start < today:
+    day_el = block.select_one("em.date")
+    month_el = block.select_one("em.month")
+    if day_el is None or month_el is None:
         return None
+    try:
+        day = int(day_el.get_text(strip=True))
+    except ValueError:
+        return None
+    month = _MONTHS_IT.get(month_el.get_text(strip=True).lower()[:3])
+    if month is None:
+        return None
+    t = None
+    time_el = block.select_one("em.time")
+    if time_el is not None:
+        # Rimuovi il marker di ripetizione "(Giu 3)" prima di cercare HH:MM
+        for i_tag in time_el.find_all("i"):
+            i_tag.decompose()
+        m = _TIME_RE.search(time_el.get_text(" ", strip=True))
+        if m:
+            try:
+                t = time(int(m.group(1)), int(m.group(2)))
+            except ValueError:
+                t = None
+    return day, month, t
 
-    end = _parse_iso_date(jsonld.get("endDate", ""))
-    if end and end.tzinfo is None:
-        end = end.replace(tzinfo=ROME)
-    # Alcuni eventi hanno endDate < startDate (bug del CMS): lo ignoro.
-    if end and end < start:
+
+def _infer_year(day: int, month: int, today: date, grace_days: int = 21) -> int:
+    """L'agenda non mostra l'anno: scegli l'occorrenza più vicina nel futuro.
+
+    grace_days di tolleranza nel passato: il mese corrente può contenere
+    eventi multi-giorno iniziati poche settimane fa e ancora in corso.
+    """
+    for year in (today.year - 1, today.year, today.year + 1):
+        try:
+            candidate = date(year, month, day)
+        except ValueError:
+            continue
+        if candidate >= today - timedelta(days=grace_days):
+            return year
+    return today.year + 1
+
+
+def _events_from_html(html_str: str, today: date) -> list[Event]:
+    soup = BeautifulSoup(html_str, "html.parser")
+    out: list[Event] = []
+    for row in soup.select(".eventon_list_event"):
+        title_el = row.select_one(".evcal_event_title")
+        if title_el is None:
+            continue
+        title = unescape(title_el.get_text(" ", strip=True))
+        if not title:
+            continue
+
+        link_el = row.find("a", href=True)
+        url = link_el["href"] if link_el else AGENDA_URL
+
+        start_parsed = _parse_dm(row.select_one(".evo_start"))
+        if start_parsed is None:
+            continue
+        s_day, s_month, s_time = start_parsed
+        s_year = _infer_year(s_day, s_month, today)
+        start = datetime.combine(
+            date(s_year, s_month, s_day), s_time or time(0, 0), tzinfo=ROME
+        )
+
         end = None
+        end_parsed = _parse_dm(row.select_one(".evo_end"))
+        if end_parsed is not None:
+            e_day, e_month, e_time = end_parsed
+            e_year = start.year + 1 if e_month < s_month else start.year
+            end = datetime.combine(
+                date(e_year, e_month, e_day), e_time or time(23, 59), tzinfo=ROME
+            )
+            if end < start:
+                end = None
 
-    title = unescape(jsonld.get("name") or fallback_title)
-    description = _strip_html(jsonld.get("description", ""))
-    if description and len(description) > 280:
-        description = description[:277] + "…"
+        subtitle_el = row.select_one(".evcal_event_subtitle")
+        description = (
+            unescape(subtitle_el.get_text(" ", strip=True)) if subtitle_el else None
+        )
 
-    venue = _extract_venue(jsonld)
+        venue = None
+        loc_el = row.select_one(".event_location_attrs")
+        if loc_el is not None:
+            venue = unescape(loc_el.get("data-location_name", "").strip()) or None
 
-    return Event(
-        source=SOURCE_NAME,
-        title=title,
-        start=start,
-        end=end,
-        url=link,
-        venue=venue,
-        description=description,
-        category=CATEGORY,
-    )
-
-
-def _fetch_links_from(list_api: str) -> list[tuple[str, str]]:
-    """Prova un singolo endpoint REST. Ritorna lista link/titolo, lista
-    vuota se l'endpoint risponde male o ha 0 elementi."""
-    out: list[tuple[str, str]] = []
-    for page in range(1, PAGES_TO_FETCH + 1):
-        url = f"{list_api}?per_page={PER_PAGE}&orderby=date&order=desc&page={page}"
-        try:
-            resp = http_get(url, headers={"Accept": "application/json"}, timeout=REQUEST_TIMEOUT)
-        except Exception:
-            return out
-        try:
-            items = resp.json()
-        except Exception:
-            return out
-        if not isinstance(items, list) or not items:
-            return out
-        for item in items:
-            link = item.get("link", "")
-            title = (item.get("title") or {}).get("rendered", "") or ""
-            if link:
-                out.append((link, _strip_html(title)))
+        out.append(Event(
+            source=SOURCE_NAME,
+            title=title,
+            start=start,
+            end=end,
+            url=url,
+            venue=venue,
+            description=description,
+            category=CATEGORY,
+        ))
     return out
 
 
 def fetch() -> list[Event]:
-    today = datetime.now(tz=ROME)
-    # Prova gli endpoint candidati nell'ordine: il primo che torna
-    # qualcosa vince.
-    links_titles: list[tuple[str, str]] = []
-    tried = []
-    for endpoint in LIST_API_CANDIDATES:
-        links_titles = _fetch_links_from(endpoint)
-        tried.append((endpoint, len(links_titles)))
-        if links_titles:
-            break
+    now = datetime.now(tz=ROME)
+    today = now.date()
+    session = new_session()
 
-    if not links_titles:
-        # Nessuno dei candidati ha ritornato eventi: segnalo errore con
-        # i tentativi cosi' si capisce dove stiamo
-        summary = ", ".join(f"{u.rsplit('/', 1)[-1]}={n}" for u, n in tried)
-        raise RuntimeError(
-            f"Nessun endpoint REST ha ritornato eventi. Tentativi: {summary}. "
-            "Probabilmente il post type ha cambiato nome — verifica "
-            "https://www.arcifirenze.it/wp-json/wp/v2/types nel browser."
-        )
+    # 1) Pagina agenda: shortcode del calendario + nonce.
+    resp = _polite_get(session, AGENDA_URL)
+    if resp is None:
+        return []
+    page = resp.text
+    sc_m = _SC_RE.search(page)
+    n_m = _N_RE.search(page)
+    nonce_m = _NONCE_RE.search(page)
+    if not (sc_m and n_m and nonce_m):
+        return []
+    try:
+        sc = json.loads(unescape(sc_m.group(1)))
+    except ValueError:
+        return []
+    n, nonce = n_m.group(1), nonce_m.group(1)
 
-    # Scarica le pagine di dettaglio in parallelo.
+    # 2) Mese corrente + 3) mese successivo.
     events: list[Event] = []
-    with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:
-        futures = [
-            ex.submit(_event_from_link, link, title, today)
-            for link, title in links_titles
-        ]
-        for fut in as_completed(futures):
-            try:
-                ev = fut.result()
-            except Exception:
-                continue
-            if ev is not None:
-                events.append(ev)
+    for next_month in (False, True):
+        _time.sleep(POLITE_DELAY)
+        html_str = _fetch_month_html(session, sc, n, nonce, next_month=next_month)
+        if html_str:
+            events.extend(_events_from_html(html_str, today))
 
-    # Dedup
+    # Tieni futuri + in corso (multi-giorno con fine nel futuro).
+    cutoff = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    kept = [e for e in events if (e.end or e.start) >= cutoff]
+
+    # Dedup (eventi a cavallo di due mesi compaiono in entrambe le risposte).
     seen: set[tuple] = set()
     unique: list[Event] = []
-    for e in events:
+    for e in kept:
         key = (e.title, e.start, e.venue)
         if key not in seen:
             seen.add(key)
