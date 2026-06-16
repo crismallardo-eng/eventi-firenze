@@ -6,3 +6,5 @@ Una riga = una cosa. Una data = un blocco.
 ## 2026-06-15
 
 - Clarinetto · esercizi
+- I Soprano · 1 puntata
+- Slam Dunk · 2 capitoli
