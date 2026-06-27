@@ -28,8 +28,10 @@ CATEGORY = "Cinema"
 DEFAULT_SHOW_TIME = time(21, 30)
 
 _WEEKDAYS = r"(?:luned[ìi]|marted[ìi]|mercoled[ìi]|gioved[ìi]|venerd[ìi]|sabato|domenica)"
+# Nota: il primo del mese è spesso scritto "1°" (es. "Mercoledì 1° luglio"):
+# l'indicatore ordinale "°"/"º" dopo il giorno è opzionale.
 _DATE_RE = re.compile(
-    rf"^{_WEEKDAYS}\s+(\d{{1,2}})\s+(giugno|luglio|agosto|settembre)\b",
+    rf"^{_WEEKDAYS}\s+(\d{{1,2}})[°º]?\s+(giugno|luglio|agosto|settembre)\b",
     re.IGNORECASE,
 )
 _MONTHS = {"giugno": 6, "luglio": 7, "agosto": 8, "settembre": 9}
@@ -37,7 +39,15 @@ _MONTHS = {"giugno": 6, "luglio": 7, "agosto": 8, "settembre": 9}
 # da una durata in minuti (NN'). Copre sia il formato Stensen "(Italia 2026,
 # 100')" sia quello della Compagnia "di Billy Wilder, Usa 1959, 120'". Escluse
 # le righe-rubrica e i recap che NON hanno la coppia anno+durata. Cattura i min.
-_FILM_RE = re.compile(r"(?:19|20)\d{2}[^()\n]*?(\d{1,3})\s*['’′]")
+# Riga "ancora" del film, due forme:
+#  1) un anno (AAAA) seguito da una durata in minuti: "(Italia 2026, 100')",
+#     "Usa 1959, 120'" o, per refuso del sito, "(Kor 2025, 139)" senza apostrofo;
+#  2) una riga "di <regista> …, NN'" SENZA anno (capita su Apriti, es.
+#     "di Caroline Vignal, Francia, 95'").
+_FILM_RE = re.compile(
+    r"(?:19|20)\d{2}[^()\n]*?(\d{1,3})\s*['’′)]"
+    r"|^di\s.*?(\d{1,3})\s*['’′]"
+)
 _YEAR_RE = re.compile(r"(?:settembre|agosto|luglio)\s+(20\d{2})")
 # Lingua originale: "Original sound" (Manifattura), "Versione originale"
 # (Poggetto), "v.o." (Apriti Cinema, tutti in versione originale sottotitolata).
@@ -101,14 +111,16 @@ def fetch_program(
             # sulla STESSA riga del film, che va comunque registrato sotto.
         fm = _FILM_RE.search(line)
         if fm and i > 0:
+            duration = int(fm.group(1) or fm.group(2))
             title = lines[i - 1].strip(" –-+").strip()
             # Se la riga sopra è quella del regista ("di Tizio" su riga a sé,
             # con anno+durata sulla riga ancora successiva), il vero titolo è
             # una riga più su.
-            if title.lower().startswith("di ") and i >= 2:
+            tl = title.lower()
+            if (tl == "di" or tl.startswith("di ")) and i >= 2:
                 title = lines[i - 2].strip(" –-+").strip()
             if title:
-                by_date[cur_key]["films"].append((title, int(fm.group(1))))
+                by_date[cur_key]["films"].append((title, duration))
 
     events: list[Event] = []
     for (month, day), info in by_date.items():
