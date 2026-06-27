@@ -32,6 +32,9 @@ SOURCE_MODULES = [
     "sources.firenze_al_cinema",
     "sources.mymovies_cinema",
     "sources.stensen_manifattura",
+    "sources.stensen_poggetto",
+    "sources.apriti_cinema",
+    "sources.chiardiluna",
     "sources.il_progresso",
     "sources.arci_firenze",
     "sources.museo_novecento",
@@ -50,6 +53,10 @@ SOURCE_MODULES = [
     "sources.secret_florence",
     "sources.firenze_rocks",
     "sources.lumen",
+    "sources.estate_fiesolana",
+    "sources.musart",
+    "sources.festival_au_desert",
+    "sources.firenze_jazz",
 ]
 
 # Only show events within this window from "now". Past events are dropped.

@@ -49,6 +49,14 @@ SEASONAL_SOURCES = {
     # Stensen Manifattura: arena cinema estiva; fuori stagione l'articolo del
     # programma dell'anno non esiste ancora.
     "Stensen Manifattura",
+    # Altre arene cinema estive e festival stagionali (vuoti fuori stagione).
+    "Esterno Notte Poggetto",
+    "Apriti Cinema",
+    "Arena Chiardiluna",
+    "Estate Fiesolana",
+    "Musart Festival",
+    "Festival au Désert",
+    "Firenze Jazz Festival",
 }
 
 
