@@ -53,6 +53,16 @@ _YEAR_RE = re.compile(r"(?:settembre|agosto|luglio)\s+(20\d{2})")
 # (Poggetto), "v.o." (Apriti Cinema, tutti in versione originale sottotitolata).
 _VOS_RE = re.compile(r"original sound|versione original|v\.o\.", re.IGNORECASE)
 
+CATEGORY_EXTRA = "Incontri"  # talk e presentazioni hanno orario proprio (pre-film)
+# Talk con orario esplicito: "Talk ore 19.30 con il regista X".
+_TALK_RE = re.compile(r"talk\s+ore\s+(\d{1,2})[.:](\d{2})\s*(.*)", re.IGNORECASE)
+# Orario di un evento collaterale pre-film: "Alle 18.30", "Ore 18:30".
+_ALLE_RE = re.compile(r"\b(?:alle|ore)\s+(\d{1,2})[.:](\d{2})", re.IGNORECASE)
+# Credito editoriale di un libro: parentetica che termina con solo l'anno
+# ("(Nottetempo 2026)"). NON combacia coi crediti film "(… 2025, 131')" perché
+# lì l'anno non è subito prima della parentesi di chiusura.
+_BOOK_CREDIT_RE = re.compile(r"\([^()]*(?:19|20)\d{2}\)")
+
 
 def _edition_year(full_text: str, today: datetime) -> int:
     m = _YEAR_RE.search(full_text)
@@ -65,6 +75,92 @@ def _content_lines(soup: BeautifulSoup) -> list[str]:
     body = soup.select_one("main") or soup.select_one("article") or soup
     raw = body.get_text("\n", strip=True)
     return [ln.strip() for ln in raw.split("\n") if ln.strip()]
+
+
+def _blocks(lines: list[str]) -> list[tuple[tuple[int, int], list[str]]]:
+    """Spezza le righe in blocchi-serata (una data → le sue righe), fermandosi
+    al recap finale che ripete i titoli fuori data."""
+    out: list[tuple[tuple[int, int], list[str]]] = []
+    key: tuple[int, int] | None = None
+    block: list[str] = []
+    for line in lines:
+        low = line.lower()
+        if "i nostri ospiti sono" in low or (
+            low.startswith("ospiti in") and line.rstrip().endswith(":")
+        ):
+            break
+        dm = _DATE_RE.match(line)
+        if dm:
+            if key is not None:
+                out.append((key, block))
+            key = (_MONTHS[dm.group(2).lower()], int(dm.group(1)))
+            block = []
+            continue
+        if key is not None:
+            block.append(line)
+    if key is not None:
+        out.append((key, block))
+    return out
+
+
+def _main_film(block: list[str]) -> tuple[str, int, bool] | None:
+    """Il film principale della serata (durata maggiore) + flag lingua originale."""
+    films: list[tuple[str, int]] = []
+    vos = False
+    for i, line in enumerate(block):
+        if _VOS_RE.search(line):
+            vos = True
+        fm = _FILM_RE.search(line)
+        if fm and i > 0:
+            duration = int(fm.group(1) or fm.group(2))
+            title = block[i - 1].strip(" –-+").strip()
+            tl = title.lower()
+            if (tl == "di" or tl.startswith("di ")) and i >= 2:
+                title = block[i - 2].strip(" –-+").strip()
+            if title:
+                films.append((title, duration))
+    if not films:
+        return None
+    title, duration = max(films, key=lambda f: f[1])
+    return title, duration, vos
+
+
+def _extra_events(block: list[str]) -> list[tuple[time, str]]:
+    """Eventi collaterali con orario PROPRIO: talk e presentazioni di libri.
+
+    Gli "Evento speciale" senza orario dedicato (es. "Che c'è night", "Sound of
+    cinema") sono solo qualificatori del film e non vengono emessi a parte.
+    """
+    extras: list[tuple[time, str]] = []
+
+    # Talk col regista ("Talk ore 19.30 con …")
+    for line in block:
+        m = _TALK_RE.search(line)
+        if m:
+            hh, mm = int(m.group(1)), int(m.group(2))
+            rest = m.group(3).strip(" –-:").strip()
+            extras.append((time(hh, mm), f"Talk {rest}".strip()))
+
+    # Presentazione libro con orario pre-film: il titolo è la riga sopra il
+    # credito editoriale "(Editore AAAA)". Richiediamo che nel blocco compaia
+    # "libro" per non scambiare trame o note con un credito editoriale.
+    has_libro = "libro" in " ".join(block).lower()
+    for j, line in enumerate(block):
+        if (
+            has_libro and j > 0
+            and _BOOK_CREDIT_RE.search(line) and not _FILM_RE.search(line)
+        ):
+            book = block[j - 1].strip(" \"“”–-+").strip()
+            tmatch = next(
+                ((int(a), int(b)) for ln in block
+                 for a, b in _ALLE_RE.findall(ln) if int(a) < 20),
+                (18, 30),
+            )
+            if len(book) > 4:
+                extras.append((time(*tmatch), f"Presentazione: {book}"))
+            break
+
+    return extras
 
 
 def fetch_program(
@@ -84,67 +180,38 @@ def fetch_program(
         return []
     year = _edition_year(" ".join(lines[:60]), today)
 
-    by_date: dict[tuple[int, int], dict] = {}
-    cur_key: tuple[int, int] | None = None
-
-    for i, line in enumerate(lines):
-        # Fine del programma: segue un recap "Ospiti …:" / "I nostri ospiti
-        # sono …" che ripete i titoli (con anno+durata) fuori data — senza
-        # questo stop verrebbero attribuiti all'ultima serata.
-        low = line.lower()
-        if "i nostri ospiti sono" in low or (
-            low.startswith("ospiti in") and line.rstrip().endswith(":")
-        ):
-            break
-
-        dm = _DATE_RE.match(line)
-        if dm:
-            month = _MONTHS[dm.group(2).lower()]
-            cur_key = (month, int(dm.group(1)))
-            by_date.setdefault(cur_key, {"vos": False, "films": []})
-            continue
-        if cur_key is None:
-            continue
-        if _VOS_RE.search(line):
-            by_date[cur_key]["vos"] = True
-            # niente continue: in alcune arene (Apriti) il marker "v.o." sta
-            # sulla STESSA riga del film, che va comunque registrato sotto.
-        fm = _FILM_RE.search(line)
-        if fm and i > 0:
-            duration = int(fm.group(1) or fm.group(2))
-            title = lines[i - 1].strip(" –-+").strip()
-            # Se la riga sopra è quella del regista ("di Tizio" su riga a sé,
-            # con anno+durata sulla riga ancora successiva), il vero titolo è
-            # una riga più su.
-            tl = title.lower()
-            if (tl == "di" or tl.startswith("di ")) and i >= 2:
-                title = lines[i - 2].strip(" –-+").strip()
-            if title:
-                by_date[cur_key]["films"].append((title, duration))
-
     events: list[Event] = []
-    for (month, day), info in by_date.items():
-        if not info["films"]:
-            continue
-        title, duration = max(info["films"], key=lambda f: f[1])
-        if info["vos"]:
-            title = f"{title} (VOS)"
+    for (month, day), block in _blocks(lines):
         try:
-            start = datetime.combine(
-                datetime(year, month, day).date(), show_time, tzinfo=ROME
-            )
+            day_date = datetime(year, month, day).date()
         except ValueError:
             continue
-        end = start + timedelta(minutes=duration) if duration else None
-        events.append(Event(
-            source=source_name,
-            title=title,
-            start=start,
-            end=end,
-            url=url,
-            venue=venue,
-            category=CATEGORY,
-        ))
+
+        film = _main_film(block)
+        if film is not None:
+            title, duration, vos = film
+            if vos:
+                title = f"{title} (VOS)"
+            start = datetime.combine(day_date, show_time, tzinfo=ROME)
+            events.append(Event(
+                source=source_name,
+                title=title,
+                start=start,
+                end=start + timedelta(minutes=duration) if duration else None,
+                url=url,
+                venue=venue,
+                category=CATEGORY,
+            ))
+
+        for show_t, extra_title in _extra_events(block):
+            events.append(Event(
+                source=source_name,
+                title=extra_title,
+                start=datetime.combine(day_date, show_t, tzinfo=ROME),
+                url=url,
+                venue=venue,
+                category=CATEGORY_EXTRA,
+            ))
 
     events.sort(key=lambda e: e.start)
     return events
