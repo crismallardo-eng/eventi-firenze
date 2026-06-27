@@ -49,6 +49,11 @@ SEASONAL_SOURCES = {
     # Stensen Manifattura: arena cinema estiva; fuori stagione l'articolo del
     # programma dell'anno non esiste ancora.
     "Stensen Manifattura",
+    # Musicus Concentus e Circolo Il Progresso: piccoli promoter/circoli che
+    # restano legittimamente senza eventi futuri pubblicati per settimane
+    # (es. d'estate). Lo scraper funziona, il feed è solo vuoto.
+    "Musicus Concentus",
+    "Circolo Il Progresso",
     # Altre arene cinema estive e festival stagionali (vuoti fuori stagione).
     "Esterno Notte Poggetto",
     "Apriti Cinema",
