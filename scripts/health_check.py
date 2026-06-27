@@ -46,6 +46,9 @@ SEASONAL_SOURCES = {
     # Secret Florence: rassegna estiva, fuori stagione la pagina programma
     # dell'anno può non esistere ancora.
     "Secret Florence",
+    # Stensen Manifattura: arena cinema estiva; fuori stagione l'articolo del
+    # programma dell'anno non esiste ancora.
+    "Stensen Manifattura",
 }
 
 
