@@ -62,6 +62,7 @@ SEASONAL_SOURCES = {
     "Musart Festival",
     "Festival au Désert",
     "Firenze Jazz Festival",
+    "Rassegne estive",
 }
 
 

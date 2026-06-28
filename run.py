@@ -57,6 +57,7 @@ SOURCE_MODULES = [
     "sources.musart",
     "sources.festival_au_desert",
     "sources.firenze_jazz",
+    "sources.rassegne_estive",
 ]
 
 # Only show events within this window from "now". Past events are dropped.
