@@ -193,6 +193,25 @@ def main() -> int:
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
+    # Dump strutturato degli eventi (consumato da scripts/detect_festivals.py,
+    # che cerca festival multi-giorno nuovi senza dover ri-scaricare nulla).
+    events_dump = [
+        {
+            "source": ev.source,
+            "title": ev.title,
+            "start": ev.start.isoformat(),
+            "end": ev.end.isoformat() if ev.end else None,
+            "venue": ev.venue,
+            "url": ev.url,
+            "description": ev.description,
+            "category": ev.category,
+        }
+        for ev in all_events
+    ]
+    (output_dir / "events.json").write_text(
+        json.dumps(events_dump, ensure_ascii=False), encoding="utf-8"
+    )
+
     print(f"\nGenerati {len(all_events)} eventi totali da {successful_sources} fonti.")
     if errors:
         print(f"Fonti fallite: {len(errors)}")

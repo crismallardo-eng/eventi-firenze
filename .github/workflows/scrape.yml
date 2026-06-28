@@ -39,6 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       anomalies: ${{ steps.health.outputs.anomalies }}
+      new_festivals: ${{ steps.festivals.outputs.new }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -99,16 +100,30 @@ jobs:
           # exit 0 in entrambi i casi: l'apertura issue è gestita più sotto.
           exit 0
 
-      - name: Commit storico health (se modificato)
+      - name: Rileva festival multi-giorno nuovi
+        id: festivals
+        if: steps.already_today.outputs.skip != 'true'
+        run: |
+          set +e
+          python scripts/detect_festivals.py
+          rc=$?
+          if [ $rc -eq 1 ]; then
+            echo "new=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "new=false" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
+
+      - name: Commit storico health + registro festival (se modificati)
         if: steps.already_today.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/health_history.jsonl || true
+          git add data/health_history.jsonl data/seen_festivals.json || true
           if git diff --staged --quiet; then
-            echo "Nessuna modifica al file storico."
+            echo "Nessuna modifica ai file di stato."
           else
-            git commit -m "chore: aggiorna health history [skip ci]"
+            git commit -m "chore: aggiorna stato (health + festival) [skip ci]"
             git push
           fi
 
@@ -165,6 +180,28 @@ jobs:
               --title "⚠️ Anomalie scraping · $DATE" \
               --body-file output/health_report.md \
               --label health-anomaly
+          fi
+
+      - name: Apri issue se festival nuovi
+        if: steps.already_today.outputs.skip != 'true' && steps.festivals.outputs.new == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create nuovi-festival \
+            --color '0e8a16' \
+            --description 'Festival multi-giorno nuovi da approfondire serata-per-serata' \
+            2>/dev/null || true
+
+          DATE=$(date -u +%Y-%m-%d)
+          existing=$(gh issue list --label nuovi-festival --state open --json number,title \
+                      --jq ".[] | select(.title | contains(\"$DATE\")) | .number" | head -n1)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file output/new_festivals_report.md
+          else
+            gh issue create \
+              --title "🎪 Nuovi festival da approfondire · $DATE" \
+              --body-file output/new_festivals_report.md \
+              --label nuovi-festival
           fi
 
   deploy:
