@@ -6,13 +6,13 @@ Time of day is only on the detail page, so we keep date-only here (renders as
 """
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, time
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from sources.base import Event, ROME, http_get
-from sources.italian_dates import ITALIAN_MONTHS
+from sources.italian_dates import ITALIAN_MONTHS, parse_italian_date_range
 
 SOURCE_NAME = "Comune di Firenze"
 CATEGORY = "Civici"
@@ -59,6 +59,18 @@ def _parse_card(card) -> Event | None:
 
     desc_el = card.select_one("div.field--name-field-descrizione-breve")
     description = desc_el.get_text(" ", strip=True) if desc_el else None
+
+    # Evento "spalmato" su più giorni ("dal X al Y"): imposta la fine così
+    # resta visibile per tutto l'arco e non solo il giorno d'inizio.
+    end: datetime | None = None
+    _, e_range = parse_italian_date_range(
+        f"{title}. {description or ''}", default_year=year
+    )
+    if e_range is not None:
+        end_dt = datetime.combine(e_range, time(23, 59), tzinfo=ROME)
+        if end_dt > start:
+            end = end_dt
+
     if description and len(description) > 280:
         description = description[:277] + "…"
 
@@ -66,6 +78,7 @@ def _parse_card(card) -> Event | None:
         source=SOURCE_NAME,
         title=title,
         start=start,
+        end=end,
         url=url,
         description=description,
         tags=tags,

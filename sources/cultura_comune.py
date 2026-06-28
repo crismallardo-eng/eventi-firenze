@@ -22,13 +22,13 @@ parse_italian_datetime; se non trovata si ricade sulla data ISO della <time>.
 """
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, time, timezone
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from sources.base import Event, ROME, http_get, new_session
-from sources.italian_dates import parse_italian_datetime
+from sources.italian_dates import parse_italian_datetime, parse_italian_date_range
 
 SOURCE_NAME = "Cultura Comune Firenze"
 CATEGORY = "Civici"
@@ -112,6 +112,21 @@ def fetch() -> list[Event]:
             if start is None:
                 continue
 
+            # Evento "spalmato" su più giorni ("dal X al Y"): imposta la fine
+            # così resta visibile per tutto l'arco (mostra in corso o festival
+            # espanso giorno-per-giorno dal renderer), non solo il primo giorno.
+            end: datetime | None = None
+            range_src = f"{title}. {description or ''}"
+            s_range, e_range = parse_italian_date_range(range_src, default_year=start.year)
+            if e_range is not None:
+                end_dt = datetime.combine(e_range, time(23, 59), tzinfo=ROME)
+                if s_range is not None:
+                    start = start.replace(
+                        year=s_range.year, month=s_range.month, day=s_range.day
+                    )
+                if end_dt > start:
+                    end = end_dt
+
             if description and len(description) > 280:
                 description = description[:277] + "…"
 
@@ -120,6 +135,7 @@ def fetch() -> list[Event]:
                 source=SOURCE_NAME,
                 title=title,
                 start=start,
+                end=end,
                 url=full_url,
                 description=description,
             ))

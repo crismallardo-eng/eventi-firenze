@@ -92,6 +92,72 @@ def parse_italian_date(
     return None
 
 
+# "dal 4 al 25 luglio", "dal 27 maggio al 5 giugno", "dal 2 luglio al 20 settembre"
+_RE_DATE_RANGE = re.compile(
+    rf"\bdal\s+(\d{{1,2}})(?:\s+({_MONTH_ALT}))?\s+al\s+(\d{{1,2}})\s+({_MONTH_ALT})"
+    rf"(?:\s+(\d{{4}}))?",
+    re.IGNORECASE,
+)
+# "fino al 25 luglio", "fino a 25 luglio" (solo data di fine)
+_RE_FINO_AL = re.compile(
+    rf"\bfino\s+a(?:l)?\s+(\d{{1,2}})\s+({_MONTH_ALT})(?:\s+(\d{{4}}))?",
+    re.IGNORECASE,
+)
+
+
+def parse_italian_date_range(
+    text: str,
+    *,
+    reference: Optional[date] = None,
+    default_year: Optional[int] = None,
+) -> tuple[Optional[date], Optional[date]]:
+    """Estrae un intervallo di date da prosa italiana.
+
+    Riconosce "dal X [mese] al Y mese" → (inizio, fine) e "fino al Y mese" →
+    (None, fine). Il mese d'inizio, se omesso ("dal 4 al 25 luglio"), eredita
+    quello di fine. Se la fine cade in un mese precedente all'inizio si assume
+    l'anno successivo (es. "dal 28 dicembre al 6 gennaio"). Torna (None, None)
+    se non trova nulla.
+    """
+    if not text:
+        return (None, None)
+    today = reference or datetime.now(tz=ROME).date()
+
+    m = _RE_DATE_RANGE.search(text)
+    if m:
+        s_day, e_day = int(m.group(1)), int(m.group(3))
+        e_month = ITALIAN_MONTHS.get(m.group(4).lower())
+        s_month = ITALIAN_MONTHS.get(m.group(2).lower()) if m.group(2) else e_month
+        if m.group(5):
+            year = int(m.group(5))
+        elif default_year is not None:
+            year = default_year
+        else:
+            year = _infer_year(today, s_day, s_month) if s_month else today.year
+        try:
+            start = date(year, s_month, s_day)
+            e_year = year + 1 if e_month < s_month else year
+            end = date(e_year, e_month, e_day)
+            if end >= start:
+                return (start, end)
+        except (TypeError, ValueError):
+            pass
+
+    m = _RE_FINO_AL.search(text)
+    if m:
+        e_day = int(m.group(1))
+        e_month = ITALIAN_MONTHS.get(m.group(2).lower())
+        year = int(m.group(3)) if m.group(3) else (
+            default_year or _infer_year(today, e_day, e_month)
+        )
+        try:
+            return (None, date(year, e_month, e_day))
+        except (TypeError, ValueError):
+            pass
+
+    return (None, None)
+
+
 def parse_italian_time(text: str) -> Optional[time]:
     """Extract the FIRST time mentioned in text (formats: 'ore 21', 'h 21.30')."""
     if not text:
