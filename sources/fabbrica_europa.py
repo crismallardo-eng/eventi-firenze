@@ -3,17 +3,18 @@
 Festival autunnale (settembre–ottobre) alla Stazione Leopolda e altre sedi
 fiorentine: danza, teatro, musica, performance.
 
-NB: il sito NON è ispezionabile dall'ambiente di build (bloccato dal proxy
-egress), quindi lo scraper usa un approccio EURISTICO generico anziché
-selettori CSS precisi — lo stesso schema che ha funzionato per Flore:
-  1. Scarica la pagina programma.
-  2. Per ogni link interno che sembra puntare a uno spettacolo, cerca nel
-     testo circostante (o nella pagina di dettaglio) una data italiana.
-  3. Costruisce un Event con titolo = testo del link, data estratta.
+Struttura del sito (verificata dai dati del primo run reale): ogni spettacolo
+ha una pagina dedicata sotto /events/<slug>/, es.
+    /events/motus-frankenstein-history-of-hate/
+    /events/rabih-abou-khalil/
+Le pagine di edizioni passate stanno invece sotto /fabbrica-europa-<anno>/ o
+/festival-fabbrica-europa-<anno>/ e NON vanno raccolte.
+
+Il sito non è ispezionabile dall'ambiente di build (bloccato dal proxy egress),
+quindi la data non si legge da un selettore CSS noto ma cercando una data
+italiana nel contesto del link o nella pagina di dettaglio.
 
 L'anno è nell'URL: quando esce l'edizione 2027 cambiare FESTIVAL_YEAR/LIST_URL.
-Se al primo run reale i selettori non intercettano nulla, va rifinito con uno
-screenshot della struttura vera del sito.
 """
 from __future__ import annotations
 
@@ -32,13 +33,10 @@ BASE_URL = "https://fabbricaeuropa.net"
 FESTIVAL_YEAR = 2026
 LIST_URL = f"{BASE_URL}/fabbrica-europa-{FESTIVAL_YEAR}/"
 
-# Un link di dettaglio spettacolo su WordPress ha di solito uno slug testuale
-# sotto la home; escludiamo asset, social, categorie e pagine di servizio.
-_SKIP_HREF = (
-    "eventbrite", "facebook", "twitter", "linkedin", "instagram", "youtube",
-    "whatsapp", "mailto:", "tel:", "wp-content", "wp-login", "/feed",
-    "/category/", "/tag/", "/author/", ".jpg", ".png", ".pdf", "#",
-)
+# Solo le pagine spettacolo: /events/<slug>/ con slug non vuoto. Questo
+# esclude da solo l'indice /events/, le pagine delle edizioni passate
+# (/fabbrica-europa-2021/, /festival-fabbrica-europa-2025/), social, asset.
+_EVENT_PATH_RE = re.compile(r"^/events/[^/]+/?$")
 _DATE_RE = re.compile(
     r"\b\d{1,2}\s+(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|"
     r"agosto|settembre|ottobre|novembre|dicembre)\b",
@@ -47,17 +45,12 @@ _DATE_RE = re.compile(
 
 
 def _is_detail_link(href: str) -> bool:
-    low = href.lower()
-    if any(s in low for s in _SKIP_HREF):
-        return False
+    """True solo per le pagine dei singoli spettacoli: /events/<slug>/."""
     full = urljoin(BASE_URL, href)
-    if BASE_URL not in full:
+    if not full.startswith(BASE_URL):
         return False
-    if full.rstrip("/") == LIST_URL.rstrip("/"):
-        return False
-    # Deve avere uno slug non banale dopo il dominio.
-    path = full.split(BASE_URL, 1)[-1].strip("/")
-    return len(path) > 3
+    path = full[len(BASE_URL):].split("?")[0].split("#")[0]
+    return bool(_EVENT_PATH_RE.match(path))
 
 
 def _date_near(node) -> datetime | None:
