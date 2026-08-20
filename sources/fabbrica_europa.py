@@ -1,6 +1,6 @@
 """Fabbrica Europa — festival internazionale delle arti performative a Firenze.
 
-Festival primaverile (tipicamente maggio) alla Stazione Leopolda e altre sedi
+Festival autunnale (settembre–ottobre) alla Stazione Leopolda e altre sedi
 fiorentine: danza, teatro, musica, performance.
 
 NB: il sito NON è ispezionabile dall'ambiente di build (bloccato dal proxy
