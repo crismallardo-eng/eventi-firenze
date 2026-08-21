@@ -1,0 +1,34 @@
+name: Dump pagina (diagnostica)
+
+# Workflow di servizio, si lancia solo a mano. Scarica le pagine indicate e
+# committa un estratto in data/_dump.txt, per ispezionare siti non
+# raggiungibili dall'ambiente di sviluppo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'URL da scaricare (separati da spazio)'
+        required: true
+        default: 'https://fabbricaeuropa.net/events/motus-frankenstein-history-of-hate/ https://fabbricaeuropa.net/events/rabih-abou-khalil/'
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python scripts/dump_page.py ${{ github.event.inputs.urls }}
+      - name: Commit dump
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/_dump.txt
+          git commit -m "chore: dump diagnostico [skip ci]" || exit 0
+          git push
