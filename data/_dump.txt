@@ -1,6 +1,6 @@
 
 ======================================================================
-URL: https://firenzealcinema.info/2013/?pag=orari
+URL: https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06-09-2026&id=23
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
 Firenze al Cinema
@@ -26,6 +26,29 @@ PORTICO
 PRINCIPE
 SCUOLE
 ORIGINAL SOUND
+FIORELLA
+mer 02
+gio 03
+ven 04
+sab 05
+dom 06
+lun 07
+mar 08
+mer 09
+Tel.
+055 678.123
+E-mail:
+fiorella@circuitocinema.com
+Web:
+fiorella.ccroma.circuitocinema.com
+Marco Bellocchio - La porta della realtà - Film (2026)
+17,00
+Kettice'
+15,30 - 18,30 - 21,00
+Sheep In The Box
+16,15 - 18,45 - 21,15
+Odissea
+17,30 - 20,45
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
 
@@ -55,3 +78,105 @@ ORIGINAL SOUND
   https://firenzealcinema.info/2013/?pag=scuole  →  SCUOLE
   https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=19022017&id=25  →  ORIGINAL SOUND
   https://firenzealcinema.info/2013/?pag=convenzioni  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=02092026&id=23  →  mer 02
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=03092026&id=23  →  gio 03
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=04092026&id=23  →  ven 04
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=05092026&id=23  →  sab 05
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=07092026&id=23  →  lun 07
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=08092026&id=23  →  mar 08
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=09092026&id=23  →  mer 09
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7956  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7964  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7955  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7902  →  
+
+======================================================================
+URL: https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=09-09-2026&id=23
+======================================================================
+--- TESTO VISIBILE (primi 14000 char) ---
+Firenze al Cinema
+Login
+Il Circuito
+La Tessera
+I Film
+Promozioni
+NewsLetter
+Contatti
+ATTIVA TESSERA 2026
+ADRIANO
+ARENA GROTTA
+ASTRA
+CHIARDILUNA
+FIAMMA
+FIORELLA
+FLORA
+GROTTA
+LA COMPAGNIA
+MARCONI
+PORTICO
+PRINCIPE
+SCUOLE
+ORIGINAL SOUND
+FIORELLA
+mer 02
+gio 03
+ven 04
+sab 05
+dom 06
+lun 07
+mar 08
+mer 09
+Tel.
+055 678.123
+E-mail:
+fiorella@circuitocinema.com
+Web:
+fiorella.ccroma.circuitocinema.com
+Marco Bellocchio - La porta della realtà - Film (2026)
+17,00
+Kettice'
+15,30 - 18,30 - 21,00
+Sheep In The Box
+16,15 - 18,45 - 21,15
+Odissea
+17,30 - 20,45
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+
+--- LINK INTERNI (href → testo) ---
+  https://firenzealcinema.info/2013/?pag=scheda&day=08052013&tab=549  →  
+  https://firenzealcinema.info/admin.php  →  Login
+  https://firenzealcinema.info/2013/?pag=home  →  
+  https://firenzealcinema.info/2013/?pag=circuito&day=06092026  →  Il Circuito
+  https://firenzealcinema.info/2013/?pag=tessera&day=06092026  →  La Tessera
+  https://firenzealcinema.info/2013/?pag=film&day=06092026  →  I Film
+  https://firenzealcinema.info/2013/?pag=promozioni&day=06092026  →  Promozioni
+  https://firenzealcinema.info/2013/?pag=newsletter&day=06092026  →  NewsLetter
+  https://firenzealcinema.info/2013/?pag=contatti&day=06092026  →  Contatti
+  https://firenzealcinema.info/2013/?pag=attivazione  →  ATTIVA TESSERA 2026
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=1  →  ADRIANO
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=15  →  ARENA GROTTA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=29  →  ASTRA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=13  →  CHIARDILUNA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=4  →  FIAMMA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23  →  FIORELLA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=24  →  FLORA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=6  →  GROTTA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=26  →  LA COMPAGNIA
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=7  →  MARCONI
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=8  →  PORTICO
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=10  →  PRINCIPE
+  https://firenzealcinema.info/2013/?pag=scuole  →  SCUOLE
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=19022017&id=25  →  ORIGINAL SOUND
+  https://firenzealcinema.info/2013/?pag=convenzioni  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=02092026&id=23  →  mer 02
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=03092026&id=23  →  gio 03
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=04092026&id=23  →  ven 04
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=05092026&id=23  →  sab 05
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=07092026&id=23  →  lun 07
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=08092026&id=23  →  mar 08
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=09092026&id=23  →  mer 09
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7956  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7964  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7955  →  
+  https://firenzealcinema.info/2013/?pag=orari&tipo=cine&day=06092026&id=23&tab=7902  →  
