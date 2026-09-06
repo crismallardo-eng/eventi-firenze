@@ -1,446 +1,222 @@
 
 ======================================================================
-URL: https://temporeale.it/
+URL: https://todomodo.org/
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
-Home - Tempo Reale
-Iscriviti alla newsletter
-Acconsento al trattamento dei miei dati personali secondo l'
-Informativa sulla Privacy
-che dichiaro di aver letto e compreso.
-Home
-Il centro
-Fondatore
-Associazione
-Staff
-Sede
-Archivio storico
-Contatti
-Home
-Il centro
-Fondatore
-Associazione
-Staff
-Sede
-Archivio storico
-Contatti
-Home
-Il centro
-Fondatore
-Associazione
-Staff
-Sede
-Archivio storico
-Contatti
-Fondato da Luciano Berio nel 1987, Tempo Reale interpreta oggi con approccio poliedrico l’idea di ricerca nel campo multiforme della musica elettronica e delle arti sonore, in sinergia tra competenza scientifica, creatività e rigore esecutivo-didattico.
-Attività
-Filtra le categorie
-Tutte
-Attività scientifica
-Produzioni
-Formazione
-Rassegne
-Bandi e residenze
-Coproduzioni e collaborazioni
-TR Collection e altro
-Pistoia, 8-10-12 settembre
-Rassegne
-FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
-11, 13, 15 settembre 2026
-PISTOIA
-Specificamente concepito per il giardino di Palazzo Fabroni, il progetto FABRONI SOUND GARDEN propone la realizzazione...
-Firenze, 5-6-7 aprile
-Formazione
-VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
-VOCI POSSIBILI (V) 22 · 23 · 24 ottobre 2026
-Come in un arazzo, ogni voce è un filo che racconta...
-Torino, 23-30 settembre
-Produzioni
-GIUSEPPE CHIARI | LA LUCE
-> 17-18 ottobre 2026 @ Romaeuropa Festival  GIUSEPPE CHIARI | LA LUCE
-Installazione audiovisiva da una partitura del 1966
-Progetto luminoso e sonoro: Agnese...
-anversa e parigi, dicembre
-Coproduzioni e collaborazioni
-Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc...
-Nina vuole essere un omaggio alla vita di Eunice Kathleen Waymon, cantante, pianista, scrittrice e attivista per i diritti civili,...
-Formazione
-SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazione...
-Scuola di Suono è un'iniziativa culturale di Tempo Reale che promuove l'educazione al suono, la ricerca musicale e la diffusione...
-Attività scientifica
-/
-Bandi e residenze
-/
-Formazione
-/
-Rassegne
-MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
-La prossima edizione di MAGNETICA avrà luogo il  4-5-6 marzo 2027
-Bando in uscita fine estate - inizio autunno.  foto © The...
-Rassegne
-SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
-SUONI E MUSICA DI RICERCA A FIRENZE
-maggio-luglio 2026
-Domenica 17 maggio, Frittelli Arte Contemporanea, ore 20.30 e ore 21.30
-ELLIOTT SHARP |...
-Rassegne
-Tempo Reale per Secret Florence 2026
-Secret Florence, fest
+TODO MODO - Libreria Caffè Enoteca Firenze | Online Store
 
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20119'> anversa e parigi, dicembre Coproduzioni e collaborazioni Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc... Nina vuole essere un omag
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22897'> Coproduzioni e collaborazioni Donna con serpente PRIMA ASSOLUTA: 8 luglio 2026  Un progetto di Francesco Giomi e Claudia Catarzi per una danzatrice e musica ele
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22731'> Coproduzioni e collaborazioni L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ravenna Festival 15 giugno 2026, ore 21:30
-Rocca Brancaleone, 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21721'> Coproduzioni e collaborazioni BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO... La democrazia del corpo, Cango, 13-14 dicembre 2025  Un’iniziativa or
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-produzioni filter-opzionale eg-post-id-21814'> Coproduzioni e collaborazioni / Produzioni BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci Martedì 7 ottobre 2025, Ore 21
-In collaborazione con Camerata S
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21800'> Coproduzioni e collaborazioni BRULLA | Documentario sonoro per voce e live electronics Progetto e musica: Francesco Giomi
-Voce: Michela Atzeni
-Testo: Fiorenzo C
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21782'> Coproduzioni e collaborazioni TEMPO REALE A LISBONA (2025) FESTIVAL DE TEATRO-MÚSICA | 100 anos de Berio
-Lisbona, 25-28 settembre 2025
-Il Festival di Teatro Mus
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21771'> Coproduzioni e collaborazioni CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva martedì 30 settembre – giovedì 02 ottobre 2025
-A centouno a
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21692'> Coproduzioni e collaborazioni Tempo Reale al Teatro Colón di Buenos Aires (2025) Il Centro Sperimentale del Teatro Colón, in occasione del centenario della nasc
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21670'> Coproduzioni e collaborazioni ALTITUDINE Altitudine nasce da un'intuizione del 2019, durante una tournée in Perú. Corpo biologico e sonoro si incontrano in un'i
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-rassegne filter-opzionale eg-post-id-21566'> Coproduzioni e collaborazioni / Rassegne Tempo Reale per Berio 100 Abbiamo voluto marcare l’importante centenario del nostro fondatore con l’impegno in una plur
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21573'> Coproduzioni e collaborazioni Live @ FESTIVAL DELLA ROBOTICA 2025 (Pisa) Venerdì 9 maggio, 21:15
-Teatro Sant’Andrea, Pisa
-Tempo Reale parteciperà al FESTIVAL DE
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-21553'> anversa e parigi, dicembre Coproduzioni e collaborazioni MY NAME IS FLORIA L’azione di My name is Floria si svolge ai giorni nostri, liberamente ispirandosi al 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21142'> Coproduzioni e collaborazioni ACUSMATICA '900 @ TRASVERSALITÀ 2024 (La Spezia) Sabato 16 novembre, ore 21
-AUDITORIUM CONSERVATORIO G.PUCCINI
-Via XX Settembre 34
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-20632'> Coproduzioni e collaborazioni Passeggiata sonora nei luoghi di Luciano Berio (Radicondoli) Domenica 26 maggio 2024
-In occasione di Traversata: Festival Luciano 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20136'> firenze, 4 dicembre Coproduzioni e collaborazioni Omaggio a Luciano Berio | Amici della musica Firenze Torna a Firenze dopo dieci anni l’ultimo capolavoro con e
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20111'> milano, 11 novembre Coproduzioni e collaborazioni BIG | Bologna Improvisation Group: artikulationEN @ PARADE ÉLECTRONIQUE Un sestetto di giovani musicisti guida
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-11991'> Cagliari, 4 ottobre Coproduzioni e collaborazioni SILENT / Visioni dal limite della percezione Silent. Visioni dal limite della percezione di Gabriele Marangoni
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19448'> 20 maggio Coproduzioni e collaborazioni SPIN di Krzysztof Wołek Tempo Reale eseguirà "SPIN" di Krzysztof Wołek insieme alla Filarmonica NFM di Wrocław.
-SPIN, fo
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19325'> 1-2 marzo Coproduzioni e collaborazioni Le case del malcontento di Murmuris/Attodue Tempo Reale collabora con Murmuris/Attodue per lo spettacolo "Le case del ma
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18438'> 4 marzo Coproduzioni e collaborazioni Metamorphosis di Gabriele Marangoni Live set per strumento interattivo a sensori e live electronics
-Ideazione e composizio
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18784'> 9,16, 23 febbraio e 16 marzo Coproduzioni e collaborazioni ‘COSA È SUCCESSO?’, Open call di Saverio Lanza Tempo Reale promuove il progetto ‘COSA È SUCCESSO?’, b
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18574'> 28 ottobre e 4 novembre Coproduzioni e collaborazioni LFO (In Space) e Glitch Party ft. Chris Pitsiokos per... Dopo la pubblicazione in febbraio 2022 dell’album
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17777'> 12, 26 e 27 novembre Coproduzioni e collaborazioni Vittorio Montalti, Blow Up Percussion, Tempo Reale - The smell... Vittorio Montalti, Blow Up Percussion, Temp
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17576'> 14 e 15 dicembre Coproduzioni e collaborazioni Fanny & Alexander, Muziektheater Transparant, Claron McFadden, Emanuele Wiltsch Barberio... Fanny & Alexander, Mu
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17815'> 21 Ottobre, 29 Ottobre Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (opera audiovisiva) Dopo una prima fase digitale – realizzata per il proget
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18532'> scadenza iscrizioni 30 ottobre Coproduzioni e collaborazioni IKONA. PRODUZIONE, CURATELA DIGITALE E VALORIZZAZIONE DEL PATRIMONIO AUDIOVISIVO DELLO... Tempo Rea
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18378'> 9 ottobre Coproduzioni e collaborazioni MUSICA ISOLA | Fortissimissimo Firenze Festival Fortissimissimo Firenze Festival
-Firenze, Sala Pietro Grossi | Conservat
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17364'> 25 settembre Coproduzioni e collaborazioni GRAND BOIS, un progetto musicale di Bluemotion e Fanny &... Grand Bois è un crocevia, un luogo di intersezione. Grand
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18340'> 23 settembre Coproduzioni e collaborazioni Anteros - dell’amore ricambiato - (opera multimediale) 23 Settembre 2022 ore 20.30
-Teatro Kismet, Bari
-Festival Anima
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18408'> ottobre-dicembre Coproduzioni e collaborazioni Futura Digitalia | il futuro dell'antico a cura di MMT Creative Lab e Tempo Reale
-Mercoledì 19 ottobre, ore 21
-Fr
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18206'> 16 giugno Coproduzioni e collaborazioni Il teatro strumentale di Stockhausen al Teatro Lirico Festival Spirito Del Tempo | Teatri del suono di oggi
-16 giugno – 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18150'> 6 maggio - 4 settembre Coproduzioni e collaborazioni MAO Torino | Il Grande Vuoto Dal suono all’immagine. Un incontro inedito con la collezione buddhista del MA
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17984'> in uscita il 18 febbraio Coproduzioni e collaborazioni The Great Soundscape Session per Elli Records Elli Records e Tempo Reale annunciano un progetto discograf
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17782'> 3,4,5,6,8,9,11,12 novembre Coproduzioni e collaborazioni BALKAN BORDELLO, A trans-Atlantic theatrical project of La MaMa’s Great... La MaMa Theatre, New York in
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17566'> 19 settembre Coproduzioni e collaborazioni OSMOSIPHONIE | DUNE SAN ROCCO FESTIVAL
-DUNE, ARTI PAESAGGI UTOPIE
-A cura di Giorgio Zorcù
-CAMPUS CREATIVO DI ARTE NEL
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17485'> 9-12 settembre Coproduzioni e collaborazioni Flucsus @ ARS Electronica Lugano Garden 2021 ARS Electronica Lugano Garden
-Digitale Consapevole
-INSTALLAZIONI ARTE 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-tr-collection-e-altro filter-home filter-opzionale eg-post-id-17315'> 31 maggio Coproduzioni e collaborazioni / TR Collection e altro IN/OUT: il nuovo disco dell’Orkestra Ristretta L'album, realizzato grazie a una partecipata camp
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17165'> aprile - maggio Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (progetto digitale) Il nuovo progetto digitale di Gabriele Marangoni è un’immersio
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-16750'> 14 novembre Coproduzioni e collaborazioni HO UNA VOGLIA DI ANDARE A PARIGI - Notturno per... Sabato 14 novembre ore 21, PARC Performing Arts Centre
-HO UNA VOGLI
-
---- LINK INTERNI (href → testo) ---
-  https://temporeale.it/  →  
-  https://temporeale.it/privacy-policy  →  Informativa sulla Privacy
-  https://temporeale.it/il-centro/  →  Il centro
-  https://temporeale.it/fondatore/  →  Fondatore
-  https://temporeale.it/associazione/  →  Associazione
-  https://temporeale.it/staff/  →  Staff
-  https://temporeale.it/sede/  →  Sede
-  https://temporeale.it/archivio-storico/  →  Archivio storico
-  https://temporeale.it/contatti/  →  Contatti
-  https://temporeale.it/en/  →  
-  https://temporeale.it/categoria/rassegne/  →  Rassegne
-  https://temporeale.it/rassegne/fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
-  https://temporeale.it/categoria/formazione/  →  Formazione
-  https://temporeale.it/formazione/voci-possibili-laboratorio-sulla-vocalita-contemporanea-v/  →  VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
-  https://temporeale.it/categoria/produzioni/  →  Produzioni
-  https://temporeale.it/produzioni/giuseppe-chiari-la-luce/  →  GIUSEPPE CHIARI | LA LUCE
-  https://temporeale.it/categoria/coproduzioni-e-collaborazioni/  →  Coproduzioni e collaborazioni
-  https://temporeale.it/coproduzioni-e-collaborazioni/muziektheater-transparant-luigi-de-angelis-fanny-alexander-claron-mc-fadden-nina/  →  Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claro
-  https://temporeale.it/formazione/scuola-di-suono-2026-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazion
-  https://temporeale.it/categoria/attivita-scientifica/  →  Attività scientifica
-  https://temporeale.it/categoria/bandi-e-residenze/  →  Bandi e residenze
-  https://temporeale.it/bandi-e-residenze/magnetica-2027-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
-  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-maggio-luglio-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
-  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2026/  →  Tempo Reale per Secret Florence 2026
-  https://temporeale.it/coproduzioni-e-collaborazioni/donna-con-serpente/  →  Donna con serpente
-  https://temporeale.it/produzioni/tempo-reale-electroacoustic-ensemble-fluxus-tree/  →  TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
-  https://temporeale.it/formazione/pieces-for-peace-dagli-inni-nazionali-ai-suoni-della-pace-laboratorio-inclusivo-di-trasformazioni-sonore-e-culturali-per-detenute/  →  PIECES FOR PEACE. Dagli inni nazionali ai suoni della pace:...
-  https://temporeale.it/produzioni/bussotti-duo/  →  BUSSOTTI DUO - Omaggio a Sylvano Bussotti
-  https://temporeale.it/coproduzioni-e-collaborazioni/lultima-risata-1924-proiezione-con-sonorizzazione-elettronica-ravenna-festival/  →  L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ra
-  https://temporeale.it/formazione/listening-to-the-place-workshop-sul-suono-negli-spazi-pubblici/  →  LISTENING TO THE PLACE, Workshop sul suono negli spazi pubblici
-  https://temporeale.it/formazione/musica-diagonale-residenze-musicali-per-la-creazione-collettiva/  →  Musica Diagonale - Residenze musicali per la creazione collettiva
-  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-febbraio-aprile-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile...
-  https://temporeale.it/produzioni/foosball-azione-sonora-per-una-pluralita-di-giocatori-di-calcio-balilla-e-live-electronics/  →  FOOSBALL | Azione sonora partecipata per una pluralità di giocatori...
-  https://temporeale.it/bandi-e-residenze/bando-per-selezione-personale-amministrativo/  →  Bando per selezione personale amministrativo
-  https://temporeale.it/categoria/tr-collection-e-altro/  →  TR Collection e altro
-  https://temporeale.it/tr-collection-e-altro/magnetica-2025-trc16/  →  Magnetica 2025 (TRC16)
-  https://temporeale.it/bandi-e-residenze/magnetica-2026-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2026 | Incontri di musica elettronica (workshop - talk...
-  https://temporeale.it/produzioni/fubalino-installazione-sonora-interattiva-per-calcio-balilla/  →  FUBALINO! - Installazione sonora interattiva per calcio balilla
-  https://temporeale.it/tr-collection-e-altro/florentia-trc15/  →  Florentia (TRC15)
-  https://temporeale.it/rassegne/fabroni-sound-rooms-arte-sonora-in-dialogo-con-la-collezione-permanente/  →  FABRONI SOUND ROOMS | Arte sonora in dialogo con la...
-  https://temporeale.it/bandi-e-residenze/residenze-pigro-bando/  →  Residenze PiGro | Bando sempre aperto
-  https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom/  →  TRK. Sound Club  - VII edizione - CONCERTI IN...
-  https://temporeale.it/produzioni/xenakis-la-legende-deer/  →  XENAKIS | La Légende d'Eer, per altoparlanti e dispositivi luminosi
-  https://temporeale.it/coproduzioni-e-collaborazioni/berio-a-colori-simona-bertozzi-claudio-pasceri-tempo-reale/  →  BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO...
-  https://temporeale.it/rassegne/montreal-sound-bologna-firenze-4-6-novembre-2025/  →  MONTRÉAL SOUND Bologna - Firenze, 4-6 novembre 2025
-  https://temporeale.it/produzioni/oolehca-installazione-sonora-interattiva/  →  OOLEHCA | Installazione sonora interattiva
-  https://temporeale.it/rassegne/ondes-sonores-italiennes-3-montreal-sherbrooke/  →  Ondes Sonores Italiennes #3 | Montréal • Sherbrooke
-  https://temporeale.it/rassegne/dedans-dehors-suoni-e-musica-di-ricerca-a-bologna/  →  DEDANS–DEHORS. Suoni e musica di ricerca a Bologna
-  https://temporeale.it/formazione/scuola-di-suono-2025-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2025 | Ecosistema culturale multiforme per l’educazion
-  https://temporeale.it/coproduzioni-e-collaborazioni/berio-centro-per-larte-contemporanea-luigi-pecci/  →  BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci
-  https://temporeale.it/coproduzioni-e-collaborazioni/brulla-documentario-sonoro-per-voce-e-live-electronics/  →  BRULLA | Documentario sonoro per voce e live electronics
-  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-a-lisbona-2025/  →  TEMPO REALE A LISBONA (2025)
-  https://temporeale.it/coproduzioni-e-collaborazioni/carpitella-centouno-etnografia-musicologia-antropologia-audiovisiva/  →  CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva
-  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-al-teatro-colon-di-buenos-aires-2025/  →  Tempo Reale al Teatro Colón di Buenos Aires (2025)
-  https://temporeale.it/rassegne/fabroni-sound-garden-4-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #4. Paesaggi di suono per il giardino...
-  https://temporeale.it/coproduzioni-e-collaborazioni/altitudine/  →  ALTITUDINE
-  https://temporeale.it/produzioni/in-naturale-installazione-sonora-per-luciano-berio/  →  IN-NATURALE, Installazione sonora per Luciano Berio
-  https://temporeale.it/rassegne/maggio-elettrico-firenze-4-5-giugno-2025/  →  MAGGIO ELETTRICO | Firenze, 4-5 giugno 2025
-  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2025/  →  Tempo Reale per Secret Florence 2025
-  https://temporeale.it/bandi-e-residenze/invito-a-partecipare-a-improvvisazione-libera-di-giuseppe-chiari-per-fabroni-sound-garden-4/  →  Invito a partecipare a "Improvvisazione libera" di Giuseppe Chiari per
-
-======================================================================
-URL: https://temporeale.it/wp-json/wp/v2/posts?per_page=10
-======================================================================
---- TESTO VISIBILE (primi 2500 char) ---
-[{"id":22952,"date":"2026-09-06T17:22:35","date_gmt":"2026-09-06T15:22:35","guid":{"rendered":"https:\/\/temporeale.it\/?p=22952"},"modified":"2026-09-06T17:22:18","modified_gmt":"2026-09-06T15:22:18","slug":"fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni","status":"publish","type":"post","link":"https:\/\/temporeale.it\/rassegne\/fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni\/","title":{"rendered":"FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino d\u2019autore di Palazzo Fabroni"},"content":{"rendered":"
+        – Todo Modo
+Skip to content
+It
+/
+En
+Login
+Ricerca
+Invia
+Invia
+Chiudi
+0 elementi
+It
+/
+En
+Login
+Ricerca
+Invia
+Invia
+Chiudi
+0 elementi
+ASCOLTO IL TUO CUORE, CITTÁ - PLATZ 2026 - IL FESTIVAL DI PERIODICO 11.11 L'EDICOLA DI TODO MODO
+∞ ∞
+Todo Modo è un’impresa culturale che ha sede in via de’ Fossi nel quartiere di Santa Maria Novella, a Firenze.
+Nasce l’11 novembre del 2014.
+Come un micete, si radica ed inizia a strutturarsi. Lentamente dà vita ad una rete sotterranea che genera corpi fruttiferi.
+Botteghe che
+spuntano come funghi.
+1
+TODO MODO
+—
+2
+DILÀ
+—
+3
+HIROKO
+—
+4
+PERIODICŌ
+L'edicola è il luogo piu contemporaneo che ci sia. Ciò che si vende oggi non si venderà domani
+&
+💥 CERAMICHE 💥  LISERGICHE💥
+Plate magic mushroom set of 4
+Plate magic mushroom set of 4
+Plate magic mushroom set of 4
+$56.86
+Salt & pepper mushroom
+Salt & pepper mushroom
+Salt & pepper mushroom
+$21.32
+Salt & pepper magic mushroom
+Salt & pepper magic mushroom
+Salt & pepper magic mushroom
+$21.32
+Salt & pepper haines apple pear
+Salt & pepper haines apple pear
+Salt & pepper haines apple pear
+Esaurito
+Wonderball robin
+Wonderball robin
+Wonderball robin
+$18.95
+Jar magic mushroom medium
+Jar magic mushroom medium
+Jar magic mushroom medium
+$30.80
+View all
+✹ N O T  J U S T  A  P U Z Z L E ✹
+LE PUZZ | Oops
+LE PUZZ | Oops
+LE PUZZ | Oops
+$53.31
+LE PUZZ |  Wakey, Wakey
+LE PUZZ |  Wakey, Wakey
+LE PUZZ |  Wakey, Wakey
+Esaurito
+LE PUZZ | The Dinner
+LE PUZZ | The Dinner
+LE PUZZ | The Dinner
+$53.31
+LE PUZZ | Help!
+LE PUZZ | Help!
+LE PUZZ | Help!
+$53.31
+LE PUZZ | Too-Da-Loo
+LE PUZZ | Too-Da-Loo
+LE PUZZ | Too-Da-Loo
+Esaurito
+LE PUZZ | Everything nice
+LE PUZZ | Everything nice
+LE PUZZ | Everything nice
+Esaurito
+LE PUZZ | Cheers!
+LE PUZZ | Cheers!
+LE PUZZ | Cheers!
+Esaurito
+LE PUZZ | Poker Dogs
+LE PUZZ | Poker Dogs
+LE PUZZ | Poker Dogs
+Esaurito
+LE PUZZ/ Lighten Up!
+LE PUZZ/ Lighten Up!
+LE PUZZ/ Lighten Up!
+Esaurito
+LE PUZZ I Howdy Pawtner
+LE PUZZ I Howdy Pawtner
+LE PUZZ I Howdy Pawtner
+$53.31
+LE PUZZ| Mystery!
+LE PUZZ| Mystery!
+LE PUZZ| Mystery!
+Esaurito
+LE PUZZ| Cherish
+LE PUZZ| Cherish
+LE PUZZ| Cherish
+Esaurito
+LE PUZZ|  Raisin' An Eyebrow
+LE PUZZ|  Raisin' An Eyebrow
+LE PUZZ|  Raisin' An Eyebrow
+Esaurito
+View all
+Diapositiva precedente
+Diapositiva successiva
+Bⓞⓞⓚ TⓡⓔⓝD AⓛⓔⓡT
+Tra animali e piante
+Tra animali e piante
+Tra animali e piante
+$27.25
+Il futuro era adesso. Genio e follia nell'estate che cambiò il cinema
+Il futuro era adesso. Genio e follia 
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
 
 --- LINK INTERNI (href → testo) ---
+  https://todomodo.org/#MainContent  →  Skip to content
+  https://todomodo.org/  →  
+  https://todomodo.org/customer_authentication/redirect?locale=it®ion_country=US  →  Login
+  https://todomodo.org/search  →  Ricerca
+  https://todomodo.org/cart  →  0 elementi
+  https://todomodo.org/collections/libri  →  
+  https://todomodo.org/collections/riviste  →  
+  https://todomodo.org/collections/cartoleria  →  
+  https://todomodo.org/collections/traveler-s-company  →  
+  https://todomodo.org/collections/libri-dartista  →  
+  https://todomodo.org/products/buono-regalo  →  
+  https://todomodo.org/collections/classics  →  
+  https://todomodo.org/collections/serendipity-black-edition  →  
+  https://todomodo.org/collections/serendipity-white-edition  →  
+  https://todomodo.org/blogs/piccolo-sabato  →  
+  https://todomodo.org/pages/chi-siamo  →  
+  https://todomodo.org/pages/contatti  →  
+  https://todomodo.org/policies/terms-of-service  →  
+  https://todomodo.org/policies/refund-policy  →  
+  https://todomodo.org/policies/shipping-policy  →  
+  https://todomodo.org/customer_authentication/redirect?locale=it&region_country=US  →  
+  https://todomodo.org/pages/about-us  →  1 TODO MODO
+  https://todomodo.org/pages/dila  →  2 DILÀ
+  https://todomodo.org/pages/hiroko-manifattura-tabacchi  →  3 HIROKO
+  https://todomodo.org/pages/periodico-11-11  →  4 PERIODICŌ
+  https://todomodo.org/pages/midori-travelers-notebook  →  
+  https://todomodo.org/products/plate-magic-mushroom-set-of-4  →  Plate magic mushroom set of 4
+  https://todomodo.org/products/salt-pepper-mushroom  →  Salt & pepper mushroom
+  https://todomodo.org/products/salt-pepper-magic-mushroom  →  Salt & pepper magic mushroom
+  https://todomodo.org/products/salt-pepper-haines-apple-pear  →  Salt & pepper haines apple pear
+  https://todomodo.org/products/wonderball-robin  →  Wonderball robin
+  https://todomodo.org/products/jar-magic-mushroom-medium  →  Jar magic mushroom medium
+  https://todomodo.org/collections/ceramiche-lisergiche  →  View all
+  https://todomodo.org/products/le-puzz-oops  →  LE PUZZ | Oops
+  https://todomodo.org/products/le-puzz-wakey-wakey  →  LE PUZZ |  Wakey, Wakey
+  https://todomodo.org/products/le-puzz-the-dinner  →  LE PUZZ | The Dinner
+  https://todomodo.org/products/le-puzz-help  →  LE PUZZ | Help!
+  https://todomodo.org/products/le-puzz-too-da-loo  →  LE PUZZ | Too-Da-Loo
+  https://todomodo.org/products/le-puzz-everything-nice  →  LE PUZZ | Everything nice
+  https://todomodo.org/products/le-puzz-cheers  →  LE PUZZ | Cheers!
+  https://todomodo.org/products/le-puzz-poker-dogs  →  LE PUZZ | Poker Dogs
+  https://todomodo.org/products/lighten-up-puzzle  →  LE PUZZ/ Lighten Up!
+  https://todomodo.org/products/howdy-pawtner  →  LE PUZZ I Howdy Pawtner
+  https://todomodo.org/products/le-puzz-mystery  →  LE PUZZ| Mystery!
+  https://todomodo.org/products/le-puzz-cherish  →  LE PUZZ| Cherish
+  https://todomodo.org/products/le-puzz-raisin-an-eyebrow  →  LE PUZZ|  Raisin' An Eyebrow
+  https://todomodo.org/collections/le-puzz  →  View all
+  https://todomodo.org/products/tra-animali-e-piante  →  Tra animali e piante
+  https://todomodo.org/products/il-futuro-era-adesso-genio-e-follia-nellestate-che-cambio-il-cinema  →  Il futuro era adesso. Genio e follia nell'estate che cambiò il cinema
+  https://todomodo.org/products/lamore-il-mare  →  L'amore il mare
+  https://todomodo.org/products/lisola-sospesa-storia-di-taiwan-dalle-origini-alla-guerra-dei-microchip  →  L'isola sospesa. Storia di Taiwan dalle origini alla guerra dei microc
+  https://todomodo.org/products/i-racconti  →  I racconti
+  https://todomodo.org/products/stormo-bianco-1912-1918  →  Stormo bianco (1912-1918)
+  https://todomodo.org/products/la-giacca-del-lettore-the-reader-jacket  →  LA GIACCA DEL LETTORE - THE READER JACKET
+  https://todomodo.org/<span%20class='notranslate'>{{%20link%20}}</span>  →  Spedizione
+  https://todomodo.org/+390552399110  →  
+  https://todomodo.org/products/racquet-29  →  Racquet #29
+  https://todomodo.org/products/elastic-magazine-2-the-interspecies-issue  →  Elastic Magazine #2 – The Interspecies Issue
+  https://todomodo.org/products/record-issue-11  →  Record Issue 11
+  https://todomodo.org/products/lost-in-amsterdam  →  LOST iN Amsterdam
 
 ======================================================================
-URL: https://temporeale.it/feed/
+URL: https://todomodo.org/sitemap.xml
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
-Home - Tempo Reale
-Iscriviti alla newsletter
-Acconsento al trattamento dei miei dati personali secondo l'
-Informativa sulla Privacy
-che dichiaro di aver letto e compreso.
-Home
-Il centro
-Fondatore
-Associazione
-Staff
-Sede
-Archivio storico
-Contatti
-Home
-Il centro
-Fondatore
-Associazione
-Staff
-Sede
-Archivio storico
-Contatti
-Home
-Il centro
-Fondatore
-Associazione
-Staff
-Sede
-Archivio storico
-Contatti
-Fondato da Luciano Berio nel 1987, Tempo Reale interpreta oggi con approccio poliedrico l’idea di ricerca nel campo multiforme della musica elettronica e delle arti sonore, in sinergia tra competenza scientifica, creatività e rigore esecutivo-didattico.
-Attività
-Filtra le categorie
-Tutte
-Attività scientifica
-Produzioni
-Formazione
-Rassegne
-Bandi e residenze
-Coproduzioni e collaborazioni
-TR Collection e altro
-Pistoia, 8-10-12 settembre
-Rassegne
-FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
-11, 13, 15 settembre 2026
-PISTOIA
-Specificamente concepito per il giardino di Palazzo Fabroni, il progetto FABRONI SOUND GARDEN propone la realizzazione...
-Firenze, 5-6-7 aprile
-Formazione
-VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
-VOCI POSSIBILI (V) 22 · 23 · 24 ottobre 2026
-Come in un arazzo, ogni voce è un filo che racconta...
-Torino, 23-30 settembre
-Produzioni
-GIUSEPPE CHIARI | LA LUCE
-> 17-18 ottobre 2026 @ Romaeuropa Festival  GIUSEPPE CHIARI | LA LUCE
-Installazione audiovisiva da una partitura del 1966
-Progetto luminoso e sonoro: Agnese...
-anversa e parigi, dicembre
-Coproduzioni e collaborazioni
-Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc...
-Nina vuole essere un omaggio alla vita di Eunice Kathleen Waymon, cantante, pianista, scrittrice e attivista per i diritti civili,...
-Formazione
-SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazione...
-Scuola di Suono è un'iniziativa culturale di Tempo Reale che promuove l'educazione al suono, la ricerca musicale e la diffusione...
-Attività scientifica
-/
-Bandi e residenze
-/
-Formazione
-/
-Rassegne
-MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
-La prossima edizione di MAGNETICA avrà luogo il  4-5-6 marzo 2027
-Bando in uscita fine estate - inizio autunno.  foto © The...
-Rassegne
-SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
-SUONI E MUSICA DI RICERCA A FIRENZE
-maggio-luglio 2026
-Domenica 17 maggio, Frittelli Arte Contemporanea, ore 20.30 e ore 21.30
-ELLIOTT SHARP |...
-Rassegne
-Tempo Reale per Secret Florence 2026
-Secret Florence, fest
+https://todomodo.org/sitemap_agentic_discovery.xml
+https://todomodo.org/sitemap_products_1.xml?from=4857934610565&to=7550911938784
+https://todomodo.org/sitemap_products_2.xml?from=7550912561376&to=9602130641238
+https://todomodo.org/sitemap_products_3.xml?from=9602136801622&to=11217665392982
+https://todomodo.org/sitemap_pages_1.xml?from=56020959365&to=171054006614
+https://todomodo.org/sitemap_collections_1.xml?from=182688809093&to=698113065302
+https://todomodo.org/sitemap_blogs_1.xml
+https://todomodo.org/en/sitemap_products_1.xml?from=4857934610565&to=7550911938784
+https://todomodo.org/en/sitemap_products_2.xml?from=7550912561376&to=9602130641238
+https://todomodo.org/en/sitemap_products_3.xml?from=9602136801622&to=11217665392982
+https://todomodo.org/en/sitemap_pages_1.xml?from=56020959365&to=171054006614
+https://todomodo.org/en/sitemap_collections_1.xml?from=182688809093&to=698113065302
+https://todomodo.org/en/sitemap_blogs_1.xml
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20119'> anversa e parigi, dicembre Coproduzioni e collaborazioni Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc... Nina vuole essere un omag
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22897'> Coproduzioni e collaborazioni Donna con serpente PRIMA ASSOLUTA: 8 luglio 2026  Un progetto di Francesco Giomi e Claudia Catarzi per una danzatrice e musica ele
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22731'> Coproduzioni e collaborazioni L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ravenna Festival 15 giugno 2026, ore 21:30
-Rocca Brancaleone, 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21721'> Coproduzioni e collaborazioni BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO... La democrazia del corpo, Cango, 13-14 dicembre 2025  Un’iniziativa or
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-produzioni filter-opzionale eg-post-id-21814'> Coproduzioni e collaborazioni / Produzioni BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci Martedì 7 ottobre 2025, Ore 21
-In collaborazione con Camerata S
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21800'> Coproduzioni e collaborazioni BRULLA | Documentario sonoro per voce e live electronics Progetto e musica: Francesco Giomi
-Voce: Michela Atzeni
-Testo: Fiorenzo C
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21782'> Coproduzioni e collaborazioni TEMPO REALE A LISBONA (2025) FESTIVAL DE TEATRO-MÚSICA | 100 anos de Berio
-Lisbona, 25-28 settembre 2025
-Il Festival di Teatro Mus
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21771'> Coproduzioni e collaborazioni CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva martedì 30 settembre – giovedì 02 ottobre 2025
-A centouno a
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21692'> Coproduzioni e collaborazioni Tempo Reale al Teatro Colón di Buenos Aires (2025) Il Centro Sperimentale del Teatro Colón, in occasione del centenario della nasc
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21670'> Coproduzioni e collaborazioni ALTITUDINE Altitudine nasce da un'intuizione del 2019, durante una tournée in Perú. Corpo biologico e sonoro si incontrano in un'i
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-rassegne filter-opzionale eg-post-id-21566'> Coproduzioni e collaborazioni / Rassegne Tempo Reale per Berio 100 Abbiamo voluto marcare l’importante centenario del nostro fondatore con l’impegno in una plur
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21573'> Coproduzioni e collaborazioni Live @ FESTIVAL DELLA ROBOTICA 2025 (Pisa) Venerdì 9 maggio, 21:15
-Teatro Sant’Andrea, Pisa
-Tempo Reale parteciperà al FESTIVAL DE
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-21553'> anversa e parigi, dicembre Coproduzioni e collaborazioni MY NAME IS FLORIA L’azione di My name is Floria si svolge ai giorni nostri, liberamente ispirandosi al 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21142'> Coproduzioni e collaborazioni ACUSMATICA '900 @ TRASVERSALITÀ 2024 (La Spezia) Sabato 16 novembre, ore 21
-AUDITORIUM CONSERVATORIO G.PUCCINI
-Via XX Settembre 34
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-20632'> Coproduzioni e collaborazioni Passeggiata sonora nei luoghi di Luciano Berio (Radicondoli) Domenica 26 maggio 2024
-In occasione di Traversata: Festival Luciano 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20136'> firenze, 4 dicembre Coproduzioni e collaborazioni Omaggio a Luciano Berio | Amici della musica Firenze Torna a Firenze dopo dieci anni l’ultimo capolavoro con e
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20111'> milano, 11 novembre Coproduzioni e collaborazioni BIG | Bologna Improvisation Group: artikulationEN @ PARADE ÉLECTRONIQUE Un sestetto di giovani musicisti guida
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-11991'> Cagliari, 4 ottobre Coproduzioni e collaborazioni SILENT / Visioni dal limite della percezione Silent. Visioni dal limite della percezione di Gabriele Marangoni
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19448'> 20 maggio Coproduzioni e collaborazioni SPIN di Krzysztof Wołek Tempo Reale eseguirà "SPIN" di Krzysztof Wołek insieme alla Filarmonica NFM di Wrocław.
-SPIN, fo
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19325'> 1-2 marzo Coproduzioni e collaborazioni Le case del malcontento di Murmuris/Attodue Tempo Reale collabora con Murmuris/Attodue per lo spettacolo "Le case del ma
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18438'> 4 marzo Coproduzioni e collaborazioni Metamorphosis di Gabriele Marangoni Live set per strumento interattivo a sensori e live electronics
-Ideazione e composizio
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18784'> 9,16, 23 febbraio e 16 marzo Coproduzioni e collaborazioni ‘COSA È SUCCESSO?’, Open call di Saverio Lanza Tempo Reale promuove il progetto ‘COSA È SUCCESSO?’, b
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18574'> 28 ottobre e 4 novembre Coproduzioni e collaborazioni LFO (In Space) e Glitch Party ft. Chris Pitsiokos per... Dopo la pubblicazione in febbraio 2022 dell’album
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17777'> 12, 26 e 27 novembre Coproduzioni e collaborazioni Vittorio Montalti, Blow Up Percussion, Tempo Reale - The smell... Vittorio Montalti, Blow Up Percussion, Temp
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17576'> 14 e 15 dicembre Coproduzioni e collaborazioni Fanny & Alexander, Muziektheater Transparant, Claron McFadden, Emanuele Wiltsch Barberio... Fanny & Alexander, Mu
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17815'> 21 Ottobre, 29 Ottobre Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (opera audiovisiva) Dopo una prima fase digitale – realizzata per il proget
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18532'> scadenza iscrizioni 30 ottobre Coproduzioni e collaborazioni IKONA. PRODUZIONE, CURATELA DIGITALE E VALORIZZAZIONE DEL PATRIMONIO AUDIOVISIVO DELLO... Tempo Rea
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18378'> 9 ottobre Coproduzioni e collaborazioni MUSICA ISOLA | Fortissimissimo Firenze Festival Fortissimissimo Firenze Festival
-Firenze, Sala Pietro Grossi | Conservat
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17364'> 25 settembre Coproduzioni e collaborazioni GRAND BOIS, un progetto musicale di Bluemotion e Fanny &... Grand Bois è un crocevia, un luogo di intersezione. Grand
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18340'> 23 settembre Coproduzioni e collaborazioni Anteros - dell’amore ricambiato - (opera multimediale) 23 Settembre 2022 ore 20.30
-Teatro Kismet, Bari
-Festival Anima
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18408'> ottobre-dicembre Coproduzioni e collaborazioni Futura Digitalia | il futuro dell'antico a cura di MMT Creative Lab e Tempo Reale
-Mercoledì 19 ottobre, ore 21
-Fr
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18206'> 16 giugno Coproduzioni e collaborazioni Il teatro strumentale di Stockhausen al Teatro Lirico Festival Spirito Del Tempo | Teatri del suono di oggi
-16 giugno – 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18150'> 6 maggio - 4 settembre Coproduzioni e collaborazioni MAO Torino | Il Grande Vuoto Dal suono all’immagine. Un incontro inedito con la collezione buddhista del MA
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17984'> in uscita il 18 febbraio Coproduzioni e collaborazioni The Great Soundscape Session per Elli Records Elli Records e Tempo Reale annunciano un progetto discograf
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17782'> 3,4,5,6,8,9,11,12 novembre Coproduzioni e collaborazioni BALKAN BORDELLO, A trans-Atlantic theatrical project of La MaMa’s Great... La MaMa Theatre, New York in
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17566'> 19 settembre Coproduzioni e collaborazioni OSMOSIPHONIE | DUNE SAN ROCCO FESTIVAL
-DUNE, ARTI PAESAGGI UTOPIE
-A cura di Giorgio Zorcù
-CAMPUS CREATIVO DI ARTE NEL
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17485'> 9-12 settembre Coproduzioni e collaborazioni Flucsus @ ARS Electronica Lugano Garden 2021 ARS Electronica Lugano Garden
-Digitale Consapevole
-INSTALLAZIONI ARTE 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-tr-collection-e-altro filter-home filter-opzionale eg-post-id-17315'> 31 maggio Coproduzioni e collaborazioni / TR Collection e altro IN/OUT: il nuovo disco dell’Orkestra Ristretta L'album, realizzato grazie a una partecipata camp
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17165'> aprile - maggio Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (progetto digitale) Il nuovo progetto digitale di Gabriele Marangoni è un’immersio
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-16750'> 14 novembre Coproduzioni e collaborazioni HO UNA VOGLIA DI ANDARE A PARIGI - Notturno per... Sabato 14 novembre ore 21, PARC Performing Arts Centre
-HO UNA VOGLI
 
 --- LINK INTERNI (href → testo) ---
-  https://temporeale.it/feed/  →  
-  https://temporeale.it/privacy-policy  →  Informativa sulla Privacy
-  https://temporeale.it/  →  
-  https://temporeale.it/il-centro/  →  Il centro
-  https://temporeale.it/fondatore/  →  Fondatore
-  https://temporeale.it/associazione/  →  Associazione
-  https://temporeale.it/staff/  →  Staff
-  https://temporeale.it/sede/  →  Sede
-  https://temporeale.it/archivio-storico/  →  Archivio storico
-  https://temporeale.it/contatti/  →  Contatti
-  https://temporeale.it/en/  →  
-  https://temporeale.it/categoria/rassegne/  →  Rassegne
-  https://temporeale.it/rassegne/fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
-  https://temporeale.it/categoria/formazione/  →  Formazione
-  https://temporeale.it/formazione/voci-possibili-laboratorio-sulla-vocalita-contemporanea-v/  →  VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
-  https://temporeale.it/categoria/produzioni/  →  Produzioni
-  https://temporeale.it/produzioni/giuseppe-chiari-la-luce/  →  GIUSEPPE CHIARI | LA LUCE
-  https://temporeale.it/categoria/coproduzioni-e-collaborazioni/  →  Coproduzioni e collaborazioni
-  https://temporeale.it/coproduzioni-e-collaborazioni/muziektheater-transparant-luigi-de-angelis-fanny-alexander-claron-mc-fadden-nina/  →  Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claro
-  https://temporeale.it/formazione/scuola-di-suono-2026-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazion
-  https://temporeale.it/categoria/attivita-scientifica/  →  Attività scientifica
-  https://temporeale.it/categoria/bandi-e-residenze/  →  Bandi e residenze
-  https://temporeale.it/bandi-e-residenze/magnetica-2027-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
-  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-maggio-luglio-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
-  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2026/  →  Tempo Reale per Secret Florence 2026
-  https://temporeale.it/coproduzioni-e-collaborazioni/donna-con-serpente/  →  Donna con serpente
-  https://temporeale.it/produzioni/tempo-reale-electroacoustic-ensemble-fluxus-tree/  →  TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
-  https://temporeale.it/formazione/pieces-for-peace-dagli-inni-nazionali-ai-suoni-della-pace-laboratorio-inclusivo-di-trasformazioni-sonore-e-culturali-per-detenute/  →  PIECES FOR PEACE. Dagli inni nazionali ai suoni della pace:...
-  https://temporeale.it/produzioni/bussotti-duo/  →  BUSSOTTI DUO - Omaggio a Sylvano Bussotti
-  https://temporeale.it/coproduzioni-e-collaborazioni/lultima-risata-1924-proiezione-con-sonorizzazione-elettronica-ravenna-festival/  →  L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ra
-  https://temporeale.it/formazione/listening-to-the-place-workshop-sul-suono-negli-spazi-pubblici/  →  LISTENING TO THE PLACE, Workshop sul suono negli spazi pubblici
-  https://temporeale.it/formazione/musica-diagonale-residenze-musicali-per-la-creazione-collettiva/  →  Musica Diagonale - Residenze musicali per la creazione collettiva
-  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-febbraio-aprile-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile...
-  https://temporeale.it/produzioni/foosball-azione-sonora-per-una-pluralita-di-giocatori-di-calcio-balilla-e-live-electronics/  →  FOOSBALL | Azione sonora partecipata per una pluralità di giocatori...
-  https://temporeale.it/bandi-e-residenze/bando-per-selezione-personale-amministrativo/  →  Bando per selezione personale amministrativo
-  https://temporeale.it/categoria/tr-collection-e-altro/  →  TR Collection e altro
-  https://temporeale.it/tr-collection-e-altro/magnetica-2025-trc16/  →  Magnetica 2025 (TRC16)
-  https://temporeale.it/bandi-e-residenze/magnetica-2026-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2026 | Incontri di musica elettronica (workshop - talk...
-  https://temporeale.it/produzioni/fubalino-installazione-sonora-interattiva-per-calcio-balilla/  →  FUBALINO! - Installazione sonora interattiva per calcio balilla
-  https://temporeale.it/tr-collection-e-altro/florentia-trc15/  →  Florentia (TRC15)
-  https://temporeale.it/rassegne/fabroni-sound-rooms-arte-sonora-in-dialogo-con-la-collezione-permanente/  →  FABRONI SOUND ROOMS | Arte sonora in dialogo con la...
-  https://temporeale.it/bandi-e-residenze/residenze-pigro-bando/  →  Residenze PiGro | Bando sempre aperto
-  https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom/  →  TRK. Sound Club  - VII edizione - CONCERTI IN...
-  https://temporeale.it/produzioni/xenakis-la-legende-deer/  →  XENAKIS | La Légende d'Eer, per altoparlanti e dispositivi luminosi
-  https://temporeale.it/coproduzioni-e-collaborazioni/berio-a-colori-simona-bertozzi-claudio-pasceri-tempo-reale/  →  BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO...
-  https://temporeale.it/rassegne/montreal-sound-bologna-firenze-4-6-novembre-2025/  →  MONTRÉAL SOUND Bologna - Firenze, 4-6 novembre 2025
-  https://temporeale.it/produzioni/oolehca-installazione-sonora-interattiva/  →  OOLEHCA | Installazione sonora interattiva
-  https://temporeale.it/rassegne/ondes-sonores-italiennes-3-montreal-sherbrooke/  →  Ondes Sonores Italiennes #3 | Montréal • Sherbrooke
-  https://temporeale.it/rassegne/dedans-dehors-suoni-e-musica-di-ricerca-a-bologna/  →  DEDANS–DEHORS. Suoni e musica di ricerca a Bologna
-  https://temporeale.it/formazione/scuola-di-suono-2025-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2025 | Ecosistema culturale multiforme per l’educazion
-  https://temporeale.it/coproduzioni-e-collaborazioni/berio-centro-per-larte-contemporanea-luigi-pecci/  →  BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci
-  https://temporeale.it/coproduzioni-e-collaborazioni/brulla-documentario-sonoro-per-voce-e-live-electronics/  →  BRULLA | Documentario sonoro per voce e live electronics
-  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-a-lisbona-2025/  →  TEMPO REALE A LISBONA (2025)
-  https://temporeale.it/coproduzioni-e-collaborazioni/carpitella-centouno-etnografia-musicologia-antropologia-audiovisiva/  →  CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva
-  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-al-teatro-colon-di-buenos-aires-2025/  →  Tempo Reale al Teatro Colón di Buenos Aires (2025)
-  https://temporeale.it/rassegne/fabroni-sound-garden-4-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #4. Paesaggi di suono per il giardino...
-  https://temporeale.it/coproduzioni-e-collaborazioni/altitudine/  →  ALTITUDINE
-  https://temporeale.it/produzioni/in-naturale-installazione-sonora-per-luciano-berio/  →  IN-NATURALE, Installazione sonora per Luciano Berio
-  https://temporeale.it/rassegne/maggio-elettrico-firenze-4-5-giugno-2025/  →  MAGGIO ELETTRICO | Firenze, 4-5 giugno 2025
-  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2025/  →  Tempo Reale per Secret Florence 2025
