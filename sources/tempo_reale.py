@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import re
 from datetime import date, datetime, time
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
@@ -24,6 +25,13 @@ SOURCE_NAME = "Tempo Reale"
 CATEGORY = "Concerti"
 BASE_URL = "https://temporeale.it"
 HOME_URL = f"{BASE_URL}/"
+# Indice delle rassegne: la home linka solo quella in evidenza, questa pagina
+# le elenca tutte (utile quando ce n'è più d'una attiva).
+RASSEGNE_INDEX_URL = f"{BASE_URL}/categoria/rassegne/"
+# Pagina di una rassegna: /rassegne/<slug>
+_RASSEGNA_URL_RE = re.compile(
+    rf"^{re.escape(BASE_URL)}/rassegne/[a-z0-9\-]+/?$"
+)
 
 REQUEST_TIMEOUT = 15
 
@@ -46,11 +54,19 @@ OUT_OF_FLORENCE = re.compile(
 
 
 def _find_rassegna_urls(home_html: str) -> list[str]:
+    """Tutte le rassegne linkate, non solo una con un nome fisso.
+
+    Prima si accettava esclusivamente "suoni-e-musica-di-ricerca-a-firenze":
+    quando Tempo Reale programmava una rassegna con un altro nome (es.
+    "fabroni-sound-garden") la fonte andava a zero pur avendo concerti in
+    cartellone. Gli eventi fuori Firenze restano esclusi dal filtro
+    OUT_OF_FLORENCE applicato blocco per blocco durante il parsing.
+    """
     soup = BeautifulSoup(home_html, "html.parser")
     urls = set()
     for a in soup.find_all("a", href=True):
-        h = a["href"]
-        if "/rassegne/suoni-e-musica-di-ricerca-a-firenze" in h.lower():
+        h = urljoin(BASE_URL, a["href"].split("?")[0].split("#")[0])
+        if _RASSEGNA_URL_RE.match(h):
             urls.add(h)
     return sorted(urls)
 
@@ -153,11 +169,18 @@ def _parse_rassegna(url: str) -> list[Event]:
 
 
 def fetch() -> list[Event]:
+    # Home + indice rassegne: la prima ha quella in evidenza, il secondo
+    # le elenca tutte. Se la home non risponde l'errore propaga, così la
+    # fonte compare tra quelle fallite invece di sparire a zero.
+    resp = http_get(HOME_URL, timeout=REQUEST_TIMEOUT)
+    rassegna_urls = set(_find_rassegna_urls(resp.text))
     try:
-        resp = http_get(HOME_URL, timeout=REQUEST_TIMEOUT)
-    except Exception:
-        return []
-    rassegna_urls = _find_rassegna_urls(resp.text)
+        idx = http_get(RASSEGNE_INDEX_URL, timeout=REQUEST_TIMEOUT)
+    except Exception:  # noqa: BLE001
+        pass  # l'indice è un di più: se manca restano quelle della home
+    else:
+        rassegna_urls.update(_find_rassegna_urls(idx.text))
+    rassegna_urls = sorted(rassegna_urls)
 
     events: list[Event] = []
     for url in rassegna_urls:
