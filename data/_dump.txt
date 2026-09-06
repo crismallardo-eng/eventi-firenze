@@ -1,6 +1,23 @@
 
 ======================================================================
-URL: https://www.teatrodellatoscana.it/spettacoli/
+URL: https://www.teatrodellatoscana.it/sitemap.xml
+======================================================================
+--- TESTO VISIBILE (primi 2500 char) ---
+https://www.teatrodellatoscana.it/sitemaps/sitemap-pages-it.xml
+2026-09-02
+https://www.teatrodellatoscana.it/sitemaps/sitemap-news-it.xml
+2026-09-02
+https://www.teatrodellatoscana.it/sitemaps/sitemap-eventi-it.xml
+2026-09-02
+https://www.teatrodellatoscana.it/sitemaps/sitemap-produzioni-it.xml
+2026-09-02
+https://www.teatrodellatoscana.it/sitemaps/sitemap-trasparenza-it.xml
+2026-09-02
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+
+======================================================================
+URL: https://www.teatrodellatoscana.it/spettacoli/fukuro-yamabushi-funa-benkei/
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
 Fondazione Teatro della Toscana
@@ -175,70 +192,176 @@ Pierfrancesco Favino dirige Anna Ferzetti nel pluripremiato testo di
   <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
 
 ======================================================================
-URL: https://www.secretflorence.it/programma-2026/
+URL: https://www.teatrodellatoscana.it/evento/lo-zar/
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
-Secret Florence – MUSICA, CINEMA, DANZA, PERFOMING ARTS
-Vai al contenuto
-Secret Florence
-MUSICA, CINEMA, DANZA, PERFOMING ARTS
-Edizioni Passate
-Programma 2025
-Programma 2024
-Programma 2023
-Programma 2022
-Programma 2021
-Programma 2020
-Programma 2019
-Programma 2018
-Programma 2017
-Programma 2016
-Secret Florence
-MUSICA, CINEMA, DANZA, PERFOMING ARTS
-Menu di navigazione
-Menu di navigazione
-Edizioni Passate
-Programma 2025
-Programma 2024
-Programma 2023
-Programma 2022
-Programma 2021
-Programma 2020
-Programma 2019
-Programma 2018
-Programma 2017
-Programma 2016
-Facebook
-SECRET FLORENCE 2026
-MUSICA, CINEMA, DANZA, PERFOMING ARTS
-9 giugno - 1 luglio, Firenze
-Scarica il programma
-Secret Florence, festival consolidato dell’Estate Fiorentina, presenta la sua undicesima edizione. Il progetto, realizzato dalle cinque realtà di respiro internazionale attive nel territorio urbano della città di Firenze, Fabbrica Europa, Lo schermo dell’arte, Musicus Concentus, Tempo Reale e Centro Nazionale per la Danza Virgilio Sieni, è concepito per una serie di spazi scenici per lo più inediti o poco frequentati dal pubblico o spazi conosciuti ma reinterpretati in chiave sorprendente, dove performance di danza, musica, arte e cinema si adattano ogni volta alle caratteristiche architettoniche e acustiche di luoghi diversi. Le azioni che lo compongono contribuiscono così alla riscoperta di spazi tradizionali in una luce nuova, possono stabilire prospettive estetiche diverse in edifici o ambienti inediti e attuali o svelare eventi e storie culturali dimenticate e sconosciute. Tutte le proposte artistiche costituiscono un unicum territoriale e in taluni casi anche una effettiva novità assoluta nel panorama internazionale della ricerca artistica contemporanea.
-Tutte le iniziative del programma sono a ingresso gratuito.
-PROGRAMMA
-9 giugno
-LO SCHERMO DELL'ARTE
-/ CINEMA
-Cinema La Compagnia
-▸ H 21:00
-OLTRE IL CONFINE. Le immagini di Mimmo e Francesco Jodice (Italia, 2025, 73’)
-di Matteo Parisini
-Italia, 2025, 73
-Il documentario mette per la prima volta in dialogo padre e figlio, in un confronto intimo sulla vita e sull’arte. Mimmo Jodice, tra i grandi maestri della fotografia italiana, scomparso lo scorso ottobre, è stato un pioniere instancabile fin dagli anni Sessanta, contribuendo in modo decisivo a portare la fotografia italiana sulla scena internazionale. Francesco Jodice rivolge invece il suo sguardo al paesaggio sociale contemporaneo e alle sue metamorfosi, intrecciando arte e antropologia urb
+Fondazione Teatro della Toscana
+Versione accessibile
+Vai al contenuto principale
+Acquista
+Cerca
+Account
+Cerca
+Cerca
+Annulla
+Fondazione Teatro della Toscana
+In programma
+Menu
+chiudi
+Mappa del sito
+Cerca nel sito
+Cerca
+In programma
+Spettacoli
+Produzioni
+Altri linguaggi
+Premio Grotowski
+News & Blog
+Rassegna stampa
+Archivio
+Teatri
+Teatro della Pergola
+Nuovo Rifredi Scena Aperta
+Teatro Era
+Giovani
+Under 30
+Scuole
+Formazione e ricerca
+Centro di Avviamento all'Espressione
+Centro Studi
+Atelier Internazionale del Costume
+Artifici
+Bando residenze per le arti sceniche
+Chi siamo
+Sostienici
+Amministrazione trasparente
+Contatti
+Biglietteria
+Informazioni e punti vendita
+Abbonamenti
+Biglietti
+Per le aziende
+Organizza un evento
+Partner e Sponsor
+Spazi pubblicitari
+Corporate Membership
+Vai al contenuto principale
+Stagione 2026/2027
+SCOPRI LA NUOVA STAGIONE
+Fukuro Yamabushi (L'eremita e il gufo)
+Funa-Benkei (Benkei sulla barca)
+01 ottobre
+2026
+Teatro della Pergola
+Dettagli
+Acquista
+Desert Films
+dal
+06
+al
+07 ottobre
+2026
+Teatro della Pergola
+Dettagli
+Acquista
+Lo Zar
+dal
+17
+al
+18 ottobre
+2026
+Teatro Era
+Dettagli
+People, Places & Things
+dal
+28
+al
+29 ottobre
+2026
+Teatro Era
+Dettagli
+Il berretto a sonagli
+dal
+03
+al
+08 novembre
+2026
+Teatro della Pergola
+Dettagli
+Spettacoli
+Spettacoli
+precedente
+successivo
+Fukuro Yamabushi (L'eremita e il gufo)
+Funa-Benkei (Benkei sulla barca)
+La Hōshō Nō Family, tra le più antiche e importanti scuole di teatro classico giapponese, porta in Italia una serata di Kyōgen e teatro Nō, forme d'arte patrimonio immateriale UNESCO, per celebrare il 160° anniversario delle relazioni diplomatiche tra Italia e Giappone.
+Teatro della Pergola
+01 ottobre
+2026
+Dettagli
+Acquista
+Desert Films
+La star del cinema James Franco è in scena con Blaine Kern III in una performance esclusiva sulla natura e il prezzo della fama. Sfumando il confine tra cinema e teatro, realtà e finzione, lo spettacolo crea un'esperienza intima e perturbante.
+Teatro della Pergola
+dal
+06
+al
+07 ottobre
+2026
+Dettagli
+Acquista
+Lo Zar
+Anteprima Nazionale
+Storia potentissima e agghiacciante, quella di Putin, con cui Stefano Massini torna ad affrontare il tema del potere nella nuova produzione del Teatro della Toscana. Un materiale scenico di inaudita ferocia: la scalata irresistibile di un adolescente teppista fino al vertice del Cremlino.
+Teatro Era
+dal
+17
+al
+18 ottobre
+2026
+Dettagli
+People, Places & Things
+Cose, posti e persone
+Pierfrancesco Favino dirige Anna Ferzetti nel pluripremiato testo di 
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-
-======================================================================
-URL: https://todomodo.org/pages/eventi
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://todomodo.org/pages/eventi
-
-======================================================================
-URL: https://todomodo.org/blogs/eventi
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://todomodo.org/blogs/eventi
-
-======================================================================
-URL: https://stensen.org/attivita/
-======================================================================
-ERRORE: ReadTimeout: HTTPSConnectionPool(host='stensen.org', port=443): Read timed out. (read timeout=20)
+  <div class='event__banner__date'> 01 ottobre 2026
+  <div class='event__banner__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='event__banner__date'> dal 06 al 07 ottobre 2026
+  <div class='event__banner__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='event__banner__date'> dal 17 al 18 ottobre 2026
+  <div class='event__banner__location'> Teatro Era
+  <span class='icon-location'> Teatro Era
+  <div class='event__banner__date'> dal 28 al 29 ottobre 2026
+  <div class='event__banner__location'> Teatro Era
+  <span class='icon-location'> Teatro Era
+  <div class='event__banner__date'> dal 03 al 08 novembre 2026
+  <div class='event__banner__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='events-grid__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='events-grid__date'> 01 ottobre 2026
+  <div class='events-grid__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='events-grid__date'> dal 06 al 07 ottobre 2026
+  <div class='events-grid__location'> Teatro Era
+  <span class='icon-location'> Teatro Era
+  <div class='events-grid__date'> dal 17 al 18 ottobre 2026
+  <div class='events-grid__location'> Teatro Era
+  <span class='icon-location'> Teatro Era
+  <div class='events-grid__date'> dal 28 al 29 ottobre 2026
+  <div class='events-grid__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='events-grid__date'> dal 03 al 08 novembre 2026
+  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
+  <span class='icon-location'> Nuovo Rifredi Scena Aperta
+  <div class='events-grid__date'> 04 novembre 2026
+  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
+  <span class='icon-location'> Nuovo Rifredi Scena Aperta
+  <div class='events-grid__date'> 07 novembre 2026
+  <div class='events-grid__location'> Teatro della Pergola
+  <span class='icon-location'> Teatro della Pergola
+  <div class='events-grid__date'> dal 10 al 15 novembre 2026
+  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
