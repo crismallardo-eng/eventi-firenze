@@ -1,6 +1,6 @@
 
 ======================================================================
-URL: https://www.teatrodellatoscana.it/it/evento/odissea-di-omero
+URL: https://www.teatrodellatoscana.it/spettacoli/
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
 Fondazione Teatro della Toscana
@@ -174,177 +174,64 @@ Pierfrancesco Favino dirige Anna Ferzetti nel pluripremiato testo di
   <div class='events-grid__date'> dal 10 al 15 novembre 2026
   <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
 
-======================================================================
-URL: https://www.teatrodellatoscana.it/it/evento/trappola-per-topi
-======================================================================
---- TESTO VISIBILE (primi 2500 char) ---
-Fondazione Teatro della Toscana
-Versione accessibile
-Vai al contenuto principale
-Acquista
-Cerca
-Account
-Cerca
-Cerca
-Annulla
-Fondazione Teatro della Toscana
-In programma
-Menu
-chiudi
-Mappa del sito
-Cerca nel sito
-Cerca
-In programma
-Spettacoli
-Produzioni
-Altri linguaggi
-Premio Grotowski
-News & Blog
-Rassegna stampa
-Archivio
-Teatri
-Teatro della Pergola
-Nuovo Rifredi Scena Aperta
-Teatro Era
-Giovani
-Under 30
-Scuole
-Formazione e ricerca
-Centro di Avviamento all'Espressione
-Centro Studi
-Atelier Internazionale del Costume
-Artifici
-Bando residenze per le arti sceniche
-Chi siamo
-Sostienici
-Amministrazione trasparente
-Contatti
-Biglietteria
-Informazioni e punti vendita
-Abbonamenti
-Biglietti
-Per le aziende
-Organizza un evento
-Partner e Sponsor
-Spazi pubblicitari
-Corporate Membership
-Vai al contenuto principale
-Stagione 2026/2027
-SCOPRI LA NUOVA STAGIONE
-Fukuro Yamabushi (L'eremita e il gufo)
-Funa-Benkei (Benkei sulla barca)
-01 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Acquista
-Desert Films
-dal
-06
-al
-07 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Acquista
-Lo Zar
-dal
-17
-al
-18 ottobre
-2026
-Teatro Era
-Dettagli
-People, Places & Things
-dal
-28
-al
-29 ottobre
-2026
-Teatro Era
-Dettagli
-Il berretto a sonagli
-dal
-03
-al
-08 novembre
-2026
-Teatro della Pergola
-Dettagli
-Spettacoli
-Spettacoli
-precedente
-successivo
-Fukuro Yamabushi (L'eremita e il gufo)
-Funa-Benkei (Benkei sulla barca)
-La Hōshō Nō Family, tra le più antiche e importanti scuole di teatro classico giapponese, porta in Italia una serata di Kyōgen e teatro Nō, forme d'arte patrimonio immateriale UNESCO, per celebrare il 160° anniversario delle relazioni diplomatiche tra Italia e Giappone.
-Teatro della Pergola
-01 ottobre
-2026
-Dettagli
-Acquista
-Desert Films
-La star del cinema James Franco è in scena con Blaine Kern III in una performance esclusiva sulla natura e il prezzo della fama. Sfumando il confine tra cinema e teatro, realtà e finzione, lo spettacolo crea un'esperienza intima e perturbante.
-Teatro della Pergola
-dal
-06
-al
-07 ottobre
-2026
-Dettagli
-Acquista
-Lo Zar
-Anteprima Nazionale
-Storia potentissima e agghiacciante, quella di Putin, con cui Stefano Massini torna ad affrontare il tema del potere nella nuova produzione del Teatro della Toscana. Un materiale scenico di inaudita ferocia: la scalata irresistibile di un adolescente teppista fino al vertice del Cremlino.
-Teatro Era
-dal
-17
-al
-18 ottobre
-2026
-Dettagli
-People, Places & Things
-Cose, posti e persone
-Pierfrancesco Favino dirige Anna Ferzetti nel pluripremiato testo di 
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='event__banner__date'> 01 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__banner__date'> dal 06 al 07 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__banner__date'> dal 17 al 18 ottobre 2026
-  <div class='event__banner__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='event__banner__date'> dal 28 al 29 ottobre 2026
-  <div class='event__banner__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='event__banner__date'> dal 03 al 08 novembre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> 01 ottobre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 06 al 07 ottobre 2026
-  <div class='events-grid__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='events-grid__date'> dal 17 al 18 ottobre 2026
-  <div class='events-grid__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='events-grid__date'> dal 28 al 29 ottobre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 03 al 08 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-  <span class='icon-location'> Nuovo Rifredi Scena Aperta
-  <div class='events-grid__date'> 04 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-  <span class='icon-location'> Nuovo Rifredi Scena Aperta
-  <div class='events-grid__date'> 07 novembre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 10 al 15 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
+--- LINK INTERNI (href → testo) ---
+  https://www.teatrodellatoscana.it/it?a11y=true  →  Versione accessibile
+  https://www.teatrodellatoscana.it/spettacoli/#main-content  →  Vai al contenuto principale
+  https://www.teatrodellatoscana.it/spettacoli/  →  Cerca
+  https://www.teatrodellatoscana.it/it  →  Fondazione Teatro della Toscana
+  https://www.teatrodellatoscana.it/it/in-programma  →  In programma
+  https://www.teatrodellatoscana.it/spettacoli/#menu-main  →  Menu
+  https://www.teatrodellatoscana.it/it/in-programma#!cat(st2627)  →  Spettacoli
+  https://www.teatrodellatoscana.it/it/produzioni  →  Produzioni
+  https://www.teatrodellatoscana.it/it/in-programma#!cat(altevn)  →  Altri linguaggi
+  https://www.teatrodellatoscana.it/it/in-programma#!cat(progtw)  →  Premio Grotowski
+  https://www.teatrodellatoscana.it/it/news  →  News & Blog
+  https://www.teatrodellatoscana.it/it/rassegna-stampa  →  Rassegna stampa
+  https://www.teatrodellatoscana.it/it/archivio  →  Archivio
+  https://www.teatrodellatoscana.it/it/teatri/teatro-della-pergola  →  Teatro della Pergola
+  https://www.teatrodellatoscana.it/it/teatri/nuovo-rifredi-scena-aperta  →  Nuovo Rifredi Scena Aperta
+  https://www.teatrodellatoscana.it/it/teatri/teatro-era  →  Teatro Era
+  https://www.teatrodellatoscana.it/it/giovani/under-30  →  Under 30
+  https://www.teatrodellatoscana.it/it/giovani/scuole  →  Scuole
+  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/centro-di-avviamento-all-espressione  →  Centro di Avviamento all'Espressione
+  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/centro-studi  →  Centro Studi
+  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/atelier-internazionale-del-costume  →  Atelier Internazionale del Costume
+  https://www.teatrodellatoscana.it/it/artifici  →  Artifici
+  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/bando-residenze-arti-sceniche  →  Bando residenze per le arti sceniche
+  https://www.teatrodellatoscana.it/it/chi-siamo/sostienici  →  Sostienici
+  https://www.teatrodellatoscana.it/it/chi-siamo/contatti  →  Contatti
+  https://www.teatrodellatoscana.it/it/biglietteria/informazioni-e-punti-vendita  →  Informazioni e punti vendita
+  https://www.teatrodellatoscana.it/it/biglietteria/abbonamenti  →  Abbonamenti
+  https://www.teatrodellatoscana.it/it/biglietteria/biglietti  →  Biglietti
+  https://www.teatrodellatoscana.it/it/per-le-aziende#organizza-evento  →  Organizza un evento
+  https://www.teatrodellatoscana.it/it/per-le-aziende#partner-sponsor  →  Partner e Sponsor
+  https://www.teatrodellatoscana.it/it/per-le-aziende#spazi-pubblicitari  →  Spazi pubblicitari
+  https://www.teatrodellatoscana.it/it/per-le-aziende#corporate-membership  →  Corporate Membership
+  https://www.teatrodellatoscana.it/it/news/in-altro-mare-stagione-20262027  →  SCOPRI LA NUOVA STAGIONE
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/fukuro-yamabushi-eremita-e-gufo-funa-benkei-benkei-sulla-barca  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/lo-zar-era  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/people-places-things  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/antropolaroid  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/vorrei-una-voce  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/oscar  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/spettacolo/rifredi-premiata-ditta-cinema  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/occidente-oriente  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/mostra/giuliano-scabia  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/bilderberg  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/in-sua-movenza-e-fermo-2627  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/un-incidente-isolato  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/angeli-del-fango  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/la-follia-della-liberta  →  Dettagli
+  https://www.teatrodellatoscana.it/it/evento/evento/liberamente-scuola-popolare-di-scrittura  →  Dettagli
+  https://www.teatrodellatoscana.it/it/news/reading-il-sesso-inutile-con-valeria-solarino-omaggio-a-oriana-fallaci  →  4 settembre 2026 Reading "Il sesso inutile" con Valeria Solarino. Omag
+  https://www.teatrodellatoscana.it/it/news/presentazione-del-libro-la-gente-normale-non-va-in-giro-armata-di-artem-chapeye-al-teatro-della-pergola  →  31 agosto 2026 Presentazione del libro "La gente normale non va in gir
+  https://www.teatrodellatoscana.it/it/news/super-sconto-soci-unicoop-firenze-dal-2-al-12-settembre-gli-abbonamenti-costano-meno  →  24 agosto 2026 Super sconto Soci Unicoop Firenze: dal 2 al 12 settembr
+  https://www.teatrodellatoscana.it/it/news/teatro-della-pergola-approvato-il-progetto-per-il-consolidamento-della-scala-monumentale  →  14 agosto 2026 Teatro della Pergola, approvato il progetto per il cons
+  https://www.teatrodellatoscana.it/it/amministrazione-trasparente/bandi-di-gara-e-contratti/avvisi-di-indagine-di-mercato-manifestazioni-di-interesse/avviso-pubblico-per-la-ricerca-di-sponsor-per-il-sostegno-e-la-promozione-dei-teatri-in-gestione-alla-fondazione-teatro-della-pergola-pergola-nuovo-rifredi-scena-aperta-e-teatro-era-della-stagione-teatrale-20262027-del-teatro-della-toscana-e-di-iniziative-ed-eventi-ad-essa-collegati  →  24 luglio 2026 Avviso pubblico per la ricerca di sponsor per il sosteg
+  https://www.teatrodellatoscana.it/it/news/avviso-di-selezione-corso-per-attori-orazio-costa-anno-2026  →  21 luglio 2026 Avviso di selezione Corso per attori Orazio Costa - ann
+  https://www.teatrodellatoscana.it/it/news/premio-a-walter-sardonini-per-il-manifesto-altri-sguardi-stagione2526  →  15 luglio 2026 Premio a Walter Sardonini per il manifesto Altri Sguard
+  https://www.teatrodellatoscana.it/it/amministrazione-trasparente/selezione-del-personale/20260713-avviso-di-selezione-per-lassunzione-di-n-1-figura-in-qualita-di-operaio-tecnico-di-palcoscenico-full-time-a-tempo-determinato-e-per-la-stagione-teatrale-20262027-presso-la-sede-del-teatro-della-pergola-art-8-ccnl-per-gli-impiegati-e-i-tecnici-dipendenti-dai-teatri  →  13 luglio 2026 Avviso di Selezione per l’assunzione di n. 1 figura in 
+  https://www.teatrodellatoscana.it/it/news/grande-successo-a-rifredi-per-la-festa-di-quartiere-con-stefano-massini  →  16 giugno 2026 Grande successo a Rifredi per la “festa di quartiere” c
+  https://www.teatrodellatoscana.it/it/teatri/organizza-un-evento  →  Organizza un Evento Scopri di più
