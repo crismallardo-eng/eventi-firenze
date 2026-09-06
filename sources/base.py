@@ -43,6 +43,39 @@ _RETRYABLE_STATUSES = {403, 429, 500, 502, 503, 504}
 # Backoff between retries (seconds). Total wall time: ~7s before giving up.
 _RETRY_BACKOFF = (0, 2, 5)
 
+# Alcuni WAF (Sucuri, Wordfence, Cloudflare) non rispondono con un codice di
+# errore ma con 200 OK e una pagina di attesa "verifica del browser". Senza
+# riconoscerla lo scraper la analizza come se fosse il contenuto vero e
+# conclude che non ci sono eventi — un guasto silenzioso. Queste sono le
+# frasi che compaiono in quelle pagine (italiano e inglese).
+_CHALLENGE_MARKERS = (
+    "attendi che la tua richiesta venga verificata",
+    "un momento, per favore",
+    "checking your browser",
+    "just a moment",
+    "please wait while we verify",
+    "enable javascript and cookies to continue",
+    "ddos protection by",
+)
+# Le pagine di attesa sono piccole: oltre questa soglia si assume che il
+# contenuto sia reale anche se contiene per caso una di quelle frasi.
+_CHALLENGE_MAX_BYTES = 6000
+
+
+class ChallengePageError(requests.RequestException):
+    """Il sito ha risposto con una schermata di verifica anti-bot."""
+
+
+def _looks_like_challenge(response: requests.Response) -> bool:
+    """True se la risposta è una schermata di verifica anti-bot, non contenuto."""
+    ctype = response.headers.get("Content-Type", "")
+    if "html" not in ctype.lower() and ctype:
+        return False
+    if len(response.content) > _CHALLENGE_MAX_BYTES:
+        return False
+    body = response.text.lower()
+    return any(marker in body for marker in _CHALLENGE_MARKERS)
+
 
 @dataclass
 class Event:
@@ -93,6 +126,15 @@ def http_get(
         if response.status_code in _RETRYABLE_STATUSES:
             last_resp = response
             last_exc = None
+            continue
+        # 200 OK ma è la schermata di verifica del WAF: riprova, e se non
+        # passa segnala l'errore invece di far analizzare la pagina finta.
+        if _looks_like_challenge(response):
+            last_resp = None
+            last_exc = ChallengePageError(
+                f"Il sito ha risposto con una schermata di verifica anti-bot "
+                f"invece del contenuto: {url}"
+            )
             continue
         response.raise_for_status()
         return response
