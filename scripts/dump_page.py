@@ -52,6 +52,25 @@ def dump(url: str, session) -> str:
         seen += 1
         if seen >= 40:
             break
+
+    # 3. Link interni con il testo: servono per capire gli URL di dettaglio
+    #    (il testo da solo li perde, perché i tag vengono rimossi).
+    parts.append("\n--- LINK INTERNI (href → testo) ---")
+    from urllib.parse import urljoin, urlparse
+
+    host = urlparse(url).netloc
+    shown = 0
+    seen_href: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        full = urljoin(url, a["href"])
+        if urlparse(full).netloc != host or full in seen_href:
+            continue
+        seen_href.add(full)
+        label = a.get_text(" ", strip=True)[:70]
+        parts.append(f"  {full}  →  {label}")
+        shown += 1
+        if shown >= 60:
+            break
     return "\n".join(parts)
 
 
