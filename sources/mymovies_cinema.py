@@ -50,7 +50,16 @@ CINEMAS: dict[int, tuple[str, str]] = {
     4853:  ("firenze/sestofiorentino",  "Grotta, Sesto Fiorentino"),
 }
 
-DAYS_AHEAD = 7
+# Solo oggi. MYmovies IGNORA il parametro "giorno": qualunque data si chieda
+# (?giorno=DD-MM-YYYY, ?giorno=YYYY-MM-DD, ?data=..., path /DD-MM-YYYY/)
+# restituisce sempre la programmazione odierna — verificato confrontando le
+# risposte per giorni diversi, identiche fra loro e diverse dal programma
+# ufficiale pubblicato dai cinema.
+#
+# Chiedendo 7 giorni si ottenevano quindi 7 copie della giornata corrente,
+# spacciate per il palinsesto della settimana: orari e film sbagliati per 6
+# giorni su 7. Meglio un giorno esatto che una settimana inventata.
+DAYS_AHEAD = 1
 PARALLEL_WORKERS = 6
 REQUEST_TIMEOUT = 20
 
