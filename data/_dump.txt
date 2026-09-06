@@ -1,310 +1,171 @@
 
 ======================================================================
-URL: https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films
+URL: https://stensen.org/wp-json/wp/v2/posts?per_page=5
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
-Desert Films
-Versione accessibile
-Vai al contenuto principale
-Acquista
-Cerca
-Account
-Cerca
-Cerca
-Annulla
-Fondazione Teatro della Toscana
-In programma
-Menu
-chiudi
-Mappa del sito
-Cerca nel sito
-Cerca
-In programma
-Spettacoli
-Produzioni
-Altri linguaggi
-Premio Grotowski
-News & Blog
-Rassegna stampa
-Archivio
-Teatri
-Teatro della Pergola
-Nuovo Rifredi Scena Aperta
-Teatro Era
-Giovani
-Under 30
-Scuole
-Formazione e ricerca
-Centro di Avviamento all'Espressione
-Centro Studi
-Atelier Internazionale del Costume
-Artifici
-Bando residenze per le arti sceniche
-Chi siamo
-Sostienici
-Amministrazione trasparente
-Contatti
-Biglietteria
-Informazioni e punti vendita
-Abbonamenti
-Biglietti
-Per le aziende
-Organizza un evento
-Partner e Sponsor
-Spazi pubblicitari
-Corporate Membership
-Desert Films
-dal
-06
-al
-07 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Foto e video
-Crediti
-Informazioni
-News
-Rassegna stampa
-Eventi correlati
-Home
-Eventi
-Spettacolo
-Desert Films
-Desert Films
-è una performance teatrale dal vivo con protagonisti James Franco e Blaine Kern, parte di una serie di narrazione cinematografica che esplora la natura e il prezzo della fama.
-Desert Films
-riprende il personaggio dell’Uomo Misterioso interpretato da Robert Blake nel film di David Lynch
-Strade perdute
-(
-Lost Highway
-) del 1997, presentandolo come una misteriosa manifestazione che affronta un giovane attore – rapito e legato – e pronuncia un monologo inquietante sulla seduzione e le trappole della celebrità. Dispiegandosi in un mondo distintamente lynchiano, si immagina Robert Blake come una manifestazione di quel suo stesso personaggio.
-Desert Films
-è una commedia dark stratificata con riferimenti storici, che attinge dalla vita di Blake e dalla mitologia oscura di Hollywood. Il pubblico ha la sensazione di assistere a qualcosa di crudo e immediato – quasi come se una scena cinematografica prendesse vita sul palcoscenico.
----
-Desert Films
-is a live stage performance starring James Franco and Blaine Kern in a cinematic storytelling series exploring the nature and cost of fame.
-Desert Films
-revisits the Mystery Man character played by Robert Blake in David Lynch’s 1997 film
-Lost Highway
-, presenting him as a mysterious apparition that confronts a young actor—kidnapped and bound—and delivers an unsettling monologue on the seduction and traps of celebrity.
-Unfolding in a distinctly Lynchian world, the piece imagines Robert Blake as a manifestation of that very character.
-Desert Films
-is a dark comedy layered with historical refer
+[{"id":8288,"date":"2026-02-03T12:51:36","date_gmt":"2026-02-03T11:51:36","guid":{"rendered":"https:\/\/stensen.org\/?p=8288"},"modified":"2026-02-03T12:52:30","modified_gmt":"2026-02-03T11:52:30","slug":"noi-e-i-nostri-figli-da-che-parte-volgere-lo-sguardo","status":"publish","type":"post","link":"https:\/\/stensen.org\/noi-e-i-nostri-figli-da-che-parte-volgere-lo-sguardo\/","title":{"rendered":"Noi e i nostri figli. Da che parte volgere lo sguardo"},"content":{"rendered":"\n
+Domenico Barill\u00e0<\/strong> sar\u00e0 presente
+gioved\u00ec 12 febbraio alle 16.15<\/em> al Cinema Astra per l\u2019incontro
+Noi e i nostri figli<\/strong>.
+Da che parte volgere lo sguardo<\/strong><\/em>, organizzato in collaborazione con la Fondazione Stensen. L\u2019appuntamento \u00e8 dedicato ad approfondire il delicato rapporto tra genitori e figli e si propone di riflettere su come lo sguardo adulto possa aiutare a comprendere e accompagnare il mondo interiore dei ragazzi, offrendo strumenti di ascolto e consapevolezza nel contesto familiare.<\/p>\n\n\n\n
+Barill\u00e0 \u00e8 analista adleriano e scrittore, autore di una trentina di volumi tradotti e ristampati all\u2019estero, tra cui l\u2019ultimo
+Individualisti si cresce<\/em>. Convinto assertore di una psicologia vicina alle persone e al territorio, affianca all\u2019attivit\u00e0 clinica una costante presenza pubblica e divulgativa. L\u2019incontro sar\u00e0 moderato da
+Mariella Orsi<\/strong>, sociologa e membro del Comitato Scientifico di FILE, che guider\u00e0 il confronto con il pubblico.<\/p>\n\n\n\n
+<\/figure>\n","protected":false},"excerpt":{"rendered":"
+Domenico Barill\u00e0 sar\u00e0 presente gioved\u00ec 12 febbraio alle 16.15 al Cinema Astra per l\u2019incontro Noi e i nostri figli. Da che parte volgere lo sguardo, organizzato in collaborazione con la Fondazione Stensen. L\u2019appuntamento \u00e8 dedicato ad approfondire il delicato rapporto tra genitori e figli e si propone di riflettere su come lo sguardo adulto possa […]<\/p>\n
+Leggi di pi\u00f9…<\/a><\/p>\n","protected":false},"author":9,"featured_media":8295,"comment_status":"closed","ping_status":"closed","sticky":true,"template":"","format":"standard","meta":{"_acf_changed":false,"footnotes":""},"categories":[1],"tags":[205,137,204,209,202,136,203,208,206],"class_list":["post-8288","post","type-post","status-publish","format-standard","has-post-thumbnail","hentry","category-news","tag-barilla","tag-cinema","tag-domenico","tag-famiglia","tag-figli","t
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='event__banner__date'> dal 06 al 07 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__location'> Teatro della Pergola
-  <div class='event__time'> 50 minuti, atto unico
-  <div class='event__dates'> 06 ott 2026 20:30 Aggiungi ai preferiti Acquista 07 ott 2026 20:30 Aggiungi ai preferiti Acquista
-  <div class='event__date'> 06 ott 2026 20:30 Aggiungi ai preferiti Acquista
-  <div class='event__date__buttons'> Acquista
-  <div class='event__date'> 07 ott 2026 20:30 Aggiungi ai preferiti Acquista
-  <div class='event__date__buttons'> Acquista
 
 --- LINK INTERNI (href → testo) ---
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films?a11y=true  →  Versione accessibile
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#main-content  →  Vai al contenuto principale
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films  →  Cerca
-  https://www.teatrodellatoscana.it/it  →  Fondazione Teatro della Toscana
-  https://www.teatrodellatoscana.it/it/in-programma  →  In programma
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#menu-main  →  Menu
-  https://www.teatrodellatoscana.it/it/in-programma#!cat(st2627)  →  Spettacoli
-  https://www.teatrodellatoscana.it/it/produzioni  →  Produzioni
-  https://www.teatrodellatoscana.it/it/in-programma#!cat(altevn)  →  Altri linguaggi
-  https://www.teatrodellatoscana.it/it/in-programma#!cat(progtw)  →  Premio Grotowski
-  https://www.teatrodellatoscana.it/it/news  →  News & Blog
-  https://www.teatrodellatoscana.it/it/rassegna-stampa  →  Rassegna stampa
-  https://www.teatrodellatoscana.it/it/archivio  →  Archivio
-  https://www.teatrodellatoscana.it/it/teatri/teatro-della-pergola  →  Teatro della Pergola
-  https://www.teatrodellatoscana.it/it/teatri/nuovo-rifredi-scena-aperta  →  Nuovo Rifredi Scena Aperta
-  https://www.teatrodellatoscana.it/it/teatri/teatro-era  →  Teatro Era
-  https://www.teatrodellatoscana.it/it/giovani/under-30  →  Under 30
-  https://www.teatrodellatoscana.it/it/giovani/scuole  →  Scuole
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/centro-di-avviamento-all-espressione  →  Centro di Avviamento all'Espressione
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/centro-studi  →  Centro Studi
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/atelier-internazionale-del-costume  →  Atelier Internazionale del Costume
-  https://www.teatrodellatoscana.it/it/artifici  →  Artifici
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/bando-residenze-arti-sceniche  →  Bando residenze per le arti sceniche
-  https://www.teatrodellatoscana.it/it/chi-siamo/sostienici  →  Sostienici
-  https://www.teatrodellatoscana.it/it/chi-siamo/contatti  →  Contatti
-  https://www.teatrodellatoscana.it/it/biglietteria/informazioni-e-punti-vendita  →  Informazioni e punti vendita
-  https://www.teatrodellatoscana.it/it/biglietteria/abbonamenti  →  Abbonamenti
-  https://www.teatrodellatoscana.it/it/biglietteria/biglietti  →  Biglietti
-  https://www.teatrodellatoscana.it/it/per-le-aziende#organizza-evento  →  Organizza un evento
-  https://www.teatrodellatoscana.it/it/per-le-aziende#partner-sponsor  →  Partner e Sponsor
-  https://www.teatrodellatoscana.it/it/per-le-aziende#spazi-pubblicitari  →  Spazi pubblicitari
-  https://www.teatrodellatoscana.it/it/per-le-aziende#corporate-membership  →  Corporate Membership
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#dettagli  →  Dettagli
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#foto-video  →  Foto e video
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#crediti  →  Crediti
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#evninfo  →  Informazioni
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#news  →  News
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#rassegna-stampa  →  Rassegna stampa
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#eventi-correlati  →  Eventi correlati
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#testoMore  →  Leggi
-                                    altro
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/IMG_1701.jpg  →  
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/IMG_1702.jpg  →  
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/IMG_1704.jpg  →  
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/IMG_1707.jpg  →  
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/IMG_1723.jpg  →  
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/IMG_1724.jpg  →  
-  https://www.teatrodellatoscana.it/it/teatro-era  →  Teatro Era
-  https://www.teatrodellatoscana.it/it/privacy-policy  →  Privacy policy
-  https://www.teatrodellatoscana.it/it/cookie-policy  →  Cookie policy
-  https://www.teatrodellatoscana.it/it/documento-di-attestazione  →  Documento di attestazione
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/desert-films#page-content  →  Back to top
+  https://stensen.org/wp-json/wp/v2/\"https:\/\/stensen.org\/noi-e-i-nostri-figli-da-che-parte-volgere-lo-sguardo\/\"  →  Leggi di pi\u00f9…<\/a><\/p>\n","protected":false},"author":9,"feature
 
 ======================================================================
-URL: https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli
+URL: https://stensen.org/feed/
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
-Il berretto a sonagli
-Versione accessibile
-Vai al contenuto principale
-Acquista
-Cerca
-Account
-Cerca
-Cerca
-Annulla
-Fondazione Teatro della Toscana
-In programma
-Menu
-chiudi
-Mappa del sito
-Cerca nel sito
-Cerca
-In programma
-Spettacoli
-Produzioni
-Altri linguaggi
-Premio Grotowski
-News & Blog
-Rassegna stampa
-Archivio
-Teatri
-Teatro della Pergola
-Nuovo Rifredi Scena Aperta
-Teatro Era
-Giovani
-Under 30
-Scuole
-Formazione e ricerca
-Centro di Avviamento all'Espressione
-Centro Studi
-Atelier Internazionale del Costume
-Artifici
-Bando residenze per le arti sceniche
-Chi siamo
-Sostienici
-Amministrazione trasparente
-Contatti
-Biglietteria
-Informazioni e punti vendita
-Abbonamenti
-Biglietti
-Per le aziende
-Organizza un evento
-Partner e Sponsor
-Spazi pubblicitari
-Corporate Membership
-Foto Laila Pozzo
-Il berretto a sonagli
-dal
-03
-al
-08 novembre
-2026
-Teatro della Pergola
-Dettagli
-Foto e video
-Crediti
-Informazioni
+Fondazione Stensen
+https://stensen.org/
+Cultura, Cinema, Arte
+Tue, 03 Feb 2026 11:52:30 +0000
+it-IT
+hourly
+1
+https://stensen.org/wp-content/uploads/2019/08/cropped-favicon-stensen-32x32.png
+Fondazione Stensen
+https://stensen.org/
+32
+32
+Noi e i nostri figli. Da che parte volgere lo sguardo
+https://stensen.org/noi-e-i-nostri-figli-da-che-parte-volgere-lo-sguardo/
+Alice Piccioli
+Tue, 03 Feb 2026 11:51:36 +0000
 News
-Rassegna stampa
-Eventi correlati
-Home
-Eventi
-Spettacolo
-Il berretto a sonagli
-Pirandello non è autore per tempi di pace, ma di guerra. È il tempo di guerra a creare le condizioni effettuali per comprendere l’autore siciliano; il dissolversi del principio di identità, la tragica disintegrazione dell’io, il gioco di specchi intorno alle molteplici individualità dell’essere umano. In tempi di guerra se la realtà chiama, Pirandello sa cosa rispondere; intravede la feroce e grottesca maschera di un mondo convulso e impazzito. I tempi di pace sono i tempi degli ismi, della ricerca affannosa di una filosofia e allora sotto con “essere è apparire” o “conflitto tra vita e forma” con il pirandellismo insomma; quell’insopportabile pozzo del pensiero che sembra mettere in pausa il teatro, la concretezza degli accadimenti per passare altrove, in un generico luogo, astratto. Inchiodare in una formula un autore è sempre molto pericoloso, con Pirandello è quasi mortale. Sentire il bisogno di chiarire più che di capire ha chiuso l’autore dentro una formula lucida e perentoria, non permettendo ai suoi personaggi di far esplodere quello che hanno di più potente, le passioni. Solo liberandolo dalle preoccupazioni filosofiche, Pirandello mostra il suo volto autentico. Si vede solo allora come i grandi protagonisti della drammaturgia pirandelliana siano uomini costretti a frugarsi dentro e non lucidi pensatori al dettaglio. Proprio per questo, credo necessario lasciarsi guidare dalle parole di Leonardo Sciascia: “Bisogna liberare Pirandello da tutte le incrostazioni filosofiche e pseudofilos
+barillà
+cinema
+domenico
+famiglia
+figli
+firenze
+genitori
+incontro
+psicologia
+https://stensen.org/?p=8288
+<p>Domenico Barillà sarà presente giovedì 12 febbraio alle 16.15 al Cinema Astra per l’incontro Noi e i nostri figli. Da che parte volgere lo sguardo, organizzato in collaborazione con la Fondazione Stensen. L’appuntamento è dedicato ad approfondire il delicato rapporto tra genitori e figli e si propone di riflettere su come lo sguardo adulto possa [...]</p>
+<p><a class="btn btn-secondary understrap-read-more-link" href="https://stensen.org/noi-e-i-nostri-figli-da-che-parte-volgere-lo-sguardo/">Leggi di più...</a></p>
+<p>L'articolo <a href="https://stensen.org/noi-e-i-nostri-figli-da-che-parte-volgere-lo-sguardo/">Noi e i nostri figli. Da che parte volgere lo sguardo</a> proviene da <a href="https://stensen.org">Fondazione Stensen</a>.</p>
+<p class="wp-block-paragraph"><strong>Domenico Barillà</strong> sarà presente <em>giovedì 12 febbraio alle 16.15</em> al Cinema Astra per l’incontro <em><strong>Noi e i nostri figli</strong>. <strong>Da che parte volgere lo sguardo</strong></em>, organizzato in collaborazione con la Fondazione Stensen. L’appuntamento è dedicato ad approfondire il delicato rapporto tra genitori e figli e si propone di riflettere su come lo sguardo adulto possa aiutare a comprendere e accompagnare il mondo interiore dei ragazzi, offrendo strumenti di ascolto e consapevolezza nel contesto familiare.</p>
+
+
+
+<p class="wp-block-paragraph">Barillà è analista adleriano e scrittore, autore di una trentina di volumi tradotti e ristampati all’estero, tra cui l’ultimo <em>Individualisti si cresce</em>. Convinto assertore di una psicologia vicina alle persone e al territorio, affianca all’attività clinica una costante presenza pubblica e divulgativa. L’incontro sarà moderato da <strong>Mariella Orsi</strong>, sociologa e membro del Comitato Scientifico di FILE, che guiderà il confronto con il pubblico.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="724" height="1024" src="https://stensen.o
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='event__banner__date'> dal 03 al 08 novembre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__location'> Teatro della Pergola
-  <div class='event__time'> 90 minuti
-  <div class='event__dates'> 03 nov 2026 20:30 Aggiungi ai preferiti 04 nov 2026 19:00 Aggiungi ai preferiti 05 nov 2026 19:00 Aggiungi ai preferiti 06 nov 2026 20:30 Aggiungi ai preferiti 
-  <div class='event__date'> 03 nov 2026 20:30 Aggiungi ai preferiti
-  <div class='event__date'> 04 nov 2026 19:00 Aggiungi ai preferiti
-  <div class='event__date'> 05 nov 2026 19:00 Aggiungi ai preferiti
-  <div class='event__date'> 06 nov 2026 20:30 Aggiungi ai preferiti
-  <div class='event__date'> 07 nov 2026 20:30 Aggiungi ai preferiti
-  <div class='event__date'> 08 nov 2026 16:30 Aggiungi ai preferiti
 
 --- LINK INTERNI (href → testo) ---
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli?a11y=true  →  Versione accessibile
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#main-content  →  Vai al contenuto principale
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli  →  Cerca
-  https://www.teatrodellatoscana.it/it  →  Fondazione Teatro della Toscana
-  https://www.teatrodellatoscana.it/it/in-programma  →  In programma
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#menu-main  →  Menu
-  https://www.teatrodellatoscana.it/it/in-programma#!cat(st2627)  →  Spettacoli
-  https://www.teatrodellatoscana.it/it/produzioni  →  Produzioni
-  https://www.teatrodellatoscana.it/it/in-programma#!cat(altevn)  →  Altri linguaggi
-  https://www.teatrodellatoscana.it/it/in-programma#!cat(progtw)  →  Premio Grotowski
-  https://www.teatrodellatoscana.it/it/news  →  News & Blog
-  https://www.teatrodellatoscana.it/it/rassegna-stampa  →  Rassegna stampa
-  https://www.teatrodellatoscana.it/it/archivio  →  Archivio
-  https://www.teatrodellatoscana.it/it/teatri/teatro-della-pergola  →  Teatro della Pergola
-  https://www.teatrodellatoscana.it/it/teatri/nuovo-rifredi-scena-aperta  →  Nuovo Rifredi Scena Aperta
-  https://www.teatrodellatoscana.it/it/teatri/teatro-era  →  Teatro Era
-  https://www.teatrodellatoscana.it/it/giovani/under-30  →  Under 30
-  https://www.teatrodellatoscana.it/it/giovani/scuole  →  Scuole
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/centro-di-avviamento-all-espressione  →  Centro di Avviamento all'Espressione
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/centro-studi  →  Centro Studi
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/atelier-internazionale-del-costume  →  Atelier Internazionale del Costume
-  https://www.teatrodellatoscana.it/it/artifici  →  Artifici
-  https://www.teatrodellatoscana.it/it/formazione-e-ricerca/bando-residenze-arti-sceniche  →  Bando residenze per le arti sceniche
-  https://www.teatrodellatoscana.it/it/chi-siamo/sostienici  →  Sostienici
-  https://www.teatrodellatoscana.it/it/chi-siamo/contatti  →  Contatti
-  https://www.teatrodellatoscana.it/it/biglietteria/informazioni-e-punti-vendita  →  Informazioni e punti vendita
-  https://www.teatrodellatoscana.it/it/biglietteria/abbonamenti  →  Abbonamenti
-  https://www.teatrodellatoscana.it/it/biglietteria/biglietti  →  Biglietti
-  https://www.teatrodellatoscana.it/it/per-le-aziende#organizza-evento  →  Organizza un evento
-  https://www.teatrodellatoscana.it/it/per-le-aziende#partner-sponsor  →  Partner e Sponsor
-  https://www.teatrodellatoscana.it/it/per-le-aziende#spazi-pubblicitari  →  Spazi pubblicitari
-  https://www.teatrodellatoscana.it/it/per-le-aziende#corporate-membership  →  Corporate Membership
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#dettagli  →  Dettagli
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#foto-video  →  Foto e video
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#crediti  →  Crediti
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#evninfo  →  Informazioni
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#news  →  News
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#rassegna-stampa  →  Rassegna stampa
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#eventi-correlati  →  Eventi correlati
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#testoMore  →  Leggi
-                                    altro
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonaglicLaila-Pozzo-2.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonaglicLaila-Pozzo-3.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonaglicLaila-Pozzo-4.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-15.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-16.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-17.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-18.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-19.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-20.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-21.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-22.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-23.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/media/eventi/gallerie/Il-berretto-a-sonagli-cLaila-Pozzo-24.jpg  →  Foto Laila Pozzo
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#altriCrediti  →  Leggi altro
-  https://www.teatrodellatoscana.it/it/teatro-era  →  Teatro Era
-  https://www.teatrodellatoscana.it/it/privacy-policy  →  Privacy policy
-  https://www.teatrodellatoscana.it/it/cookie-policy  →  Cookie policy
-  https://www.teatrodellatoscana.it/it/documento-di-attestazione  →  Documento di attestazione
-  https://www.teatrodellatoscana.it/it/evento/spettacolo/berretto-a-sonagli#page-content  →  Back to top
+
+======================================================================
+URL: https://stensen.org/attivita/non-solo-cinema-in-manifattura-2026-il-programma/
+======================================================================
+--- TESTO VISIBILE (primi 2500 char) ---
+CINEMA IN MANIFATTURA 2026
+Salta al contenuto
+Fondazione
+Chi siamo
+Sostienici
+Collabora con noi
+News
+Spazi
+Cinema Stensen
+Cinema Astra
+Libreria
+Biblioteca/Co-working
+Saletta multimediale
+Attività
+Cinema
+Cultura
+Eventi
+Scuole
+Calendario
+Contatti
+Cerca
+(NON SOLO) CINEMA IN MANIFATTURA 2026 – IL PROGRAMMA
+Dal 23 giugno al 2 settembre appuntamento con il programma di film, eventi e incontri dell'arena cinema di Manifattura Tabacchi di Firenze, a cura di Fondazione Stensen.
+dal 23 giugno al 2 settembre @ManifatturaTabacchi
+Sala: Manifattura Tabacchi - B3 MOTEL GARDEN • via Marie Curie, Firenze
+Acquista ora
+Descrizione
+(NON SOLO)
+CINEMA IN MANIFATTURA 2026
+Film & Incontri dal 23 giugno al 2 settembre @ManifatturaTabacchi – B3 MOTEL GARDEN • via Marie Curie, Firenze
+a cura di Fondazione Stensen
+La spazio cinema (e non solo) dello Stensen in Manifattura Tabacchi ha sette vite! Dall’estate del 2020 il progetto culturale ha abitato altrettante, differenti, ambientazioni del grande complesso che ci ospita. Proponendo sempre tanto cinema, incontri, musica che si combinano alle tante realtà che in questi anni hanno iniziato a occupare gli spazi e a farli vivere sempre di più. Una comunità che nel periodo estivo si ritrova, abitando la Manifattura con sguardi, emozioni, incontri che speriamo siano sempre sorprendenti. Lo sguardo curioso di Firenze è in Manifattura Tabacchi.
+Inizio spettacoli luglio – ore 21.30
+Inizio spettacoli agosto – ore 21.15
+Prezzi:
+Biglietto intero € 7,00
+Biglietto ridotto € 6,00
+Biglietto super ridotto Cinema Revolution per i film italiani ed europei € 3,50
+Biglietto per sonorizzazioni live € 12,00 / 10,00
+L’arena è dotata di cuffie wireless, facoltative, in aggiunta all’impianto del cinema, per un ascolto ottimale.
+Apertura cassa e arena dalle ore 20.30
+.
+Prevendite online su
+liveticket.it/stensen
+(È sempre possibile acquistare i biglietti dei giorni successivi anche alla cassa dell’arena).
+1° TEMPO
+SCARICA QUI IL PROGRAMMA 23 GIUGNO – 31 LUGLIO >>>
+Martedì 23 giugno
+Ospiti in Manifattura
+Talk ore 19.30 con il regista Francesco Lagi
+Il Dio dell’amore
+di Francesco Lagi (Italia 2026, 100’)
+Alla presenza del regista Francesco Lagi
+Mercoledì 24 giugno
+Carlo Pellegrini presenta
+E i figli dopo di loro
+di Ludovic e Zoran Boukherma (Francia 2024, 144’)
+Giovedì 25 giugno
+–
+Original sound
+Sentimental value
+di Joachim Trier (Norvegia 2025, 132’)
+– vers. orig. norvegese/inglese con sott. ita
+Venerdì 26 giugno
+Cortometraggi in Manifattura
+A voi, tra ottant’a
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+  <p class='mailpoet_validate_success'> Sei stato iscritto con successo alla nostra newsletter!
+
+--- LINK INTERNI (href → testo) ---
+  https://stensen.org/attivita/non-solo-cinema-in-manifattura-2026-il-programma/#content  →  Salta al contenuto
+  https://stensen.org/  →  
+  https://stensen.org/attivita/non-solo-cinema-in-manifattura-2026-il-programma/  →  Fondazione
+  https://stensen.org/chi-siamo/  →  Chi siamo
+  https://stensen.org/sostienici/  →  Sostienici
+  https://stensen.org/collabora-con-noi/  →  Collabora con noi
+  https://stensen.org/news/  →  News
+  https://stensen.org/cinema-auditorium-stensen/  →  Cinema Stensen
+  https://stensen.org/cinema-astra-firenze/  →  Cinema Astra
+  https://stensen.org/libreria-bar/  →  Libreria
+  https://stensen.org/biblioteca-co-working/  →  Biblioteca/Co-working
+  https://stensen.org/saletta-multimediale/  →  Saletta multimediale
+  https://stensen.org/programma/cinema/  →  Cinema
+  https://stensen.org/programma/cultura/  →  Cultura
+  https://stensen.org/programma/eventi/  →  Eventi
+  https://stensen.org/programma/attivita-scuole-cinema-stensen/  →  Scuole
+  https://stensen.org/calendario-stensen-cinema-astra/  →  Calendario
+  https://stensen.org/contatti/  →  Contatti
+  https://stensen.org/wp-content/uploads/2026/06/Programma-Cinema-CMT-parte-1-DEF.pdf  →  SCARICA QUI IL PROGRAMMA 23 GIUGNO – 31 LUGLIO >>>
+  https://stensen.org/wp-content/uploads/2026/07/Programma-Cinema-parte-2-A3-web.jpg  →  SCARICA QUI IL PROGRAMMA 1° AGOSTO – 2 SETTEMBRE >>>
+  https://stensen.org/altri-link/  →  Altri link utili
+  https://stensen.org/prezzi-e-convenzioni-stensen-cinema-astra/  →  Prezzi e convenzioni
+  https://stensen.org/bilancio/  →  Bilancio
+  https://stensen.org/trasparenza/  →  Trasparenza
+  https://stensen.org/general-data-protection-regulation/  →  GDPR
+  https://stensen.org/privacy-policy  →  Privacy policy
