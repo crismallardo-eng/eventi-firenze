@@ -1,367 +1,43 @@
 
 ======================================================================
-URL: https://www.teatrodellatoscana.it/sitemap.xml
+URL: https://www.teatrodellatoscana.it/sitemaps/sitemap-eventi-it.xml
 ======================================================================
 --- TESTO VISIBILE (primi 2500 char) ---
-https://www.teatrodellatoscana.it/sitemaps/sitemap-pages-it.xml
-2026-09-02
-https://www.teatrodellatoscana.it/sitemaps/sitemap-news-it.xml
-2026-09-02
-https://www.teatrodellatoscana.it/sitemaps/sitemap-eventi-it.xml
-2026-09-02
-https://www.teatrodellatoscana.it/sitemaps/sitemap-produzioni-it.xml
-2026-09-02
-https://www.teatrodellatoscana.it/sitemaps/sitemap-trasparenza-it.xml
-2026-09-02
+https://www.teatrodellatoscana.it/it/evento/ezra-in-gabbia-o-il-caso-ezra-pound
+https://www.teatrodellatoscana.it/it/evento/luomo-piu-crudele-del-mondo
+https://www.teatrodellatoscana.it/it/evento/odissea-di-omero
+https://www.teatrodellatoscana.it/it/evento/la-coscienza-di-zeno
+https://www.teatrodellatoscana.it/it/evento/larte-della-commedia
+https://www.teatrodellatoscana.it/it/evento/i-fantasmi-della-nostra-storia
+https://www.teatrodellatoscana.it/it/evento/trappola-per-topi
+https://www.teatrodellatoscana.it/it/evento/il-sogno-di-una-cosa
+https://www.teatrodellatoscana.it/it/evento/la-signora-del-martedi
+https://www.teatrodellatoscana.it/it/evento/lanatra-allarancia
+https://www.teatrodellatoscana.it/it/evento/un-curioso-accidente
+https://www.teatrodellatoscana.it/it/evento/darwins-smile
+https://www.teatrodellatoscana.it/it/evento/ginger-fred
+https://www.teatrodellatoscana.it/it/evento/arlecchino
+https://www.teatrodellatoscana.it/it/evento/cosi-e-se-vi-pare
+https://www.teatrodellatoscana.it/it/evento/la-buona-novella
+https://www.teatrodellatoscana.it/it/evento/iliade-il-gioco-degli-dei
+https://www.teatrodellatoscana.it/it/evento/magnifica-presenza
+https://www.teatrodellatoscana.it/it/evento/i-ragazzi-irresistibili
+https://www.teatrodellatoscana.it/it/evento/la-mia-vita-raccontata-male
+https://www.teatrodellatoscana.it/it/evento/pessoa-since-ive-been-me
+https://www.teatrodellatoscana.it/it/evento/linterpretazione-dei-sogni
+https://www.teatrodellatoscana.it/it/evento/la-maria-brasca
+https://www.teatrodellatoscana.it/it/evento/ionesco-suite-2023
+https://www.teatrodellatoscana.it/it/evento/la-vittoria-e-la-balia-dei-vinti
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-al-dams-di-firenze
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-nel-salotto-di-testo
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-presso-lasp-firenze-montedomini
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-al-teatro-di-rifredi
+https://www.teatrodellatoscana.it/it/evento/consultazioni-al-festival-deuropa-2022
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-in-presenza
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-nei-giardini-2
+https://www.teatrodellatoscana.it/it/evento/consultazioni-poetiche-e-musicali
+https://www.teatrodellatoscana.it/it/evento/internoesterno
+https://www.teatrodellatoscana.it/it/evento/la-donna-dalla-forma-a-s
+https://www.teatrodellatoscana.it/it/evento/
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-
-======================================================================
-URL: https://www.teatrodellatoscana.it/spettacoli/fukuro-yamabushi-funa-benkei/
-======================================================================
---- TESTO VISIBILE (primi 2500 char) ---
-Fondazione Teatro della Toscana
-Versione accessibile
-Vai al contenuto principale
-Acquista
-Cerca
-Account
-Cerca
-Cerca
-Annulla
-Fondazione Teatro della Toscana
-In programma
-Menu
-chiudi
-Mappa del sito
-Cerca nel sito
-Cerca
-In programma
-Spettacoli
-Produzioni
-Altri linguaggi
-Premio Grotowski
-News & Blog
-Rassegna stampa
-Archivio
-Teatri
-Teatro della Pergola
-Nuovo Rifredi Scena Aperta
-Teatro Era
-Giovani
-Under 30
-Scuole
-Formazione e ricerca
-Centro di Avviamento all'Espressione
-Centro Studi
-Atelier Internazionale del Costume
-Artifici
-Bando residenze per le arti sceniche
-Chi siamo
-Sostienici
-Amministrazione trasparente
-Contatti
-Biglietteria
-Informazioni e punti vendita
-Abbonamenti
-Biglietti
-Per le aziende
-Organizza un evento
-Partner e Sponsor
-Spazi pubblicitari
-Corporate Membership
-Vai al contenuto principale
-Stagione 2026/2027
-SCOPRI LA NUOVA STAGIONE
-Fukuro Yamabushi (L'eremita e il gufo)
-Funa-Benkei (Benkei sulla barca)
-01 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Acquista
-Desert Films
-dal
-06
-al
-07 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Acquista
-Lo Zar
-dal
-17
-al
-18 ottobre
-2026
-Teatro Era
-Dettagli
-People, Places & Things
-dal
-28
-al
-29 ottobre
-2026
-Teatro Era
-Dettagli
-Il berretto a sonagli
-dal
-03
-al
-08 novembre
-2026
-Teatro della Pergola
-Dettagli
-Spettacoli
-Spettacoli
-precedente
-successivo
-Fukuro Yamabushi (L'eremita e il gufo)
-Funa-Benkei (Benkei sulla barca)
-La Hōshō Nō Family, tra le più antiche e importanti scuole di teatro classico giapponese, porta in Italia una serata di Kyōgen e teatro Nō, forme d'arte patrimonio immateriale UNESCO, per celebrare il 160° anniversario delle relazioni diplomatiche tra Italia e Giappone.
-Teatro della Pergola
-01 ottobre
-2026
-Dettagli
-Acquista
-Desert Films
-La star del cinema James Franco è in scena con Blaine Kern III in una performance esclusiva sulla natura e il prezzo della fama. Sfumando il confine tra cinema e teatro, realtà e finzione, lo spettacolo crea un'esperienza intima e perturbante.
-Teatro della Pergola
-dal
-06
-al
-07 ottobre
-2026
-Dettagli
-Acquista
-Lo Zar
-Anteprima Nazionale
-Storia potentissima e agghiacciante, quella di Putin, con cui Stefano Massini torna ad affrontare il tema del potere nella nuova produzione del Teatro della Toscana. Un materiale scenico di inaudita ferocia: la scalata irresistibile di un adolescente teppista fino al vertice del Cremlino.
-Teatro Era
-dal
-17
-al
-18 ottobre
-2026
-Dettagli
-People, Places & Things
-Cose, posti e persone
-Pierfrancesco Favino dirige Anna Ferzetti nel pluripremiato testo di 
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='event__banner__date'> 01 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__banner__date'> dal 06 al 07 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__banner__date'> dal 17 al 18 ottobre 2026
-  <div class='event__banner__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='event__banner__date'> dal 28 al 29 ottobre 2026
-  <div class='event__banner__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='event__banner__date'> dal 03 al 08 novembre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> 01 ottobre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 06 al 07 ottobre 2026
-  <div class='events-grid__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='events-grid__date'> dal 17 al 18 ottobre 2026
-  <div class='events-grid__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='events-grid__date'> dal 28 al 29 ottobre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 03 al 08 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-  <span class='icon-location'> Nuovo Rifredi Scena Aperta
-  <div class='events-grid__date'> 04 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-  <span class='icon-location'> Nuovo Rifredi Scena Aperta
-  <div class='events-grid__date'> 07 novembre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 10 al 15 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-
-======================================================================
-URL: https://www.teatrodellatoscana.it/evento/lo-zar/
-======================================================================
---- TESTO VISIBILE (primi 2500 char) ---
-Fondazione Teatro della Toscana
-Versione accessibile
-Vai al contenuto principale
-Acquista
-Cerca
-Account
-Cerca
-Cerca
-Annulla
-Fondazione Teatro della Toscana
-In programma
-Menu
-chiudi
-Mappa del sito
-Cerca nel sito
-Cerca
-In programma
-Spettacoli
-Produzioni
-Altri linguaggi
-Premio Grotowski
-News & Blog
-Rassegna stampa
-Archivio
-Teatri
-Teatro della Pergola
-Nuovo Rifredi Scena Aperta
-Teatro Era
-Giovani
-Under 30
-Scuole
-Formazione e ricerca
-Centro di Avviamento all'Espressione
-Centro Studi
-Atelier Internazionale del Costume
-Artifici
-Bando residenze per le arti sceniche
-Chi siamo
-Sostienici
-Amministrazione trasparente
-Contatti
-Biglietteria
-Informazioni e punti vendita
-Abbonamenti
-Biglietti
-Per le aziende
-Organizza un evento
-Partner e Sponsor
-Spazi pubblicitari
-Corporate Membership
-Vai al contenuto principale
-Stagione 2026/2027
-SCOPRI LA NUOVA STAGIONE
-Fukuro Yamabushi (L'eremita e il gufo)
-Funa-Benkei (Benkei sulla barca)
-01 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Acquista
-Desert Films
-dal
-06
-al
-07 ottobre
-2026
-Teatro della Pergola
-Dettagli
-Acquista
-Lo Zar
-dal
-17
-al
-18 ottobre
-2026
-Teatro Era
-Dettagli
-People, Places & Things
-dal
-28
-al
-29 ottobre
-2026
-Teatro Era
-Dettagli
-Il berretto a sonagli
-dal
-03
-al
-08 novembre
-2026
-Teatro della Pergola
-Dettagli
-Spettacoli
-Spettacoli
-precedente
-successivo
-Fukuro Yamabushi (L'eremita e il gufo)
-Funa-Benkei (Benkei sulla barca)
-La Hōshō Nō Family, tra le più antiche e importanti scuole di teatro classico giapponese, porta in Italia una serata di Kyōgen e teatro Nō, forme d'arte patrimonio immateriale UNESCO, per celebrare il 160° anniversario delle relazioni diplomatiche tra Italia e Giappone.
-Teatro della Pergola
-01 ottobre
-2026
-Dettagli
-Acquista
-Desert Films
-La star del cinema James Franco è in scena con Blaine Kern III in una performance esclusiva sulla natura e il prezzo della fama. Sfumando il confine tra cinema e teatro, realtà e finzione, lo spettacolo crea un'esperienza intima e perturbante.
-Teatro della Pergola
-dal
-06
-al
-07 ottobre
-2026
-Dettagli
-Acquista
-Lo Zar
-Anteprima Nazionale
-Storia potentissima e agghiacciante, quella di Putin, con cui Stefano Massini torna ad affrontare il tema del potere nella nuova produzione del Teatro della Toscana. Un materiale scenico di inaudita ferocia: la scalata irresistibile di un adolescente teppista fino al vertice del Cremlino.
-Teatro Era
-dal
-17
-al
-18 ottobre
-2026
-Dettagli
-People, Places & Things
-Cose, posti e persone
-Pierfrancesco Favino dirige Anna Ferzetti nel pluripremiato testo di 
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='event__banner__date'> 01 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__banner__date'> dal 06 al 07 ottobre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='event__banner__date'> dal 17 al 18 ottobre 2026
-  <div class='event__banner__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='event__banner__date'> dal 28 al 29 ottobre 2026
-  <div class='event__banner__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='event__banner__date'> dal 03 al 08 novembre 2026
-  <div class='event__banner__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> 01 ottobre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 06 al 07 ottobre 2026
-  <div class='events-grid__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='events-grid__date'> dal 17 al 18 ottobre 2026
-  <div class='events-grid__location'> Teatro Era
-  <span class='icon-location'> Teatro Era
-  <div class='events-grid__date'> dal 28 al 29 ottobre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 03 al 08 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-  <span class='icon-location'> Nuovo Rifredi Scena Aperta
-  <div class='events-grid__date'> 04 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
-  <span class='icon-location'> Nuovo Rifredi Scena Aperta
-  <div class='events-grid__date'> 07 novembre 2026
-  <div class='events-grid__location'> Teatro della Pergola
-  <span class='icon-location'> Teatro della Pergola
-  <div class='events-grid__date'> dal 10 al 15 novembre 2026
-  <div class='events-grid__location'> Nuovo Rifredi Scena Aperta
