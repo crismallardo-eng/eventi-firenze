@@ -8,6 +8,7 @@ Output: data/_dump.txt
 """
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -32,9 +33,13 @@ def dump(url: str, session) -> str:
         tag.decompose()
 
     # 1. Testo visibile, che contiene data/ora/luogo in chiaro.
+    # Il limite è generoso: i programmi settimanali dei cinema arrivano a
+    # diverse migliaia di caratteri e vanno visti per intero per scrivere
+    # un parser corretto. Sovrascrivibile con DUMP_MAX_CHARS.
+    limit = int(os.environ.get("DUMP_MAX_CHARS", "14000"))
     text = soup.get_text("\n", strip=True)
-    parts.append("--- TESTO VISIBILE (primi 2500 char) ---")
-    parts.append(text[:2500])
+    parts.append(f"--- TESTO VISIBILE (primi {limit} char) ---")
+    parts.append(text[:limit])
 
     # 2. Elementi con classi che sembrano portare data/ora/luogo: servono per
     #    scrivere selettori precisi invece di euristiche sul testo.
