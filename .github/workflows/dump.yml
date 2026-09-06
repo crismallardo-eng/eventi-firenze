@@ -24,7 +24,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - run: python scripts/dump_page.py ${{ github.event.inputs.urls }}
+        # L'input passa da una variabile d'ambiente e non viene interpolato
+        # direttamente nel comando: altrimenti la shell spezza gli URL sui
+        # caratteri "&" delle query string, scaricando la pagina sbagliata.
+      - name: Dump pagine
+        env:
+          URLS: ${{ github.event.inputs.urls }}
+        run: |
+          # shellcheck disable=SC2086 — la separazione sugli spazi è voluta,
+          # ma ogni URL resta integro perché non passa per l'interpolazione.
+          python scripts/dump_page.py $URLS
       - name: Commit dump
         run: |
           git config user.name "github-actions[bot]"
