@@ -2,7 +2,7 @@
 ======================================================================
 URL: https://stensen.org/attivita/programmazione-cinema-astra-firenze/
 ======================================================================
---- TESTO VISIBILE (primi 2500 char) ---
+--- TESTO VISIBILE (primi 14000 char) ---
 Programmazione - Cinema Astra Firenze
 Salta al contenuto
 Fondazione
@@ -107,7 +107,135 @@ Domenica 6 settembre
 ore 11.00
 Silent Friend
 di Idikó Enyedi (Ger, Fra, Ung 2025, 145’) –
-versione origi
+versione originale tedesca sott ita
+ore 13.30
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’)
+ore 16.15
+Tony – Diario di un giovane cuoco
+di Matt Johnson (USA 2026, 106’)
+ore 18.15
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’)
+ore 21.00
+Tony – Diario di un giovane cuoco
+di Matt Johnson (USA 2026, 106’) –
+versione originale inglese sott ita
+Lunedì 7 settembre
+ore 16.40
+Tony – Diario di un giovane cuoco
+di Matt Johnson (USA 2026, 106’) –
+versione originale inglese sott ita
+ore 19.00
+A War On Women
+di Raha Shiranzi (Italia 2026, 106’) –
+versione originale sott ita
+ore 21.00
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’) –
+versione originale tedesca sott ita
+Martedì 8 settembre
+ore 15.30
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’) –
+versione originale tedesca sott ita
+ore 18.15
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’)
+ore 21.00
+Tony – Diario di un giovane cuoco
+di Matt Johnson (USA 2026, 106’) –
+versione originale inglese sott ita
+Mercoledì 9 settembre
+ore 16.00
+Tony – Diario di un giovane cuoco
+di Matt Johnson (USA 2026, 106’)
+ore 18.15
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’) –
+versione originale tedesca sott ita
+ore 21.00
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’)
+Giovedì 10 settembre
+ore 16.15
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’)
+ore 19.00
+Oasis – Don’t look back in anger
+di Will Lovelace e Dylan Southern (UK 2026, 122’) –
+versione originale inglese sott ita
+ore 21.15
+Silent Friend
+di Idikó Enyedi (Ger, Fra, Ung 2025, 145’) –
+versione originale tedesca sott ita
+PROSSIMAMENTE:
+Venerdì 11 settembre
+ore 21.15
+Oasis – Don’t look back in anger
+di Will Lovelace e Dylan Southern (UK 2026, 122’) –
+versione originale inglese sott ita
+Lunedì 14 settembre
+ore 21.00
+M – Il Mostro di Düsseldorf
+di Fritz Lang (Ger 1931, 117’) –
+versione originale tedesca sott ita – restaurato
+Mercoledì 16 settembre
+ore 21.00
+Ritorno a Buenos Aires
+di Marco Bechis (Ita, Bra 2026, 104’)
+alla presenza del regista Marco Bechis e l’attore Adriano Giannini
+Acquista i biglietti >>>
+Vai al calendario >>>
+______________________________________________________________________________________________________________________________________________
+Astra Cinema Firenze
+è una sala cinematografica e polifunzionale di Banca Cambiano 1884, la cui gestione e programmazione è a cura di Fondazione Stensen e PRG.
+L’obiettivo comune è restituire uno spazio di socialità e cultura condivisa alla città, offrire una nuova occasione di confronto e interrogazione sulla complessità del presente e attivare nuove collaborazioni con gli attori della vita culturale cittadina.
+Partner di Cinema Astra è
+Publiacqua spa
+per mitigare il consumo di plastica e offrire acqua pubblica. Il cinema Astra è parte del circuito Firenze al Cinema.
+Iscriviti alla newsletter
+Lascia questo campo vuoto
+Per informazioni sulle nostra programmazione e sulle varie attività, iscriviti alla newsletter di Stensen.
+Dichiaro di aver letto ed accetto la
+Privacy Policy
+Sei stato iscritto con successo alla nostra newsletter!
+Fondazione
+Chi siamo
+Sostienici
+Collabora con noi
+News
+Altri link utili
+Spazi
+Cinema Stensen
+Cinema Astra
+Libreria
+Biblioteca/Co-working
+Saletta multimediale
+Attività
+Cinema
+Cultura
+Eventi
+Scuole
+Prezzi e convenzioni
+Calendario
+Contatti
+Bilancio
+Trasparenza
+GDPR
+Archivio
+Fondazione Culturale Niels Stensen
+Uffici: V.le Don Minzoni 25/G - 50129 - Firenze FI
+Cinema: V.le Don Minzoni 25/C - 50129 - Firenze FI
+Partita Iva: 06263330489
+Tel
++39 055 576551
+| Fax +39 055 582029
+Copyright © 2026 Istituto Niels Stensen | Fondazione Culturale. All rights reserved.
+Privacy policy
+Cookie policy
+Preferenze di tracciamento
+website by
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
   <p class='mailpoet_validate_success'> Sei stato iscritto con successo alla nostra newsletter!
@@ -145,8 +273,3 @@ versione origi
   https://stensen.org/trasparenza/  →  Trasparenza
   https://stensen.org/general-data-protection-regulation/  →  GDPR
   https://stensen.org/privacy-policy  →  Privacy policy
-
-======================================================================
-URL: https://stensen.org/wp-json/wp/v2/mec-events?per_page=15
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://stensen.org/wp-json/wp/v2/mec-events?per_page=15
