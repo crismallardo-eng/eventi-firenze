@@ -47,6 +47,30 @@ _EVENT_URL_RE = re.compile(
     rf"^{re.escape(BASE_URL)}/it/evento/[a-z]+/[a-z0-9\-]+/?$"
 )
 
+# Presentazioni, reading e incontri (spesso a ingresso libero) NON entrano in
+# cartellone: il teatro li pubblica come notizie. La data reale sta nella
+# prosa ("mercoledì 9 settembre, ore 18:30 in Saloncino 'Paolo Poli'"),
+# mentre l'unica data strutturata è quella di pubblicazione. Le pagine di
+# dettaglio delle notizie sono costruite via JavaScript e risultano vuote:
+# il testo utile c'è solo nell'elenco.
+NEWS_URL = f"{BASE_URL}/news/"
+_MONTHS_ALT = "|".join(m for m in ITALIAN_MONTHS if len(m) > 3)
+# Riga della data di pubblicazione nell'elenco: "31 agosto" seguita da "2026".
+_NEWS_PUB_RE = re.compile(rf"^(\d{{1,2}})\s+({_MONTHS_ALT})$", re.IGNORECASE)
+_NEWS_YEAR_RE = re.compile(r"^(20\d{2})$")
+# Data dell'evento dentro il testo: "9 settembre", "26 settembre".
+_PROSE_DATE_RE = re.compile(rf"\b(\d{{1,2}})\s+({_MONTHS_ALT})\b", re.IGNORECASE)
+# Orario: "ore 18:30", "ore 18.30", "alle 18". La presenza di un orario è ciò
+# che distingue un evento vero da un avviso (bandi, sconti, lavori edilizi).
+_PROSE_TIME_RE = re.compile(r"\b(?:ore|alle)\s+(\d{1,2})(?:[:.](\d{2}))?\b", re.IGNORECASE)
+_NEWS_END = "continua a leggere"
+# Sale citate nel testo delle notizie. Il Teatro Era è a Pontedera: escluso.
+_NEWS_VENUES = (
+    ("saloncino", "Saloncino 'Paolo Poli' - Teatro della Pergola"),
+    ("pergola", "Teatro della Pergola"),
+    ("rifredi", "Nuovo Rifredi Scena Aperta"),
+)
+
 PARALLEL_WORKERS = 8
 REQUEST_TIMEOUT = 12
 
@@ -144,6 +168,97 @@ def _event_urls_from_listing() -> list[str]:
     return urls
 
 
+def _news_blocks(lines: list[str]):
+    """Spezza il testo dell'elenco notizie in blocchi (titolo, corpo, anno).
+
+    Ogni notizia comincia con la data di pubblicazione su due righe
+    ("31 agosto" / "2026"), poi il titolo, poi il testo fino a
+    "Continua a leggere".
+    """
+    i = 0
+    while i < len(lines) - 2:
+        if _NEWS_PUB_RE.match(lines[i]) and _NEWS_YEAR_RE.match(lines[i + 1]):
+            year = int(lines[i + 1])
+            title = lines[i + 2].strip()
+            body: list[str] = []
+            j = i + 3
+            while j < len(lines) and lines[j].strip().lower() != _NEWS_END:
+                # una nuova notizia comincia: chiudi il blocco corrente
+                if (_NEWS_PUB_RE.match(lines[j]) and j + 1 < len(lines)
+                        and _NEWS_YEAR_RE.match(lines[j + 1])):
+                    break
+                body.append(lines[j])
+                j += 1
+            if title:
+                yield title, " ".join(body), year
+            i = j
+        else:
+            i += 1
+
+
+def _events_from_news(today) -> list[Event]:
+    """Eventi ricavati dalle notizie: presentazioni, reading, incontri."""
+    try:
+        resp = http_get(NEWS_URL, timeout=REQUEST_TIMEOUT)
+    except Exception:  # noqa: BLE001
+        return []  # le notizie sono un extra: se mancano restano gli spettacoli
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    lines = [l for l in soup.get_text("\n", strip=True).split("\n") if l.strip()]
+
+    out: list[Event] = []
+    for title, body, pub_year in _news_blocks(lines):
+        # Senza orario è un avviso (bando, sconto abbonamenti, lavori), non
+        # un evento a cui si può andare.
+        tmatch = _PROSE_TIME_RE.search(body)
+        if tmatch is None:
+            continue
+        dmatch = _PROSE_DATE_RE.search(body)
+        if dmatch is None:
+            continue
+        month = ITALIAN_MONTHS.get(dmatch.group(2).lower())
+        if month is None:
+            continue
+        hour = int(tmatch.group(1))
+        minute = int(tmatch.group(2) or 0)
+        if not (0 <= hour <= 23 and 0 <= minute <= 59):
+            continue
+
+        # L'anno non è scritto: uso quello di pubblicazione, e passo al
+        # successivo se la data risulterebbe già passata (notizia di
+        # dicembre su un evento di gennaio).
+        year = pub_year
+        try:
+            start = datetime(year, month, int(dmatch.group(1)), hour, minute, tzinfo=ROME)
+        except ValueError:
+            continue
+        if start.date() < today:
+            try:
+                start = start.replace(year=year + 1)
+            except ValueError:
+                continue
+        if start.date() < today:
+            continue
+
+        haystack = f"{title} {body}".lower()
+        venue = next((v for key, v in _NEWS_VENUES if key in haystack), None)
+        if venue is None:
+            continue  # sede non riconosciuta (o Teatro Era, fuori Firenze)
+
+        out.append(Event(
+            source=SOURCE_NAME,
+            title=title,
+            start=start,
+            url=NEWS_URL,
+            venue=venue,
+            description=body[:277] + "…" if len(body) > 280 else body,
+            category=CATEGORY,
+        ))
+    return out
+
+
 def fetch() -> list[Event]:
     event_urls = _event_urls_from_listing()
     if not event_urls:
@@ -160,6 +275,9 @@ def fetch() -> list[Event]:
                 events.extend(fut.result())
             except Exception:
                 continue
+
+    # Presentazioni e incontri pubblicati come notizie anziché in cartellone.
+    events.extend(_events_from_news(datetime.now(tz=ROME).date()))
 
     # Dedup per (titolo, start, venue)
     seen: set[tuple] = set()
