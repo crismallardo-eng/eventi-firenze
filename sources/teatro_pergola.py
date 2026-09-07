@@ -64,6 +64,21 @@ _PROSE_DATE_RE = re.compile(rf"\b(\d{{1,2}})\s+({_MONTHS_ALT})\b", re.IGNORECASE
 # che distingue un evento vero da un avviso (bandi, sconti, lavori edilizi).
 _PROSE_TIME_RE = re.compile(r"\b(?:ore|alle)\s+(\d{1,2})(?:[:.](\d{2}))?\b", re.IGNORECASE)
 _NEWS_END = "continua a leggere"
+# Un orario può essere una SCADENZA e non l'inizio di un evento: "la richiesta
+# dovrà pervenire entro e non oltre le ore 23:59 del 10 settembre". Se prima
+# dell'orario compaiono queste parole, il blocco non è un appuntamento.
+_DEADLINE_RE = re.compile(
+    r"(?:entro|non oltre|scadenz|termine ultimo|pervenire|dovrà pervenire)",
+    re.IGNORECASE,
+)
+# Quanto testo guardare prima dell'orario per riconoscere una scadenza.
+_DEADLINE_LOOKBEHIND = 80
+# Comunicazioni amministrative: non sono eventi a cui si partecipa.
+_NOT_AN_EVENT_RE = re.compile(
+    r"\b(avviso|bando|selezione|concorso|graduatoria|sponsor|"
+    r"manifestazione di interesse|abbonamenti)\b",
+    re.IGNORECASE,
+)
 # Sale citate nel testo delle notizie. Il Teatro Era è a Pontedera: escluso.
 _NEWS_VENUES = (
     ("saloncino", "Saloncino 'Paolo Poli' - Teatro della Pergola"),
@@ -210,9 +225,20 @@ def _events_from_news(today) -> list[Event]:
 
     out: list[Event] = []
     for title, body, pub_year in _news_blocks(lines):
-        # Senza orario è un avviso (bando, sconto abbonamenti, lavori), non
-        # un evento a cui si può andare.
-        tmatch = _PROSE_TIME_RE.search(body)
+        # Comunicazioni amministrative (bandi, selezioni, promozioni sugli
+        # abbonamenti): hanno date e talvolta orari, ma non sono appuntamenti.
+        if _NOT_AN_EVENT_RE.search(title):
+            continue
+
+        # Senza orario è un avviso (lavori, comunicati), non un evento a cui
+        # si può andare. E l'orario dev'essere un inizio, non una scadenza.
+        tmatch = None
+        for cand in _PROSE_TIME_RE.finditer(body):
+            before = body[max(0, cand.start() - _DEADLINE_LOOKBEHIND):cand.start()]
+            if _DEADLINE_RE.search(before):
+                continue
+            tmatch = cand
+            break
         if tmatch is None:
             continue
         dmatch = _PROSE_DATE_RE.search(body)
