@@ -1,20 +1,155 @@
 
 ======================================================================
-URL: https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom
+URL: https://www.bargellomusei.it/cosa-accade/
+======================================================================
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/cosa-accade/
+
+======================================================================
+URL: https://www.bargellomusei.it/eventi/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-
+Eventi | Musei del Bargello
+Vai al contenuto
+Chi siamo
+Multimedia
+Aggiornamenti
+Servizi
+Contatti
+ITA
+EN
+I musei
+Museo Nazionale del Bargello
+Cappelle Medicee
+Orsanmichele
+Palazzo Davanzati
+Casa Martelli
+Visita
+Biglietti
+Come arrivare
+Itinerari tematici
+Percorsi di visita
+Accessibilità e servizi al pubblico
+Pianifica la tua visita
+Cosa accade
+Didattica
+Sostienici
+Apri la ricerca
+I musei
+Museo Nazionale del Bargello
+Cappelle Medicee
+Orsanmichele
+Palazzo Davanzati
+Casa Martelli
+Visita
+Biglietti
+Come arrivare
+Itinerari tematici
+Percorsi di visita
+Accessibilità e servizi al pubblico
+Pianifica la tua visita
+Cosa accade
+Didattica
+Sostienici
+Apri la ricerca
+Chi siamo
+Multimedia
+Aggiornamenti
+Servizi
+Contatti
+ITA
+EN
+ITA
+EN
+Cerca nel sito
+Ricerca per:
+Seguici
+Cosa accade
+Tutto
+Oggi
+Seleziona dal calendario
+Archivio eventi
+Loading...
+Incontri, Didattica, Visite tematiche
+3 Lug - 30 Nov 2026
+Restauro del Basamento del Perseo di Benvenuto Cellini: vediamolo nel dettaglio
+Lo staff del Museo racconta il progetto
+Museo Nazionale del Bargello
+Eventi
+26 - 27 Set 2026
+Giornate Europee del Patrimonio 26 e 27 settembre 2026: calendario attività GAMB
+'Proteggere il patrimonio: rinnovare, resistere, reinventare'
+Museo Nazionale del Bargello, Cappelle Medicee e Palazzo Davanzati
+Orsanmichele
+Casa Martelli
+Palazzo Davanzati
+Cappelle Medicee
+Museo Nazionale del Bargello
+Musei
+Cosa accade
+Percorsi di visita
+Didattica
+Sostienici
+Contatti
+Visita
+Come arrivare
+Itinerari tematici
+Accessibilità e servizi al pubblico
+Pianifica la tua visita
+Aggiornamenti
+News
+Avvisi
+Rimani connesso
+Rimani connesso
+Rimani connesso
+© 2026                        Musei del Bargello. Tutti i diritti sono riservati
+Amministrazione trasparente
+Privacy Policy
+Cookie Policy
+Crediti
+Gestisci Consenso Cookie
+Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni del dispositivo. Il consenso a queste tecnologie ci permetterà di elaborare dati come il comportamento di navigazione o ID unici su questo sito. Non acconsentire o ritirare il consenso può influire negativamente su alcune caratteristiche e funzioni.
+Funzionale
+Funzionale
+Sempre attivo
+L'archiviazione tecnica o l'accesso sono strettamente necessari al fine legittimo di consentire l'uso di un servizio specifico esplicitamente richiesto dall'abbonato o dall'utente, o al solo scopo di effettuare la trasmissione di una comunicazione su una rete di comunicazione elettronica.
+Preferenze
+Preferenze
+L'archiviazione tecnica o l'accesso sono necessari per lo scopo legittimo di memorizzare le preferenze che non sono richieste dall'abbonato o dall'utente.
+Statistiche
+Statistiche
+L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici.
+L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici anonimi. Senza un mandato di comparizione, una conformità volontaria da parte del vostro Fornitore di Servizi Internet, o ulteriori registrazioni da parte di terzi, le informazioni memorizzate o recuperate per questo scopo da sole non possono di solito essere utilizzate per l'identificazione.
+Marketing
+Marketing
+L'archiviazione tecnica o l'accesso sono necessari per creare profili di utenti per inviare pubblicità, o per tracciare l'utente su un sito web o su diversi siti web per scopi di marketing simili.
+Gestisci opzioni
+Gestisci servizi
+Gestisci {vendor_count} fornitori
+Per saperne di più su questi scopi
+Accetta
+Nega
+Visualizza le preferenze
+Salva preferenze
+Visualizza le preferenze
+{title}
+{title}
+{title}
+Gestisci consenso
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
+  <li class='menu-item menu-item-type-post_type_archive menu-item-object-multimedia menu-item-981 nav-item'> Multimedia
+  <button class='menu-item-has-children btn d-none d-xl-inline-flex align-items-center text-decoration-none ps-3 pe-0'> Apri la ricerca
+  <button class='menu-item-has-children btn d-none d-xl-inline-flex align-items-center text-decoration-none ps-3 pe-0'> Apri la ricerca
+  <li class='menu-item menu-item-type-post_type_archive menu-item-object-multimedia menu-item-981 nav-item'> Multimedia
+  <a class='fs-6 d-block fw-light text-decoration-underline'> Archivio eventi
+  <a class='text-decoration-none'> Incontri, Didattica, Visite tematiche 3 Lug - 30 Nov 2026 Restauro del Basamento del Perseo di Benvenuto Cellini: vediamolo nel dettaglio Lo staff del Museo rac
+  <a class='text-decoration-none'> Eventi 26 - 27 Set 2026 Giornate Europee del Patrimonio 26 e 27 settembre 2026: calendario attività GAMB 'Proteggere il patrimonio: rinnovare, resistere, reinve
 
 --- LINK INTERNI (href → testo) ---
+  https://www.bargellomusei.it/eventi/#content  →  Vai al contenuto
+  https://www.bargellomusei.it/eventi/  →  ITA
 
 ======================================================================
-URL: https://www.bargellomusei.it/mostre-ed-eventi/
+URL: https://www.bargellomusei.it/mostre-e-eventi/
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/mostre-ed-eventi/
-
-======================================================================
-URL: https://www.operaduomo.firenze.it/it/
-======================================================================
-ERRORE: SSLError: HTTPSConnectionPool(host='www.operaduomo.firenze.it', port=443): Max retries exceeded with url: /it/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/mostre-e-eventi/
