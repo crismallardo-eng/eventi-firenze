@@ -1,114 +1,20 @@
 
 ======================================================================
-URL: https://www.uffizi.it/eventi
+URL: https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Calendario Eventi | Gallerie degli Uffizi
-Vai al contenuto principale
-Vai al footer
-Alto contrasto
-English
-1/3
-29 settembre 2026 - Assemblea del personale. Possibili modifiche orarie
-2/3
-Palazzo Pitti. Temporanea chiusura della Sala dell'Iliade
-3/3
-Chiusura temporanea del Tesoro dei Granduchi
-Leggi avvisi
-English
-Uffizi Shop
-search_label
-search_label
-biglietti
-Menu
-menu
-Visita
-News ed Eventi
-Collezioni
-Educazione
-Sostienici
-Home
-/
-Eventi
-/
-Visita
-News
-Eventi
-Opere
-Video
-Ipervisioni
-Avvisi
-Vai agli avvisi
-Regole di accesso al Corridoio Vasariano
-Informazioni sull'accessibilità dei nostri musei
-Opere in trasferta - Opere temporaneamente non esposte al pubblico
-Vai agli avvisi
-Accessibilità
-Scuola
-Famiglie
-Educazione permanente
-Guide e Gruppi
-Studiosi
-Gli Uffizi
-Palazzo Pitti
-Giardino di Boboli
-Corridoio Vasariano
-Biglietti
-Utilizzo spazi e immagini
-Mappa del sito
-Contattaci
-Chi siamo
-FAQ
-Qualche regola da seguire!
-Social Media Policy
-Amministrazione trasparente
-Dichiarazione Accessibilità AGID
-Progettazione e sviluppo Cantiere Creativo
-Privacy Policy
-Cookie Policy
-Modifica preferenze privacy
+
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
 
 --- LINK INTERNI (href → testo) ---
-  https://www.uffizi.it/eventi#content  →  Vai al contenuto principale
-  https://www.uffizi.it/eventi#footer  →  Vai al footer
-  https://www.uffizi.it/en/events  →  English
-  https://www.uffizi.it/avvisi/assemblea-del-personale  →  29 settembre 2026 - Assemblea del personale. Possibili modifiche orari
-  https://www.uffizi.it/avvisi/palazzo-pitti-tempranea-chiusura-della-sala-delliliade  →  Palazzo Pitti. Temporanea chiusura della Sala dell'Iliade
-  https://www.uffizi.it/avvisi/chiusura-temporanea-tesoro-dei-granduchi  →  Chiusura temporanea del Tesoro dei Granduchi
-  https://www.uffizi.it/avvisi  →  Leggi avvisi
-  https://www.uffizi.it/  →  
-  https://www.uffizi.it/gli-uffizi  →  
-  https://www.uffizi.it/palazzo-pitti  →  
-  https://www.uffizi.it/giardino-boboli  →  
-  https://www.uffizi.it/corridoio-vasariano  →  
-  https://www.uffizi.it/biglietti  →  biglietti
-  https://www.uffizi.it/visita  →  Visita
-  https://www.uffizi.it/news  →  News
-  https://www.uffizi.it/eventi  →  Eventi
-  https://www.uffizi.it/opere/cerca  →  Opere
-  https://www.uffizi.it/video-storie  →  Video
-  https://www.uffizi.it/mostre-virtuali  →  Ipervisioni
-  https://www.uffizi.it/avvisi/regole-di-accesso-al-corridoio-vasariano  →  Regole di accesso al Corridoio Vasariano
-  https://www.uffizi.it/avvisi/informazioni-accessibilita-musei  →  Informazioni sull'accessibilità dei nostri musei
-  https://www.uffizi.it/avvisi/opere-in-trasferta  →  Opere in trasferta - Opere temporaneamente non esposte al pubblico
-  https://www.uffizi.it/ts/accessibilita  →  Accessibilità
-  https://www.uffizi.it/ts/didattica  →  Scuola
-  https://www.uffizi.it/ts/famiglie  →  Famiglie
-  https://www.uffizi.it/ts/educazione-permanente  →  Educazione permanente
-  https://www.uffizi.it/ts/guide  →  Guide e Gruppi
-  https://www.uffizi.it/ts/studiosi  →  Studiosi
-  https://www.uffizi.it/servizi-professionali  →  Utilizzo spazi e immagini
-  https://www.uffizi.it/mappa-sito  →  Mappa del sito
-  https://www.uffizi.it/contattaci  →  Contattaci
-  https://www.uffizi.it/pagine/chi-siamo  →  Chi siamo
-  https://www.uffizi.it/pagine/faq  →  FAQ
-  https://www.uffizi.it/pagine/come-si-visitano-le-gallerie-degli-uffizi  →  Qualche regola da seguire!
-  https://www.uffizi.it/pagine/social_media_policy_uffizigalleries  →  Social Media Policy
-  https://www.uffizi.it/pagine/privacy  →  Privacy Policy
 
 ======================================================================
-URL: https://www.uffizi.it/eventi/il-genio-di-sarmi-nuova-mostra-al-museo-delle-porcellane
+URL: https://www.bargellomusei.it/mostre-ed-eventi/
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.uffizi.it/404
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/mostre-ed-eventi/
+
+======================================================================
+URL: https://www.operaduomo.firenze.it/it/
+======================================================================
+ERRORE: SSLError: HTTPSConnectionPool(host='www.operaduomo.firenze.it', port=443): Max retries exceeded with url: /it/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
