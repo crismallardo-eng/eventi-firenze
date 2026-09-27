@@ -39,6 +39,7 @@ SOURCE_MODULES = [
     "sources.arci_firenze",
     "sources.museo_novecento",
     "sources.palazzo_strozzi",
+    "sources.muse_firenze",
     "sources.mad",
     "sources.cultura_comune",
     "sources.teatro_maggio",
