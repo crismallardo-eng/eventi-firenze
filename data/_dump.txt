@@ -1,265 +1,552 @@
 
 ======================================================================
-URL: https://www.uffizi.it/mostre
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.uffizi.it/404
-
-======================================================================
-URL: https://www.bargellomusei.it/mostre/
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/mostre/
-
-======================================================================
-URL: https://musefirenze.it/mostre/
+URL: https://www.uffizi.it/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Mostre | MUS.E
-Musei
-Visite guidate e attività
-Eventi
-Mostre
+Homepage Sito Ufficiale | Gallerie degli Uffizi
+Vai al contenuto principale
+Vai al footer
+Alto contrasto
+English
+1/3
+29 settembre 2026 - Assemblea del personale. Possibili modifiche orarie
+2/3
+Palazzo Pitti. Temporanea chiusura della Sala dell'Iliade
+3/3
+Chiusura temporanea del Tesoro dei Granduchi
+Leggi avvisi
+English
+Uffizi Shop
+search_label
+search_label
+biglietti
+Menu
+menu
+Visita
+News ed Eventi
+Collezioni
+Educazione
+Sostienici
+Gallerie degli Uffizi
+/
+Visita
 News
-Fondazione MUS.E
-Blog
-it
-en
-fr
-it
-en
-fr
-Musei
-Museo di Palazzo Vecchio
-Museo Novecento
-Museo Stefano Bardini
-Complesso di Santa Maria Novella
-Cappella Brancacci
-Forte di Belvedere
-Fondazione Salvatore Romano
-Museo del ciclismo Gino Bartali
-Palazzo Medici Riccardi
-MAD. Murate Art District
-Museo delle Terre Nuove
-Casa Masaccio
-Museo Leonardiano di Vinci
-Visite guidate e attività
 Eventi
-Mostre
-News
-Fondazione MUS.E
-Blog
-Musei
-Museo di Palazzo Vecchio
-Museo Novecento
-Museo Stefano Bardini
-Complesso di Santa Maria Novella
-Cappella Brancacci
-Forte di Belvedere
-Fondazione Salvatore Romano
-Museo del ciclismo Gino Bartali
-Palazzo Medici Riccardi
-MAD. Murate Art District
-Museo delle Terre Nuove
-Casa Masaccio
-Museo Leonardiano di Vinci
-Mostre
-MOSTRA
-Palazzo Medici Riccardi
-San Francesco d’Assisi e Giuseppe Nicola Nasini. Un episodio di committenza medicea
-24 Set
-31 Gen
-MOSTRA
-Palazzo Medici Riccardi
-Oltre il Rinascimento. Tra Dürer e Parmigianino
-10 Set
-05 Gen
-MOSTRA
-MAD. Murate Art District
-Irene Dionisio. Miracola
-17 Set
-22 Nov
-MOSTRA
-Forte di Belvedere
-Drama: Four Acts
-24 Giu
-16 Ott
-MOSTRA
-Museo Novecento
-Ottone Rosai. Poeta innanzitutto
-07 Mar
-04 Ott
-Archivio Mostre
-Newsletter
-ISCRIVITI ADESSO
-INFO E PRENOTAZIONI
-PRIVATI
-+39 055 0541450
-[email protected]
-SCUOLE
-+39 055 0541451
-[email protected]
-Fondazione MUS.E
-Sede Legale: Palazzo Vecchio,
-Piazza Signoria 1, 50122 Firenze
-P.I.05118160489 – C.F.94083520489
-Iscritta al n° 111 del Registro delle Persone
-Giuridiche Private
-Le tue preferenze relative alla privacy
-LINK UTILI
-Amministrazione trasparente
-Domenica Metropolitana
-Sito ufficiale Musei Civici Fiorentini
-Sito ufficiale Feel Florence
-Sito Firenze Patrimonio Mondiale
-Privacy policy
-Cookie policy
+Opere
+Video
+Ipervisioni
+Gallerie degli Uffizi
+Cinquanta milioni di euro di interventi per dare un nuovo volto alle Gallerie
+Lavori in corso: Decine di progetti, appena conclusi, in corso o in rampa di lancio, distribuiti su Uffizi, Palazzo Pitti e Giardino di Boboli
+Spostare lo sguardo: le visite-spettacolo in museo per giovani under 30
+Da ottobre a dicembre sei appuntamenti a ingresso gratuito grazie al sostegno di Unicoop Firenze
+Il nuovo allestimento delle Sale di Botticelli
+Completamente rinnovati gli spazi dedicati ai capolavori del maestro del Rinascimento
+Un nuovo ingresso per Palazzo Pitti
+Il nuovo accesso dal portone di destra della Reggia distingue i flussi tra entrata e uscita e consente finalmente la piena valorizzazione degli spazi storici
+Dona il tuo 5x1000 alle Gallerie degli Uffizi
+La tua firma per custodire un patrimonio unico al mondo
+L’incontro con la grande arte d’Occidente: meraviglia da scoprire che sempre sorprende
+Sopra il cuore della città
+Una Reggia per tre dinastie, scenario della vita di corte pubblica e privata
+Dove Natura, Arte, Scienza ed Alchimia si incontrano
+Un territorio da scoprire, un patrimonio artistico da ritrovare
+Mostre ed eventi in programma
+Spostare lo sguardo: le visite-spettacolo in museo per giovani under 30
+Palazzo Pitti
+Il genio di Sarmi. Nuova mostra al Museo della Moda
+Dal
+18/06/2026
+al 31/12/2026
+R-Estate con l'arte! Visite e attività estive per giovani e famiglie
+Corridoio Vasariano
+Corridoio Vasariano. Apertura serale del venerdì
+Dal
+03/07/2026
+al 20/11/2026
+Palazzo Pitti
+Visite agli Appartamenti della Duchessa d'Aosta di Palazzo Pitti
+Giardino di Boboli
+Il Giardino dei Sensi - Edizione 2026
+Palazzo Pitti
+Visite accompagnate agli Appartamenti Reali di Palazzo Pitti
+Vedi tutti
+Spostare lo sguardo: le visite-spettacolo in museo per giovani under 30
+Palazzo Pitti
+Il genio di Sarmi. Nuova mostra al Museo della Moda
+Dal
+18/06/2026
+al 31/12/2026
+R-Estate con l'arte! Visite e attività estive per giovani e famiglie
+Corridoio Vasariano
+Corridoio Vasariano. Apertura serale del venerdì
+Dal
+03/07/2026
+al 20/11/2026
+Palazzo Pitti
+Visite agli Appartamenti della Duchessa d'Aosta di Palazzo Pitti
+Giardino di Boboli
+Il Giardino dei Sensi - Edizione 2026
+Palazzo Pitti
+Visite accompagnate agli Appartamenti Reali di Palazzo Pitti
+Ultime news
+Lavori in corso: cinquanta milioni di euro di interventi per dare un nuovo volto alle Gallerie
+Decine di progetti, tra appena conclusi, in corso o in rampa di lancio, distribuiti su Uffizi, Palazzo Pitti e Giardino di Boboli
+05/08/2026
+Dona il tuo 5x1000 alle Gallerie degli Uffizi
+La tua firma per custodire un patrimonio unico al mondo
+13/07/2026
+Continua la rivoluzione di Palazzo Pitti: da oggi nuovo ingresso per la Reggia granducale
+Il riassetto, che trasferisce l’accesso al portone sulla destra della facciata principale, razionalizza i flussi distinguendo tra entrata e uscita e consente finalmente la piena valorizzazione degli spazi storici, restituendo al pubblico il Cortile dell’Ammannati nella sua integrità estetica e monumentale
+01/07/2026
+Vedi altre news
+Lavori in corso: cinquanta milioni di euro di interventi per dare un nuovo volto alle Gallerie
+Decine di progetti, tra appena conclusi, in corso o in rampa di lancio, distribuiti su Uffizi, Palazzo Pitti e Giardino di Boboli
+05/08/2026
+Dona il tuo 5x1000 alle Gallerie degli Uffizi
+La tua firma per custodire un patrimonio unico al mondo
+13/07/2026
+Continua la rivoluzione di Palazzo Pitti: da oggi nuovo ingresso per la Reggia granducale
+Il riassetto, che trasferisce l’accesso al portone sulla destra della facciata principale, razionalizza i flussi distinguendo tra entrata e uscita e consente finalmente la piena valorizzazione degli spazi storici, restituendo al pubblico il Cortile dell’Ammannati nella sua integrità estetica e monumentale
+01/07/2026
+La Newsletter delle Gallerie degli Uffizi
+Iscriviti per restare informato!
+Avvisi
+Vai agli avvisi
+Regole di accesso al Corridoio Vasariano
+Informazioni sull'accessibilità dei nostri musei
+Opere in trasferta - Opere temporaneamente non esposte al pubblico
+Vai agli avvisi
 Accessibilità
-GOOGLE ARTS AND CULTURE
-Il Museo di Palazzo Vecchio partecipa all’Art
-Project del Google Cultural Institute.
-SCOPRI IL PROGETTO
-SOCIAL
-Designed & developed by
-Alias2k
-SPONSORSHIP
-Designed & developed by
-Alias2k
-Verifica disponibilità
-Periodo individuato per lo svolgimento della/e attività:
-Fascia Oraria:
-Mattina
-Pomeriggio
-Quando disponibile
-Numero adulti:
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-Numero bambini
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-Fasce Età Bambini
-—Seleziona un'opzione—
-4/7
-8/12
-12+
-Nome e Cognome
-Nazione
-Regione
-—Seleziona un'opzione—
-Abruzzo
-Basilicata
-Calabria
-Campania
-Emilia romagna
-Friuli venezia giulia
-Lazio
-Liguria
-Lombardia
-Marche
-Molise
-Piemonte
-Puglia
-Sardegna
-Sicilia
-Toscana
-Trentino alto adige
-Umbria
-Valle d'aosta
-Veneto
-Comune
-Cellulare
-Email
-Note
-Dichiaro di aver preso visione dell'informativa ai sensi dell'art. 13 del D.Lgs. n. 196/2003 sul sito istituzionale della Fondazione MUS.E ed autorizzo il trattamento dei miei dati personali ai sensi della citata normativa |
-Leggi informativa
-.
-Autorizzo la Fondazione MUS.E. a contattarmi in futuro per l'invio di informazioni e materiali relativi alla promozione di prossimi eventi od iniziative di natura artistica e/o culturale.
+Scuola
+Famiglie
+Educazione permanente
+Guide e Gruppi
+Studiosi
+Gli Uffizi
+Palazzo Pitti
+Giardino di Boboli
+Corridoio Vasariano
+Biglietti
+Utilizzo spazi e immagini
+Mappa del sito
+Contattaci
+Chi siamo
+FAQ
+Qualche regola da seguire!
+Social Media Policy
+Amministrazione trasparente
+Dichiarazione Accessibilità AGID
+Progettazione e sviluppo Cantiere Creativo
+Privacy Policy
+Cookie Policy
+Modifica preferenze privacy
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='date'> 24 Set 31 Gen
-  <div class='date'> 10 Set 05 Gen
-  <div class='date'> 17 Set 22 Nov
-  <div class='date'> 24 Giu 16 Ott
-  <div class='date'> 07 Mar 04 Ott
-  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> Mattina Pomeriggio Quando disponibile
-  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> —Seleziona un'opzione— Abruzzo Basilicata Calabria Campania Emilia romagna Friuli venezia giulia Lazio Liguria Lombardia Marche Molise Piemonte Puglia Sardegna 
+  <div class='curtain group relative h-full px-6 py-9 border-r-[8px] md:border-r-0 w-full md:border-t-[8px] border-b border-l lg:py-20 border-r-orange md:border-t-orange'> Sopra il cuore della città
+  <div class='md:hc:bg-black md:hc:pt-3 card-showcase-body hc:border-black relative md:absolute py-6 border-b-0 md:border-b-[8px] border-orange bg-orange bg-transparent md:hc:bg-black md:text-white text-black'> Corridoio Vasariano Corridoio Vasariano. Apertura serale del venerdì Dal 03/07/2026 al 20/11/2026
+  <div class='bg-orange border-orange hc:bg-black card-showcase-label letter-spacing-[2px] absolute uppercase font-bold text-sm px-[14px] pt-[3px] pb-[2px] md:px-6 text-white'> Corridoio Vasariano
+  <div class='md:hc:bg-black md:hc:pt-3 card-showcase-body hc:border-black relative md:absolute py-6 border-b-0 md:border-b-[8px] border-orange bg-orange bg-transparent md:hc:bg-black md:text-white text-black'> Corridoio Vasariano Corridoio Vasariano. Apertura serale del venerdì Dal 03/07/2026 al 20/11/2026
+  <div class='bg-orange border-orange hc:bg-black card-showcase-label letter-spacing-[2px] absolute uppercase font-bold text-sm px-[14px] pt-[3px] pb-[2px] md:px-6 text-white'> Corridoio Vasariano
 
 --- LINK INTERNI (href → testo) ---
-  https://musefirenze.it/  →  
-  https://musefirenze.it/mostre/  →  Musei
-  https://musefirenze.it/attivita/  →  Visite guidate e attività
-  https://musefirenze.it/eventi/  →  Eventi
-  https://musefirenze.it/news/  →  News
-  https://musefirenze.it/muse/  →  Fondazione MUS.E
-  https://musefirenze.it/blog/  →  Blog
-  https://musefirenze.it/en/exhibits/  →  en
-  https://musefirenze.it/fr/expositions/  →  fr
-  https://musefirenze.it/mostre/#mobile-menu  →  
-  https://musefirenze.it/musei/museo-di-palazzo-vecchio/  →  Museo di Palazzo Vecchio
-  https://musefirenze.it/musei/museo-novecento/  →  Museo Novecento
-  https://musefirenze.it/musei/museo-stefano-bardini/  →  Museo Stefano Bardini
-  https://musefirenze.it/musei/complesso-di-santa-maria-novella/  →  Complesso di Santa Maria Novella
-  https://musefirenze.it/musei/cappella-brancacci/  →  Cappella Brancacci
-  https://musefirenze.it/musei/forte-di-belvedere/  →  Forte di Belvedere
-  https://musefirenze.it/musei/fondazione-salvatore-romano/  →  Fondazione Salvatore Romano
-  https://musefirenze.it/musei/museo-del-ciclismo-gino-bartali/  →  Museo del ciclismo Gino Bartali
-  https://musefirenze.it/musei/palazzo-medici-riccardi/  →  Palazzo Medici Riccardi
-  https://musefirenze.it/musei/mad-murate-art-district/  →  MAD. Murate Art District
-  https://musefirenze.it/musei/museo-delle-terre-nuove/  →  Museo delle Terre Nuove
-  https://musefirenze.it/musei/casa-masaccio/  →  Casa Masaccio
-  https://musefirenze.it/musei/museo-leonardiano-di-vinci/  →  Museo Leonardiano di Vinci
-  https://musefirenze.it/mostre/san-francesco-dassisi-e-giuseppe-nicola-nasini-un-episodio-di-committenza-medicea/  →  San Francesco d’Assisi e Giuseppe Nicola Nasini. Un episodio di commit
-  https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/  →  Oltre il Rinascimento. Tra Dürer e Parmigianino
-  https://musefirenze.it/mostre/irene-dionisio-miracola/  →  Irene Dionisio. Miracola
-  https://musefirenze.it/mostre/drama-four-acts/  →  Drama: Four Acts
-  https://musefirenze.it/mostre/ottone-rosai-poeta-innanzitutto/  →  Ottone Rosai. Poeta innanzitutto
-  https://musefirenze.it/archivio-mostre/  →  Archivio Mostre
-  https://musefirenze.it/cdn-cgi/l/email-protection#761f181019361b030513101f0413180c13581f02  →  [email protected]
-  https://musefirenze.it/cdn-cgi/l/email-protection#32565b565346465b5153725f474157545b40575c48571c5b46  →  [email protected]
-  https://musefirenze.it/domenica-metropolitana/  →  Domenica Metropolitana
-  https://musefirenze.it/privacy-policy-2/  →  Privacy policy
-  https://musefirenze.it/cookie-policy/  →  Cookie policy
-  https://musefirenze.it/accessibilita/  →  Accessibilità
-  https://musefirenze.it/sponsor-donor-e-partner/  →  SPONSORSHIP
-  https://musefirenze.it/privacy-policy/  →  Leggi informativa
+  https://www.uffizi.it/#content  →  Vai al contenuto principale
+  https://www.uffizi.it/#footer  →  Vai al footer
+  https://www.uffizi.it/en  →  English
+  https://www.uffizi.it/avvisi/assemblea-del-personale  →  29 settembre 2026 - Assemblea del personale. Possibili modifiche orari
+  https://www.uffizi.it/avvisi/palazzo-pitti-tempranea-chiusura-della-sala-delliliade  →  Palazzo Pitti. Temporanea chiusura della Sala dell'Iliade
+  https://www.uffizi.it/avvisi/chiusura-temporanea-tesoro-dei-granduchi  →  Chiusura temporanea del Tesoro dei Granduchi
+  https://www.uffizi.it/avvisi  →  Leggi avvisi
+  https://www.uffizi.it/  →  
+  https://www.uffizi.it/gli-uffizi  →  
+  https://www.uffizi.it/palazzo-pitti  →  
+  https://www.uffizi.it/giardino-boboli  →  
+  https://www.uffizi.it/corridoio-vasariano  →  
+  https://www.uffizi.it/biglietti  →  biglietti
+  https://www.uffizi.it/visita  →  Visita
+  https://www.uffizi.it/news  →  News
+  https://www.uffizi.it/eventi  →  Eventi
+  https://www.uffizi.it/opere/cerca  →  Opere
+  https://www.uffizi.it/video-storie  →  Video
+  https://www.uffizi.it/mostre-virtuali  →  Ipervisioni
+  https://www.uffizi.it/news/lavori-in-corso  →  Cinquanta milioni di euro di interventi per dare un nuovo volto alle G
+  https://www.uffizi.it/visite-speciali/arriva-spostare-lo-sguardo-le-visite-spettacolo-in-museo-per-giovani-under-30  →  Spostare lo sguardo: le visite-spettacolo in museo per giovani under 3
+  https://www.uffizi.it/news/il-nuovo-allestimento-delle-sale-di-botticelli  →  Il nuovo allestimento delle Sale di Botticelli Completamente rinnovati
+  https://www.uffizi.it/news/nuovo-ingresso-per-la-reggia-granducale  →  Un nuovo ingresso per Palazzo Pitti Il nuovo accesso dal portone di de
+  https://www.uffizi.it/news/il-tuo-5x1000-alle-gallerie-degli-uffizi  →  Dona il tuo 5x1000 alle Gallerie degli Uffizi La tua firma per custodi
+  https://www.uffizi.it/terre-degli-uffizi  →  Un territorio da scoprire, un patrimonio artistico da ritrovare
+  https://www.uffizi.it/eventi/il-genio-di-sarmi-nuova-mostra-al-museo-del-costume  →  Palazzo Pitti Il genio di Sarmi. Nuova mostra al Museo della Moda Dal 
+  https://www.uffizi.it/visite-speciali/r-estate-con-larte-visite-e-attivita-estive-per-giovani-e-famiglie  →  R-Estate con l'arte! Visite e attività estive per giovani e famiglie
+  https://www.uffizi.it/eventi/vasariano-apertura-serale-venerdi  →  Corridoio Vasariano Corridoio Vasariano. Apertura serale del venerdì D
+  https://www.uffizi.it/visite-speciali/visite-agli-appartamenti-della-duchessa-d-aosta-di-palazzo-pitti  →  Palazzo Pitti Visite agli Appartamenti della Duchessa d'Aosta di Palaz
+  https://www.uffizi.it/visite-speciali/il-giardino-dei-sensi-edizione-2026  →  Giardino di Boboli Il Giardino dei Sensi - Edizione 2026
+  https://www.uffizi.it/visite-speciali/visite-accompagnate-agli-appartamenti-reali-di-palazzo-pitti  →  Palazzo Pitti Visite accompagnate agli Appartamenti Reali di Palazzo P
+  https://www.uffizi.it/newsletter  →  La Newsletter delle Gallerie degli Uffizi Iscriviti per restare inform
+  https://www.uffizi.it/avvisi/regole-di-accesso-al-corridoio-vasariano  →  Regole di accesso al Corridoio Vasariano
+  https://www.uffizi.it/avvisi/informazioni-accessibilita-musei  →  Informazioni sull'accessibilità dei nostri musei
+  https://www.uffizi.it/avvisi/opere-in-trasferta  →  Opere in trasferta - Opere temporaneamente non esposte al pubblico
+  https://www.uffizi.it/ts/accessibilita  →  Accessibilità
+  https://www.uffizi.it/ts/didattica  →  Scuola
+  https://www.uffizi.it/ts/famiglie  →  Famiglie
+  https://www.uffizi.it/ts/educazione-permanente  →  Educazione permanente
+  https://www.uffizi.it/ts/guide  →  Guide e Gruppi
+  https://www.uffizi.it/ts/studiosi  →  Studiosi
+  https://www.uffizi.it/servizi-professionali  →  Utilizzo spazi e immagini
+  https://www.uffizi.it/mappa-sito  →  Mappa del sito
+  https://www.uffizi.it/contattaci  →  Contattaci
+  https://www.uffizi.it/pagine/chi-siamo  →  Chi siamo
+  https://www.uffizi.it/pagine/faq  →  FAQ
+  https://www.uffizi.it/pagine/come-si-visitano-le-gallerie-degli-uffizi  →  Qualche regola da seguire!
+  https://www.uffizi.it/pagine/social_media_policy_uffizigalleries  →  Social Media Policy
+  https://www.uffizi.it/pagine/privacy  →  Privacy Policy
 
 ======================================================================
-URL: https://www.operaduomo.firenze.it/it/mostre
-======================================================================
-ERRORE: SSLError: HTTPSConnectionPool(host='www.operaduomo.firenze.it', port=443): Max retries exceeded with url: /it/mostre (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
-
-======================================================================
-URL: https://temporeale.it/
+URL: https://www.bargellomusei.it/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Home - Tempo Reale
+Musei del Bargello | Rinascimento e oltre
+Vai al contenuto
+Chi siamo
+Multimedia
+Aggiornamenti
+Servizi
+Contatti
+ITA
+EN
+I musei
+Museo Nazionale del Bargello
+Cappelle Medicee
+Orsanmichele
+Palazzo Davanzati
+Casa Martelli
+Visita
+Biglietti
+Come arrivare
+Itinerari tematici
+Percorsi di visita
+Accessibilità e servizi al pubblico
+Pianifica la tua visita
+Cosa accade
+Didattica
+Sostienici
+Apri la ricerca
+I musei
+Museo Nazionale del Bargello
+Cappelle Medicee
+Orsanmichele
+Palazzo Davanzati
+Casa Martelli
+Visita
+Biglietti
+Come arrivare
+Itinerari tematici
+Percorsi di visita
+Accessibilità e servizi al pubblico
+Pianifica la tua visita
+Cosa accade
+Didattica
+Sostienici
+Apri la ricerca
+Chi siamo
+Multimedia
+Aggiornamenti
+Servizi
+Contatti
+ITA
+EN
+ITA
+EN
+Cerca nel sito
+Ricerca per:
+Seguici
+Musei del Bargello.
+Rinascimento e oltre
+Visita i Musei del Bargello e scopri tesori d'arte e di storia nel cuore della città di Firenze
+Pianifica la tua visita
+Musei del Bargello.
+Rinascimento e oltre
+Visita i Musei del Bargello e scopri tesori d'arte e di storia nel cuore della città di Firenze
+Pianifica la tua visita
+Musei del Bargello.
+Rinascimento e oltre
+Visita i Musei del Bargello e scopri tesori d'arte e di storia nel cuore della città di Firenze
+Pianifica la tua visita
+Avviso
+Palazzo Davanzati
+→
+I “Trionfi ” dello
+Scheggia, le tavole esposte al terzo piano del Museo, sono attualmente in restauro
+Museo di Casa Martelli
+→
+Il Museo di Casa Martelli è chiuso per lavori, fino
+al 31 Dicembre 2026
+La Direzione si scusa con il gentile pubblico per il disagio
+Cinque sedi da scoprire
+Orsanmichele
+Casa Martelli
+Palazzo Davanzati
+Cappelle Medicee
+Museo Nazionale del Bargello
+Oggi aperto
+08.30 - 18.30
+Il singolare edificio gotico di
+Orsanmichele
+si erge nel cuore più antico di Firenze, e dalle sue grandi bifore si ammirano splendide viste della città. Costruito per ospitare il mercato e il deposito del grano, fu poi trasformato in chiesa, mentre ai piani superiori è oggi allestito il museo delle sue splendide sculture.
+Oggi chiuso
+Nascosta nel centro di Firenze,
+Casa Martelli
+accoglie i visitatori con il suo ingresso illusionistico, i salotti e i saloni
+de
+gli appartamenti invernali, la piccola ma preziosa quadreria al piano nobile, e le grandi stanze estive al piano terra trasfigurate in un vasto paesaggio e in un ameno pergolato, restituendo ancora oggi la suggestione
+de
+llo svolgersi, fra il XVIII e il XIX secolo,
+de
+lla vita domestica di un’illustre famiglia patrizia fiorentina.
+Oggi aperto
+08.15 - 18.50
+Palazzo Davanzati
+fu costruito nel Trecento dalla famiglia Davizzi, mercanti e banchieri fiorentini. Passato ai Davanzati, fu acquistato e restaurato all’inizio del Novecento da Elia Volpi, che lo trasformò nella viva testimonianza della vita e degli agi delle antiche famiglie signorili, all’interno di una magnifica e singolare casa medievale di Firenze.
+Oggi aperto
+08.15 - 18.50
+Luogo di sepoltura della famiglia Medici,
+le Cappelle Medicee
+sono oggi un museo composto dalla Sagrestia Nuova, realizzata da Michelangelo nell’architettura e nelle sculture, dalla Cappella dei Principi, monumentale mausoleo granducale, e dalle cripte sottostanti.
+Oggi aperto
+08.15 - 18.50
+Il
+Museo Nazionale del Bargello
+ospita, all’interno del più antico palazzo pubblico di Firenze, la più importante collezione al mondo di scultura italiana del Rinascimento. Da non perdere, i capolavori di grandi artisti come Donatello, Verrocchio, i Della Robbia, Michelangelo, Giambologna e Cellini.
+Cinque sedi da scoprire
+Orsanmichele
+Il singolare edificio gotico di
+Orsanmichele
+si erge nel cuore più antico di Firenze, e dalle sue grandi bifore si ammirano splendide viste della città. Costruito per ospitare il mercato e il deposito del grano, fu poi trasformato in chiesa, mentre ai piani superiori è oggi allestito il museo delle sue splendide sculture.
+Oggi aperto
+| 08.30 - 18.30
+Casa Martelli
+Nascosta nel centro di Firenze,
+Casa Martelli
+accoglie i visitatori con il suo ingresso illusionistico, i salotti e i saloni
+de
+gli appartamenti invernali, la piccola ma preziosa quadreria al piano nobile, e le grandi stanze estive al piano terra trasfigurate in un vasto paesaggio e in un ameno pergolato, restituendo ancora oggi la suggestione
+de
+llo svolgersi, fra il XVIII e il XIX secolo,
+de
+lla vita domestica di un’illustre famiglia patrizia fiorentina.
+Oggi chiuso
+Palazzo Davanzati
+Palazzo Davanzati
+fu costruito nel Trecento dalla famiglia Davizzi, mercanti e banchieri fiorentini. Passato ai Davanzati, fu acquistato e restaurato all’inizio del Novecento da Elia Volpi, che lo trasformò nella viva testimonianza della vita e degli agi delle antiche famiglie signorili, all’interno di una magnifica e singolare casa medievale di Firenze.
+Oggi aperto
+| 08.15 - 18.50
+Cappelle Medicee
+Luogo di sepoltura della famiglia Medici,
+le Cappelle Medicee
+sono oggi un museo composto dalla Sagrestia Nuova, realizzata da Michelangelo nell’architettura e nelle sculture, dalla Cappella dei Principi, monumentale mausoleo granducale, e dalle cripte sottostanti.
+Oggi aperto
+| 08.15 - 18.50
+Museo Nazionale del Bargello
+Il
+Museo Nazionale del Bargello
+ospita, all’interno del più antico palazzo pubblico di Firenze, la più importante collezione al mondo di scultura italiana del Rinascimento. Da non perdere, i capolavori di grandi artisti come Donatello, Verrocchio, i Della Robbia, Michelangelo, Giambologna e Cellini.
+Oggi aperto
+| 08.15 - 18.50
+Eventi
+26 - 27 Settembre 2026
+Giornate Europee del Patrimonio 26 e 27 settembre 2026: calendario attività GAMB
+'Proteggere il patrimonio: rinnovare, resistere, reinventare'
+Apertura straordinaria serale. Sabato 26 settembre 2026
+la Galleria dell’Accademia di Firenze, il Museo Nazionale del Bargello, il Museo delle Cappelle Medicee, il Museo di Palazzo Davanzati
+e la
+Chiesa di Orsanmichele
+effettueranno un’
+apertura straordinaria al costo simbolico di € 1,00
+– resterà regolarmente chiuso il
+Complesso di Orsanmichele.
+Approfondimenti tematici a cura del personale.
+In occasione delle Giornate Europee del Patrimonio, la
+Galleria dell’Accademia di Firenze, il Museo Nazionale del Bargello, il Museo delle Cappelle Medicee e il Museo di Palazzo Davanzati
+offriranno, durante l’apertura diurna nelle giornate di sabato e domenica (26/27.09), ben
+12 approfondimenti
+tematici
+con visite (della durata di 30 minuti ca) condotte dalle funzionarie e dai funzionari storici dell’Arte seguiti da
+focus
+a cura del personale di Sala.
+Giornate Europee del Patrimonio
+26
+e
+27 settembre
+2026
+‘Proteggere il patrimonio: rinnovare, resistere, reinventare’
+Museo Nazionale del Bargello, Cappelle Medicee e Palazzo Davanzati
+Incontri, Eventi
+14 Settembre 2026
+Piano Olivetti per la Cultura
+Esperienze di inclusione, accessibilità, welfare culturale nei musei del GAMB
+Lunedì 14 settembre 2026, presso il Museo delle Cappelle Medicee, la dottoressa Andreina Contessa, Direttore Generale GAMB | Galleria dell’Accademia di Firenze e Musei del Bargello, presenterà alla stampa il
+Piano Olivetti per la Cultura.
+Cappelle Medicee
+REGOLAMENTO VISITA MUSEI GAMB
+24 Luglio 2026
+Regolamento per la visita ai siti museali dell’Istituto Galleria dell’Accademia di Firenze e Musei del Bargello (GAMB)
+Il GAMB dà il benvenuto a tutti i visitatori
+e li invita
+a vivere un’esperienza culturale piacevole, sicura e rispettosa del patrimonio custodito nei propri spazi espositivi.
+Ogni visita può essere occasione di conoscenza
+e scoperta delle nostre collezioni.
+Ricordiamo che ciascuno di noi/voi è responsabile della trasmissione del patrimonio comune e dei suoi valori artistici e simbolici.
+Per assicurare il futuro di questa ricchezza, la tutela delle opere, e la sicurezza delle persone e rendere gradevole la vostra esperienza di visita,
+elenchiamo alcune semplici regole che
+tutti i visitatori sono tenuti a rispettare.
+Per la salvaguardia del patrimonio e la sicurezza delle persone,
+è necessario rispettare le indicazioni generali riportate dalla segnaletica museale o comunicate dal personale,
+sia nella visita ordinaria sia in situazioni particolari o impreviste.
+Il presente Regolamento è rivolto a tutti i visitatori dell’Istituto museale (GAMB), che sono invitati a prenderne visione e a osservarne le disposizioni.
+Museo Nazionale del Bargello, Cappelle Medicee, Palazzo Davanzati, Casa Martelli e Orsanmichele
+aperture serali, Contest fotografico
+4 Agosto 2026
+'NOTTURNO AL MUSEO'
+Cattura la luce, racconta il museo | GAMB: contest fotografico
+Le
+aperture serali
+del GAMB
+Galleria dell’Accademia di Firenze e Musei del Bargello
+regalano un’
+atmosfera speciale
+: la luce cambia, gli spazi si trasformano e le opere raccontano nuove emozioni.
+Per questo il GAMB invita tutti i visitatori a partecipare al contest fotografico
+Notturno al Museo
+dedicato agli scatti realizzati durante le aperture serali della
+Galleria dell’Accademia di Firenze
+e del
+Museo delle Cappelle Medicee
+.
+Inviaci i tuoi scatti
+Cappelle Medicee
+A colpo d'occhio
+Sguardi sui Musei del Bargello
+Museo Nazionale del Bargello, Cortile
+Museo Nazionale del Bargello, Verone: il Giasone di Francavilla
+Museo Nazionale del Bargello: il David e il San Giorgio di Donatello
+Museo Nazionale del Bargello, Sala di Michelangelo: il Mercurio volante di Giambologna
+Museo Nazionale del Bargello, Sala di Michelangelo: Firenze vittoriosa su Pisa di Giambologna, particolare
+Museo Nazionale del Bargello, Sala del Verrocchio: la Dama col Mazzolino di Andrea del Verrocchio
+Cappelle Medicee, Cappella dei Principi
+Cappelle Medicee, Cappella dei Principi: la cupola
+Cappelle Medicee, 'Stanza segreta di Michelangelo'
+Cappelle Medicee: disegni murali nella 'Stanza Segreta di Michelangelo'
+Cappelle Medicee, Sagrestia Nuova di Michelangelo
+Cappelle Medicee, Sagrestia Nuova: l'Aurora di Michelangelo, particolare
+Orsanmichele: il tabernacolo dell'Orcagna, particolare
+Orsanmichele: il San Giovanni Evangelista di Baccio da Montelupo
+Orsanmichele: il secondo piano
+Casa Martelli, sala 'a bersò'
+Casa Martelli, sala 'a bersò', particolare
+Casa Martelli, la 'sala boschereccia'
+Casa Martelli, sala 'a bersò', particolare
+Palazzo Davanzati: il cortile
+Palazzo Davanzati: la Camera della Castellana di Vergy, particolare
+Palazzo Davanzati: poggiaschiena da letto
+Palazzo Davanzati: Sala dei Pappagalli, particolare
+Aggiornamenti
+Comunicati stampa, Eventi
+Tornano le GEP: aperture straordinarie serali nei musei e approfondimenti tematici a cura del personale
+23 Settembre, 2026
+Proteggere il patrimonio: rinnovare, resistere, reinventare sabato 26 settembre dalle ore 19.00 alle 23.00 ingresso simbolico a 1 euro nei musei GAMB, con focus tematico per riscoprire l’importa [...]
+News, Comunicati stampa
+Piano Olivetti per la Cultura. Esperienze di inclusione, accessibilità e welfare culturale nei musei del GAMB
+14 Settembre, 2026
+Nella Cappella dei Principi del Museo delle Cappelle Medicee, Andreina Contessa, Direttore Generale del GAMB e Stefano Lanna, Direttore Generale del Piano Olivetti per la Cultura – Ministero della C [...]
+News, Comunicati stampa
+Ferdinando I e Cosimo II. Le statue dei granduchi de’ Medici tornano a risplendere nella Cappella dei Principi
+13 Settembre, 2026
+Si sono conclusi al Museo delle Cappelle Medicee, parte del gruppo Galleria dell’Accademia di Firenze e Musei del Bargello del Ministero della Cultura (MIC), gli interventi di conservazione e manute [...]
+News, Avvisi, Comunicati stampa
+Nuovi regolamenti per la visita ai nostri Musei
+01 Settembre, 2026
+Più sicurezza, tutela del patrimonio e qualità dell’esperienza – Approvate dal Consiglio di Amministrazione le nuove disposizioni per la visita ai musei dell’Istituto. Dalle regole pe [...]
+News, Comunicati stampa
+GAMB/Galleria dell'Accademia - Musei del Bargello: le aperture straordinarie e serali da luglio a novembre
+14 Luglio, 2026
+Aperture straordinarie e prolungate e variazioni orarie nei mesi estivi e autunnali per i musei del gruppo GAMB – Galleria dell’Accademia di Firenze e Musei del Bargello Nuove occasioni per visita [...]
+Comunicati stampa
+Per una Carta dei Valori del Ministero della Cultura | 8 giugno 2026 Galleria dell'Accademia di Firenze
+10 Giugno, 2026
+Lunedì 8 giugno 2026, presso la Galleria dell’Accademia di Firenze, si è svolto un incontro dedicato ai dirigenti di seconda fascia del Ministero della Cultura nell’ambito del percorso di [...]
+News, Comunicati stampa
+GAMB – Galleria dell’Accademia di Firenze e Musei del Bargello presenta l’identità visiva firmata da Migliore + Servetto
+11 Maggio, 2026
+Un’unica identità memorabile per una pluralità di luoghi   Nasce l’identità visiva di GAMB – Galleria dell’Accademia di Firenze e Musei del Bargello, il nuovo istituto  [...]
+Comunicati stampa
+Quando la musica incontra l’arte: concerti al Museo delle Cappelle Medicee e a Palazzo Davanzati
+23 Aprile, 2026
+Dal 24 aprile tre appuntamenti dedicati ai repertori vocali e strumentali tra barocco e Novecento in collaborazione con il Conservatorio Luigi Cherubini Prosegue nei musei del gruppo Galleria dell’A [...]
+Comunicati stampa
+Museo Nazionale del Bargello, al via il restauro del basamento del Perseo di Benvenuto Cellini
+22 Aprile, 2026
+L’opera sarà sottoposta a un intervento conservativo che sarà visitabile in un cantiere “live”. Galleria dell’Accademia di Firenze e Musei del Bargello avviano un nuovo progetto di restauro. [...]
+Comunicati stampa
+Il David non fa propaganda: il patrimonio culturale non può e non deve essere piegato a interessi politici
+15 Aprile, 2026
+Dopo la recente polemica sull’uso dell’immagine del David di Michelangelo da parte di un movimento politico la Galleria dell’Accademia di Firenze e i Musei del Bargello chiariscono alcuni elemen [...]
+News
+Il benvenuto al nuovo CdA
+31 Marzo, 2026
+Il Direttore Generale Andreina Contessa dà il benvenuto a Ludovica Susanna di Sant’Eligio, Ilaria Zipoli, Andrea Fossi e Arturo Galansino come nuovi membri del Consiglio di Amministrazione della Ga [...]
+News, Comunicati stampa
+Dal 15 marzo 2026 nei nostri Musei: biglietti cumulativ
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+  <li class='menu-item menu-item-type-post_type_archive menu-item-object-multimedia menu-item-981 nav-item'> Multimedia
+  <button class='menu-item-has-children btn d-none d-xl-inline-flex align-items-center text-decoration-none ps-3 pe-0'> Apri la ricerca
+  <button class='menu-item-has-children btn d-none d-xl-inline-flex align-items-center text-decoration-none ps-3 pe-0'> Apri la ricerca
+  <li class='menu-item menu-item-type-post_type_archive menu-item-object-multimedia menu-item-981 nav-item'> Multimedia
+  <div class='section-hero hero-banner bg-placeholder border-radius-hero cover-bg d-flex align-items-end'> Musei del Bargello. Rinascimento e oltre Visita i Musei del Bargello e scopri tesori d'arte e di storia nel cuore della città di Firenze Pianifica la tua visita
+  <div class='section-hero hero-banner bg-placeholder border-radius-hero cover-bg align-items-end'> Musei del Bargello. Rinascimento e oltre Visita i Musei del Bargello e scopri tesori d'arte e di storia nel cuore della città di Firenze Pianifica la tua visita
+  <button class='btn btn-link d-inline-block text-start container-tab text-decoration-none ps-0 ps-xl-5 pe-3 pt-0 pb-0 pb-xl-2 mb-4 fw-semibold transition'> Orsanmichele
+  <button class='btn btn-link d-inline-block text-start container-tab text-decoration-none ps-0 ps-xl-5 pe-3 pt-0 pb-0 pb-xl-2 mb-4 fw-semibold transition'> Casa Martelli
+  <button class='btn btn-link d-inline-block text-start container-tab text-decoration-none ps-0 ps-xl-5 pe-3 pt-0 pb-0 pb-xl-2 mb-4 fw-semibold transition'> Palazzo Davanzati
+  <button class='btn btn-link d-inline-block text-start container-tab text-decoration-none ps-0 ps-xl-5 pe-3 pt-0 pb-0 pb-xl-2 mb-4 fw-semibold transition'> Cappelle Medicee
+  <button class='btn btn-link d-inline-block text-start container-tab text-decoration-none ps-0 ps-xl-5 pe-3 pt-0 pb-0 pb-xl-2 mb-4 fw-semibold transition active'> Museo Nazionale del Bargello
+  <div class='border-top border-primary orari-museo-tabs'> Oggi aperto 08.30 - 18.30
+  <div class='border-top border-primary orari-museo-tabs'> Oggi chiuso
+  <div class='border-top border-primary orari-museo-tabs'> Oggi aperto 08.15 - 18.50
+  <div class='border-top border-primary orari-museo-tabs'> Oggi aperto 08.15 - 18.50
+  <div class='border-top border-primary orari-museo-tabs'> Oggi aperto 08.15 - 18.50
+  <a class='text-decoration-none'> Il singolare edificio gotico di Orsanmichele si erge nel cuore più antico di Firenze, e dalle sue grandi bifore si ammirano splendide viste della città. Costrui
+  <div class='border-bottom border-primary orari-museo-tabs pb-4'> Oggi aperto | 08.30 - 18.30
+  <a class='text-decoration-none'> Nascosta nel centro di Firenze, Casa Martelli accoglie i visitatori con il suo ingresso illusionistico, i salotti e i saloni de gli appartamenti invernali, la p
+  <div class='border-bottom border-primary orari-museo-tabs pb-4'> Oggi chiuso
+  <a class='text-decoration-none'> Palazzo Davanzati fu costruito nel Trecento dalla famiglia Davizzi, mercanti e banchieri fiorentini. Passato ai Davanzati, fu acquistato e restaurato all’inizio
+  <div class='border-bottom border-primary orari-museo-tabs pb-4'> Oggi aperto | 08.15 - 18.50
+  <a class='text-decoration-none'> Luogo di sepoltura della famiglia Medici, le Cappelle Medicee sono oggi un museo composto dalla Sagrestia Nuova, realizzata da Michelangelo nell’architettura e 
+  <div class='border-bottom border-primary orari-museo-tabs pb-4'> Oggi aperto | 08.15 - 18.50
+  <a class='text-decoration-none'> Il Museo Nazionale del Bargello ospita, all’interno del più antico palazzo pubblico di Firenze, la più importante collezione al mondo di scultura italiana del R
+  <div class='border-bottom border-primary orari-museo-tabs pb-4'> Oggi aperto | 08.15 - 18.50
+  <span class='text-decoration-none tag-evento fs-1 fw-medium badge-base me-4 border-radius-badge bg-primary text-white text-uppercase'> Eventi
+  <a class='text-decoration-none'> Giornate Europee del Patrimonio 26 e 27 settembre 2026: calendario attività GAMB
+  <span class='text-decoration-none tag-evento fs-1 fw-medium badge-base me-4 border-radius-badge bg-primary text-white text-uppercase'> Incontri, Eventi
+  <a class='text-decoration-none'> Piano Olivetti per la Cultura
+  <span class='text-decoration-none tag-evento fs-1 fw-medium badge-base me-4 border-radius-badge bg-primary text-white text-uppercase'> REGOLAMENTO VISITA MUSEI GAMB
+  <a class='text-decoration-none'> Regolamento per la visita ai siti museali dell’Istituto Galleria dell’Accademia di Firenze e Musei del Bargello (GAMB)
+  <span class='text-decoration-none tag-evento fs-1 fw-medium badge-base me-4 border-radius-badge bg-primary text-white text-uppercase'> aperture serali, Contest fotografico
+  <a class='text-decoration-none'> 'NOTTURNO AL MUSEO'
+  <a class='d-block text-decoration-none'> Museo Nazionale del Bargello, Cortile
+  <a class='d-block text-decoration-none'> Museo Nazionale del Bargello, Verone: il Giasone di Francavilla
+  <a class='d-block text-decoration-none'> Museo Nazionale del Bargello: il David e il San Giorgio di Donatello
+  <a class='d-block text-decoration-none'> Museo Nazionale del Bargello, Sala di Michelangelo: il Mercurio volante di Giambologna
+  <a class='d-block text-decoration-none'> Museo Nazionale del Bargello, Sala di Michelangelo: Firenze vittoriosa su Pisa di Giambologna, particolare
+  <a class='d-block text-decoration-none'> Museo Nazionale del Bargello, Sala del Verrocchio: la Dama col Mazzolino di Andrea del Verrocchio
+
+--- LINK INTERNI (href → testo) ---
+  https://www.bargellomusei.it/#content  →  Vai al contenuto
+  https://www.bargellomusei.it/  →  ITA
+
+======================================================================
+URL: https://temporeale.it/categoria/rassegne/
+======================================================================
+--- TESTO VISIBILE (primi 14000 char) ---
+Rassegne Archivi - Tempo Reale
 Iscriviti alla newsletter
 Acconsento al trattamento dei miei dati personali secondo l'
 Informativa sulla Privacy
@@ -288,55 +575,26 @@ Staff
 Sede
 Archivio storico
 Contatti
-Fondato da Luciano Berio nel 1987, Tempo Reale interpreta oggi con approccio poliedrico l’idea di ricerca nel campo multiforme della musica elettronica e delle arti sonore, in sinergia tra competenza scientifica, creatività e rigore esecutivo-didattico.
-Attività
-Filtra le categorie
-Tutte
-Attività scientifica
-Produzioni
-Formazione
-Rassegne
-Bandi e residenze
-Coproduzioni e collaborazioni
-TR Collection e altro
-Bandi e residenze
-SENZA PUBBLICO #1 | Improvvisazione aperta per una comunità di...
-Senza Pubblico è un nuovo format di Tempo Reale dedicato all’improvvisazione e ispirato ai progetti del pioniere polacco Marek Chołoniewski....
-Attività scientifica
-/
-Bandi e residenze
-/
-Formazione
+Tempo Reale
 /
 Rassegne
-MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
+Rassegne
+Attività scientifica
+,
+Bandi e residenze
+,
+Formazione
+,
+Rassegne
+MAGNETICA 2027 | Incontri di musica elettronica (workshop – talk – concerti)
 Il 4, 5 e 6 marzo 2027 Tempo Reale, Centro di Ricerca, Produzione e Didattica Musicale di Firenze organizza la...
-Firenze, 5-6-7 aprile
-Formazione
-VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
-VOCI POSSIBILI (V) 22 · 23 · 24 ottobre 2026
-Come in un arazzo, ogni voce è un filo che racconta...
-Pistoia, 8-10-12 settembre
 Rassegne
-FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
+FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino d’autore di Palazzo Fabroni
 11, 13, 15 settembre 2026
 PISTOIA
 Specificamente concepito per il giardino di Palazzo Fabroni, il progetto FABRONI SOUND GARDEN propone la realizzazione...
-Torino, 23-30 settembre
-Produzioni
-GIUSEPPE CHIARI | LA LUCE
-> 17-18 ottobre 2026 @ Romaeuropa Festival  GIUSEPPE CHIARI | LA LUCE
-Installazione audiovisiva da una partitura del 1966
-Progetto luminoso e sonoro: Agnese...
-anversa e parigi, dicembre
-Coproduzioni e collaborazioni
-Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc...
-Nina vuole essere un omaggio alla vita di Eunice Kathleen Waymon, cantante, pianista, scrittrice e attivista per i diritti civili,...
-Formazione
-SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazione...
-Scuola di Suono è un'iniziativa culturale di Tempo Reale che promuove l'educazione al suono, la ricerca musicale e la diffusione...
 Rassegne
-SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
+SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio 2026
 SUONI E MUSICA DI RICERCA A FIRENZE
 maggio-luglio 2026
 Domenica 17 maggio, Frittelli Arte Contemporanea, ore 20.30 e ore 21.30
@@ -345,323 +603,84 @@ Rassegne
 Tempo Reale per Secret Florence 2026
 Secret Florence, festival consolidato dell' Estate Fiorentina, presenta la sua undicesima edizione.
 Il progetto, realizzato dalle cinque realtà di respiro internazionale...
-Coproduzioni e collaborazioni
-Donna con serpente
-PRIMA ASSOLUTA: 8 luglio 2026  Un progetto di Francesco Giomi e Claudia Catarzi per una danzatrice e musica elettronica che prende...
-Produzioni
-TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
-> Sabato 20 giugno, Sala Orchestra/Teatro del Maggio Musicale Fiorentino, ore 20  TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
-Musica di Cage,...
-Formazione
-PIECES FOR PEACE. Dagli inni nazionali ai suoni della pace:...
-Proiezione venerdì 12 giugno 2026, ore 14:30, Sala Pegaso (Piazza Duomo, Firenze)  Laboratorio di inclusione e sensibilizzazione attraverso la musica dedicato...
-11 novembre
-Produzioni
-BUSSOTTI DUO - Omaggio a Sylvano Bussotti
-17 maggio 2026 > CRACOVIA, 38TH KRAKOW INTERNATIONAL COMPOSERS’ FESTIVAL  Sylvano Bussotti è stato tra i massimi compositori italiani. Già da...
-Coproduzioni e collaborazioni
-L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ravenna Festival
-15 giugno 2026, ore 21:30
-Rocca Brancaleone, via Rocca Brancaleone - Ravenna
-Proiezione con sonorizzazione elettronica de "L'ultima risata" (1924)
-musiche originali di...
-Formazione
-LISTENING TO THE PLACE, Workshop sul suono negli spazi pubblici
-Lunedi 8 giugno, ore 16-18
-Firenze, Villa Strozzi/Globo, Via Pisana 77
-LISTENING TO THE PLACE
-Workshop sul suono negli spazi pubblici
-A cura di...
-Formazione
-Musica Diagonale - Residenze musicali per la creazione collettiva
-In collaborazione con i conservatori di musica di Bologna-Cuneo-Firenze, e realizzato con il sostegno del MiC e di SIAE nell’ambito...
 Rassegne
-SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile...
+SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile 2026
 SUONI E MUSICA DI RICERCA A FIRENZE
 febbraio-aprile 2026
 Giovedì 5 febbraio, Firenze, Villa Strozzi/Globo, Via Pisana 77, ore 20 e ore...
-2023
-Produzioni
-FOOSBALL | Azione sonora partecipata per una pluralità di giocatori...
-9-11 maggio FOOSBALL a Monaco per MÜNCHENER BIENNALE FESTIVAL FÜR NEUES MUSIKTHEATER
-Calcio balilla, biliardino, fubalino, calcetto, calcino, pincanello, subotto, footbalino,...
-Bandi e residenze
-Bando per selezione personale amministrativo
-Tempo Reale indìce una selezione per l’inserimento di una nuova figura professionale amministrativa all’interno del proprio staff. I candidati interessati...
-TR Collection e altro
-Magnetica 2025 (TRC16)
-MAGNETICA
-Incontri di musica elettronica
-Edizione 2025
-Confluiscono in questa compilation i concerti acusmatici e di musica elettronica dal vivo della prima edizione...
 Attività scientifica
-/
+,
 Bandi e residenze
-/
+,
 Formazione
-/
+,
 Rassegne
-MAGNETICA 2026 | Incontri di musica elettronica (workshop - talk...
+MAGNETICA 2026 | Incontri di musica elettronica (workshop – talk – concerti)
 Il 19, 20 e 21 marzo 2026 arriva la seconda edizione di MAGNETICA, il cui programma pubblico si svolgerà presso...
-Produzioni
-FUBALINO! - Installazione sonora interattiva per calcio balilla
-L’installazione sonora interattiva, nata nel contesto di “FOOSBALL, Azione sonora per una pluralità di giocatori di calcio-balilla e live electronics”...
-TR Collection e altro
-Florentia (TRC15)
-(IT)
-Florentia – antico nome latino della città di Firenze – si basa prevalentemente su una lunga serie di registrazioni sul...
-Pistoia, 8-10-12 settembre
 Rassegne
-FABRONI SOUND ROOMS | Arte sonora in dialogo con la...
+FABRONI SOUND ROOMS | Arte sonora in dialogo con la collezione permanente
 Gennaio-Marzo 2026
 Museo del Novecento e del Contemporaneo di Palazzo Fabroni
 Pistoia, via Sant’Andrea 18
 TEMPO REALE | FABRONI SOUND ROOMS
 Arte sonora in...
-da maggio 2022
-Bandi e residenze
-Residenze PiGro | Bando sempre aperto
-Supporto agli/alle studenti delle Scuole di Musica Elettronica per la preparazione della laurea di II livello
-Il programma di residenze di...
 Formazione
-/
+,
 Rassegne
-TRK. Sound Club  - VII edizione - CONCERTI IN...
+TRK. Sound Club  – VII edizione – CONCERTI IN VILLA STROZZI (FixedRoom)
 FixedRoom | novembre - dicembre 2025
 Tempo Reale, Firenze
 Nuovo spazio e nuova forma per TRK. Sound Club che, per la VII...
-4-5 maggio, 10-11 maggio
-Produzioni
-XENAKIS | La Légende d'Eer, per altoparlanti e dispositivi luminosi
-Ho dato il titolo generico di ‘Légende d’Eer’ a questi testi perché questo mito, che paradossalmente completa la Repubblica di...
-Coproduzioni e collaborazioni
-BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO...
-La democrazia del corpo, Cango, 13-14 dicembre 2025  Un’iniziativa originale che rende omaggio al grande compositore Luciano Berio nel suo Centenario,...
 Rassegne
-MONTRÉAL SOUND Bologna - Firenze, 4-6 novembre 2025
+MONTRÉAL SOUND Bologna – Firenze, 4-6 novembre 2025
 Novembre: 4-5 Bologna, 6 Firenze
 Per la seconda volta Tempo Reale e i suoi partner danno spazio alla fertilissima scena di...
-Produzioni
-OOLEHCA | Installazione sonora interattiva
-Dal 29 ottobre al 6 novembre 2025
-Ex Teatro Verdi, Via Castelnuovo 10, Ferrara
-Ideazione: Francesco Giomi
-Sound design: Giovanni Magaglio e Francesco...
 Rassegne
 Ondes Sonores Italiennes #3 | Montréal • Sherbrooke
 A Ottobre Tempo Reale torna in Canada, ospite di Akousma, Université de Sherbrooke, Université de Montréal e Conservatoire de musique...
-Rassegne
-DEDANS–DEHORS. Suoni e musica di ricerca a Bologna
-29 ottobre – 18 novembre 2025
-In collaborazione con Conservatorio di Musica “G.B. Martini”, serra madre, Università di Bologna
-Dedans-Dehors – titolo...
-Formazione
-SCUOLA DI SUONO 2025 | Ecosistema culturale multiforme per l’educazione...
-Scuola di Suono è un'iniziativa culturale di Tempo Reale che promuove l'educazione al suono, la ricerca musicale e la diffusione...
-Coproduzioni e collaborazioni
-/
-Produzioni
-BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci
-Martedì 7 ottobre 2025, Ore 21
-In collaborazione con Camerata Strumentale di Prato
-Centro per l'Arte Contemporanea Luigi Pecci
-Il concerto esplora l’universo...
-Coproduzioni e collaborazioni
-BRULLA | Documentario sonoro per voce e live electronics
-Progetto e musica: Francesco Giomi
-Voce: Michela Atzeni
-Testo: Fiorenzo Caterini, Grazia Deledda, Michela Atzeni
-In collaborazione con Tempo Reale
-Brullo: agg. ....
-Coproduzioni e collaborazioni
-TEMPO REALE A LISBONA (2025)
-FESTIVAL DE TEATRO-MÚSICA | 100 anos de Berio
-Lisbona, 25-28 settembre 2025
-Il Festival di Teatro Musicale: 100 anni di Berio presenta...
-Coproduzioni e collaborazioni
-CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva
-martedì 30 settembre – giovedì 02 ottobre 2025
-A centouno anni dalla nascita di Diego Carpitella (1924-1990), l’Università di Firenze chiama...
-Coproduzioni e collaborazioni
-Tempo Reale al Teatro Colón di Buenos Aires (2025)
-Il Centro Sperimentale del Teatro Colón, in occasione del centenario della nascita di Berio, ospita Tempo Reale con brani di...
-Pistoia, 8-10-12 settembre
-Rassegne
-FABRONI SOUND GARDEN #4. Paesaggi di suono per il giardino...
-6, 7, 9 settembre 2025
-PISTOIA
-Specificamente concepito per il giardino di Palazzo Fabroni, il progetto FABRONI SOUND GARDEN propone la realizzazione...
-Coproduzioni e collaborazioni
-ALTITUDINE
-Altitudine nasce da un'intuizione del 2019, durante una tournée in Perú. Corpo biologico e sonoro si incontrano in un'improvvisazione totale,...
-26 maggio - 25 giugno
-Produzioni
-IN-NATURALE, Installazione sonora per Luciano Berio
-Riferirsi in qualsiasi maniera alla musica di Luciano Berio è di per sé un’impresa complessa, se non fosse che il...
-Formazione
-/
-Rassegne
-MAGGIO ELETTRICO | Firenze, 4-5 giugno 2025
-Maggio Elettrico porta per la prima volta al Maggio Musicale Fiorentino, insieme alla pianista polacca Małgorzata Walentynowicz, il compositore francese...
-Rassegne
-Tempo Reale per Secret Florence 2025
-Secret Florence, festival consolidato dell' Estate Fiorentina, presenta la sua decima edizione.
-Il progetto, realizzato dalle cinque realtà di respiro internazionale...
-Bandi e residenze
-Invito a partecipare a "Improvvisazione libera" di Giuseppe Chiari per...
-Sabato 6 settembre 2025 Tempo Reale organizza nuovamente, l'esecuzione della partitura Fluxus "Improvvisazione libera" di Giuseppe Chiari, destinata a 70 improvvisator*,...
-Formazione
-/
-Rassegne
-TRK. Sound Club  - VII edizione - CONCERTI IN...
-StudioLive | maggio - giugno 2025
-Tempo Reale, Firenze
-Nuovo spazio e nuova forma per TRK. Sound Club che, per la VII...
-Produzioni
-LUCIANO BERIO: OPERE ACUSMATICHE
-L’interpretazione della musica su supporto è un ambito in continuo sviluppo: in occasione del centenario del fondatore, Tempo Reale ha...
-Coproduzioni e collaborazioni
-/
-Rassegne
-Tempo Reale per Berio 100
-Abbiamo voluto marcare l’importante centenario del nostro fondatore con l’impegno in una pluralità di progetti sia italiani che internazionali. In...
-Coproduzioni e collaborazioni
-Live @ FESTIVAL DELLA ROBOTICA 2025 (Pisa)
-Venerdì 9 maggio, 21:15
-Teatro Sant’Andrea, Pisa
-Tempo Reale parteciperà al FESTIVAL DELLA ROBOTICA 2025 con due performance elettroacustiche:
-XIAMMA di Simone Faraci
-Radioscapes di...
-anversa e parigi, dicembre
-Coproduzioni e collaborazioni
-MY NAME IS FLORIA
-L’azione di My name is Floria si svolge ai giorni nostri, liberamente ispirandosi al personaggio di Floria Tosca – sia...
-Produzioni
-Tempo Reale | IMPROVVISAMENTE NONO
-In occasione del centenario della nascita di Luigi Nono, Tempo Reale compone un concerto-omaggio al compositore veneziano, toccando tanto la...
-TR Collection e altro
-Ichnos (TRC14)
-(IT)
-Ichnos è una composizione acusmatica che tenta di descrivere la Sardegna sovrapponendo oggetti sonori di diversa lunghezza estratti da tre...
-Attività scientifica
-/
-Bandi e residenze
-/
-Formazione
-/
-Rassegne
-MAGNETICA 2025 | Incontri di musica elettronica (workshop - talk...
->> Recupero concerti: 4-5 giugno! Dopo riprogrammazioni e cancellazioni dovute all'ordinanza comunale per emergenze meteo, si comunica che i concerti...
-Formazione
-LETTERE DAL CARCERE | Podcast
-Il progetto prende spunto dalla significativa esperienza portata avanti nelle strutture carcerarie della Nuova Zelanda, paese sensibile alle condizioni di...
-Rassegne
-Denis Smalley | Spettromorfologie
-Firenze, Giovedì 6 febbraio 2025, ore 21:30
-Frittelli Arte Contemporanea
-Compositore neozelandese e pioniere dell’elettroacustica britannica, Smalley è una figura chiave della...
-TR Collection e altro
-Oiseaux (TRC13)
-Oiseaux / Le Jardin Sonore de Pistoia
-Commissionato da Tempo Reale per la serie di concerti FABRONI SOUND GARDEN 2022, “Le...
-Coproduzioni e collaborazioni
-ACUSMATICA '900 @ TRASVERSALITÀ 2024 (La Spezia)
-Sabato 16 novembre, ore 21
-AUDITORIUM CONSERVATORIO G.PUCCINI
-Via XX Settembre 34, La Spezia
-ACUSMATICA '900
-Bernard Parmegiani, ACCIDENTS/HARMONIQUES
-Annette Vande Gorne, HAIKUS 2 PRINTEMPS...
-Rassegne
-FIXED ROOM - Serie di musica acusmatica in ambiente immersivo...
-La ricerca acusmatica più nuova e attuale: il suono su supporto continua a esistere in tutto il mondo e prolifera...
-Rassegne
-SUONO CITTÀ (novembre 2024)
-Prato, 28-29 novembre 2024
-Nel contesto di I saperi dall’ascolto 2024. Senso, cura e progettazione della fonosfera (Incontro di studi dedicato...
-Attività scientifica
-/
-News
-I SAPERI DALL’ASCOLTO 2024 - Senso, cura e progettazione della...
-PRATO | 25 - 30 novembre
-FKL | CSMDB | Tempo Reale | Università degli Studi di Firenze | Proteo Fare...
-Rassegne
-TRK. Sound Club, VI edizione: ottobre-novembre
-Doppia anima per il TRK. Sound Club, baluardo della musica di ricerca: nel pomeriggio le più recenti esperienze della giovane...
-Produzioni
-SOUND LIFE | Installazion
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Copyright © Centro di Ricerca, Produzione e Didattica Musicale Tempo Reale
+C.F./P.iva IT02115270486 – REA FI-476228 - Via Pisana 77, Villa Strozzi
+Firenze (FI) 50143, ITALIA
+Tel:+39 055717270
+- Fax:+39 0550763738
+- E-mail:
+info@temporeale.it
+Amministrazione trasparente - Ultimo aggiornamento in data 02/09/2026
+- Privacy Policy
+-
+Cookie Policy
+Questo sito web utilizza cookies per migliorare la tua esperienza di navigazione. E cookie di terze parti per analisi di traffico -
+Cookie Policy
+ACCETTO
+Privacy & Cookies Policy
+Chiudi
+Privacy Overview
+This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience.
+Necessary
+Necessary
+Sempre abilitato
+Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information.
+Non-necessary
+Non-necessary
+Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website.
+ACCETTA E SALVA
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20119'> anversa e parigi, dicembre Coproduzioni e collaborazioni Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc... Nina vuole essere un omag
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22897'> Coproduzioni e collaborazioni Donna con serpente PRIMA ASSOLUTA: 8 luglio 2026  Un progetto di Francesco Giomi e Claudia Catarzi per una danzatrice e musica ele
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22731'> Coproduzioni e collaborazioni L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ravenna Festival 15 giugno 2026, ore 21:30
-Rocca Brancaleone, 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21721'> Coproduzioni e collaborazioni BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO... La democrazia del corpo, Cango, 13-14 dicembre 2025  Un’iniziativa or
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-produzioni filter-opzionale eg-post-id-21814'> Coproduzioni e collaborazioni / Produzioni BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci Martedì 7 ottobre 2025, Ore 21
-In collaborazione con Camerata S
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21800'> Coproduzioni e collaborazioni BRULLA | Documentario sonoro per voce e live electronics Progetto e musica: Francesco Giomi
-Voce: Michela Atzeni
-Testo: Fiorenzo C
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21782'> Coproduzioni e collaborazioni TEMPO REALE A LISBONA (2025) FESTIVAL DE TEATRO-MÚSICA | 100 anos de Berio
-Lisbona, 25-28 settembre 2025
-Il Festival di Teatro Mus
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21771'> Coproduzioni e collaborazioni CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva martedì 30 settembre – giovedì 02 ottobre 2025
-A centouno a
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21692'> Coproduzioni e collaborazioni Tempo Reale al Teatro Colón di Buenos Aires (2025) Il Centro Sperimentale del Teatro Colón, in occasione del centenario della nasc
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21670'> Coproduzioni e collaborazioni ALTITUDINE Altitudine nasce da un'intuizione del 2019, durante una tournée in Perú. Corpo biologico e sonoro si incontrano in un'i
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-rassegne filter-opzionale eg-post-id-21566'> Coproduzioni e collaborazioni / Rassegne Tempo Reale per Berio 100 Abbiamo voluto marcare l’importante centenario del nostro fondatore con l’impegno in una plur
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21573'> Coproduzioni e collaborazioni Live @ FESTIVAL DELLA ROBOTICA 2025 (Pisa) Venerdì 9 maggio, 21:15
-Teatro Sant’Andrea, Pisa
-Tempo Reale parteciperà al FESTIVAL DE
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-21553'> anversa e parigi, dicembre Coproduzioni e collaborazioni MY NAME IS FLORIA L’azione di My name is Floria si svolge ai giorni nostri, liberamente ispirandosi al 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21142'> Coproduzioni e collaborazioni ACUSMATICA '900 @ TRASVERSALITÀ 2024 (La Spezia) Sabato 16 novembre, ore 21
-AUDITORIUM CONSERVATORIO G.PUCCINI
-Via XX Settembre 34
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-20632'> Coproduzioni e collaborazioni Passeggiata sonora nei luoghi di Luciano Berio (Radicondoli) Domenica 26 maggio 2024
-In occasione di Traversata: Festival Luciano 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20136'> firenze, 4 dicembre Coproduzioni e collaborazioni Omaggio a Luciano Berio | Amici della musica Firenze Torna a Firenze dopo dieci anni l’ultimo capolavoro con e
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20111'> milano, 11 novembre Coproduzioni e collaborazioni BIG | Bologna Improvisation Group: artikulationEN @ PARADE ÉLECTRONIQUE Un sestetto di giovani musicisti guida
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-11991'> Cagliari, 4 ottobre Coproduzioni e collaborazioni SILENT / Visioni dal limite della percezione Silent. Visioni dal limite della percezione di Gabriele Marangoni
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19448'> 20 maggio Coproduzioni e collaborazioni SPIN di Krzysztof Wołek Tempo Reale eseguirà "SPIN" di Krzysztof Wołek insieme alla Filarmonica NFM di Wrocław.
-SPIN, fo
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19325'> 1-2 marzo Coproduzioni e collaborazioni Le case del malcontento di Murmuris/Attodue Tempo Reale collabora con Murmuris/Attodue per lo spettacolo "Le case del ma
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18438'> 4 marzo Coproduzioni e collaborazioni Metamorphosis di Gabriele Marangoni Live set per strumento interattivo a sensori e live electronics
-Ideazione e composizio
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18784'> 9,16, 23 febbraio e 16 marzo Coproduzioni e collaborazioni ‘COSA È SUCCESSO?’, Open call di Saverio Lanza Tempo Reale promuove il progetto ‘COSA È SUCCESSO?’, b
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18574'> 28 ottobre e 4 novembre Coproduzioni e collaborazioni LFO (In Space) e Glitch Party ft. Chris Pitsiokos per... Dopo la pubblicazione in febbraio 2022 dell’album
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17777'> 12, 26 e 27 novembre Coproduzioni e collaborazioni Vittorio Montalti, Blow Up Percussion, Tempo Reale - The smell... Vittorio Montalti, Blow Up Percussion, Temp
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17576'> 14 e 15 dicembre Coproduzioni e collaborazioni Fanny & Alexander, Muziektheater Transparant, Claron McFadden, Emanuele Wiltsch Barberio... Fanny & Alexander, Mu
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17815'> 21 Ottobre, 29 Ottobre Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (opera audiovisiva) Dopo una prima fase digitale – realizzata per il proget
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18532'> scadenza iscrizioni 30 ottobre Coproduzioni e collaborazioni IKONA. PRODUZIONE, CURATELA DIGITALE E VALORIZZAZIONE DEL PATRIMONIO AUDIOVISIVO DELLO... Tempo Rea
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18378'> 9 ottobre Coproduzioni e collaborazioni MUSICA ISOLA | Fortissimissimo Firenze Festival Fortissimissimo Firenze Festival
-Firenze, Sala Pietro Grossi | Conservat
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17364'> 25 settembre Coproduzioni e collaborazioni GRAND BOIS, un progetto musicale di Bluemotion e Fanny &... Grand Bois è un crocevia, un luogo di intersezione. Grand
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18340'> 23 settembre Coproduzioni e collaborazioni Anteros - dell’amore ricambiato - (opera multimediale) 23 Settembre 2022 ore 20.30
-Teatro Kismet, Bari
-Festival Anima
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18408'> ottobre-dicembre Coproduzioni e collaborazioni Futura Digitalia | il futuro dell'antico a cura di MMT Creative Lab e Tempo Reale
-Mercoledì 19 ottobre, ore 21
-Fr
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18206'> 16 giugno Coproduzioni e collaborazioni Il teatro strumentale di Stockhausen al Teatro Lirico Festival Spirito Del Tempo | Teatri del suono di oggi
-16 giugno – 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18150'> 6 maggio - 4 settembre Coproduzioni e collaborazioni MAO Torino | Il Grande Vuoto Dal suono all’immagine. Un incontro inedito con la collezione buddhista del MA
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17984'> in uscita il 18 febbraio Coproduzioni e collaborazioni The Great Soundscape Session per Elli Records Elli Records e Tempo Reale annunciano un progetto discograf
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17782'> 3,4,5,6,8,9,11,12 novembre Coproduzioni e collaborazioni BALKAN BORDELLO, A trans-Atlantic theatrical project of La MaMa’s Great... La MaMa Theatre, New York in
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17566'> 19 settembre Coproduzioni e collaborazioni OSMOSIPHONIE | DUNE SAN ROCCO FESTIVAL
-DUNE, ARTI PAESAGGI UTOPIE
-A cura di Giorgio Zorcù
-CAMPUS CREATIVO DI ARTE NEL
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17485'> 9-12 settembre Coproduzioni e collaborazioni Flucsus @ ARS Electronica Lugano Garden 2021 ARS Electronica Lugano Garden
-Digitale Consapevole
-INSTALLAZIONI ARTE 
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-tr-collection-e-altro filter-home filter-opzionale eg-post-id-17315'> 31 maggio Coproduzioni e collaborazioni / TR Collection e altro IN/OUT: il nuovo disco dell’Orkestra Ristretta L'album, realizzato grazie a una partecipata camp
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17165'> aprile - maggio Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (progetto digitale) Il nuovo progetto digitale di Gabriele Marangoni è un’immersio
-  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-16750'> 14 novembre Coproduzioni e collaborazioni HO UNA VOGLIA DI ANDARE A PARIGI - Notturno per... Sabato 14 novembre ore 21, PARC Performing Arts Centre
-HO UNA VOGLI
 
 --- LINK INTERNI (href → testo) ---
-  https://temporeale.it/  →  
+  https://temporeale.it/categoria/rassegne/  →  
   https://temporeale.it/privacy-policy  →  Informativa sulla Privacy
+  https://temporeale.it/  →  
   https://temporeale.it/il-centro/  →  Il centro
   https://temporeale.it/fondatore/  →  Fondatore
   https://temporeale.it/associazione/  →  Associazione
@@ -669,54 +688,29 @@ HO UNA VOGLI
   https://temporeale.it/sede/  →  Sede
   https://temporeale.it/archivio-storico/  →  Archivio storico
   https://temporeale.it/contatti/  →  Contatti
-  https://temporeale.it/en/  →  
-  https://temporeale.it/categoria/bandi-e-residenze/  →  Bandi e residenze
-  https://temporeale.it/bandi-e-residenze/senza-pubblico-1-improvvisazione-aperta-per-una-comunita-di-performer/  →  SENZA PUBBLICO #1 | Improvvisazione aperta per una comunità di...
+  https://temporeale.it/en/categoria/festivals/  →  
+  https://temporeale.it/bandi-e-residenze/magnetica-2027-incontri-di-musica-elettronica-workshop-talk-concerti/  →  
   https://temporeale.it/categoria/attivita-scientifica/  →  Attività scientifica
+  https://temporeale.it/categoria/bandi-e-residenze/  →  Bandi e residenze
   https://temporeale.it/categoria/formazione/  →  Formazione
-  https://temporeale.it/categoria/rassegne/  →  Rassegne
-  https://temporeale.it/bandi-e-residenze/magnetica-2027-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
-  https://temporeale.it/formazione/voci-possibili-laboratorio-sulla-vocalita-contemporanea-v/  →  VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
-  https://temporeale.it/rassegne/fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
-  https://temporeale.it/categoria/produzioni/  →  Produzioni
-  https://temporeale.it/produzioni/giuseppe-chiari-la-luce/  →  GIUSEPPE CHIARI | LA LUCE
-  https://temporeale.it/categoria/coproduzioni-e-collaborazioni/  →  Coproduzioni e collaborazioni
-  https://temporeale.it/coproduzioni-e-collaborazioni/muziektheater-transparant-luigi-de-angelis-fanny-alexander-claron-mc-fadden-nina/  →  Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claro
-  https://temporeale.it/formazione/scuola-di-suono-2026-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazion
-  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-maggio-luglio-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
-  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2026/  →  Tempo Reale per Secret Florence 2026
-  https://temporeale.it/coproduzioni-e-collaborazioni/donna-con-serpente/  →  Donna con serpente
-  https://temporeale.it/produzioni/tempo-reale-electroacoustic-ensemble-fluxus-tree/  →  TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
-  https://temporeale.it/formazione/pieces-for-peace-dagli-inni-nazionali-ai-suoni-della-pace-laboratorio-inclusivo-di-trasformazioni-sonore-e-culturali-per-detenute/  →  PIECES FOR PEACE. Dagli inni nazionali ai suoni della pace:...
-  https://temporeale.it/produzioni/bussotti-duo/  →  BUSSOTTI DUO - Omaggio a Sylvano Bussotti
-  https://temporeale.it/coproduzioni-e-collaborazioni/lultima-risata-1924-proiezione-con-sonorizzazione-elettronica-ravenna-festival/  →  L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ra
-  https://temporeale.it/formazione/listening-to-the-place-workshop-sul-suono-negli-spazi-pubblici/  →  LISTENING TO THE PLACE, Workshop sul suono negli spazi pubblici
-  https://temporeale.it/formazione/musica-diagonale-residenze-musicali-per-la-creazione-collettiva/  →  Musica Diagonale - Residenze musicali per la creazione collettiva
-  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-febbraio-aprile-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile...
-  https://temporeale.it/produzioni/foosball-azione-sonora-per-una-pluralita-di-giocatori-di-calcio-balilla-e-live-electronics/  →  FOOSBALL | Azione sonora partecipata per una pluralità di giocatori...
-  https://temporeale.it/bandi-e-residenze/bando-per-selezione-personale-amministrativo/  →  Bando per selezione personale amministrativo
-  https://temporeale.it/categoria/tr-collection-e-altro/  →  TR Collection e altro
-  https://temporeale.it/tr-collection-e-altro/magnetica-2025-trc16/  →  Magnetica 2025 (TRC16)
-  https://temporeale.it/bandi-e-residenze/magnetica-2026-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2026 | Incontri di musica elettronica (workshop - talk...
-  https://temporeale.it/produzioni/fubalino-installazione-sonora-interattiva-per-calcio-balilla/  →  FUBALINO! - Installazione sonora interattiva per calcio balilla
-  https://temporeale.it/tr-collection-e-altro/florentia-trc15/  →  Florentia (TRC15)
-  https://temporeale.it/rassegne/fabroni-sound-rooms-arte-sonora-in-dialogo-con-la-collezione-permanente/  →  FABRONI SOUND ROOMS | Arte sonora in dialogo con la...
-  https://temporeale.it/bandi-e-residenze/residenze-pigro-bando/  →  Residenze PiGro | Bando sempre aperto
-  https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom/  →  TRK. Sound Club  - VII edizione - CONCERTI IN...
-  https://temporeale.it/produzioni/xenakis-la-legende-deer/  →  XENAKIS | La Légende d'Eer, per altoparlanti e dispositivi luminosi
-  https://temporeale.it/coproduzioni-e-collaborazioni/berio-a-colori-simona-bertozzi-claudio-pasceri-tempo-reale/  →  BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO...
-  https://temporeale.it/rassegne/montreal-sound-bologna-firenze-4-6-novembre-2025/  →  MONTRÉAL SOUND Bologna - Firenze, 4-6 novembre 2025
-  https://temporeale.it/produzioni/oolehca-installazione-sonora-interattiva/  →  OOLEHCA | Installazione sonora interattiva
-  https://temporeale.it/rassegne/ondes-sonores-italiennes-3-montreal-sherbrooke/  →  Ondes Sonores Italiennes #3 | Montréal • Sherbrooke
-  https://temporeale.it/rassegne/dedans-dehors-suoni-e-musica-di-ricerca-a-bologna/  →  DEDANS–DEHORS. Suoni e musica di ricerca a Bologna
-  https://temporeale.it/formazione/scuola-di-suono-2025-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2025 | Ecosistema culturale multiforme per l’educazion
-  https://temporeale.it/coproduzioni-e-collaborazioni/berio-centro-per-larte-contemporanea-luigi-pecci/  →  BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci
-  https://temporeale.it/coproduzioni-e-collaborazioni/brulla-documentario-sonoro-per-voce-e-live-electronics/  →  BRULLA | Documentario sonoro per voce e live electronics
-  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-a-lisbona-2025/  →  TEMPO REALE A LISBONA (2025)
-  https://temporeale.it/coproduzioni-e-collaborazioni/carpitella-centouno-etnografia-musicologia-antropologia-audiovisiva/  →  CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva
-  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-al-teatro-colon-di-buenos-aires-2025/  →  Tempo Reale al Teatro Colón di Buenos Aires (2025)
-  https://temporeale.it/rassegne/fabroni-sound-garden-4-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #4. Paesaggi di suono per il giardino...
-  https://temporeale.it/coproduzioni-e-collaborazioni/altitudine/  →  ALTITUDINE
-  https://temporeale.it/produzioni/in-naturale-installazione-sonora-per-luciano-berio/  →  IN-NATURALE, Installazione sonora per Luciano Berio
-  https://temporeale.it/rassegne/maggio-elettrico-firenze-4-5-giugno-2025/  →  MAGGIO ELETTRICO | Firenze, 4-5 giugno 2025
-  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2025/  →  Tempo Reale per Secret Florence 2025
+  https://temporeale.it/rassegne/fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  
+  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-maggio-luglio-2026/  →  
+  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2026/  →  
+  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-febbraio-aprile-2026/  →  
+  https://temporeale.it/bandi-e-residenze/magnetica-2026-incontri-di-musica-elettronica-workshop-talk-concerti/  →  
+  https://temporeale.it/rassegne/fabroni-sound-rooms-arte-sonora-in-dialogo-con-la-collezione-permanente/  →  
+  https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom/  →  
+  https://temporeale.it/rassegne/montreal-sound-bologna-firenze-4-6-novembre-2025/  →  
+  https://temporeale.it/rassegne/ondes-sonores-italiennes-3-montreal-sherbrooke/  →  
+  https://temporeale.it/categoria/rassegne/page/2/  →  2
+  https://temporeale.it/categoria/rassegne/page/3/  →  3
+  https://temporeale.it/categoria/rassegne/page/4/  →  4
+  https://temporeale.it/categoria/rassegne/page/5/  →  5
+  https://temporeale.it/categoria/rassegne/page/6/  →  6
+  https://temporeale.it/categoria/rassegne/page/7/  →  7
+  https://temporeale.it/categoria/rassegne/page/8/  →  8
+  https://temporeale.it/categoria/rassegne/page/9/  →  9
+  https://temporeale.it/categoria/rassegne/page/10/  →  10
+  https://temporeale.it/categoria/rassegne/page/21/  →  
+  https://temporeale.it/amministrazione-trasparente/  →  Amministrazione trasparente - Ultimo aggiornamento in data 02/09/2026
+  https://temporeale.it/cookie-policy/  →  Cookie Policy
