@@ -1,832 +1,722 @@
 
 ======================================================================
-URL: https://www.palazzostrozzi.org/mostra/jean-michel-basquiat/
+URL: https://www.uffizi.it/mostre
+======================================================================
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.uffizi.it/404
+
+======================================================================
+URL: https://www.bargellomusei.it/mostre/
+======================================================================
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/mostre/
+
+======================================================================
+URL: https://musefirenze.it/mostre/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Basquiat – Fondazione Palazzo Strozzi
-Vai al contenuto
-Biglietti
-Aperto oggi: 10.00-20.00
-Membership
-Biglietti
-Visita
-Mostre e attività
-Educazione
-Sostienici
-Altro
-Italiano
-|
-English
-Visita
-Biglietti e orari
-Visite guidate
-Visite private
-Domande frequenti
-Mostre e attività
-In corso
-Future
-Archivio
-Educazione
-Accessibilità
-Adulti
-Famiglie
-Scuole
-Giovani e teenager
-Università e accademie
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Basquiat
-In Italian
-dal 25 settembre 2027
-al 23 gennaio 2028
-Piano nobile
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-dal 25 settembre 2027
-al 23 gennaio 2028
-Piano nobile
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-Palazzo Strozzi dedica una grande mostra a
-Jean-Michel Basquiat
-, una delle figure più influenti dell’arte del Novecento, offrendo una nuova
-lettura
-della sua opera incentrata sulla sua
-relazione con la storia dell’arte
-e l’eredità storica e culturale italiana, dall’antichità al Rinascimento.
-A cura di Dieter Buchhart e Anna Karina Hofbauer, il progetto riunisce oltre 60 opere provenienti da importanti collezioni pubbliche e private internazionali, mettendo in luce in particolare il
-legame di Basquiat con l’Italia
-, intesa sia come fonte di influenze culturali e iconografiche, sia come meta che visitò più volte nel corso della vita.
-Figure, modelli e maestri del passato, dalla Roma antica a Leonardo da Vinci, dall’antico Egitto a Galileo Galilei, vengono reinterpretati attraverso il suo inconfondibile linguaggio, capace di intrecciare riferimenti storici e suggestioni contemporanee. Simboli ricorrenti, figure anatomiche, segni grafici, pittogrammi e parole compongono immagini stratificate, aperte a molteplici livelli di lettura. Epoche e culture diverse entrano così in relazione, generando
-cortocircuiti visivi e concettuali
-che amplificano nel presente la portata delle sue riflessioni sociali e politiche su temi quali identità, razzismo, disuguaglianze sociali e capitalismo.
-Nato a Brooklyn da madre portoricana e padre haitiano, Basquiat avvia il proprio percorso artistico giovanissimo nella
-New York
-della fine degli anni Settanta, presto affermandosi in modo dirompente sulla scena internazionale, fino alla sua precoce morte nel 1988, a soli 27 anni. A partire da Downtown Manhattan, dove inizia come
-writer
-attraverso interventi testuali e poetici nello spazio pubblico, Basquiat elabora un
-linguaggio figurativo potente e radicalmente innovativo
-, in grado di fondere i codici visivi delle strade di New York con un vasto patrimonio culturale. Le sue composizioni traggono ispirazione dalla vita quotidiana e dalla cultura popolare, come fumetti, disegni infantili, pubblicità, ma attingono anche a culture e tradizioni artistiche di epoche e luoghi diversi, dall’arte azteca e africana a quella greco-romana e rinascimentale.
-Il
-rapporto diretto di Basquiat con l’Italia
-risale agli esordi della sua carriera internazionale: nel 1981 si reca a Modena per la sua prima mostra personale europea alla Galleria Emilio Mazzoli, tornando nella città l’anno successivo per realizzare la celebre serie
-Modena Paintings
-e partecipare alla collettiva
-Transavanguardia: Italia/America
-. Nel corso dei suoi diversi viaggi in Italia visita anche Roma, dove tiene una personale presso la Galleria Mario Diacono, e Firenze, confrontandosi direttamente con il patrimonio artistico dell’antichità e del Rinascimento.
-Cover: Jean-Michel Basquiat,
-Untitled
-, 1982. Rotterdam, Collection Museum Boijmans Van Beuningen, 3047 (MK) © Estate of Jean-Michel Basquiat. Licensed by Artestar, New York.
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Info e prenotazioni
-Dal lunedì al venerdì, 9.00-18.00
-+39 055 26 45 155
-prenotazioni@palazzostrozzi.org
-Palazzo Strozzi, Piazza Strozzi s.n.c.
-50123 Firenze
-Iscriviti alla nostra
+Mostre | MUS.E
+Musei
+Visite guidate e attività
+Eventi
+Mostre
+News
+Fondazione MUS.E
+Blog
+it
+en
+fr
+it
+en
+fr
+Musei
+Museo di Palazzo Vecchio
+Museo Novecento
+Museo Stefano Bardini
+Complesso di Santa Maria Novella
+Cappella Brancacci
+Forte di Belvedere
+Fondazione Salvatore Romano
+Museo del ciclismo Gino Bartali
+Palazzo Medici Riccardi
+MAD. Murate Art District
+Museo delle Terre Nuove
+Casa Masaccio
+Museo Leonardiano di Vinci
+Visite guidate e attività
+Eventi
+Mostre
+News
+Fondazione MUS.E
+Blog
+Musei
+Museo di Palazzo Vecchio
+Museo Novecento
+Museo Stefano Bardini
+Complesso di Santa Maria Novella
+Cappella Brancacci
+Forte di Belvedere
+Fondazione Salvatore Romano
+Museo del ciclismo Gino Bartali
+Palazzo Medici Riccardi
+MAD. Murate Art District
+Museo delle Terre Nuove
+Casa Masaccio
+Museo Leonardiano di Vinci
+Mostre
+MOSTRA
+Palazzo Medici Riccardi
+San Francesco d’Assisi e Giuseppe Nicola Nasini. Un episodio di committenza medicea
+24 Set
+31 Gen
+MOSTRA
+Palazzo Medici Riccardi
+Oltre il Rinascimento. Tra Dürer e Parmigianino
+10 Set
+05 Gen
+MOSTRA
+MAD. Murate Art District
+Irene Dionisio. Miracola
+17 Set
+22 Nov
+MOSTRA
+Forte di Belvedere
+Drama: Four Acts
+24 Giu
+16 Ott
+MOSTRA
+Museo Novecento
+Ottone Rosai. Poeta innanzitutto
+07 Mar
+04 Ott
+Archivio Mostre
 Newsletter
-Dichiaro di aver preso visione della
-Privacy Policy.
-Presto il consenso per l'iscrizione alla newsletter e altre comunicazioni per finalità di marketing.
-Presto il consenso per attività di analisi e profilazione.
-Iscriviti
-Lascia questo campo vuoto se sei umano:
-Sostenitori pubblici
-Sostenitori privati
-Privacy e Policy
-–
-Cookie policy
-–
-Preferenze Cookie
-–
+ISCRIVITI ADESSO
+INFO E PRENOTAZIONI
+PRIVATI
++39 055 0541450
+[email protected]
+SCUOLE
++39 055 0541451
+[email protected]
+Fondazione MUS.E
+Sede Legale: Palazzo Vecchio,
+Piazza Signoria 1, 50122 Firenze
+P.I.05118160489 – C.F.94083520489
+Iscritta al n° 111 del Registro delle Persone
+Giuridiche Private
+Le tue preferenze relative alla privacy
+LINK UTILI
 Amministrazione trasparente
-–
-Dichiarazione di accessibilità
-–
-Credits
-© Fondazione Palazzo Strozzi, 2006-2026. Tutti i diritti riservati
-Italiano
-Inglese
-Tedesco
-Spagnolo
-Francese
-Italiano
-Polacco
-Svedese
-Finlandese
-Portoghese
-Rumeno
-Sloveno
-Slovacco
-Olandese
-Danese
-Greco
-Ceco
-Ungherese
-Lituano
-Lettone
-Estone
-Croato
-Irlandese
-Bulgaro
-Norvegese
-Turco
-Indonesiano
-Portoghese (Brasile)
-Giapponese
-Coreano
-Cinese semplificato
-Arabo
-Russo
-Hindi
-Ucraino
-Serbo
-English (UK)
-ایران
-ישראל
-Македонија
-ประเทศไทย
-Việt Nam
-Regolazioni di accessibilità
-Offerto da
-OneTap
-Nascondi barra degli strumenti
-Indietro
-Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?
-Durata nascondi barra strumenti
-Solo per questa sessione
-24 ore
-Una settimana
-Non ora
-Nascondi barra degli strumenti
-Seleziona il tuo profilo di accessibilità
-Modalità ipovedenti
-Migliora la resa visiva del sito
-Profilo sicuro contro le crisi
-Elimina i lampeggi e riduce i colori
-Modalità adatta all'ADHD
-Navigazione focalizzata, senza distrazioni
-Modalità cecità
-Riduce le distrazioni, migliora la concentrazione
-Modalità sicura per epilessia
-Attenua i colori e blocca il lampeggio
-Moduli contenuto
-Dimensione carattere
-+
-Predefinito
--
-Evidenzia link
-Interlinea
-+
-Predefinito
--
-Carattere leggibile
-Cursore
-Lente d'ingrandimento testo
-Carattere per dislessia
-Align Text
-Spaziatura lettere
-Spessore carattere
-Moduli colore
-Contrasto scuro
-Contrasto chiaro
-Alto contrasto
-Monochrome
-Saturazione
-Moduli orientamento
-Riga di lettura
-Maschera di lettura
-Il browser deve essere aggiornato
-Il tuo browser non supporta la sintesi vocale. Aggiorna il browser o usane uno con sintesi vocale abilitata (es. Chrome, Edge, Safari).
-Come aggiornare?
-Leggi pagina
-Navigazione da tastiera
-Nascondi immagini
-Disattiva suoni
-Evidenzia titoli
-Evidenzia contenuto
-Blocca animazioni
-Reimposta impostazioni
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-
---- LINK INTERNI (href → testo) ---
-  https://www.palazzostrozzi.org/mostra/jean-michel-basquiat/#content  →  Vai al contenuto
-  https://www.palazzostrozzi.org  →  
-  https://www.palazzostrozzi.org/biglietti-orari/  →  Biglietti
-  https://www.palazzostrozzi.org/mostra/jean-michel-basquiat/#menu-main  →  
-  https://www.palazzostrozzi.org/membership/  →  Membership
-  https://www.palazzostrozzi.org/calendario/  →  Mostre e attività
-  https://www.palazzostrozzi.org/educazione/  →  Educazione
-  https://www.palazzostrozzi.org/sostienici/  →  Sostienici
-  https://www.palazzostrozzi.org/mostra/jean-michel-basquiat/  →  Italiano
-  https://www.palazzostrozzi.org/en/exhibition/jean-michel-basquiat/  →  English
-  https://www.palazzostrozzi.org/visite-guidate/  →  Visite guidate
-  https://www.palazzostrozzi.org/visite-private/  →  Visite private
-  https://www.palazzostrozzi.org/domande-frequenti-faq/  →  Domande frequenti
-  https://www.palazzostrozzi.org/mostre-future/  →  Future
-  https://www.palazzostrozzi.org/archivio/  →  Archivio
-  https://www.palazzostrozzi.org/educazione/accessibilita/  →  Accessibilità
-  https://www.palazzostrozzi.org/educazione/adulti/  →  Adulti
-  https://www.palazzostrozzi.org/educazione/famiglie/  →  Famiglie
-  https://www.palazzostrozzi.org/educazione/scuole/  →  Scuole
-  https://www.palazzostrozzi.org/educazione/teenager/  →  Giovani e teenager
-  https://www.palazzostrozzi.org/educazione/universita/  →  Università e accademie
-  https://www.palazzostrozzi.org/sponsorship/  →  Sponsorship
-  https://www.palazzostrozzi.org/partner-palazzo-strozzi/  →  Comitato dei Partner di Palazzo Strozzi
-  https://www.palazzostrozzi.org/palazzo-strozzi-foundation-usa/  →  Palazzo Strozzi Foundation USA
-  https://www.palazzostrozzi.org/fondazione-palazzo-strozzi/  →  Fondazione Palazzo Strozzi
-  https://www.palazzostrozzi.org/storia-palazzo-strozzi/  →  Storia di Palazzo Strozzi
-  https://www.palazzostrozzi.org/pubblicazioni/  →  Pubblicazioni e biblioteca
-  https://www.palazzostrozzi.org/area-stampa/  →  Area stampa
-  https://www.palazzostrozzi.org/contatti/  →  Contatti
-  https://www.palazzostrozzi.org/in-contatto/  →  
-  https://www.palazzostrozzi.org/dichiarazione-di-accessibilita/  →  Dichiarazione di accessibilità
-  https://www.palazzostrozzi.org/credits/  →  Credits
-
-======================================================================
-URL: https://www.palazzostrozzi.org/mostra/california-dreaming/
-======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-California Dreaming – Fondazione Palazzo Strozzi
-Vai al contenuto
-Biglietti
-Aperto oggi: 10.00-20.00
-Membership
-Biglietti
-Visita
-Mostre e attività
-Educazione
-Sostienici
-Altro
-Italiano
-|
-English
-Visita
-Biglietti e orari
-Visite guidate
-Visite private
-Domande frequenti
-Mostre e attività
-In corso
-Future
-Archivio
-Educazione
-Accessibilità
-Adulti
-Famiglie
-Scuole
-Giovani e teenager
-Università e accademie
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-California Dreaming
-dal 20 marzo 2027
-al 25 luglio 2027
-Cortile
-Piano nobile
-Project Space
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-dal 20 marzo 2027
-al 25 luglio 2027
-Cortile
-Piano nobile
-Project Space
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-Palazzo Strozzi presenta
-California Dreaming
-, una
-grande mostra dedicata alla California
-attraverso opere di artisti dagli anni Sessanta a oggi. L’esposizione, organizzata con il Jan Shrem and Maria Manetti Shrem Museum of Art di Davis (California), esploran il fascino e le contraddizioni di questo
-territorio simbolo di modernità e successo, tra mito e realtà
-, utopia e disincanto.
-Il percorso crea un
-dialogo intergenerazionale
-tra figure storiche e voci contemporanee, riunendo artisti nati o attivi in California oppure profondamente legati al suo contesto culturale. David Hockney, James Turrell, Judy Chicago, John Baldessari, Ed Ruscha, Mike Kelley e Catherine Opie sono messi in relazione con esponenti della scena attuale quali Sadie Barnette, Alex Israel, Patrick Martinez, Lauren Halsey e Refik Anadol.
-L’esposizione attraversa i
-molteplici immaginari della California
-: l’edonismo e l’attivismo politico, la cultura popolare e le nuove tecnologie, la
-car culture
-e i grandi paesaggi naturali e urbani, l’individualismo e la pluralità di comunità e identità. Con prestiti da musei e collezioni internazionali e nuove produzioni realizzate per l’occasione,
-California Dreaming
-propone un percorso tra dipinti, sculture, fotografie, video e installazioni, coinvolgendo l’intero Palazzo Strozzi in un unico progetto espositivo tra Piano Nobile, Cortile e Project Space.
-A lungo percepita come una
-“terra promessa”
-, un altrove in cui tutto sembra possibile, la California ha prodotto nel corso degli anni fenomeni capaci di trasformare profondamente la società e la cultura contemporanee. Dalla nascita di Hollywood come fabbrica dell’immaginario globale alla controcultura degli anni Sessanta e Settanta, dai movimenti per i diritti civili all’ascesa della Silicon Valley, il territorio californiano ha rappresentato, e continua a rappresentare, un laboratorio di trasformazioni culturali e sociali di portata globale. Dietro questa immagine convivono tuttavia
-geografie, identità ed esperienze profondamente diverse
-: coste e deserti, metropoli e periferie, grandi infrastrutture e paesaggi naturali, una pluralità di comunità e culture, storie di migrazione, disuguaglianze e tensioni sociali. Il mito di un luogo dalle possibilità illimitate si rivela così una costruzione ambivalente, sospesa tra desiderio e disillusione, emancipazione ed emarginazione, bellezza e distopia.
-California Dreaming
-indaga il modo in cui gli artisti hanno contribuito a costruire e, allo stesso tempo, a mettere in discussione l’immaginario del
-Golden State
-. L’arte diventa uno strumento per osservare la distanza tra mito e realtà e interpretare dinamiche culturali, politiche e sociali che si estendono ben oltre i confini della California, offrendo una riflessione più ampia sulle aspirazioni e le contraddizioni della società contemporanea.
-California Dreaming
-è  promossa e organizzata dalla Fondazione Palazzo Strozzi, Firenze, e dal
-Jan Shrem and Maria Manetti Shrem Museum of Art
-, Davis (California) dove sarà presentata nell’autunno 2027 in una versione rinnovata. La mostra a Firenze è a cura di Arturo Galansino, Direttore Generale della Fondazione Palazzo Strozzi, mentre a Davis è a cura di Susie Kantor, Associate Curator del Jan Shrem and Maria Manetti Shrem Museum of Art.
-Crediti: Wayne Thiebaud,
-Girl with Ice Cream Cone
-, 1963. Washington DC, Hirshhorn Museum and Sculpture Garden, Smithsonian Institution, Joseph H. Hirshhorn Bequest Fund, Smithsonian Collections Acquisition Program, and Museum purchase, 1996
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Info e prenotazioni
-Dal lunedì al venerdì, 9.00-18.00
-+39 055 26 45 155
-prenotazioni@palazzostrozzi.org
-Palazzo Strozzi, Piazza Strozzi s.n.c.
-50123 Firenze
-Iscriviti alla nostra
-Newsletter
-Dichiaro di aver preso visione della
-Privacy Policy.
-Presto il consenso per l'iscrizione alla newsletter e altre comunicazioni per finalità di marketing.
-Presto il consenso per attività di analisi e profilazione.
-Iscriviti
-Lascia questo campo vuoto se sei umano:
-Sostenitori pubblici
-Sostenitori privati
-Privacy e Policy
-–
+Domenica Metropolitana
+Sito ufficiale Musei Civici Fiorentini
+Sito ufficiale Feel Florence
+Sito Firenze Patrimonio Mondiale
+Privacy policy
 Cookie policy
-–
-Preferenze Cookie
-–
-Amministrazione trasparente
-–
-Dichiarazione di accessibilità
-–
-Credits
-© Fondazione Palazzo Strozzi, 2006-2026. Tutti i diritti riservati
-Italiano
-Inglese
-Tedesco
-Spagnolo
-Francese
-Italiano
-Polacco
-Svedese
-Finlandese
-Portoghese
-Rumeno
-Sloveno
-Slovacco
-Olandese
-Danese
-Greco
-Ceco
-Ungherese
-Lituano
-Lettone
-Estone
-Croato
-Irlandese
-Bulgaro
-Norvegese
-Turco
-Indonesiano
-Portoghese (Brasile)
-Giapponese
-Coreano
-Cinese semplificato
-Arabo
-Russo
-Hindi
-Ucraino
-Serbo
-English (UK)
-ایران
-ישראל
-Македонија
-ประเทศไทย
-Việt Nam
-Regolazioni di accessibilità
-Offerto da
-OneTap
-Nascondi barra degli strumenti
-Indietro
-Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?
-Durata nascondi barra strumenti
-Solo per questa sessione
-24 ore
-Una settimana
-Non ora
-Nascondi barra degli strumenti
-Seleziona il tuo profilo di accessibilità
-Modalità ipovedenti
-Migliora la resa visiva del sito
-Profilo sicuro contro le crisi
-Elimina i lampeggi e riduce i colori
-Modalità adatta all'ADHD
-Navigazione focalizzata, senza distrazioni
-Modalità cecità
-Riduce le distrazioni, migliora la concentrazione
-Modalità sicura per epilessia
-Attenua i colori e blocca il lampeggio
-Moduli contenuto
-Dimensione carattere
-+
-Predefinito
--
-Evidenzia link
-Interlinea
-+
-Predefinito
--
-Carattere leggibile
-Cursore
-Lente d'ingrandimento testo
-Carattere per dislessia
-Align Text
-Spaziatura lettere
-Spessore carattere
-Moduli colore
-Contrasto scuro
-Contrasto chiaro
-Alto contrasto
-Monochrome
-Saturazione
-Moduli orientamento
-Riga di lettura
-Maschera di lettura
-Il browser deve essere aggiornato
-Il tuo browser non supporta la sintesi vocale. Aggiorna il browser o usane uno con sintesi vocale abilitata (es. Chrome, Edge, Safari).
-Come aggiornare?
-Leggi pagina
-Navigazione da tastiera
-Nascondi immagini
-Disattiva suoni
-Evidenzia titoli
-Evidenzia contenuto
-Blocca animazioni
-Reimposta impostazioni
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-
---- LINK INTERNI (href → testo) ---
-  https://www.palazzostrozzi.org/mostra/california-dreaming/#content  →  Vai al contenuto
-  https://www.palazzostrozzi.org  →  
-  https://www.palazzostrozzi.org/biglietti-orari/  →  Biglietti
-  https://www.palazzostrozzi.org/mostra/california-dreaming/#menu-main  →  
-  https://www.palazzostrozzi.org/membership/  →  Membership
-  https://www.palazzostrozzi.org/calendario/  →  Mostre e attività
-  https://www.palazzostrozzi.org/educazione/  →  Educazione
-  https://www.palazzostrozzi.org/sostienici/  →  Sostienici
-  https://www.palazzostrozzi.org/mostra/california-dreaming/  →  Italiano
-  https://www.palazzostrozzi.org/en/exhibition/california-dreaming/  →  English
-  https://www.palazzostrozzi.org/visite-guidate/  →  Visite guidate
-  https://www.palazzostrozzi.org/visite-private/  →  Visite private
-  https://www.palazzostrozzi.org/domande-frequenti-faq/  →  Domande frequenti
-  https://www.palazzostrozzi.org/mostre-future/  →  Future
-  https://www.palazzostrozzi.org/archivio/  →  Archivio
-  https://www.palazzostrozzi.org/educazione/accessibilita/  →  Accessibilità
-  https://www.palazzostrozzi.org/educazione/adulti/  →  Adulti
-  https://www.palazzostrozzi.org/educazione/famiglie/  →  Famiglie
-  https://www.palazzostrozzi.org/educazione/scuole/  →  Scuole
-  https://www.palazzostrozzi.org/educazione/teenager/  →  Giovani e teenager
-  https://www.palazzostrozzi.org/educazione/universita/  →  Università e accademie
-  https://www.palazzostrozzi.org/sponsorship/  →  Sponsorship
-  https://www.palazzostrozzi.org/partner-palazzo-strozzi/  →  Comitato dei Partner di Palazzo Strozzi
-  https://www.palazzostrozzi.org/palazzo-strozzi-foundation-usa/  →  Palazzo Strozzi Foundation USA
-  https://www.palazzostrozzi.org/fondazione-palazzo-strozzi/  →  Fondazione Palazzo Strozzi
-  https://www.palazzostrozzi.org/storia-palazzo-strozzi/  →  Storia di Palazzo Strozzi
-  https://www.palazzostrozzi.org/pubblicazioni/  →  Pubblicazioni e biblioteca
-  https://www.palazzostrozzi.org/area-stampa/  →  Area stampa
-  https://www.palazzostrozzi.org/contatti/  →  Contatti
-  https://www.palazzostrozzi.org/in-contatto/  →  
-  https://www.palazzostrozzi.org/dichiarazione-di-accessibilita/  →  Dichiarazione di accessibilità
-  https://www.palazzostrozzi.org/credits/  →  Credits
-
-======================================================================
-URL: https://www.palazzostrozzi.org/mostra/broken/
-======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-Broken – Fondazione Palazzo Strozzi
-Vai al contenuto
-Biglietti
-Aperto oggi: 10.00-20.00
-Membership
-Biglietti
-Visita
-Mostre e attività
-Educazione
-Sostienici
-Altro
-Italiano
-|
-English
-Visita
-Biglietti e orari
-Visite guidate
-Visite private
-Domande frequenti
-Mostre e attività
-In corso
-Future
-Archivio
-Educazione
 Accessibilità
-Adulti
-Famiglie
-Scuole
-Giovani e teenager
-Università e accademie
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Broken
-Il potere del frammento
-dal 25 settembre 2026
-al 24 gennaio 2027
-Cortile
-Piano nobile
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-dal 25 settembre 2026
-al 24 gennaio 2027
-Cortile
-Piano nobile
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-Acquista il tuo biglietto
-Palazzo Strozzi presenta
-Broken. Il potere del frammento
-, una grande mostra dedicata al
-tema del frammento nella storia della scultura dall’archeologia all’arte di oggi
+GOOGLE ARTS AND CULTURE
+Il Museo di Palazzo Vecchio partecipa all’Art
+Project del Google Cultural Institute.
+SCOPRI IL PROGETTO
+SOCIAL
+Designed & developed by
+Alias2k
+SPONSORSHIP
+Designed & developed by
+Alias2k
+Verifica disponibilità
+Periodo individuato per lo svolgimento della/e attività:
+Fascia Oraria:
+Mattina
+Pomeriggio
+Quando disponibile
+Numero adulti:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Numero bambini
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Fasce Età Bambini
+—Seleziona un'opzione—
+4/7
+8/12
+12+
+Nome e Cognome
+Nazione
+Regione
+—Seleziona un'opzione—
+Abruzzo
+Basilicata
+Calabria
+Campania
+Emilia romagna
+Friuli venezia giulia
+Lazio
+Liguria
+Lombardia
+Marche
+Molise
+Piemonte
+Puglia
+Sardegna
+Sicilia
+Toscana
+Trentino alto adige
+Umbria
+Valle d'aosta
+Veneto
+Comune
+Cellulare
+Email
+Note
+Dichiaro di aver preso visione dell'informativa ai sensi dell'art. 13 del D.Lgs. n. 196/2003 sul sito istituzionale della Fondazione MUS.E ed autorizzo il trattamento dei miei dati personali ai sensi della citata normativa |
+Leggi informativa
 .
-Organizzata con la National Gallery of Art di Washington
-, l’esposizione riunisce straordinarie e affascinanti opere
-dall’antico Egitto a Michelangelo
-,
-dalla Grecia classica a Rodin
-,
-fino ad artisti contemporanei
-come Louise Bourgeois, Francesco Vezzoli e Danh Vo.
-La mostra è un invito a compiere un
-viaggio tra luoghi ed epoche diverse
-, dalle antiche civiltà del mondo egizio, etrusco e greco-romano alle culture premoderne degli attuali Messico, Mali, Perù e Cambogia. Opere dei principali maestri della storia dell’arte, tra cui Giovanni Pisano, Michelangelo, Auguste Rodin, sono affiancate alle sculture di artisti contemporanei come Louise Bourgeois, Huma Bhabha, Robert Gober, Francesco Vezzoli e Danh Vo, che hanno assunto il frammento come punto di partenza per nuove possibilità espressive. In occasione della mostra, inoltre, Palazzo Strozzi presenta una nuova installazione dell’artista olandese-belga Mark Manders, concepita per il Cortile rinascimentale.
-Con
-oltre ottanta opere
-e reperti provenienti
-dai più importanti musei del mondo
-, tra cui il Metropolitan Museum di New York, il Louvre di Parigi, il British Museum di Londra e il Museo Nacional de Antropología di Città del Messico, la mostra indaga il frammento da un nuovo punto di vista: non come semplice resto di un’unità perduta, ma come oggetto autonomo, capace di custodire tracce di memoria e trasformazione.
-Il frammento nasce come una precisa scelta oppure
-racconta una storia di cui porta ancora i segni
-: iconoclastie antiche e moderne, guerre, rivoluzioni, vandalismi e calamità naturali, come l’alluvione di Firenze del 1966. Ne emerge una riflessione sul valore artistico, politico e simbolico che una scultura acquisisce in seguito alla propria rottura e sulla capacità del frammento di diventare strumento di conoscenza e immaginazione, presenza viva che continua a interrogare il nostro presente.
-Broken. Il potere del frammento
-è organizzata dalla Fondazione Palazzo Strozzi, Firenze, e dalla National Gallery of Art, Washington, dove sarà presentata in una versione rinnovata dal 3 marzo al 27 giugno 2027. La mostra è curata da C.D. Dickerson III, direttore del Center for Advanced Study in the Visual Art, e da Andrew Sears, assistant curator of northern European paintings, entrambi della National Gallery of Art, in collaborazione con Arturo Galansino, Direttore Generale della Fondazione Palazzo Strozzi.
-Sostenitori pubblici Fondazione Palazzo Strozzi: Comune di Firenze, Regione Toscana, Città Metropolitana di Firenze, Camera di Commercio di Firenze.
-Sostenitori privati Fondazione Palazzo Strozzi: Fondazione CR Firenze, Intesa Sanpaolo, Fondazione Hillary Merkus Recordati, Comitato dei Partner di Palazzo Strozzi.
-Cover: Arte egizia,
-Naso e labbra di Akhenaton
-, da Akhetaten, oggi Amarna, Egitto, 1353-1336 a.C. circa. New York, The Metropolitan Museum of Art, acquisto, dono di Edward S. Harkness, 1926 (26.7.1394) © The Metropolitan Museum of Art / Art Resource / Scala, Firenze
-Scopri
-anche
-Approfondimento
-11 settembre 2026 - 24 gennaio 2027
-Mitoraj al Museo Nazionale Romano
-Tee Shirt
-Scopri di più
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Info e prenotazioni
-Dal lunedì al venerdì, 9.00-18.00
-+39 055 26 45 155
-prenotazioni@palazzostrozzi.org
-Palazzo Strozzi, Piazza Strozzi s.n.c.
-50123 Firenze
-Iscriviti alla nostra
-Newsletter
-Dichiaro di aver preso visione della
-Privacy Policy.
-Presto il consenso per l'iscrizione alla newsletter e altre comunicazioni per finalità di marketing.
-Presto il consenso per attività di analisi e profilazione.
-Iscriviti
-Lascia questo campo vuoto se sei umano:
-Sostenitori pubblici
-Sostenitori privati
-Privacy e Policy
-–
-Cookie policy
-–
-Preferenze Cookie
-–
-Amministrazione trasparente
-–
-Dichiarazione di accessibilità
-–
-Credits
-© Fondazione Palazzo Strozzi, 2006-2026. Tutti i diritti riservati
-Italiano
-Inglese
-Tedesco
-Spagnolo
-Francese
-Italiano
-Polacco
-Svedese
-Finlandese
-Portoghese
-Rumeno
-Sloveno
-Slovacco
-Olandese
-Danese
-Greco
-Ceco
-Ungherese
-Lituano
-Lettone
-Estone
-Croato
-Irlandese
-Bulgaro
-Norvegese
-Turco
-Indonesiano
-Portoghese (Brasile)
-Giapponese
-Coreano
-Cinese semplificato
-Arabo
-Russo
-Hindi
-Ucraino
-Serbo
-English (UK)
-ایران
-ישראל
-Македонија
-ประเทศไทย
-Việt Nam
-Regolazioni di accessibilità
-Offerto da
-OneTap
-Nascondi barra degli strumenti
-Indietro
-Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?
-Durata nascondi barra strumenti
-Solo per questa sessione
-24 ore
-Una settimana
-Non ora
-Nascondi barra degli strumenti
-Seleziona il tuo profilo di accessibilità
-Modalità ipovedenti
-Migliora la resa visiva del sito
-Profilo sicuro contro le crisi
-Elimina i lampeggi e riduce i colori
-Modalità adatta all'ADHD
-Navigazione focalizzata, senza distrazioni
-Modalità cecità
-Riduce le distrazioni, migliora la concentrazione
-Modalità sicura per epilessia
-Attenua i colori e blocca il lampeggio
-Moduli contenuto
-Dimensione carattere
-+
-Predefinito
--
-Evidenzia link
-Interlinea
-+
-Predefinito
--
-Carattere leggibile
-Cursore
-Lente d'ingrandimento testo
-Carattere per dislessia
-Align Text
-Spaziatura lettere
-Spessore carattere
-Moduli colore
-Contrasto scuro
-Contrasto chiaro
-Alto contrasto
-Monochrome
-Saturazione
-Moduli orientamento
-Riga di lettura
-Maschera di lettura
-Il browser deve essere aggiornato
-Il tuo browser non supporta la sintesi vocale. Aggiorna il browser o usane uno con sintesi vocale abilitata (es. Chrome, Edge, Safari).
-Come aggiornare?
-Leggi pagina
-Navigazione da tastiera
-Nascondi immagini
-Disattiva suoni
-Evidenzia titoli
-Evidenzia contenuto
-Blocca animazioni
-Reimposta impostazioni
+Autorizzo la Fondazione MUS.E. a contattarmi in futuro per l'invio di informazioni e materiali relativi alla promozione di prossimi eventi od iniziative di natura artistica e/o culturale.
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='time-wrapper mb-2'> 11 settembre 2026 - 24 gennaio 2027
+  <div class='date'> 24 Set 31 Gen
+  <div class='date'> 10 Set 05 Gen
+  <div class='date'> 17 Set 22 Nov
+  <div class='date'> 24 Giu 16 Ott
+  <div class='date'> 07 Mar 04 Ott
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> Mattina Pomeriggio Quando disponibile
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> —Seleziona un'opzione— Abruzzo Basilicata Calabria Campania Emilia romagna Friuli venezia giulia Lazio Liguria Lombardia Marche Molise Piemonte Puglia Sardegna 
 
 --- LINK INTERNI (href → testo) ---
-  https://www.palazzostrozzi.org/mostra/broken/#content  →  Vai al contenuto
-  https://www.palazzostrozzi.org  →  
-  https://www.palazzostrozzi.org/biglietti-orari/  →  Biglietti
-  https://www.palazzostrozzi.org/mostra/broken/#menu-main  →  
-  https://www.palazzostrozzi.org/membership/  →  Membership
-  https://www.palazzostrozzi.org/calendario/  →  Mostre e attività
-  https://www.palazzostrozzi.org/educazione/  →  Educazione
-  https://www.palazzostrozzi.org/sostienici/  →  Sostienici
-  https://www.palazzostrozzi.org/mostra/broken/  →  Italiano
-  https://www.palazzostrozzi.org/en/exhibition/broken/  →  English
-  https://www.palazzostrozzi.org/visite-guidate/  →  Visite guidate
-  https://www.palazzostrozzi.org/visite-private/  →  Visite private
-  https://www.palazzostrozzi.org/domande-frequenti-faq/  →  Domande frequenti
-  https://www.palazzostrozzi.org/mostre-future/  →  Future
-  https://www.palazzostrozzi.org/archivio/  →  Archivio
-  https://www.palazzostrozzi.org/educazione/accessibilita/  →  Accessibilità
-  https://www.palazzostrozzi.org/educazione/adulti/  →  Adulti
-  https://www.palazzostrozzi.org/educazione/famiglie/  →  Famiglie
-  https://www.palazzostrozzi.org/educazione/scuole/  →  Scuole
-  https://www.palazzostrozzi.org/educazione/teenager/  →  Giovani e teenager
-  https://www.palazzostrozzi.org/educazione/universita/  →  Università e accademie
-  https://www.palazzostrozzi.org/sponsorship/  →  Sponsorship
-  https://www.palazzostrozzi.org/partner-palazzo-strozzi/  →  Comitato dei Partner di Palazzo Strozzi
-  https://www.palazzostrozzi.org/palazzo-strozzi-foundation-usa/  →  Palazzo Strozzi Foundation USA
-  https://www.palazzostrozzi.org/fondazione-palazzo-strozzi/  →  Fondazione Palazzo Strozzi
-  https://www.palazzostrozzi.org/storia-palazzo-strozzi/  →  Storia di Palazzo Strozzi
-  https://www.palazzostrozzi.org/pubblicazioni/  →  Pubblicazioni e biblioteca
-  https://www.palazzostrozzi.org/area-stampa/  →  Area stampa
-  https://www.palazzostrozzi.org/contatti/  →  Contatti
-  https://www.palazzostrozzi.org/in-contatto/  →  
-  https://www.palazzostrozzi.org/approfondimento/mitoraj-al-museo-nazionale-romano/  →  Scopri di più
-  https://www.palazzostrozzi.org/dichiarazione-di-accessibilita/  →  Dichiarazione di accessibilità
-  https://www.palazzostrozzi.org/credits/  →  Credits
+  https://musefirenze.it/  →  
+  https://musefirenze.it/mostre/  →  Musei
+  https://musefirenze.it/attivita/  →  Visite guidate e attività
+  https://musefirenze.it/eventi/  →  Eventi
+  https://musefirenze.it/news/  →  News
+  https://musefirenze.it/muse/  →  Fondazione MUS.E
+  https://musefirenze.it/blog/  →  Blog
+  https://musefirenze.it/en/exhibits/  →  en
+  https://musefirenze.it/fr/expositions/  →  fr
+  https://musefirenze.it/mostre/#mobile-menu  →  
+  https://musefirenze.it/musei/museo-di-palazzo-vecchio/  →  Museo di Palazzo Vecchio
+  https://musefirenze.it/musei/museo-novecento/  →  Museo Novecento
+  https://musefirenze.it/musei/museo-stefano-bardini/  →  Museo Stefano Bardini
+  https://musefirenze.it/musei/complesso-di-santa-maria-novella/  →  Complesso di Santa Maria Novella
+  https://musefirenze.it/musei/cappella-brancacci/  →  Cappella Brancacci
+  https://musefirenze.it/musei/forte-di-belvedere/  →  Forte di Belvedere
+  https://musefirenze.it/musei/fondazione-salvatore-romano/  →  Fondazione Salvatore Romano
+  https://musefirenze.it/musei/museo-del-ciclismo-gino-bartali/  →  Museo del ciclismo Gino Bartali
+  https://musefirenze.it/musei/palazzo-medici-riccardi/  →  Palazzo Medici Riccardi
+  https://musefirenze.it/musei/mad-murate-art-district/  →  MAD. Murate Art District
+  https://musefirenze.it/musei/museo-delle-terre-nuove/  →  Museo delle Terre Nuove
+  https://musefirenze.it/musei/casa-masaccio/  →  Casa Masaccio
+  https://musefirenze.it/musei/museo-leonardiano-di-vinci/  →  Museo Leonardiano di Vinci
+  https://musefirenze.it/mostre/san-francesco-dassisi-e-giuseppe-nicola-nasini-un-episodio-di-committenza-medicea/  →  San Francesco d’Assisi e Giuseppe Nicola Nasini. Un episodio di commit
+  https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/  →  Oltre il Rinascimento. Tra Dürer e Parmigianino
+  https://musefirenze.it/mostre/irene-dionisio-miracola/  →  Irene Dionisio. Miracola
+  https://musefirenze.it/mostre/drama-four-acts/  →  Drama: Four Acts
+  https://musefirenze.it/mostre/ottone-rosai-poeta-innanzitutto/  →  Ottone Rosai. Poeta innanzitutto
+  https://musefirenze.it/archivio-mostre/  →  Archivio Mostre
+  https://musefirenze.it/cdn-cgi/l/email-protection#761f181019361b030513101f0413180c13581f02  →  [email protected]
+  https://musefirenze.it/cdn-cgi/l/email-protection#32565b565346465b5153725f474157545b40575c48571c5b46  →  [email protected]
+  https://musefirenze.it/domenica-metropolitana/  →  Domenica Metropolitana
+  https://musefirenze.it/privacy-policy-2/  →  Privacy policy
+  https://musefirenze.it/cookie-policy/  →  Cookie policy
+  https://musefirenze.it/accessibilita/  →  Accessibilità
+  https://musefirenze.it/sponsor-donor-e-partner/  →  SPONSORSHIP
+  https://musefirenze.it/privacy-policy/  →  Leggi informativa
+
+======================================================================
+URL: https://www.operaduomo.firenze.it/it/mostre
+======================================================================
+ERRORE: SSLError: HTTPSConnectionPool(host='www.operaduomo.firenze.it', port=443): Max retries exceeded with url: /it/mostre (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+======================================================================
+URL: https://temporeale.it/
+======================================================================
+--- TESTO VISIBILE (primi 14000 char) ---
+Home - Tempo Reale
+Iscriviti alla newsletter
+Acconsento al trattamento dei miei dati personali secondo l'
+Informativa sulla Privacy
+che dichiaro di aver letto e compreso.
+Home
+Il centro
+Fondatore
+Associazione
+Staff
+Sede
+Archivio storico
+Contatti
+Home
+Il centro
+Fondatore
+Associazione
+Staff
+Sede
+Archivio storico
+Contatti
+Home
+Il centro
+Fondatore
+Associazione
+Staff
+Sede
+Archivio storico
+Contatti
+Fondato da Luciano Berio nel 1987, Tempo Reale interpreta oggi con approccio poliedrico l’idea di ricerca nel campo multiforme della musica elettronica e delle arti sonore, in sinergia tra competenza scientifica, creatività e rigore esecutivo-didattico.
+Attività
+Filtra le categorie
+Tutte
+Attività scientifica
+Produzioni
+Formazione
+Rassegne
+Bandi e residenze
+Coproduzioni e collaborazioni
+TR Collection e altro
+Bandi e residenze
+SENZA PUBBLICO #1 | Improvvisazione aperta per una comunità di...
+Senza Pubblico è un nuovo format di Tempo Reale dedicato all’improvvisazione e ispirato ai progetti del pioniere polacco Marek Chołoniewski....
+Attività scientifica
+/
+Bandi e residenze
+/
+Formazione
+/
+Rassegne
+MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
+Il 4, 5 e 6 marzo 2027 Tempo Reale, Centro di Ricerca, Produzione e Didattica Musicale di Firenze organizza la...
+Firenze, 5-6-7 aprile
+Formazione
+VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
+VOCI POSSIBILI (V) 22 · 23 · 24 ottobre 2026
+Come in un arazzo, ogni voce è un filo che racconta...
+Pistoia, 8-10-12 settembre
+Rassegne
+FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
+11, 13, 15 settembre 2026
+PISTOIA
+Specificamente concepito per il giardino di Palazzo Fabroni, il progetto FABRONI SOUND GARDEN propone la realizzazione...
+Torino, 23-30 settembre
+Produzioni
+GIUSEPPE CHIARI | LA LUCE
+> 17-18 ottobre 2026 @ Romaeuropa Festival  GIUSEPPE CHIARI | LA LUCE
+Installazione audiovisiva da una partitura del 1966
+Progetto luminoso e sonoro: Agnese...
+anversa e parigi, dicembre
+Coproduzioni e collaborazioni
+Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc...
+Nina vuole essere un omaggio alla vita di Eunice Kathleen Waymon, cantante, pianista, scrittrice e attivista per i diritti civili,...
+Formazione
+SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazione...
+Scuola di Suono è un'iniziativa culturale di Tempo Reale che promuove l'educazione al suono, la ricerca musicale e la diffusione...
+Rassegne
+SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
+SUONI E MUSICA DI RICERCA A FIRENZE
+maggio-luglio 2026
+Domenica 17 maggio, Frittelli Arte Contemporanea, ore 20.30 e ore 21.30
+ELLIOTT SHARP |...
+Rassegne
+Tempo Reale per Secret Florence 2026
+Secret Florence, festival consolidato dell' Estate Fiorentina, presenta la sua undicesima edizione.
+Il progetto, realizzato dalle cinque realtà di respiro internazionale...
+Coproduzioni e collaborazioni
+Donna con serpente
+PRIMA ASSOLUTA: 8 luglio 2026  Un progetto di Francesco Giomi e Claudia Catarzi per una danzatrice e musica elettronica che prende...
+Produzioni
+TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
+> Sabato 20 giugno, Sala Orchestra/Teatro del Maggio Musicale Fiorentino, ore 20  TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
+Musica di Cage,...
+Formazione
+PIECES FOR PEACE. Dagli inni nazionali ai suoni della pace:...
+Proiezione venerdì 12 giugno 2026, ore 14:30, Sala Pegaso (Piazza Duomo, Firenze)  Laboratorio di inclusione e sensibilizzazione attraverso la musica dedicato...
+11 novembre
+Produzioni
+BUSSOTTI DUO - Omaggio a Sylvano Bussotti
+17 maggio 2026 > CRACOVIA, 38TH KRAKOW INTERNATIONAL COMPOSERS’ FESTIVAL  Sylvano Bussotti è stato tra i massimi compositori italiani. Già da...
+Coproduzioni e collaborazioni
+L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ravenna Festival
+15 giugno 2026, ore 21:30
+Rocca Brancaleone, via Rocca Brancaleone - Ravenna
+Proiezione con sonorizzazione elettronica de "L'ultima risata" (1924)
+musiche originali di...
+Formazione
+LISTENING TO THE PLACE, Workshop sul suono negli spazi pubblici
+Lunedi 8 giugno, ore 16-18
+Firenze, Villa Strozzi/Globo, Via Pisana 77
+LISTENING TO THE PLACE
+Workshop sul suono negli spazi pubblici
+A cura di...
+Formazione
+Musica Diagonale - Residenze musicali per la creazione collettiva
+In collaborazione con i conservatori di musica di Bologna-Cuneo-Firenze, e realizzato con il sostegno del MiC e di SIAE nell’ambito...
+Rassegne
+SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile...
+SUONI E MUSICA DI RICERCA A FIRENZE
+febbraio-aprile 2026
+Giovedì 5 febbraio, Firenze, Villa Strozzi/Globo, Via Pisana 77, ore 20 e ore...
+2023
+Produzioni
+FOOSBALL | Azione sonora partecipata per una pluralità di giocatori...
+9-11 maggio FOOSBALL a Monaco per MÜNCHENER BIENNALE FESTIVAL FÜR NEUES MUSIKTHEATER
+Calcio balilla, biliardino, fubalino, calcetto, calcino, pincanello, subotto, footbalino,...
+Bandi e residenze
+Bando per selezione personale amministrativo
+Tempo Reale indìce una selezione per l’inserimento di una nuova figura professionale amministrativa all’interno del proprio staff. I candidati interessati...
+TR Collection e altro
+Magnetica 2025 (TRC16)
+MAGNETICA
+Incontri di musica elettronica
+Edizione 2025
+Confluiscono in questa compilation i concerti acusmatici e di musica elettronica dal vivo della prima edizione...
+Attività scientifica
+/
+Bandi e residenze
+/
+Formazione
+/
+Rassegne
+MAGNETICA 2026 | Incontri di musica elettronica (workshop - talk...
+Il 19, 20 e 21 marzo 2026 arriva la seconda edizione di MAGNETICA, il cui programma pubblico si svolgerà presso...
+Produzioni
+FUBALINO! - Installazione sonora interattiva per calcio balilla
+L’installazione sonora interattiva, nata nel contesto di “FOOSBALL, Azione sonora per una pluralità di giocatori di calcio-balilla e live electronics”...
+TR Collection e altro
+Florentia (TRC15)
+(IT)
+Florentia – antico nome latino della città di Firenze – si basa prevalentemente su una lunga serie di registrazioni sul...
+Pistoia, 8-10-12 settembre
+Rassegne
+FABRONI SOUND ROOMS | Arte sonora in dialogo con la...
+Gennaio-Marzo 2026
+Museo del Novecento e del Contemporaneo di Palazzo Fabroni
+Pistoia, via Sant’Andrea 18
+TEMPO REALE | FABRONI SOUND ROOMS
+Arte sonora in...
+da maggio 2022
+Bandi e residenze
+Residenze PiGro | Bando sempre aperto
+Supporto agli/alle studenti delle Scuole di Musica Elettronica per la preparazione della laurea di II livello
+Il programma di residenze di...
+Formazione
+/
+Rassegne
+TRK. Sound Club  - VII edizione - CONCERTI IN...
+FixedRoom | novembre - dicembre 2025
+Tempo Reale, Firenze
+Nuovo spazio e nuova forma per TRK. Sound Club che, per la VII...
+4-5 maggio, 10-11 maggio
+Produzioni
+XENAKIS | La Légende d'Eer, per altoparlanti e dispositivi luminosi
+Ho dato il titolo generico di ‘Légende d’Eer’ a questi testi perché questo mito, che paradossalmente completa la Repubblica di...
+Coproduzioni e collaborazioni
+BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO...
+La democrazia del corpo, Cango, 13-14 dicembre 2025  Un’iniziativa originale che rende omaggio al grande compositore Luciano Berio nel suo Centenario,...
+Rassegne
+MONTRÉAL SOUND Bologna - Firenze, 4-6 novembre 2025
+Novembre: 4-5 Bologna, 6 Firenze
+Per la seconda volta Tempo Reale e i suoi partner danno spazio alla fertilissima scena di...
+Produzioni
+OOLEHCA | Installazione sonora interattiva
+Dal 29 ottobre al 6 novembre 2025
+Ex Teatro Verdi, Via Castelnuovo 10, Ferrara
+Ideazione: Francesco Giomi
+Sound design: Giovanni Magaglio e Francesco...
+Rassegne
+Ondes Sonores Italiennes #3 | Montréal • Sherbrooke
+A Ottobre Tempo Reale torna in Canada, ospite di Akousma, Université de Sherbrooke, Université de Montréal e Conservatoire de musique...
+Rassegne
+DEDANS–DEHORS. Suoni e musica di ricerca a Bologna
+29 ottobre – 18 novembre 2025
+In collaborazione con Conservatorio di Musica “G.B. Martini”, serra madre, Università di Bologna
+Dedans-Dehors – titolo...
+Formazione
+SCUOLA DI SUONO 2025 | Ecosistema culturale multiforme per l’educazione...
+Scuola di Suono è un'iniziativa culturale di Tempo Reale che promuove l'educazione al suono, la ricerca musicale e la diffusione...
+Coproduzioni e collaborazioni
+/
+Produzioni
+BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci
+Martedì 7 ottobre 2025, Ore 21
+In collaborazione con Camerata Strumentale di Prato
+Centro per l'Arte Contemporanea Luigi Pecci
+Il concerto esplora l’universo...
+Coproduzioni e collaborazioni
+BRULLA | Documentario sonoro per voce e live electronics
+Progetto e musica: Francesco Giomi
+Voce: Michela Atzeni
+Testo: Fiorenzo Caterini, Grazia Deledda, Michela Atzeni
+In collaborazione con Tempo Reale
+Brullo: agg. ....
+Coproduzioni e collaborazioni
+TEMPO REALE A LISBONA (2025)
+FESTIVAL DE TEATRO-MÚSICA | 100 anos de Berio
+Lisbona, 25-28 settembre 2025
+Il Festival di Teatro Musicale: 100 anni di Berio presenta...
+Coproduzioni e collaborazioni
+CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva
+martedì 30 settembre – giovedì 02 ottobre 2025
+A centouno anni dalla nascita di Diego Carpitella (1924-1990), l’Università di Firenze chiama...
+Coproduzioni e collaborazioni
+Tempo Reale al Teatro Colón di Buenos Aires (2025)
+Il Centro Sperimentale del Teatro Colón, in occasione del centenario della nascita di Berio, ospita Tempo Reale con brani di...
+Pistoia, 8-10-12 settembre
+Rassegne
+FABRONI SOUND GARDEN #4. Paesaggi di suono per il giardino...
+6, 7, 9 settembre 2025
+PISTOIA
+Specificamente concepito per il giardino di Palazzo Fabroni, il progetto FABRONI SOUND GARDEN propone la realizzazione...
+Coproduzioni e collaborazioni
+ALTITUDINE
+Altitudine nasce da un'intuizione del 2019, durante una tournée in Perú. Corpo biologico e sonoro si incontrano in un'improvvisazione totale,...
+26 maggio - 25 giugno
+Produzioni
+IN-NATURALE, Installazione sonora per Luciano Berio
+Riferirsi in qualsiasi maniera alla musica di Luciano Berio è di per sé un’impresa complessa, se non fosse che il...
+Formazione
+/
+Rassegne
+MAGGIO ELETTRICO | Firenze, 4-5 giugno 2025
+Maggio Elettrico porta per la prima volta al Maggio Musicale Fiorentino, insieme alla pianista polacca Małgorzata Walentynowicz, il compositore francese...
+Rassegne
+Tempo Reale per Secret Florence 2025
+Secret Florence, festival consolidato dell' Estate Fiorentina, presenta la sua decima edizione.
+Il progetto, realizzato dalle cinque realtà di respiro internazionale...
+Bandi e residenze
+Invito a partecipare a "Improvvisazione libera" di Giuseppe Chiari per...
+Sabato 6 settembre 2025 Tempo Reale organizza nuovamente, l'esecuzione della partitura Fluxus "Improvvisazione libera" di Giuseppe Chiari, destinata a 70 improvvisator*,...
+Formazione
+/
+Rassegne
+TRK. Sound Club  - VII edizione - CONCERTI IN...
+StudioLive | maggio - giugno 2025
+Tempo Reale, Firenze
+Nuovo spazio e nuova forma per TRK. Sound Club che, per la VII...
+Produzioni
+LUCIANO BERIO: OPERE ACUSMATICHE
+L’interpretazione della musica su supporto è un ambito in continuo sviluppo: in occasione del centenario del fondatore, Tempo Reale ha...
+Coproduzioni e collaborazioni
+/
+Rassegne
+Tempo Reale per Berio 100
+Abbiamo voluto marcare l’importante centenario del nostro fondatore con l’impegno in una pluralità di progetti sia italiani che internazionali. In...
+Coproduzioni e collaborazioni
+Live @ FESTIVAL DELLA ROBOTICA 2025 (Pisa)
+Venerdì 9 maggio, 21:15
+Teatro Sant’Andrea, Pisa
+Tempo Reale parteciperà al FESTIVAL DELLA ROBOTICA 2025 con due performance elettroacustiche:
+XIAMMA di Simone Faraci
+Radioscapes di...
+anversa e parigi, dicembre
+Coproduzioni e collaborazioni
+MY NAME IS FLORIA
+L’azione di My name is Floria si svolge ai giorni nostri, liberamente ispirandosi al personaggio di Floria Tosca – sia...
+Produzioni
+Tempo Reale | IMPROVVISAMENTE NONO
+In occasione del centenario della nascita di Luigi Nono, Tempo Reale compone un concerto-omaggio al compositore veneziano, toccando tanto la...
+TR Collection e altro
+Ichnos (TRC14)
+(IT)
+Ichnos è una composizione acusmatica che tenta di descrivere la Sardegna sovrapponendo oggetti sonori di diversa lunghezza estratti da tre...
+Attività scientifica
+/
+Bandi e residenze
+/
+Formazione
+/
+Rassegne
+MAGNETICA 2025 | Incontri di musica elettronica (workshop - talk...
+>> Recupero concerti: 4-5 giugno! Dopo riprogrammazioni e cancellazioni dovute all'ordinanza comunale per emergenze meteo, si comunica che i concerti...
+Formazione
+LETTERE DAL CARCERE | Podcast
+Il progetto prende spunto dalla significativa esperienza portata avanti nelle strutture carcerarie della Nuova Zelanda, paese sensibile alle condizioni di...
+Rassegne
+Denis Smalley | Spettromorfologie
+Firenze, Giovedì 6 febbraio 2025, ore 21:30
+Frittelli Arte Contemporanea
+Compositore neozelandese e pioniere dell’elettroacustica britannica, Smalley è una figura chiave della...
+TR Collection e altro
+Oiseaux (TRC13)
+Oiseaux / Le Jardin Sonore de Pistoia
+Commissionato da Tempo Reale per la serie di concerti FABRONI SOUND GARDEN 2022, “Le...
+Coproduzioni e collaborazioni
+ACUSMATICA '900 @ TRASVERSALITÀ 2024 (La Spezia)
+Sabato 16 novembre, ore 21
+AUDITORIUM CONSERVATORIO G.PUCCINI
+Via XX Settembre 34, La Spezia
+ACUSMATICA '900
+Bernard Parmegiani, ACCIDENTS/HARMONIQUES
+Annette Vande Gorne, HAIKUS 2 PRINTEMPS...
+Rassegne
+FIXED ROOM - Serie di musica acusmatica in ambiente immersivo...
+La ricerca acusmatica più nuova e attuale: il suono su supporto continua a esistere in tutto il mondo e prolifera...
+Rassegne
+SUONO CITTÀ (novembre 2024)
+Prato, 28-29 novembre 2024
+Nel contesto di I saperi dall’ascolto 2024. Senso, cura e progettazione della fonosfera (Incontro di studi dedicato...
+Attività scientifica
+/
+News
+I SAPERI DALL’ASCOLTO 2024 - Senso, cura e progettazione della...
+PRATO | 25 - 30 novembre
+FKL | CSMDB | Tempo Reale | Università degli Studi di Firenze | Proteo Fare...
+Rassegne
+TRK. Sound Club, VI edizione: ottobre-novembre
+Doppia anima per il TRK. Sound Club, baluardo della musica di ricerca: nel pomeriggio le più recenti esperienze della giovane...
+Produzioni
+SOUND LIFE | Installazion
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20119'> anversa e parigi, dicembre Coproduzioni e collaborazioni Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claron Mc... Nina vuole essere un omag
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22897'> Coproduzioni e collaborazioni Donna con serpente PRIMA ASSOLUTA: 8 luglio 2026  Un progetto di Francesco Giomi e Claudia Catarzi per una danzatrice e musica ele
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-22731'> Coproduzioni e collaborazioni L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ravenna Festival 15 giugno 2026, ore 21:30
+Rocca Brancaleone, 
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21721'> Coproduzioni e collaborazioni BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO... La democrazia del corpo, Cango, 13-14 dicembre 2025  Un’iniziativa or
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-produzioni filter-opzionale eg-post-id-21814'> Coproduzioni e collaborazioni / Produzioni BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci Martedì 7 ottobre 2025, Ore 21
+In collaborazione con Camerata S
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21800'> Coproduzioni e collaborazioni BRULLA | Documentario sonoro per voce e live electronics Progetto e musica: Francesco Giomi
+Voce: Michela Atzeni
+Testo: Fiorenzo C
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21782'> Coproduzioni e collaborazioni TEMPO REALE A LISBONA (2025) FESTIVAL DE TEATRO-MÚSICA | 100 anos de Berio
+Lisbona, 25-28 settembre 2025
+Il Festival di Teatro Mus
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21771'> Coproduzioni e collaborazioni CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva martedì 30 settembre – giovedì 02 ottobre 2025
+A centouno a
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21692'> Coproduzioni e collaborazioni Tempo Reale al Teatro Colón di Buenos Aires (2025) Il Centro Sperimentale del Teatro Colón, in occasione del centenario della nasc
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21670'> Coproduzioni e collaborazioni ALTITUDINE Altitudine nasce da un'intuizione del 2019, durante una tournée in Perú. Corpo biologico e sonoro si incontrano in un'i
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-rassegne filter-opzionale eg-post-id-21566'> Coproduzioni e collaborazioni / Rassegne Tempo Reale per Berio 100 Abbiamo voluto marcare l’importante centenario del nostro fondatore con l’impegno in una plur
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21573'> Coproduzioni e collaborazioni Live @ FESTIVAL DELLA ROBOTICA 2025 (Pisa) Venerdì 9 maggio, 21:15
+Teatro Sant’Andrea, Pisa
+Tempo Reale parteciperà al FESTIVAL DE
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-21553'> anversa e parigi, dicembre Coproduzioni e collaborazioni MY NAME IS FLORIA L’azione di My name is Floria si svolge ai giorni nostri, liberamente ispirandosi al 
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-21142'> Coproduzioni e collaborazioni ACUSMATICA '900 @ TRASVERSALITÀ 2024 (La Spezia) Sabato 16 novembre, ore 21
+AUDITORIUM CONSERVATORIO G.PUCCINI
+Via XX Settembre 34
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-opzionale eg-post-id-20632'> Coproduzioni e collaborazioni Passeggiata sonora nei luoghi di Luciano Berio (Radicondoli) Domenica 26 maggio 2024
+In occasione di Traversata: Festival Luciano 
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20136'> firenze, 4 dicembre Coproduzioni e collaborazioni Omaggio a Luciano Berio | Amici della musica Firenze Torna a Firenze dopo dieci anni l’ultimo capolavoro con e
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-20111'> milano, 11 novembre Coproduzioni e collaborazioni BIG | Bologna Improvisation Group: artikulationEN @ PARADE ÉLECTRONIQUE Un sestetto di giovani musicisti guida
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-11991'> Cagliari, 4 ottobre Coproduzioni e collaborazioni SILENT / Visioni dal limite della percezione Silent. Visioni dal limite della percezione di Gabriele Marangoni
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19448'> 20 maggio Coproduzioni e collaborazioni SPIN di Krzysztof Wołek Tempo Reale eseguirà "SPIN" di Krzysztof Wołek insieme alla Filarmonica NFM di Wrocław.
+SPIN, fo
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-19325'> 1-2 marzo Coproduzioni e collaborazioni Le case del malcontento di Murmuris/Attodue Tempo Reale collabora con Murmuris/Attodue per lo spettacolo "Le case del ma
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18438'> 4 marzo Coproduzioni e collaborazioni Metamorphosis di Gabriele Marangoni Live set per strumento interattivo a sensori e live electronics
+Ideazione e composizio
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18784'> 9,16, 23 febbraio e 16 marzo Coproduzioni e collaborazioni ‘COSA È SUCCESSO?’, Open call di Saverio Lanza Tempo Reale promuove il progetto ‘COSA È SUCCESSO?’, b
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18574'> 28 ottobre e 4 novembre Coproduzioni e collaborazioni LFO (In Space) e Glitch Party ft. Chris Pitsiokos per... Dopo la pubblicazione in febbraio 2022 dell’album
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17777'> 12, 26 e 27 novembre Coproduzioni e collaborazioni Vittorio Montalti, Blow Up Percussion, Tempo Reale - The smell... Vittorio Montalti, Blow Up Percussion, Temp
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17576'> 14 e 15 dicembre Coproduzioni e collaborazioni Fanny & Alexander, Muziektheater Transparant, Claron McFadden, Emanuele Wiltsch Barberio... Fanny & Alexander, Mu
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17815'> 21 Ottobre, 29 Ottobre Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (opera audiovisiva) Dopo una prima fase digitale – realizzata per il proget
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18532'> scadenza iscrizioni 30 ottobre Coproduzioni e collaborazioni IKONA. PRODUZIONE, CURATELA DIGITALE E VALORIZZAZIONE DEL PATRIMONIO AUDIOVISIVO DELLO... Tempo Rea
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18378'> 9 ottobre Coproduzioni e collaborazioni MUSICA ISOLA | Fortissimissimo Firenze Festival Fortissimissimo Firenze Festival
+Firenze, Sala Pietro Grossi | Conservat
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17364'> 25 settembre Coproduzioni e collaborazioni GRAND BOIS, un progetto musicale di Bluemotion e Fanny &... Grand Bois è un crocevia, un luogo di intersezione. Grand
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18340'> 23 settembre Coproduzioni e collaborazioni Anteros - dell’amore ricambiato - (opera multimediale) 23 Settembre 2022 ore 20.30
+Teatro Kismet, Bari
+Festival Anima
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18408'> ottobre-dicembre Coproduzioni e collaborazioni Futura Digitalia | il futuro dell'antico a cura di MMT Creative Lab e Tempo Reale
+Mercoledì 19 ottobre, ore 21
+Fr
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18206'> 16 giugno Coproduzioni e collaborazioni Il teatro strumentale di Stockhausen al Teatro Lirico Festival Spirito Del Tempo | Teatri del suono di oggi
+16 giugno – 
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-18150'> 6 maggio - 4 settembre Coproduzioni e collaborazioni MAO Torino | Il Grande Vuoto Dal suono all’immagine. Un incontro inedito con la collezione buddhista del MA
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17984'> in uscita il 18 febbraio Coproduzioni e collaborazioni The Great Soundscape Session per Elli Records Elli Records e Tempo Reale annunciano un progetto discograf
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17782'> 3,4,5,6,8,9,11,12 novembre Coproduzioni e collaborazioni BALKAN BORDELLO, A trans-Atlantic theatrical project of La MaMa’s Great... La MaMa Theatre, New York in
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17566'> 19 settembre Coproduzioni e collaborazioni OSMOSIPHONIE | DUNE SAN ROCCO FESTIVAL
+DUNE, ARTI PAESAGGI UTOPIE
+A cura di Giorgio Zorcù
+CAMPUS CREATIVO DI ARTE NEL
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17485'> 9-12 settembre Coproduzioni e collaborazioni Flucsus @ ARS Electronica Lugano Garden 2021 ARS Electronica Lugano Garden
+Digitale Consapevole
+INSTALLAZIONI ARTE 
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-tr-collection-e-altro filter-home filter-opzionale eg-post-id-17315'> 31 maggio Coproduzioni e collaborazioni / TR Collection e altro IN/OUT: il nuovo disco dell’Orkestra Ristretta L'album, realizzato grazie a una partecipata camp
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-17165'> aprile - maggio Coproduzioni e collaborazioni Gabriele Marangoni | Metastasis (progetto digitale) Il nuovo progetto digitale di Gabriele Marangoni è un’immersio
+  <li class='filterall eg-tempo-reale-wrapper filter-coproduzioni-e-collaborazioni filter-home filter-opzionale eg-post-id-16750'> 14 novembre Coproduzioni e collaborazioni HO UNA VOGLIA DI ANDARE A PARIGI - Notturno per... Sabato 14 novembre ore 21, PARC Performing Arts Centre
+HO UNA VOGLI
+
+--- LINK INTERNI (href → testo) ---
+  https://temporeale.it/  →  
+  https://temporeale.it/privacy-policy  →  Informativa sulla Privacy
+  https://temporeale.it/il-centro/  →  Il centro
+  https://temporeale.it/fondatore/  →  Fondatore
+  https://temporeale.it/associazione/  →  Associazione
+  https://temporeale.it/staff/  →  Staff
+  https://temporeale.it/sede/  →  Sede
+  https://temporeale.it/archivio-storico/  →  Archivio storico
+  https://temporeale.it/contatti/  →  Contatti
+  https://temporeale.it/en/  →  
+  https://temporeale.it/categoria/bandi-e-residenze/  →  Bandi e residenze
+  https://temporeale.it/bandi-e-residenze/senza-pubblico-1-improvvisazione-aperta-per-una-comunita-di-performer/  →  SENZA PUBBLICO #1 | Improvvisazione aperta per una comunità di...
+  https://temporeale.it/categoria/attivita-scientifica/  →  Attività scientifica
+  https://temporeale.it/categoria/formazione/  →  Formazione
+  https://temporeale.it/categoria/rassegne/  →  Rassegne
+  https://temporeale.it/bandi-e-residenze/magnetica-2027-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2027 | Incontri di musica elettronica (workshop - talk...
+  https://temporeale.it/formazione/voci-possibili-laboratorio-sulla-vocalita-contemporanea-v/  →  VOCI POSSIBILI | Laboratorio sulla vocalità contemporanea V
+  https://temporeale.it/rassegne/fabroni-sound-garden-5-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #5. Paesaggi di suono per il giardino...
+  https://temporeale.it/categoria/produzioni/  →  Produzioni
+  https://temporeale.it/produzioni/giuseppe-chiari-la-luce/  →  GIUSEPPE CHIARI | LA LUCE
+  https://temporeale.it/categoria/coproduzioni-e-collaborazioni/  →  Coproduzioni e collaborazioni
+  https://temporeale.it/coproduzioni-e-collaborazioni/muziektheater-transparant-luigi-de-angelis-fanny-alexander-claron-mc-fadden-nina/  →  Muziektheater Transparant, Luigi De Angelis (Fanny & Alexander), Claro
+  https://temporeale.it/formazione/scuola-di-suono-2026-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2026 | Ecosistema culturale multiforme per l’educazion
+  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-maggio-luglio-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | maggio-luglio...
+  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2026/  →  Tempo Reale per Secret Florence 2026
+  https://temporeale.it/coproduzioni-e-collaborazioni/donna-con-serpente/  →  Donna con serpente
+  https://temporeale.it/produzioni/tempo-reale-electroacoustic-ensemble-fluxus-tree/  →  TEMPO REALE ELECTROACOUSTIC ENSEMBLE | FLUXUS TREE
+  https://temporeale.it/formazione/pieces-for-peace-dagli-inni-nazionali-ai-suoni-della-pace-laboratorio-inclusivo-di-trasformazioni-sonore-e-culturali-per-detenute/  →  PIECES FOR PEACE. Dagli inni nazionali ai suoni della pace:...
+  https://temporeale.it/produzioni/bussotti-duo/  →  BUSSOTTI DUO - Omaggio a Sylvano Bussotti
+  https://temporeale.it/coproduzioni-e-collaborazioni/lultima-risata-1924-proiezione-con-sonorizzazione-elettronica-ravenna-festival/  →  L’ultima risata (1924), proiezione con sonorizzazione elettronica @ Ra
+  https://temporeale.it/formazione/listening-to-the-place-workshop-sul-suono-negli-spazi-pubblici/  →  LISTENING TO THE PLACE, Workshop sul suono negli spazi pubblici
+  https://temporeale.it/formazione/musica-diagonale-residenze-musicali-per-la-creazione-collettiva/  →  Musica Diagonale - Residenze musicali per la creazione collettiva
+  https://temporeale.it/rassegne/suoni-e-musica-di-ricerca-a-firenze-febbraio-aprile-2026/  →  SUONI E MUSICA DI RICERCA A FIRENZE  | febbraio-aprile...
+  https://temporeale.it/produzioni/foosball-azione-sonora-per-una-pluralita-di-giocatori-di-calcio-balilla-e-live-electronics/  →  FOOSBALL | Azione sonora partecipata per una pluralità di giocatori...
+  https://temporeale.it/bandi-e-residenze/bando-per-selezione-personale-amministrativo/  →  Bando per selezione personale amministrativo
+  https://temporeale.it/categoria/tr-collection-e-altro/  →  TR Collection e altro
+  https://temporeale.it/tr-collection-e-altro/magnetica-2025-trc16/  →  Magnetica 2025 (TRC16)
+  https://temporeale.it/bandi-e-residenze/magnetica-2026-incontri-di-musica-elettronica-workshop-talk-concerti/  →  MAGNETICA 2026 | Incontri di musica elettronica (workshop - talk...
+  https://temporeale.it/produzioni/fubalino-installazione-sonora-interattiva-per-calcio-balilla/  →  FUBALINO! - Installazione sonora interattiva per calcio balilla
+  https://temporeale.it/tr-collection-e-altro/florentia-trc15/  →  Florentia (TRC15)
+  https://temporeale.it/rassegne/fabroni-sound-rooms-arte-sonora-in-dialogo-con-la-collezione-permanente/  →  FABRONI SOUND ROOMS | Arte sonora in dialogo con la...
+  https://temporeale.it/bandi-e-residenze/residenze-pigro-bando/  →  Residenze PiGro | Bando sempre aperto
+  https://temporeale.it/rassegne/trk-sound-club-vii-edizione-concerti-in-villa-strozzi-fixedroom/  →  TRK. Sound Club  - VII edizione - CONCERTI IN...
+  https://temporeale.it/produzioni/xenakis-la-legende-deer/  →  XENAKIS | La Légende d'Eer, per altoparlanti e dispositivi luminosi
+  https://temporeale.it/coproduzioni-e-collaborazioni/berio-a-colori-simona-bertozzi-claudio-pasceri-tempo-reale/  →  BERIO A COLORI (SIMONA BERTOZZI | CLAUDIO PASCERI | TEMPO...
+  https://temporeale.it/rassegne/montreal-sound-bologna-firenze-4-6-novembre-2025/  →  MONTRÉAL SOUND Bologna - Firenze, 4-6 novembre 2025
+  https://temporeale.it/produzioni/oolehca-installazione-sonora-interattiva/  →  OOLEHCA | Installazione sonora interattiva
+  https://temporeale.it/rassegne/ondes-sonores-italiennes-3-montreal-sherbrooke/  →  Ondes Sonores Italiennes #3 | Montréal • Sherbrooke
+  https://temporeale.it/rassegne/dedans-dehors-suoni-e-musica-di-ricerca-a-bologna/  →  DEDANS–DEHORS. Suoni e musica di ricerca a Bologna
+  https://temporeale.it/formazione/scuola-di-suono-2025-ecosistema-culturale-multiforme-per-leducazione-al-suono-alla-ricerca-e-alla-diffusione-musicale/  →  SCUOLA DI SUONO 2025 | Ecosistema culturale multiforme per l’educazion
+  https://temporeale.it/coproduzioni-e-collaborazioni/berio-centro-per-larte-contemporanea-luigi-pecci/  →  BERIO + @ Centro per l'Arte Contemporanea Luigi Pecci
+  https://temporeale.it/coproduzioni-e-collaborazioni/brulla-documentario-sonoro-per-voce-e-live-electronics/  →  BRULLA | Documentario sonoro per voce e live electronics
+  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-a-lisbona-2025/  →  TEMPO REALE A LISBONA (2025)
+  https://temporeale.it/coproduzioni-e-collaborazioni/carpitella-centouno-etnografia-musicologia-antropologia-audiovisiva/  →  CarpitellaCentouno | etnografia, musicologia, antropologia audiovisiva
+  https://temporeale.it/coproduzioni-e-collaborazioni/tempo-reale-al-teatro-colon-di-buenos-aires-2025/  →  Tempo Reale al Teatro Colón di Buenos Aires (2025)
+  https://temporeale.it/rassegne/fabroni-sound-garden-4-paesaggi-di-suono-per-il-giardino-dautore-di-palazzo-fabroni/  →  FABRONI SOUND GARDEN #4. Paesaggi di suono per il giardino...
+  https://temporeale.it/coproduzioni-e-collaborazioni/altitudine/  →  ALTITUDINE
+  https://temporeale.it/produzioni/in-naturale-installazione-sonora-per-luciano-berio/  →  IN-NATURALE, Installazione sonora per Luciano Berio
+  https://temporeale.it/rassegne/maggio-elettrico-firenze-4-5-giugno-2025/  →  MAGGIO ELETTRICO | Firenze, 4-5 giugno 2025
+  https://temporeale.it/rassegne/tempo-reale-per-secret-florence-2025/  →  Tempo Reale per Secret Florence 2025
