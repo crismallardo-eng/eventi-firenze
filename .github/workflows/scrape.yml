@@ -37,9 +37,16 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Lo scrape completo richiede ~5 minuti: oltre i 20 qualcosa e' bloccato.
+    # Senza limite un job appeso tiene occupato il gruppo di concorrenza e
+    # blocca tutti i run successivi a tempo indeterminato.
+    timeout-minutes: 20
     outputs:
       anomalies: ${{ steps.health.outputs.anomalies }}
       new_festivals: ${{ steps.festivals.outputs.new }}
+      # Serve al job deploy: se il build è uscito subito non ha caricato
+      # nessun artefatto, e il deploy non deve nemmeno partire.
+      skipped: ${{ steps.already_today.outputs.skip }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -206,7 +213,17 @@ jobs:
 
   deploy:
     needs: build
+    # SOLO se il build ha davvero prodotto e caricato l'artefatto. Senza
+    # questa condizione, i cron che arrivano a lavoro gia' fatto facevano
+    # partire un deploy in attesa di un artefatto inesistente: restava
+    # appeso per sempre, occupava l'ambiente github-pages e quindi il
+    # gruppo di concorrenza, bloccando tutti i run successivi. E' successo
+    # il 1 ottobre 2026 e ha fermato gli aggiornamenti per nove giorni.
+    if: needs.build.outputs.skipped != 'true'
     runs-on: ubuntu-latest
+    # Rete di sicurezza: se il deploy si impianta comunque, muore da solo
+    # invece di murare la coda.
+    timeout-minutes: 10
     environment:
       name: github-pages
     continue-on-error: true
