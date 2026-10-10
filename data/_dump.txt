@@ -1,898 +1,742 @@
 
 ======================================================================
-URL: https://www.museonovecento.it/wp-json/wp/v2/mostre?per_page=3&_fields=title,excerpt,link
+URL: https://www.museonovecento.it/wp-json/wp/v2/mostre?per_page=2&_fields=title,content
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-[{"link":"https:\/\/www.museonovecento.it\/mostre\/danielle-mckinney-tra-noi\/","title":{"rendered":"DANIELLE MCKINNEY. TRA NOI"},"excerpt":{"rendered":"
-A cura di Sergio Risaliti e di Stefania Rispoli<\/p>\n","protected":false}},{"link":"https:\/\/www.museonovecento.it\/mostre\/victor-man\/","title":{"rendered":"VICTOR MAN"},"excerpt":{"rendered":"
-A cura di Sergio Risaliti<\/p>\n","protected":false}},{"link":"https:\/\/www.museonovecento.it\/mostre\/georg-baselitz-avanti\/","title":{"rendered":"GEORG BASELITZ- AVANTI!"},"excerpt":{"rendered":"
-AL MUSEO NOVECENTO ARRIVA LA GRANDE MOSTRA DEDICATA ALLO SCULTORE E PITTORE TEDESCO GEORG BASELITZ \u00a0SCARICA LA CARTELLA STAMPA<\/p>\n","protected":false}}]
+[{"title":{"rendered":"DANIELLE MCKINNEY. TRA NOI"},"content":{"rendered":"\n
+<\/p>\n\n\n\n
+A cura di Sergio Risaliti e di Stefania Rispoli<\/h2>\n\n\n\n
+\n
+\n
+Il Museo Novecento apre le sue porte a un\u2019altra protagonista della pittura contemporanea
+Danielle Mckinney<\/strong> (Montgomery, Alabama, 1981), artista americana recentemente inclusa dal TIME tra le 100 figure pi\u00f9 influenti del mondo dell\u2019arte del 2026.\u00a0<\/p>\n\n\n\n
+Dal 17 ottobre 2026 al 28 febbraio 2027<\/strong>, il museo presenta Danielle Mckinney. Tra noi, curata da
+Sergio Risaliti<\/strong> e
+Stefania Rispoli<\/strong>. L\u2019esposizione, la prima a Firenze, riunisce 20 opere, alcune delle quali inedite, in dialogo con dipinti e sculture provenienti dalla Raccolta di Alberto Della Ragione della collezione permanente del museo.\u00a0<\/p>\n\n\n\n
+Al centro della mostra \u00e8 la pittura di Mckinney, che evoca, attraverso un uso sapiente del colore e del chiaroscuro, atmosfere sospese dove il tempo sembra essersi fermato: interni domestici costruiti con precisione in cui figure femminili sono immerse in momenti di solitudine e quiete introspezione. Formata inizialmente come fotografa, l\u2019artista costruisce immagini dalla forte impronta cinematografica, confrontandosi con la tradizione della pittura occidentale e con temi legati alla rappresentazione del corpo e dello sguardo. <\/p>\n\n\n\n
+Il percorso mette le opere di
+McKinney<\/strong> in relazione con alcuni maestri italiani del Novecento, tra cui Arturo Martini, Felice Casorati, Giorgio Morandi e Filippo de Pisis, creando risonanze attorno ai temi della luce, dello spazio e della figura. A completare il progetto, una selezione di testi poetici di Lucille Clifton, Louise Gl\u00fcck e June Jordan, scelta con la curatela della poetessa
+Elisa Biagini<\/strong>.<\/p>\n<\/div><\/div>\n<\/div><\/div><\/div>\n\n\n\n
+\n
+<\/a><\/div><\/div>\n<\/div>\n","protected":false}},{"title":{"rendered":"VICTOR MAN"},"content":{"rendered":"\n
+<\/p>\n\n\n\n
+A cura di Sergio Risaliti<\/h2>\n\n\n\n
+<\/p>\n\n\n\n
+\n
+\n
+Il
+Museo Novecento <\/strong>\u00e8 lieto di annunciare la mostra dedicata a
+Victor Man. <\/strong>L\u2019esposizione, a cura di
+Sergio Risaliti<\/strong>,  verr\u00e0 allestita nelle sale al piano terra delle Ex Leopoldine in piazza Santa Maria Novella dal
+26 settembre 2026 al 7 marzo 2027<\/strong>. Saranno presentati circa 25 dipinti in un percorso che esplora temi ricorrenti tra cui la maternit\u00e0, il ritratto e l\u2019autoritratto, la natura morta, la figura femminile. <\/p>\n\n\n\n
+Si potranno ammirare opere quali
+Lelkek temetoje, der Friedhof der Seelen<\/em> (2019)<\/strong>,
+Maternity with Legend<\/em> (2024)<\/strong>,
+Maternity<\/em> (2025)<\/strong>,
+Curve delle Anime<\/em>(2025)<\/strong>,
+Reclining Maiden \u2013 Prelude of Equinox<\/em>(2025\u20132026)<\/strong> e
+Transfiguration, Cassa Oscura<\/em> (2025\u20132026)<\/strong>, insieme ai lavori pi\u00f9 recenti dell\u2019artista. Completeranno il percorso espositivo cinque dipinti della serie
+Luminary Petals on a Wet Black Bough<\/em><\/strong>,\u00a0 tra questi
+Untitled (After Michelangelo)<\/em> (2023)<\/strong>.<\/p>\n\n\n\n
+La mostra \u00e8 promossa dal
+Comune di Firenze<\/strong> e realizzata con il supporto di
+Galerie Max Hetzler<\/strong> e
+David Zwirner Gallery<\/strong>.<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+<\/p>\n<\/div><\/div>\n<\/div><\/div><\/div>\n\n\n\n
+\n
+<\/a><\/div><\/div>\n<\/div>\n","protected":false}}]
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
 
 --- LINK INTERNI (href → testo) ---
+  https://www.museonovecento.it/wp-json/wp/v2/\"https:\/\/www.museonovecento.it\/wp-content\/uploads\/2026\/10\/INVITI_DIGITALI_MCKINNEY__-scaled.jpg\"  →  <\/a><\/div><\/div>\n<\/div>\n","protected":false}},{"title":{"rendere
+  https://www.museonovecento.it/wp-json/wp/v2/\"https:\/\/www.museonovecento.it\/wp-content\/uploads\/2026\/07\/SAVE-THE-DATE_MAN-scaled.jpg\"  →  <\/a><\/div><\/div>\n<\/div>\n","protected":false}}]
 
 ======================================================================
-URL: https://www.murateartdistrict.it/agenda/
+URL: https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-» Agenda completa Mad – Murate Art District
-MAD
-PROGRAMMAZIONE
-LO SPAZIO
-ARCHIVE
-OGGI APERTO
-14:30 - 19:30
+Oltre il Rinascimento. Tra Dürer e Parmigianino | MUS.E
+Musei
+Visite guidate e attività
+Eventi
+Mostre
+News
+Fondazione MUS.E
+Blog
 it
 en
-LUN:
-Chiuso
-MAR:
-14:30 - 19:30
-MER:
-14:30 - 19:30
-GIO:
-14:30 - 19:30
-VEN:
-14:30 - 19:30
-SAB:
-14:30 - 19:30
-DOM:
-Chiuso
-Ultimo accesso ore 19:00.
-Chiusi per le festività.
-Indietro
-IN EVIDENZA
-Irene Dionisio. Miracola
-Dal 17 settembre al 22 novembre 2026
-APRI
-SFOGLIA PER CATEGORIA
-Concerti
-Conferenze
-Lezioni
+fr
+it
+en
+fr
+Musei
+Museo di Palazzo Vecchio
+Museo Novecento
+Museo Stefano Bardini
+Complesso di Santa Maria Novella
+Cappella Brancacci
+Forte di Belvedere
+Fondazione Salvatore Romano
+Museo del ciclismo Gino Bartali
+Palazzo Medici Riccardi
+MAD. Murate Art District
+Museo delle Terre Nuove
+Casa Masaccio
+Museo Leonardiano di Vinci
+Visite guidate e attività
+Eventi
 Mostre
-Performance
-Presentazioni
-Progetto Riva
-Proiezione
-Residenze d’artista
-Workshop
-Black History Month Florence
-Residenza d'artista a scuola
-Agenda Completa
-Andrea Ponsi. Uno, nessuno e trentamila
-Dal
-1.10
+News
+Fondazione MUS.E
+Blog
+Musei
+Museo di Palazzo Vecchio
+Museo Novecento
+Museo Stefano Bardini
+Complesso di Santa Maria Novella
+Cappella Brancacci
+Forte di Belvedere
+Fondazione Salvatore Romano
+Museo del ciclismo Gino Bartali
+Palazzo Medici Riccardi
+MAD. Murate Art District
+Museo delle Terre Nuove
+Casa Masaccio
+Museo Leonardiano di Vinci
+MOSTRA
+Palazzo Medici Riccardi
+Oltre il Rinascimento. Tra Dürer e Parmigianino
+BIGLIETTI a partire da €10,00
+dal
+10 Settembre 26
 al
-22.10
-Corso di canto Pratiche di Risonanza
-Dal
-15.09
-al
-29.06
-Corso di improvvisazione teatrale per giovani con autismo
-Dal
-22.09
-al
-29.06
-Songs and Cries + The Banquet
-venerdì 16 ottobre, ore 19:30
-La trasformazione della nostra democrazia. Comunicazione e politica in 80 anni di Repubblica
-martedì 13 ottobre, ore 16:45
-martedì 20 ottobre, ore 17:00
-martedì 27 ottobre, ore 16:45
-Uno spazio per me: ogni corpo ogni espressione
-giovedì 15 ottobre, ore 15:00
-Corso di avvicinamento all’arte del palcoscenico
-Corso base - dal 19 ottobre 2026 a fine maggio 2027
-Corso avanzato - dal 22 ottobre 2026 a fine maggio 2027
-Corso di teatro per donne con passato migratorio
-da novembre 2026 a maggio 2027
-“Ogni corpo, ogni espressione”: Corso Coreutico Inclusivo 2026
-Proroga scadenza candidature a martedì 6 ottobre ore 9:00
-Geografie d’innesto | Bando per il secondo ciclo di residenza per artisti e curatori under 36
-Periodo di residenza da settembre 2026 a marzo 2027
-Equivalenze 2026
-Dal
-15.10
-al
-17.10
-Indietro
-Il progetto
-Murate Art District è un distretto culturale, uno spazio di creazione e residenza dedicato ai linguaggi artistici contemporanei in un approccio transdisciplinare, aperto ad artisti di ogni età e provenienza. Situato nell’ex convento delle Murate, quindi carcere cittadino, MAD eredita la memoria del complesso monumentale e la riattiva grazie alla presenza degli artisti che lo abitano quotidianamente, facendone un luogo di libertà e ricerca.
-MAD invita gratuitamente la comunità a mostre, incontri, performance e workshop centrati sulle tematiche ed i linguaggi artistici del contemporaneo, con un taglio fortemente interdisciplinare. Lo Spazio Riviste e le Residenze per artisti si offrono come luogo di aggiornamento e formazione. MAD è un centro di ricerca e produzione artistica fondato su criteri di partecipazione e inclusività, e propone ricerche a progetti sul welfare culturale.
-ESPLORA
-La struttura
-Chi siamo
-Pubblicazioni
-Residenze Artistiche
-Progetto Riva
-Indietro
-Dove Siamo
-Ci puoi trovare in Piazza Delle Murate, Firenze
-Telefono: 055 247 6873
-info.mad@musefirenze.it
+05 Gennaio 27
+Un percorso che permette al pubblico di approfondire le tecniche, i linguaggi e i temi sviluppati dai grandi artisti del Cinquecento europeo - con uno sguardo anche al tardo Quattrocento e al primo Seicento - ponendo un’attenzione speciale alle sfide e ai risultati nel mondo dell’incisione e valorizzandone i protagonisti.
+Orari
+01 Novembre - 28 Febbraio
+LUN
+9:00 - 19:00
+MAR
+9:00 - 19:00
+MER
+Chiuso
+GIO
+9:00 - 19:00
+VEN
+9:00 - 19:00
+SAB
+9:00 - 19:00
+DOM
+9:00 - 19:00
+Dove
+Via de' Ginori 2, Firenze
+Biglietti
+€ 15,00
+Intero
+€ 10,00
+Ridotto (18-25; studenti universitari)
+€ 4,00
+Visite guidate e attività (NON residenti città metropolitana)
+€ 2,00
+Visite guidate e attività (residenti città metropolitana)
+€ 0,00
+0-17 anni; guide turistiche abilitate; giornalisti accreditati; disabili e loro accompagnatori; gruppi di studenti e rispettivi insegnanti; membri ICOM, ICOMOS e ICCROM; residenti Città Metropolitana di Firenze la prima domenica del mese.
+La biglietteria chiude un'ora prima del museo.
+«Mi interessano quei casi di confine nell’arte, in cui il terreno acquisito diventa incerto e la visione classica si disgrega. Oltre quel punto, le cose si fanno più vive»
+.
+Georg Baselitz
+Il segno come luogo di sperimentazione, la figura umana come campo di tensione, l’eredità classica spinta verso esiti inattesi. Dal
+10 settembre 2026 al 5 gennaio 2027
+Palazzo Medici Riccardi
+ospita
+“Oltre il Rinascimento. Tra Dürer e Parmigianino”
+, una mostra dedicata alla straordinaria ricchezza tecnica ed estetica della grafica manierista europea e al profondo rapporto che
+Georg Baselitz
+, fra i maggiori artisti contemporanei, ha costruito con i maestri del Cinquecento attraverso decenni di ricerca e collezionismo.
+Promossa da
+Città Metropolitana di Firenze
+e organizzata da
+Fondazione MUS.E
+, l’esposizione – a cura di
+Daniel Blau, Sergio Risaliti e Valentina Zucchi
+– riunisce una selezione di circa
+150 opere
+, provenienti dalla
+collezione privata di Georg Baselitz
+e dalle raccolte del
+Museo di Belle Arti di Budapest
+. Il percorso permette al pubblico di approfondire le tecniche, i linguaggi e i temi sviluppati dai grandi artisti del Cinquecento europeo – con uno sguardo anche al tardo Quattrocento e al primo Seicento – ponendo un’attenzione speciale alle sfide e ai risultati nel mondo dell’incisione e valorizzandone i protagonisti.
+L’artista e il collezionista
+L’apertura di
+“Oltre il Rinascimento”
+, il 10 settembre, precede di appena tre giorni la conclusione di
+“Baselitz. AVANTI!”
+, la grande mostra che il
+Museo Novecento
+di Firenze dedica all’artista fino al 13 settembre 2026, offrendosi come suo naturale e prezioso completamento. Il progetto del Museo Novecento attraversa oltre sessant’anni di attività del maestro tedesco attraverso circa 170 opere tra stampe, dipinti e sculture, ponendo al centro una dimensione fondamentale della sua ricerca: la produzione grafica e incisoria.
+Questa breve ma significativa concomitanza offre al pubblico una speciale occasione per osservare, attraverso due prospettive complementari, la personalità e la ricerca di Baselitz. Al Museo Novecento emerge l’artista che ha fatto della grafica un terreno autonomo di sperimentazione, trasformazione e continua messa in discussione dell’immagine; a Palazzo Medici Riccardi si rivela invece il collezionista e conoscitore dei maestri antichi, attratto dalla libertà inventiva, dalle dissonanze e dall’approccio anticonvenzionale della grafica manierista. Nei giorni immediatamente successivi all’apertura della mostra di Palazzo Medici Riccardi, il pubblico potrà così comporre un ideale percorso fiorentino fra
+il Baselitz artista e il Baselitz collezionista
+. Alla sua preziosa raccolta si accompagnano poi alcuni capolavori scelti, provenienti dal Museo di Belle Arti di Budapest, che, come cammei, accompagnano ed esaltano il racconto espositivo con sottolineature di rara finezza e di grande rilievo.
+Tra memoria classica e sensibilità contemporanea
+Il progetto ospitato a Palazzo Medici Riccardi prende avvio dall’importante mostra
+“The Mannerist Mind. Prints from the Georg Baselitz Collection”
+, presentata tra la fine del 2025 e l’inizio del 2026 proprio nelle sale del
+Museo di Belle Arti di Budapest
+con una selezione di stampe manieriste appartenenti alle collezioni del museo ungherese e alla raccolta dell’artista tedesco. La mostra fiorentina ne propone una nuova interpretazione, costruita intorno al dialogo fra le opere del Cinquecento e la sensibilità di uno dei protagonisti dell’arte del nostro tempo. Alle stampe, poi, si affiancano
+quattro importanti sculture di Baselitz
+, che paiono marcare il viaggio nel mondo della grafica manierista evidenziandone le connessioni con la contemporaneità, e il suo eloquente autoritratto.
+Baselitz, infatti, non è stato soltanto un artista radicale e innovativo, ma
+anche un collezionista di grande rilievo
+. La sua raccolta di stampe dei maestri antichi nasce da un interesse maturato già negli anni Sessanta e sviluppato con continuità per oltre sei decenni. Alla curiosità dell’artista si è unito l’occhio dell’intenditore, dando vita a un patrimonio di opere di grande pregio, capace di restituire le sue affinità, le sue predilezioni e le domande che hanno accompagnato la sua ricerca.
+Il legame fra Baselitz e il Museo di Belle Arti di Budapest si è consolidato nel tempo: nel 2017 il museo gli ha dedicato una mostra monografica e, tre anni più tardi, l’artista ha donato trenta incisioni alle collezioni ungheresi. L’esposizione fiorentina sviluppa questo dialogo e mette a confronto
+due differenti forme di raccolta
+–
+quella di un’istituzione pubblica e quella privata di un artista
+– invitando a riflettere
+sull’idea stessa di collezione
+come impulso a conservare, custodire, studiare e condividere le opere.
+La grafica e l’origine della passione per il Manierismo
+Al centro della mostra è appunto la
+produzione grafica
+, intesa non come ambito secondario rispetto alla pittura, ma come terreno privilegiato di ricerca e sperimentazione, oltre che di incredibile espressione formale. Come gli artisti del passato utilizzavano disegni e stampe quali riserve di immagini, modelli e ispirazioni, così Baselitz ha raccolto nel corso della propria vita un ricchissimo patrimonio grafico, che riunisce i risultati di maestri italiani, francesi, tedeschi, fiamminghi offrendo uno sguardo d’eccezione su ciò che gli artisti cercarono, sperimentarono e ottennero grazie alle tecniche incisorie.
+La storia della collezione manierista di Baselitz ha peraltro un significativo punto di partenza: l’acquisto, nel 1964, della stampa
+“Il sacrificio” di Antonio Fantuzzi da Trento
+, che riprende e interpreta il dipinto di Rosso Fiorentino a Fontainebleau
+. Da quel momento l’artista ha continuato ad ampliare la propria raccolta, attratto dall’approccio anticonvenzionale, dalla libertà inventiva e dalla straordinaria figurazione delle stampe del periodo. Nelle forme instabili ed eccentriche del Manierismo Baselitz ha riconosciuto una possibilità di superamento della norma e di messa in discussione della visione classica.
+I maestri in mostra e la sperimentazione tecnica
+La mostra presenta quindi i lavori di innovativi artisti italiani del tardo Quattrocento e del Manierismo, fra cui
+Andrea Mantegna
+,
+Parmigianino,
+Andrea Schiavone
+; i maestri incisori francesi della scuola di Fontainebleau, come
+Léon
+Davent, Geoffroy Dumonstier
+e
+Juste de Juste
+; olandesi e tedeschi come
+Albrecht
+Dürer
+o
+Hans Sebald Beham
+e alcuni fra i maggiori sperimentatori del chiaroscuro, da
+Ugo da Carpi
+a
+Domenico Beccafumi
+, da
+Andrea Andreani
+a
+Hendrick Goltzius
+. A questi si affiancano capolavori scelti dalle collezioni di Budapest, fra i quali opere di
+Antonio del Pollaiolo
+e dello stesso Parmigianino.
+Le diverse xilografie, anche a più matrici, acqueforti, incisioni a bulino o a puntasecca documentano le molteplici possibilità offerte dalle tecniche incisorie, dimostrando come esse possano esprimere effetti assai diversi fra loro, di volta in volta lineari, chiaroscurali, tonali. La lavorazione delle matrici, la perizia nell’esecuzione dei segni, le variazioni introdotte nei processi di stampa e le infinite possibilità di resa diventano strumenti espressivi attraverso i quali gli artisti del Cinquecento mettono alla prova la tradizione e costruiscono non solo nuove immagini, ma anche una nuova visione, circolando in tutta Europa e favorendo così il confronto tra diverse sensibilità, modelli ed esperienze.
+Il percorso espositivo si snoda nel tempo e nello spazio:
+a partire dalle celebri stampe di Albrecht Dürer, fra cui il celebre
+Rinoceronte
+, è in
+mostra una nutrita serie di opere di Lucas Cranach il Vecchio
+, in dialogo con una sua – rara – matrice xilografica; a essa seguono le meravigliose stampe chiaroscurali di
+Domenico Beccafumi
+e Ugo da Carpi, come il famoso e potente
+Diogene
+, per lasciare spazio poi all’inventivo e sapiente Jacques Bellange. Si prosegue con
+una serie di stampe derivate da un dipinto perduto di Arcimboldo
+, di cui una assunta a icona della mostra, e di fantasiose figure di costume, per dedicare poi un’attenzione speciale alle ricerche di
+Parmigianino
+e dei suoi intorno all’opera raffaellesca e sul tema iconografico della
+Deposizione di Cristo
+. Le figure solitarie, siano esse in meditazione, in posa eroica o monumentale, ritmano le ultime sale in controcanto rispetto alle opere degli artisti della scuola di Fontainebleau, per chiudere – in omaggio al nostro Rinascimento – con i pionieristici lavori di Antonio Pollaiolo e di Andrea Mantegna.
+Ad accompagnare la mostra saranno anche presenti alcune teche con strumenti e apparati relativi alle diverse tecniche dell’incisione, a cura della Fondazione Il Bisonte, utili a comprendere i molteplici processi e passaggi esecutivi.
+Visite guidate e attività
+Sono inoltre in programma le visite guidate alla mostra, tutti i sabati e tutte le domeniche alle ore 15, e l’attività per famiglie la domenica alle 10.30, con laboratorio di incisione. Visite e attività sono prenotabili anche dalle scuole primarie e secondarie di primo e secondo grado.
+A cura di
+Daniel Blau, Sergio Risaliti e Valentina Zucchi
+Promossa da
+Città Metropolitana di Firenze
+Organizzata da
+Fondazione MUS.E
+Scopri il museo
+Visita il museo
+Palazzo Medici Riccardi
+Il primo palazzo dei Medici, dove vissero Cosimo il Vecchio e Lorenzo il Magnifico e lavorarono artisti come Donatello, Michelangelo, Paolo Uccello e Botticelli.
+Visita il museo
+Attività correlate
+Tutte le attività
+2,00 - 4€
+Secondaria I grado
+Secondaria II grado
+•
+Palazzo Medici Riccardi
+Visita alla mostra Oltre il Rinascimento
+Attività legata alla mostra in corso.
+2,00 - 4€
+Primaria
+Secondaria I grado
+•
+Palazzo Medici Riccardi
+Laboratorio di incisione
+Attività legata alla mostra in corso.
+2,00 - 4€
+Famiglie con bambini
+•
+Palazzo Medici Riccardi
+Laboratorio di incisione
+8-12
+A partire dal 20 settembre. Attività legata alla mostra in corso.
+2,00 - 4€
+Giovani e adulti
+•
+Palazzo Medici Riccardi
+Visita alla mostra Oltre il Rinascimento
+Attività legata alla mostra in corso.
+Tutte le attività
+Newsletter
+ISCRIVITI ADESSO
+INFO E PRENOTAZIONI
+PRIVATI
++39 055 0541450
+[email protected]
+SCUOLE
++39 055 0541451
+[email protected]
+Fondazione MUS.E
+Sede Legale: Palazzo Vecchio,
+Piazza Signoria 1, 50122 Firenze
+P.I.05118160489 – C.F.94083520489
+Iscritta al n° 111 del Registro delle Persone
+Giuridiche Private
+Le tue preferenze relative alla privacy
 LINK UTILI
-Spazio Riviste
-Installazioni
-Visite e attività
-MAD
-PROGRAMMAZIONE
-LO SPAZIO
-ARCHIVE
-OGGI APERTO
-14:30 - 19:30
-Italiano
-English
-Agenda completa
-Irene Dionisio. Miracola
-a cura di Valentina Gensini
-Dal 17 settembre al 22 novembre 2026
-APRI
-MOSTRAMI:
-Tutto
-attività per famiglie
-Black History Month Florence
-Call
-Cinema
-Concerti
-Conferenze
-Corea Film Festival
-Danza contemporanea
-Design
-Ecologia
-Eredità delle donne
-Estatefiorentina
-Fango Radio
-Festival
-Firenze dei Bambini
-Fotografia
-Fulvio cauteruccio
-In evidenza
-Laboratorio
-Lezioni
-Mediazione
-Mostre
-Musica
-Performance
-Poesia
-Presentazioni
-Progetto Riva
-Proiezione
-Quaderni d'artista
-Questioni di genere
-residenze
-stage
-Standard
-Talk
-teatro
-visite guidate
-workshop
-in ogni area
-Architettura
-Arte Pubblica
-Arti Visive
-Cinema
-Comunicazione
-Design
-Fotografia
-Laboratorio sensoriale
-Letteratura e Scienze Umane
-Lezioni
-mediazione
-Musica e Sound Art
-Performance
-presentazioni
-Regia
-Residenze d'Artista
-Ricerca
-Teatro
-Urbanistica
-Videoart
-Dentro il contemporaneo
-un progetto per Fondazione CR Firenze
-prossimo appuntamento 14 ottobre, ore 15:00
-attività per famiglie
-,
-In evidenza
-,
-Laboratorio
-,
-visite guidate
-,
-workshop
-Commedia armoniosa per un drago nascente
-a cura di Andrea Mancini
-Dal
-25.09.26
-al
-20.10.26
-In evidenza
-,
-Mostre
-,
-teatro
-Teatro
-Irene Dionisio. Miracola
-a cura di Valentina Gensini
-Dal
-17.09.26
-al
-22.11.26
-Cinema
-,
-In evidenza
-,
-Mostre
-Cinema
-Andrea Ponsi. Uno, nessuno e trentamila
-in collaborazione con Accademia delle Arti del Disegno
-Dal
-01.10.26
-al
-22.10.26
-Mostre
-Arti Visive
-Corso di canto Pratiche di Risonanza
-in collaborazione con Coro Con-fusion
-Dal
-15.09.26
-al
-29.06.27
-Laboratorio
-Corso di improvvisazione teatrale per giovani con autismo
-in collaborazione con Centro Autismo Firenze Casadasé
-Dal
-22.09.26
-al
-29.06.27
-Laboratorio
-,
-Performance
-,
-teatro
-Teatro
-Songs and Cries + The Banquet
-di Li Yongzheng, in collaborazione con Zhong Art International ZAI
-venerdì 16 ottobre, ore 19:30
-Cinema
-Cinema
--
-Videoart
-La trasformazione della nostra democrazia. Comunicazione e politica in 80 anni di Repubblica
-a cura di ISRT - Istituto Storico Toscano della Resistenza
-martedì 13 ottobre, ore 16:45
-martedì 20 ottobre, ore 17:00
-martedì 27 ottobre, ore 16:45
-Standard
-Comunicazione
-Uno spazio per me: ogni corpo ogni espressione
-presentato da LUBEC 2026
-giovedì 15 ottobre, ore 15:00
-Talk
-Corso di avvicinamento all’arte del palcoscenico
-a cura di Laboratorio Nove, in collaborazione con MAD Murate Art District
-Corso base - dal 19 ottobre 2026 a fine maggio 2027
-Corso avanzato - dal 22 ottobre 2026 a fine maggio 2027
-Laboratorio
-,
-teatro
-Teatro
-Corso di teatro per donne con passato migratorio
-in collaborazione con Casa delle donne e con Associazione Muchas Gracias
-da novembre 2026 a maggio 2027
-teatro
-Teatro
-“Ogni corpo, ogni espressione”: Corso Coreutico Inclusivo 2026
-un progetto di Fondazione CR Firenze, a cura di MAD Murate Art District e Versiliadanza
-Proroga scadenza candidature a martedì 6 ottobre ore 9:00
-Call
-,
-Danza contemporanea
-,
-Laboratorio
-,
-Lezioni
-,
-Musica
-,
-Standard
-Laboratorio sensoriale
--
-Lezioni
--
-Musica e Sound Art
--
-Performance
--
-Teatro
-Geografie d’innesto | Bando per il secondo ciclo di residenza per artisti e curatori under 36
-Progetto FSE a cura di Mus.e, MAD Murate Art District e Museo Novecento
-Periodo di residenza da settembre 2026 a marzo 2027
-Call
-,
-residenze
-Architettura
--
-Arte Pubblica
--
-Arti Visive
--
-Fotografia
--
-Musica e Sound Art
--
-Performance
--
-Residenze d'Artista
--
-Videoart
-Equivalenze 2026
-organizzato da Il Girasole Società Cooperativa Sociale
-Dal
-15.10.26
-al
-17.10.26
-Festival
-,
-Talk
-,
-workshop
-Lezioni
--
-Performance
-Archivio
-Songs and Cries + The Banquet
-di Li Yongzheng, in collaborazione con Zhong Art International ZAI
-venerdì 16 ottobre, ore 19:30
-Cinema
-Cinema
--
-Videoart
-La trasformazione della nostra democrazia. Comunicazione e politica in 80 anni di Repubblica
-a cura di ISRT - Istituto Storico Toscano della Resistenza
-martedì 13 ottobre, ore 16:45
-martedì 20 ottobre, ore 17:00
-martedì 27 ottobre, ore 16:45
-Standard
-Comunicazione
-Uno spazio per me: ogni corpo ogni espressione
-presentato da LUBEC 2026
-giovedì 15 ottobre, ore 15:00
-Talk
-Andrea Ponsi. Uno, nessuno e trentamila
-in collaborazione con Accademia delle Arti del Disegno
-Dal
-01.10.26
-al
-22.10.26
-Mostre
-Arti Visive
-Corso di avvicinamento all’arte del palcoscenico
-a cura di Laboratorio Nove, in collaborazione con MAD Murate Art District
-Corso base - dal 19 ottobre 2026 a fine maggio 2027
-Corso avanzato - dal 22 ottobre 2026 a fine maggio 2027
-Laboratorio
--
-teatro
-Teatro
-Corso di improvvisazione teatrale per giovani con autismo
-in collaborazione con Centro Autismo Firenze Casadasé
-Dal
-22.09.26
-al
-29.06.27
-Laboratorio
--
-Performance
--
-teatro
-Teatro
-Corso di canto Pratiche di Risonanza
-in collaborazione con Coro Con-fusion
-Dal
-15.09.26
-al
-29.06.27
-Laboratorio
-Corso di teatro per donne con passato migratorio
-in collaborazione con Casa delle donne e con Associazione Muchas Gracias
-da novembre 2026 a maggio 2027
-teatro
-Teatro
-“Ogni corpo, ogni espressione”: Corso Coreutico Inclusivo 2026
-un progetto di Fondazione CR Firenze, a cura di MAD Murate Art District e Versiliadanza
-Proroga scadenza candidature a martedì 6 ottobre ore 9:00
-Call
--
-Danza contemporanea
--
-Laboratorio
--
-Lezioni
--
-Musica
--
-Standard
-Laboratorio sensoriale
--
-Lezioni
--
-Musica e Sound Art
--
-Performance
--
-Teatro
-Geografie d’innesto | Bando per il secondo ciclo di residenza per artisti e curatori under 36
-Progetto FSE a cura di Mus.e, MAD Murate Art District e Museo Novecento
-Periodo di residenza da settembre 2026 a marzo 2027
-Call
--
-residenze
-Architettura
--
-Arte Pubblica
--
-Arti Visive
--
-Fotografia
--
-Musica e Sound Art
--
-Performance
--
-Residenze d'Artista
--
-Videoart
-Florence Calling. Anni ’80
-a cura di Bruno Casini e Valentina Gensini
-Dal
-02.07.26
-al
-20.09.26
-Mostre
--
-Musica
--
-Performance
--
-Presentazioni
--
-Proiezione
--
-Talk
--
-teatro
-Arti Visive
--
-Fotografia
--
-Musica e Sound Art
--
-Performance
--
-presentazioni
--
-Teatro
-Fare di una Pulce un cavallo
-mostra finale del primo ciclo di residenza Geografie d’Innesto nell’ambito del programma della Regione Toscana FSE+ 2021–202
-Dal
-03.07.26
-al
-03.08.26
-Mostre
--
-residenze
-Architettura
--
-Arte Pubblica
--
-Arti Visive
--
-Fotografia
--
-Musica e Sound Art
--
-Performance
--
-Residenze d'Artista
--
-Videoart
-Michele Borzoni e Rocco Rorandelli. Silent Springs
-a cura di Valentina Gensini
-inaugurazione mercoledì 22 luglio ore 18:30
-Ecologia
--
-Mostre
-Fotografia
-Caos. Pratiche poetiche di resistenza intima.
-a cura di Patrizia Menichelli e Angela Trentanovi
-venerdì 17 e sabato 18, alle ore 19:30 e alle ore 22:00
-residenze
--
-teatro
-Residenze d'Artista
--
-Teatro
-Linee di Fuga
-a cura di Accademia di Belle Arti di Firenze: Veronica Montanino, Domenico Antonio Mancini, Marco Raffaele e Marina Brancato
-Dal
-25.06.26
-al
-15.07.26
-Mostre
--
-residenze
-Arti Visive
-Anna Perach. Dis/Enchanted Interiors
-a cura di Veronica Caciolli e Valentina Gensini
-Dal
-14.05.26
-al
-12.07.26
-Mostre
-Arte Pubblica
--
-Arti Visive
--
-Comunicazione
--
-Performance
-Punto di Contatto. Workshop di improvvisazione teatrale
-a cura di Andrea Genovese per KORDELIA APS
-Dal
-03.07.26
-al
-04.07.26
-Laboratorio
--
-teatro
-Teatro
-Pensare & comunicare. Il Segno Toscano
-a cura di Cartacanta APS e Controradio, in collaborazione con Museo Magma – Museo Archivio della Grafica e del Manifesto di Civitanova Marche, ARCI Firenze e MAD Murate Art District
-Dal
-03.06.26
-al
-23.06.26
-Mostre
-Comunicazione
-Stage teatrale estivo
-a cura di La Stanza dell'Attore, tenuto da Giovanni Micoli
-Dal
-15.06.26
-al
-19.06.26
-stage
--
-teatro
-Teatro
-Presentazione Acqua in ascolto. Installazioni tra suono, luce e materia.
-a cura di Jacopo Baboni Schilingi, Jiyeong Lee, Bernardino Nardi, in collaborazione con MAD Murate Art District e FLO.RE Festival
-Presentazione mercoledì 10 giugno, ore 17:00
-Concerti
--
-Conferenze
--
-Standard
-presentazioni
-Masterclass in formazione delle arti della scena dedicate a persone con disabilità, educatori e caregiver
-in collaborazione con Versiliadanza
-Dal
-11.04.26
-al
-31.05.26
-Laboratorio
--
-Performance
-Laboratorio sensoriale
-Patrimoni in Valigia. Scuole, storia e percorsi creativi
-a cura del Gruppo di Ricerca Archivio Storico INDIRE - Istituto Nazionale Documentazione Innovazione Ricerca Educativa e USR - Ufficio Scolastico Regionale Toscana
-Presentazione giovedì 28 maggio, ore 10:00
-Laboratorio
--
-Presentazioni
-presentazioni
-Corso di teatro per donne con passato migratorio
-in collaborazione con Casa delle donne e con Associazione Muchas Gracias
-Dal
-13.11.25
-al
-28.05.26
-teatro
-Teatro
-Corso di training vocale
-in collaborazione con Coro Con-fusion
-Dal
-09.09.25
-al
-26.05.26
-Laboratorio
-Corso di improvvisazione teatrale per giovani con autismo
-in collaborazione con Centro Autismo Firenze Casadasé
-Dal
-09.09.25
-al
-26.05.26
-Laboratorio
--
-Performance
--
-Standard
--
-teatro
-Teatro
-Francesco Pellegrino. Keep it alive
-a cura di Matteo Mannocci e Francesco Toninelli
-Dal
-23.04.26
-al
-24.05.26
-Mostre
-Residenze d'Artista
-Heather Hart | Triplet Consciousness
-a cura di Black History Month Florence
-Dal
-12.02.26
-al
-12.04.26
-Black History Month Florence
--
-Mostre
-Arti Visive
--
-Residenze d'Artista
-Black Archive Alliance | William Demby: The Angel in the Death Cell
-a cura di BHMF
-Dal
-12.02.26
-al
-12.04.26
-Black History Month Florence
--
-Mostre
-Residenze d'Artista
--
-Ricerca
-Common Time | Black History Month Florence XI Edizione
-A cura di BHMF e MAD Murate Art District
-Dal
-12.02.26
-al
-12.04.26
-Black History Month Florence
--
-Mostre
--
-Standard
-Arte Pubblica
--
-Arti Visive
-T.J. Dedeaux-Norris | Black Body, Ancient City
-a cura di BHMF
-Dal
-12.02.26
-al
-12.04.26
-Black History Month Florence
--
-Mostre
-Arti Visive
--
-Residenze d'Artista
-Masterclass in formazione delle arti della scena dedicate a persone con disabilità, educatori e caregiver
-in collaborazione con Versiliadanza
-Dal
-17.01.26
-al
-08.03.26
-Lezioni
--
-Performance
--
-workshop
-Lezioni
--
-Performance
-Giulia Piermartiri | Edoardo Delille Atlas of the New World
-a cura di Valentina Gensini
-Dal
-04.12.25
-al
-08.02.26
-Mostre
-Fotografia
-Tiny Festival – Festival di danza contemporanea dedicato alle nuove generazioni
-a cura di Associazione Nika
-Dal
-12.12.25
-al
-14.12.25
-Danza contemporanea
--
-Festival
--
-Laboratorio
-Arte Pubblica
--
-Laboratorio sensoriale
--
-Videoart
-MEDIARC – Festival internazionale di Architettura in video
-a cura dell'Università degli Studi di Firenze - Dipartimento di Architettura
-Dal
-10.12.25
-al
-11.12.25
-Conferenze
--
-Festival
--
-Standard
-Architettura
--
-Urbanistica
-Essenziale LAB
-a cura di Kinesis LAB
-Dal
-02.09.25
-al
-04.09.25
-Danza contemporanea
--
-Estatefiorentina
--
-In evidenza
-Performance
-Dissolvenze | Corrispondere al tempo
-a cura di Valentina Gensini
-Dal
-15.05.25
-al
-03.08.25
-Mostre
--
-Progetto Riva
-Arti Visive
--
-Laboratorio sensoriale
-Visite guidate e attività gratuite sulla mostra Dissolvenze. Corrispondere al tempo
-Dal
-18.05.25
-al
-03.08.25
-Mediazione
--
-Mostre
--
-visite guidate
-Corso teatrale per ragazzi con autismo
-Autismo Firenze Casadasè | Compagnia Krypton
-Dal
-17.09.24
-al
-23.07.25
-Fulvio cauteruccio
--
-Laboratorio
--
-Performance
--
-Standard
--
-teatro
-Teatro
-Nutrire Dio. Mistica e misticanza in Giuliano Scabia
-a cura di Andrea Mancini
-Dal
-11.06.25
-al
-16.07.25
-Mostre
--
-Standard
--
-teatr
+Amministrazione trasparente
+Domenica Metropolitana
+Sito ufficiale Musei Civici Fiorentini
+Sito ufficiale Feel Florence
+Sito Firenze Patrimonio Mondiale
+Privacy policy
+Cookie policy
+Accessibilità
+GOOGLE ARTS AND CULTURE
+Il Museo di Palazzo Vecchio partecipa all’Art
+Project del Google Cultural Institute.
+SCOPRI IL PROGETTO
+SOCIAL
+Designed & developed by
+Alias2k
+SPONSORSHIP
+Designed & developed by
+Alias2k
+Verifica disponibilità
+Periodo individuato per lo svolgimento della/e attività:
+Fascia Oraria:
+Mattina
+Pomeriggio
+Quando disponibile
+Numero adulti:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Numero bambini
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Fasce Età Bambini
+—Seleziona un'opzione—
+4/7
+8/12
+12+
+Nome e Cognome
+Nazione
+Regione
+—Seleziona un'opzione—
+Abruzzo
+Basilicata
+Calabria
+Campania
+Emilia romagna
+Friuli venezia giulia
+Lazio
+Liguria
+Lombardia
+Marche
+Molise
+Piemonte
+Puglia
+Sardegna
+Sicilia
+Toscana
+Trentino alto adige
+Umbria
+Valle d'aosta
+Veneto
+Comune
+Cellulare
+Email
+Note
+Dichiaro di aver preso visione dell'informativa ai sensi dell'art. 13 del D.Lgs. n. 196/2003 sul sito istituzionale della Fondazione MUS.E ed autorizzo il trattamento dei miei dati personali ai sensi della citata normativa |
+Leggi informativa
+.
+Autorizzo la Fondazione MUS.E. a contattarmi in futuro per l'invio di informazioni e materiali relativi alla promozione di prossimi eventi od iniziative di natura artistica e/o culturale.
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='avviso-orari'> Ultimo accesso ore 19:00. Chiusi per le festività.
-  <p class='date'> Dal 1.10 al 22.10
-  <p class='date'> Dal 15.09 al 29.06
-  <p class='date'> Dal 22.09 al 29.06
-  <p class='date'> venerdì 16 ottobre, ore 19:30
-  <p class='date'> martedì 13 ottobre, ore 16:45 martedì 20 ottobre, ore 17:00 martedì 27 ottobre, ore 16:45
-  <p class='date'> giovedì 15 ottobre, ore 15:00
-  <p class='date'> Corso base - dal 19 ottobre 2026 a fine maggio 2027 Corso avanzato - dal 22 ottobre 2026 a fine maggio 2027
-  <p class='date'> da novembre 2026 a maggio 2027
-  <p class='date'> Proroga scadenza candidature a martedì 6 ottobre ore 9:00
-  <p class='date'> Periodo di residenza da settembre 2026 a marzo 2027
-  <p class='date'> Dal 15.10 al 17.10
-  <p class='date'> prossimo appuntamento 14 ottobre, ore 15:00
-  <p class='date'> Dal 25.09.26 al 20.10.26
-  <p class='date'> Dal 17.09.26 al 22.11.26
-  <p class='date'> Dal 01.10.26 al 22.10.26
-  <p class='date'> Dal 15.09.26 al 29.06.27
-  <p class='date'> Dal 22.09.26 al 29.06.27
-  <p class='date'> venerdì 16 ottobre, ore 19:30
-  <p class='date'> martedì 13 ottobre, ore 16:45 martedì 20 ottobre, ore 17:00 martedì 27 ottobre, ore 16:45
-  <p class='date'> giovedì 15 ottobre, ore 15:00
-  <p class='date'> Corso base - dal 19 ottobre 2026 a fine maggio 2027 Corso avanzato - dal 22 ottobre 2026 a fine maggio 2027
-  <p class='date'> da novembre 2026 a maggio 2027
-  <p class='date'> Proroga scadenza candidature a martedì 6 ottobre ore 9:00
-  <p class='date'> Periodo di residenza da settembre 2026 a marzo 2027
-  <p class='date'> Dal 15.10.26 al 17.10.26
-  <p class='date'> venerdì 16 ottobre, ore 19:30
-  <p class='date'> martedì 13 ottobre, ore 16:45 martedì 20 ottobre, ore 17:00 martedì 27 ottobre, ore 16:45
-  <p class='date'> giovedì 15 ottobre, ore 15:00
-  <p class='date'> Dal 01.10.26 al 22.10.26
-  <p class='date'> Corso base - dal 19 ottobre 2026 a fine maggio 2027 Corso avanzato - dal 22 ottobre 2026 a fine maggio 2027
-  <p class='date'> Dal 22.09.26 al 29.06.27
-  <p class='date'> Dal 15.09.26 al 29.06.27
-  <p class='date'> da novembre 2026 a maggio 2027
-  <p class='date'> Proroga scadenza candidature a martedì 6 ottobre ore 9:00
-  <p class='date'> Periodo di residenza da settembre 2026 a marzo 2027
-  <p class='date'> Dal 02.07.26 al 20.09.26
-  <p class='date'> Dal 03.07.26 al 03.08.26
-  <p class='date'> inaugurazione mercoledì 22 luglio ore 18:30
-  <p class='date'> venerdì 17 e sabato 18, alle ore 19:30 e alle ore 22:00
+  <div class='exhibition-date'> dal 10 Settembre 26 al 05 Gennaio 27
+  <div class='col-12 col-lg-5 date-title'> 01 Novembre - 28 Febbraio
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> Mattina Pomeriggio Quando disponibile
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+  <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> —Seleziona un'opzione— Abruzzo Basilicata Calabria Campania Emilia romagna Friuli venezia giulia Lazio Liguria Lombardia Marche Molise Piemonte Puglia Sardegna 
 
 --- LINK INTERNI (href → testo) ---
-  https://www.murateartdistrict.it  →  
-  https://www.murateartdistrict.it/agenda/  →  MAD
-  https://www.murateartdistrict.it/archive  →  ARCHIVE
-  https://www.murateartdistrict.it/it/agenda/  →  it
-  https://www.murateartdistrict.it/en/agenda/  →  en
-  https://www.murateartdistrict.it/irene-dionisio-miracola/  →  APRI
-  https://www.murateartdistrict.it/categoria/concerti/  →  Concerti
-  https://www.murateartdistrict.it/categoria/conferenze/  →  Conferenze
-  https://www.murateartdistrict.it/categoria/lezioni/  →  Lezioni
-  https://www.murateartdistrict.it/categoria/mostre/  →  Mostre
-  https://www.murateartdistrict.it/categoria/performance/  →  Performance
-  https://www.murateartdistrict.it/categoria/presentazioni/  →  Presentazioni
-  https://www.murateartdistrict.it/categoria/progetto-riva/  →  Progetto Riva
-  https://www.murateartdistrict.it/categoria/proiezione/  →  Proiezione
-  https://www.murateartdistrict.it/categoria/residency/  →  Residenze d’artista
-  https://www.murateartdistrict.it/categoria/workshop/  →  Workshop
-  https://www.murateartdistrict.it/categoria/mostre/bhmf/  →  Black History Month Florence
-  https://www.murateartdistrict.it/residenzedartista/residenzedartistaascuola2/  →  Residenza d'artista a scuola
-  https://www.murateartdistrict.it/ponsi-uno-nessuno-e-trentamila/  →  Andrea Ponsi. Uno, nessuno e trentamila Dal 1.10 al 22.10
-  https://www.murateartdistrict.it/corso-di-canto-pratiche-di-risonanza/  →  Corso di canto Pratiche di Risonanza Dal 15.09 al 29.06
-  https://www.murateartdistrict.it/corso-di-improvvisazione-teatrale-per-giovani-con-autismo-2/  →  Corso di improvvisazione teatrale per giovani con autismo Dal 22.09 al
-  https://www.murateartdistrict.it/songs-and-cries-the-banquet/  →  Songs and Cries + The Banquet venerdì 16 ottobre, ore 19:30
-  https://www.murateartdistrict.it/la-trasformazione-della-nostra-democrazia-comunicazione-e-politica-in-80-anni-di-repubblica/  →  La trasformazione della nostra democrazia. Comunicazione e politica in
-  https://www.murateartdistrict.it/uno-spazio-per-me-ogni-corpo-ogni-espressione/  →  Uno spazio per me: ogni corpo ogni espressione giovedì 15 ottobre, ore
-  https://www.murateartdistrict.it/corso-di-avvicinamento-allarte-del-palcoscenico/  →  Corso di avvicinamento all’arte del palcoscenico Corso base - dal 19 o
-  https://www.murateartdistrict.it/corso-di-teatro-per-donne-con-passato-migratorio-2/  →  Corso di teatro per donne con passato migratorio da novembre 2026 a ma
-  https://www.murateartdistrict.it/ogni-corpo-ogni-espressione-corso-coreutico-inclusivo-2026/  →  “Ogni corpo, ogni espressione”: Corso Coreutico Inclusivo 2026 Proroga
-  https://www.murateartdistrict.it/geografie-dinnesto-bando-per-il-secondo-ciclo-di-residenza-per-artisti-e-curatori-under-36/  →  Geografie d’innesto | Bando per il secondo ciclo di residenza per arti
-  https://www.murateartdistrict.it/equivalenze-2026/  →  Equivalenze 2026 Dal 15.10 al 17.10
-  https://www.murateartdistrict.it/la-struttura/  →  La struttura
-  https://www.murateartdistrict.it/chi-siamo/  →  Chi siamo
-  https://www.murateartdistrict.it/publications/  →  Pubblicazioni
-  https://www.murateartdistrict.it/residenzedartista/residenze-dartista-2024-2/  →  Residenze Artistiche
-  https://www.murateartdistrict.it/progetto-riva/  →  Progetto Riva
-  https://www.murateartdistrict.it/spazio-riviste/  →  Spazio Riviste
-  https://www.murateartdistrict.it/installazioni/  →  Installazioni
-  https://www.murateartdistrict.it/visite-e-attivita/  →  Visite e attività
-  https://www.murateartdistrict.it/dentro-il-contemporaneo/  →  
-  https://www.murateartdistrict.it/categoria/attivita-per-famiglie/  →  attività per famiglie
-  https://www.murateartdistrict.it/categoria/in-evidenza/  →  In evidenza
-  https://www.murateartdistrict.it/categoria/laboratorio/  →  Laboratorio
-  https://www.murateartdistrict.it/categoria/visite-guidate/  →  visite guidate
-  https://www.murateartdistrict.it/commedia-armoniosa-per-un-drago-nascente/  →  
-  https://www.murateartdistrict.it/categoria/teatro/  →  teatro
-  https://www.murateartdistrict.it/area/teatro/  →  Teatro
-  https://www.murateartdistrict.it/categoria/cinema/  →  Cinema
-  https://www.murateartdistrict.it/area/cinema/  →  Cinema
-  https://www.murateartdistrict.it/area/area-2/  →  Arti Visive
-  https://www.murateartdistrict.it/area/videoart/  →  Videoart
-  https://www.murateartdistrict.it/categoria/standard/  →  Standard
-  https://www.murateartdistrict.it/area/comunicazione/  →  Comunicazione
-  https://www.murateartdistrict.it/categoria/talk/  →  Talk
-  https://www.murateartdistrict.it/categoria/call/  →  Call
-  https://www.murateartdistrict.it/categoria/danza-contemporanea/  →  Danza contemporanea
-  https://www.murateartdistrict.it/categoria/musica/  →  Musica
-  https://www.murateartdistrict.it/area/laboratorio-sensoriale/  →  Laboratorio sensoriale
-  https://www.murateartdistrict.it/area/lezioni/  →  Lezioni
-  https://www.murateartdistrict.it/area/musica-e-sound-art/  →  Musica e Sound Art
-  https://www.murateartdistrict.it/area/performing-arts/  →  Performance
-  https://www.murateartdistrict.it/area/architecture/  →  Architettura
+  https://musefirenze.it/  →  
+  https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/  →  Musei
+  https://musefirenze.it/attivita/  →  Visite guidate e attività
+  https://musefirenze.it/eventi/  →  Eventi
+  https://musefirenze.it/mostre/  →  Mostre
+  https://musefirenze.it/news/  →  News
+  https://musefirenze.it/muse/  →  Fondazione MUS.E
+  https://musefirenze.it/blog/  →  Blog
+  https://musefirenze.it/en/exhibits/beyond-the-renaissance-between-durer-and-parmigianino/  →  en
+  https://musefirenze.it/fr/expositions/au-dela-de-la-renaissance-entre-durer-et-parmigianino/  →  fr
+  https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/#mobile-menu  →  
+  https://musefirenze.it/musei/museo-di-palazzo-vecchio/  →  Museo di Palazzo Vecchio
+  https://musefirenze.it/musei/museo-novecento/  →  Museo Novecento
+  https://musefirenze.it/musei/museo-stefano-bardini/  →  Museo Stefano Bardini
+  https://musefirenze.it/musei/complesso-di-santa-maria-novella/  →  Complesso di Santa Maria Novella
+  https://musefirenze.it/musei/cappella-brancacci/  →  Cappella Brancacci
+  https://musefirenze.it/musei/forte-di-belvedere/  →  Forte di Belvedere
+  https://musefirenze.it/musei/fondazione-salvatore-romano/  →  Fondazione Salvatore Romano
+  https://musefirenze.it/musei/museo-del-ciclismo-gino-bartali/  →  Museo del ciclismo Gino Bartali
+  https://musefirenze.it/musei/palazzo-medici-riccardi/  →  Palazzo Medici Riccardi
+  https://musefirenze.it/musei/mad-murate-art-district/  →  MAD. Murate Art District
+  https://musefirenze.it/musei/museo-delle-terre-nuove/  →  Museo delle Terre Nuove
+  https://musefirenze.it/musei/casa-masaccio/  →  Casa Masaccio
+  https://musefirenze.it/musei/museo-leonardiano-di-vinci/  →  Museo Leonardiano di Vinci
+  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7781-1024x681.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7647-1024x681.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7622-1024x681.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7596-1024x681.jpg  →  
+  https://musefirenze.it/attivita/visita-alla-mostra-oltre-il-rinascimento-2/  →  
+  https://musefirenze.it/attivita/laboratorio-di-incisione-3/  →  
+  https://musefirenze.it/attivita/laboratorio-di-incisione-2/  →  
+  https://musefirenze.it/attivita/visita-alla-mostra-oltre-il-rinascimento/  →  
+  https://musefirenze.it/cdn-cgi/l/email-protection#40292e262f002d353325262932252e3a256e2934  →  [email protected]
+  https://musefirenze.it/cdn-cgi/l/email-protection#2e4a474a4f5a5a474d4f6e435b5d4b48475c4b40544b00475a  →  [email protected]
+  https://musefirenze.it/domenica-metropolitana/  →  Domenica Metropolitana
+  https://musefirenze.it/privacy-policy-2/  →  Privacy policy
+  https://musefirenze.it/cookie-policy/  →  Cookie policy
+  https://musefirenze.it/accessibilita/  →  Accessibilità
+  https://musefirenze.it/sponsor-donor-e-partner/  →  SPONSORSHIP
+  https://musefirenze.it/privacy-policy/  →  Leggi informativa
+
+======================================================================
+URL: https://www.palazzostrozzi.org/mostra/broken/
+======================================================================
+--- TESTO VISIBILE (primi 14000 char) ---
+Broken – Fondazione Palazzo Strozzi
+Vai al contenuto
+Biglietti
+Aperto oggi: 10.00-20.00
+Membership
+Biglietti
+Visita
+Mostre e attività
+Educazione
+Sostienici
+Altro
+Italiano
+|
+English
+Visita
+Biglietti e orari
+Visite guidate
+Visite private
+Domande frequenti
+Mostre e attività
+In corso
+Future
+Archivio
+Educazione
+Accessibilità
+Adulti
+Famiglie
+Scuole
+Giovani e teenager
+Università e accademie
+Sostienici
+Sponsorship
+Comitato dei Partner di Palazzo Strozzi
+Palazzo Strozzi Foundation USA
+Membership
+Chi siamo
+Fondazione Palazzo Strozzi
+Storia di Palazzo Strozzi
+Pubblicazioni e biblioteca
+Area stampa
+Contatti
+Broken
+Il potere del frammento
+Broken
+Il potere del frammento
+dal 25 settembre 2026
+al 24 gennaio 2027
+Cortile
+Piano nobile
+Tutti i giorni 10.00-20.00
+Giovedì fino alle 23.00
+Ingresso a pagamento
+Amici di Palazzo Strozzi:
+gratuito
+dal 25 settembre 2026
+al 24 gennaio 2027
+Cortile
+Piano nobile
+Tutti i giorni 10.00-20.00
+Giovedì fino alle 23.00
+Ingresso a pagamento
+Amici di Palazzo Strozzi:
+gratuito
+Acquista il tuo biglietto
+Palazzo Strozzi presenta
+Broken. Il potere del frammento
+, una grande mostra dedicata al
+tema del frammento nella storia della scultura dall’archeologia all’arte di oggi
+.
+Organizzata con la National Gallery of Art di Washington
+, l’esposizione riunisce straordinarie e affascinanti opere
+dall’antico Egitto a Michelangelo
+,
+dalla Grecia classica a Rodin
+,
+fino ad artisti contemporanei
+come Louise Bourgeois, Francesco Vezzoli e Danh Vo.
+La mostra è un invito a compiere un
+viaggio tra luoghi ed epoche diverse
+, dalle antiche civiltà del mondo egizio, etrusco e greco-romano alle culture premoderne degli attuali Messico, Mali, Perù e Cambogia. Opere dei principali maestri della storia dell’arte, tra cui Giovanni Pisano, Michelangelo, Auguste Rodin, sono affiancate alle sculture di artisti contemporanei come Louise Bourgeois, Huma Bhabha, Robert Gober, Francesco Vezzoli e Danh Vo, che hanno assunto il frammento come punto di partenza per nuove possibilità espressive. In occasione della mostra, inoltre, Palazzo Strozzi presenta una nuova installazione dell’artista olandese-belga Mark Manders, concepita per il Cortile rinascimentale.
+Con
+oltre ottanta opere
+e reperti provenienti
+dai più importanti musei del mondo
+, tra cui il Metropolitan Museum di New York, il Louvre di Parigi, il British Museum di Londra e il Museo Nacional de Antropología di Città del Messico, la mostra indaga il frammento da un nuovo punto di vista: non come semplice resto di un’unità perduta, ma come oggetto autonomo, capace di custodire tracce di memoria e trasformazione.
+Il frammento nasce come una precisa scelta oppure
+racconta una storia di cui porta ancora i segni
+: iconoclastie antiche e moderne, guerre, rivoluzioni, vandalismi e calamità naturali, come l’alluvione di Firenze del 1966. Ne emerge una riflessione sul valore artistico, politico e simbolico che una scultura acquisisce in seguito alla propria rottura e sulla capacità del frammento di diventare strumento di conoscenza e immaginazione, presenza viva che continua a interrogare il nostro presente.
+Broken. Il potere del frammento
+è organizzata dalla Fondazione Palazzo Strozzi, Firenze, e dalla National Gallery of Art, Washington, dove sarà presentata in una versione rinnovata dal 3 marzo al 27 giugno 2027. La mostra è curata da C.D. Dickerson III, direttore del Center for Advanced Study in the Visual Art, e da Andrew Sears, assistant curator of northern European paintings, entrambi della National Gallery of Art, in collaborazione con Arturo Galansino, Direttore Generale della Fondazione Palazzo Strozzi.
+Sostenitori pubblici Fondazione Palazzo Strozzi: Comune di Firenze, Regione Toscana, Città Metropolitana di Firenze, Camera di Commercio di Firenze.
+Sostenitori privati Fondazione Palazzo Strozzi: Fondazione CR Firenze, Intesa Sanpaolo, Fondazione Hillary Merkus Recordati, Comitato dei Partner di Palazzo Strozzi.
+Cover: Arte egizia,
+Naso e labbra di Akhenaton
+, da Akhetaten, oggi Amarna, Egitto, 1353-1336 a.C. circa. New York, The Metropolitan Museum of Art, acquisto, dono di Edward S. Harkness, 1926 (26.7.1394) © The Metropolitan Museum of Art / Art Resource / Scala, Firenze
+Scopri
+anche
+Approfondimento
+11 settembre 2026 - 24 gennaio 2027
+Mitoraj al Museo Nazionale Romano
+Tee Shirt
+Scopri di più
+Chi siamo
+Fondazione Palazzo Strozzi
+Storia di Palazzo Strozzi
+Pubblicazioni e biblioteca
+Area stampa
+Contatti
+Sostienici
+Sponsorship
+Comitato dei Partner di Palazzo Strozzi
+Palazzo Strozzi Foundation USA
+Membership
+Info e prenotazioni
+Dal lunedì al venerdì, 9.00-18.00
++39 055 26 45 155
+prenotazioni@palazzostrozzi.org
+Palazzo Strozzi, Piazza Strozzi s.n.c.
+50123 Firenze
+Iscriviti alla nostra
+Newsletter
+Dichiaro di aver preso visione della
+Privacy Policy.
+Presto il consenso per l'iscrizione alla newsletter e altre comunicazioni per finalità di marketing.
+Presto il consenso per attività di analisi e profilazione.
+Iscriviti
+Lascia questo campo vuoto se sei umano:
+Sostenitori pubblici
+Sostenitori privati
+Privacy e Policy
+–
+Cookie policy
+–
+Preferenze Cookie
+–
+Amministrazione trasparente
+–
+Dichiarazione di accessibilità
+–
+Credits
+© Fondazione Palazzo Strozzi, 2006-2026. Tutti i diritti riservati
+Italiano
+Inglese
+Tedesco
+Spagnolo
+Francese
+Italiano
+Polacco
+Svedese
+Finlandese
+Portoghese
+Rumeno
+Sloveno
+Slovacco
+Olandese
+Danese
+Greco
+Ceco
+Ungherese
+Lituano
+Lettone
+Estone
+Croato
+Irlandese
+Bulgaro
+Norvegese
+Turco
+Indonesiano
+Portoghese (Brasile)
+Giapponese
+Coreano
+Cinese semplificato
+Arabo
+Russo
+Hindi
+Ucraino
+Serbo
+English (UK)
+ایران
+ישראל
+Македонија
+ประเทศไทย
+Việt Nam
+Regolazioni di accessibilità
+Offerto da
+OneTap
+Nascondi barra degli strumenti
+Indietro
+Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?
+Durata nascondi barra strumenti
+Solo per questa sessione
+24 ore
+Una settimana
+Non ora
+Nascondi barra degli strumenti
+Seleziona il tuo profilo di accessibilità
+Modalità ipovedenti
+Migliora la resa visiva del sito
+Profilo sicuro contro le crisi
+Elimina i lampeggi e riduce i colori
+Modalità adatta all'ADHD
+Navigazione focalizzata, senza distrazioni
+Modalità cecità
+Riduce le distrazioni, migliora la concentrazione
+Modalità sicura per epilessia
+Attenua i colori e blocca il lampeggio
+Moduli contenuto
+Dimensione carattere
++
+Predefinito
+-
+Evidenzia link
+Interlinea
++
+Predefinito
+-
+Carattere leggibile
+Cursore
+Lente d'ingrandimento testo
+Carattere per dislessia
+Align Text
+Spaziatura lettere
+Spessore carattere
+Moduli colore
+Contrasto scuro
+Contrasto chiaro
+Alto contrasto
+Monochrome
+Saturazione
+Moduli orientamento
+Riga di lettura
+Maschera di lettura
+Il browser deve essere aggiornato
+Il tuo browser non supporta la sintesi vocale. Aggiorna il browser o usane uno con sintesi vocale abilitata (es. Chrome, Edge, Safari).
+Come aggiornare?
+Leggi pagina
+Navigazione da tastiera
+Nascondi immagini
+Disattiva suoni
+Evidenzia titoli
+Evidenzia contenuto
+Blocca animazioni
+Reimposta impostazioni
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+  <div class='time-wrapper mb-2'> 11 settembre 2026 - 24 gennaio 2027
+
+--- LINK INTERNI (href → testo) ---
+  https://www.palazzostrozzi.org/mostra/broken/#content  →  Vai al contenuto
+  https://www.palazzostrozzi.org  →  
+  https://www.palazzostrozzi.org/biglietti-orari/  →  Biglietti
+  https://www.palazzostrozzi.org/mostra/broken/#menu-main  →  
+  https://www.palazzostrozzi.org/membership/  →  Membership
+  https://www.palazzostrozzi.org/calendario/  →  Mostre e attività
+  https://www.palazzostrozzi.org/educazione/  →  Educazione
+  https://www.palazzostrozzi.org/sostienici/  →  Sostienici
+  https://www.palazzostrozzi.org/mostra/broken/  →  Italiano
+  https://www.palazzostrozzi.org/en/exhibition/broken/  →  English
+  https://www.palazzostrozzi.org/visite-guidate/  →  Visite guidate
+  https://www.palazzostrozzi.org/visite-private/  →  Visite private
+  https://www.palazzostrozzi.org/domande-frequenti-faq/  →  Domande frequenti
+  https://www.palazzostrozzi.org/mostre-future/  →  Future
+  https://www.palazzostrozzi.org/archivio/  →  Archivio
+  https://www.palazzostrozzi.org/educazione/accessibilita/  →  Accessibilità
+  https://www.palazzostrozzi.org/educazione/adulti/  →  Adulti
+  https://www.palazzostrozzi.org/educazione/famiglie/  →  Famiglie
+  https://www.palazzostrozzi.org/educazione/scuole/  →  Scuole
+  https://www.palazzostrozzi.org/educazione/teenager/  →  Giovani e teenager
+  https://www.palazzostrozzi.org/educazione/universita/  →  Università e accademie
+  https://www.palazzostrozzi.org/sponsorship/  →  Sponsorship
+  https://www.palazzostrozzi.org/partner-palazzo-strozzi/  →  Comitato dei Partner di Palazzo Strozzi
+  https://www.palazzostrozzi.org/palazzo-strozzi-foundation-usa/  →  Palazzo Strozzi Foundation USA
+  https://www.palazzostrozzi.org/fondazione-palazzo-strozzi/  →  Fondazione Palazzo Strozzi
+  https://www.palazzostrozzi.org/storia-palazzo-strozzi/  →  Storia di Palazzo Strozzi
+  https://www.palazzostrozzi.org/pubblicazioni/  →  Pubblicazioni e biblioteca
+  https://www.palazzostrozzi.org/area-stampa/  →  Area stampa
+  https://www.palazzostrozzi.org/contatti/  →  Contatti
+  https://www.palazzostrozzi.org/in-contatto/  →  
+  https://www.palazzostrozzi.org/approfondimento/mitoraj-al-museo-nazionale-romano/  →  Scopri di più
+  https://www.palazzostrozzi.org/dichiarazione-di-accessibilita/  →  Dichiarazione di accessibilità
+  https://www.palazzostrozzi.org/credits/  →  Credits
