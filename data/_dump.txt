@@ -1,9 +1,9 @@
 
 ======================================================================
-URL: https://www.unifi.it/it/eventi
+URL: https://www.unifi.it/it/eventi/mostra-geografia-dei-piccoli-mondi
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Eventi in programma | Università di Firenze
+Mostra "Geografia dei piccoli mondi" | Università di Firenze
 Salta al contenuto principale
 Form di ricerca
 Campo cerca
@@ -255,109 +255,17 @@ Cittadine e cittadini
 Famiglie e mondo della scuola
 Home
 Eventi
-Eventi in programma
-Vai a eventi passati
-Filtri di ricerca
-Titolo
-Destinatari
-- Qualsiasi -
-Future matricole
-Studentesse e studenti
-Laureate e laureati
-Alumnae e alumni
-Enti e aziende
-Cittadine e cittadini
-Famiglie e mondo della scuola
-Argomento
-- Qualsiasi -
-Attività per famiglie
-Convegno scientifico
-Divulgazione per tutti
-Incontri di Orientamento
-Promosso da
-- Qualsiasi -
-Ateneo
-Area Biomedica
-Area Scientifica
-Area delle Scienze Sociali
-Area Tecnologica
-Area Umanistica e della Formazione
-Sistema Museale di Ateneo
-Sistema Bibliotecario di Ateneo
-Soggetto esterno
-Data inizio evento
-Data fine evento
-Cerca
-Pagina 1: risultati 1 - 12 di 20
-Risultati
-14 Mag -
-09 Nov
-Mostra "Dall’Ateneo al mondo: iniziative di internazionalizzazione e cooperazione allo sviluppo di UniFi"
-Programma di allestimento itinerante dei pannelli espositivi
-Sedi varie
-07 Lug -
-24 Ott
-Mostra "Da Santa Maria degli Angeli al Progetto Brunelleschi per la grande biblioteca: una lunga tradizione umanistica"
-Biblioteca Umanistica, piazza Brunelleschi, 4 - Firenze
-19 Set -
-03 Gen
-Mostra "Le pietre dormono all'aperto"
-Esposizione fotografica di Carlotta Valente
-Museo La Specola, primo piano, via Romana, 17 - Firenze
-03 Ott -
-08 Gen
+Mostra "Geografia dei piccoli mondi"
 Mostra "Geografia dei piccoli mondi"
 Incisioni dell’artista Patrizio Di Sciullo
+3 Ottobre 2026 / 8 Gennaio 2027
+Orario:
+da martedì a domenica, 9-17
+Sede:
 Museo di Storia Naturale "La Specola", corridoio mostre temporanee, 2° piano, via Romana, 17 - Firenze
+Promosso da:
 Sistema Museale di Ateneo
-10
-Ott
-Inaugurazione della mostra "Dalle carte dell’Archivio Enzo Ferroni: l’alluvione e il restauro delle opere d’arte"
-La "generosa collaborazione" di un chimico visionario
-Archivio Storico del Comune di Firenze, sale espositive, via dell'Oriuolo, 33-35 - Firenze
-10 Ott -
-08 Nov
-Esposizione temporanea "La balena itinerante"
-Mostra di arte contemporanea dedicata alla salvaguardia del mare e delle balene
-Museo di Storia Naturale, Geologia e Paleontologia, via G. La Pira, 6 - Firenze
-Sistema Museale di Ateneo
-11
-Ott
-Incontro "La balena itinerante"
-Museo di Geologia e Paleontologia
-Sistema Museale di Ateneo
-11 Ott -
-07 Nov
-Mostra "Dalle carte dell’Archivio Enzo Ferroni: l’alluvione e il restauro delle opere d’arte"
-La "generosa collaborazione" di un chimico visionario
-Archivio Storico del Comune di Firenze, sale espositive, via dell'Oriuolo, 33-35 - Firenze
-11
-Ott
-Incontro "Progetta il giardino dell’Elettrice"
-Villa La Quiete, via di Boldrone, 2 - Firenze
-Sistema Museale di Ateneo
-11
-Ott
-Incontro "A tavola con la balena"
-Museo di Geologia e Paleontologia, via G. La Pira, 6 - Firenze
-Sistema Museale di Ateneo
-13
-Ott
-Presentazione del progetto "R.A.D.A.R  Response to Alcohol and Driving Analysis Research"
-Risposta alla ricerca sull'analisi del rapporto tra alcol e guida
-AOU Careggi, auditorium C.T.O., largo Piero Palagi, 1 - Firenze
-Ateneo, Area Biomedica, Area Tecnologica, Soggetto esterno
-13
-Ott
-Presentazione del libro "La flora pascoliana. Presenze botaniche nelle poesie di Giovanni Pascoli"
-Orto botanico "Giardino dei Semplici", via Pier Antonio Micheli, 3 - Firenze
-Sistema Museale di Ateneo
-1
-2
-››
-Pagina successiva
-Ultima »
-Ultima pagina
+Maggiori informazioni e modalità di partecipazione
 Università degli Studi di Firenze
 P.zza S.Marco, 4 - 50121 Firenze
 Centralino +39 055 27571
@@ -422,25 +330,412 @@ Flickr
   <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-opportunita-e-networking'> Opportunità e networking
   <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-giovani-talenti-enti-e-imprese'> Giovani talenti in enti e imprese
   <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-sviluppo-delle-competenze-le'> Sviluppo delle competenze per le organizzazioni
-  <div class='js-form-item js-form-type-date form-type-date js-form-item-field-data-inizio-value form-item-field-data-inizio-value mb-3'> Data inizio evento
-  <div class='js-form-item js-form-type-date form-type-date js-form-item-field-data-fine-value-1 form-item-field-data-fine-value-1 mb-3'> Data fine evento
-  <div class='evento-card__luogo mt-3'> Sedi varie
-  <div class='evento-card__luogo mt-3'> Biblioteca Umanistica, piazza Brunelleschi, 4 - Firenze
-  <div class='evento-card__luogo mt-3'> Museo La Specola, primo piano, via Romana, 17 - Firenze
-  <div class='evento-card__luogo mt-3'> Museo di Storia Naturale "La Specola", corridoio mostre temporanee, 2° piano, via Romana, 17 - Firenze
-  <div class='evento-card__luogo mt-3'> Archivio Storico del Comune di Firenze, sale espositive, via dell'Oriuolo, 33-35 - Firenze
-  <div class='evento-card__luogo mt-3'> Museo di Storia Naturale, Geologia e Paleontologia, via G. La Pira, 6 - Firenze
-  <div class='evento-card__luogo mt-3'> Museo di Geologia e Paleontologia
-  <div class='evento-card__luogo mt-3'> Archivio Storico del Comune di Firenze, sale espositive, via dell'Oriuolo, 33-35 - Firenze
-  <div class='evento-card__luogo mt-3'> Villa La Quiete, via di Boldrone, 2 - Firenze
-  <div class='evento-card__luogo mt-3'> Museo di Geologia e Paleontologia, via G. La Pira, 6 - Firenze
+  <div class='evento__orario mt-2'> Orario: da martedì a domenica, 9-17
+  <a class='nav-link nav-link--it-ateneo-lavora-con-noi-reclutamento-bandi-di-concorso'> Bandi e concorsi
 
 --- LINK INTERNI (href → testo) ---
-  https://www.unifi.it/it/eventi#main  →  Salta al contenuto principale
+  https://www.unifi.it/it/eventi/mostra-geografia-dei-piccoli-mondi#main  →  Salta al contenuto principale
   https://www.unifi.it/it/home/accesso-ai-servizi-online-di-ateneo  →  Servizi online
   https://www.unifi.it/it/ateneo/comunicazione  →  #COMUNICAZIONE
-  https://www.unifi.it/it/eventi  →  it
-  https://www.unifi.it/en/events  →  en
+  https://www.unifi.it/it/eventi/mostra-geografia-dei-piccoli-mondi  →  it
+  https://www.unifi.it/en/node/12501  →  en
+  https://www.unifi.it/it/ateneo  →  Ateneo
+  https://www.unifi.it/it/ateneo/chi-siamo  →  Chi siamo
+  https://www.unifi.it/it/ateneo/chi-siamo/storia-e-profilo-dellateneo  →  Storia e profilo dell'Ateneo
+  https://www.unifi.it/it/ateneo/chi-siamo/missione-e-visione  →  Missione e visione
+  https://www.unifi.it/it/ateneo/chi-siamo/organi  →  Organi
+  https://www.unifi.it/it/ateneo/chi-siamo/strutture  →  Strutture
+  https://www.unifi.it/it/ateneo/chi-siamo/statuto-e-normativa  →  Statuto e normativa
+  https://www.unifi.it/it/ateneo/chi-siamo/organizzazione  →  Organizzazione
+  https://www.unifi.it/it/ateneo/chi-siamo/elezioni  →  Elezioni
+  https://www.unifi.it/it/ateneo/lavora-con-noi  →  Lavora con noi
+  https://www.unifi.it/it/ateneo/lavora-con-noi/reclutamento-bandi-di-concorso  →  Reclutamento - Bandi di concorso
+  https://www.unifi.it/it/ateneo/lavora-con-noi/procedure-di-assunzione  →  Procedure di assunzione
+  https://www.unifi.it/it/ateneo/lavora-con-noi/formazione-e-sviluppo-delle-competenze  →  Formazione e sviluppo delle competenze
+  https://www.unifi.it/it/ateneo/lavora-con-noi/docenti-e-ricercatori-internazionali  →  Docenti e ricercatori internazionali
+  https://www.unifi.it/it/ateneo/lavora-con-noi/agevolazioni-fiscali-chi-rientra-dallestero  →  Agevolazioni fiscali per chi rientra dall'estero
+  https://www.unifi.it/it/ateneo/lavora-con-noi/informazioni-il-personale-non-strutturato  →  Informazioni per il personale non strutturato
+  https://www.unifi.it/it/ateneo/pianificazione-e-bilanci  →  Pianificazione e bilanci
+  https://www.unifi.it/it/ateneo/pianificazione-e-bilanci/piano-strategico-di-ateneo  →  Piano Strategico di Ateneo
+  https://www.unifi.it/it/ateneo/pianificazione-e-bilanci/piano-di-uguaglianza-di-genere-gender-equality-plan  →  Piano Uguaglianza di Genere
+  https://www.unifi.it/it/ateneo/pianificazione-e-bilanci/bilanci  →  Bilanci
+  https://www.unifi.it/it/ateneo/qualita-e-trasparenza  →  Qualità e trasparenza
+  https://www.unifi.it/it/ateneo/qualita-e-trasparenza/carta-dei-servizi  →  Carta dei servizi
+  https://www.unifi.it/it/ateneo/qualita-e-trasparenza/assicurazione-della-qualita  →  Qualità in Ateneo
+  https://www.unifi.it/it/ateneo/qualita-e-trasparenza/protezione-dati  →  Protezione dati
+  https://www.unifi.it/it/ateneo/albo-ufficiale  →  Albo Ufficiale
+  https://www.unifi.it/it/ateneo/qualita-e-trasparenza/bandi-di-gara-e-procedure-immobiliari  →  Bandi di gara e procedure immobiliari
+  https://www.unifi.it/it/ateneo/atti-di-notifica  →  Atti di notifica
+  https://www.unifi.it/it/ateneo/nel-mondo  →  Nel mondo
+  https://www.unifi.it/it/ateneo/nel-mondo/accoglienza-agli-ospiti-internazionali  →  Accoglienza agli ospiti internazionali
+  https://www.unifi.it/it/ateneo/nel-mondo/erasmus-e-mobilita-internazionale  →  Erasmus+ e Mobilità internazionale
+  https://www.unifi.it/it/ateneo/nel-mondo/accordi-internazionali  →  Accordi internazionali
+  https://www.unifi.it/it/ateneo/nel-mondo/visiting-professor  →  Visiting professor
+  https://www.unifi.it/it/ateneo/nel-mondo/iniziative-e-reti-internazionali  →  Iniziative e reti internazionali
+  https://www.unifi.it/it/ateneo/nel-mondo/cooperazione-allo-sviluppo  →  Cooperazione allo sviluppo
+  https://www.unifi.it/it/studia-con-noi  →  Studia con noi
+  https://www.unifi.it/it/studia-con-noi/orientamento  →  Orientamento
+  https://www.unifi.it/it/studia-con-noi/orientamento/materiali-e-guide-la-scelta  →  Materiali e guide per la scelta
+  https://www.unifi.it/it/studia-con-noi/orientamento/open-day  →  Open Day
+  https://www.unifi.it/it/studia-con-noi/orientamento/parla-con-noi  →  Parla con noi
+  https://www.unifi.it/it/studia-con-noi/orientamento/altri-eventi-e-iniziative  →  Altri eventi e iniziative
+  https://www.unifi.it/it/studia-con-noi/orientamento/eventi-di-orientamento-prenotabili-online  →  Eventi di orientamento prenotabili online
+  https://www.unifi.it/it/studia-con-noi/orientamento/progetti-studenti-delle-scuole-secondarie  →  Progetti per le scuole
+  https://www.unifi.it/it/studia-con-noi/cosa-studiare  →  Cosa studiare
+  https://www.unifi.it/it/studia-con-noi/cosa-studiare/perche-studiare-firenze  →  Perché studiare a Firenze
+  https://www.unifi.it/it/studia-con-noi/cosa-studiare/lauree-triennali-e-magistrali  →  Lauree triennali e magistrali
+  https://www.unifi.it/it/studia-con-noi/cosa-studiare/general-course-microcredenziali-e-open-badge  →  General course, microcredenziali e open badge
+  https://www.unifi.it/it/studia-con-noi/cosa-studiare/dottorati-master-e-scuole-di-specializzazione  →  Dottorati, master e scuole di specializzazione
+  https://www.unifi.it/it/studia-con-noi/cosa-studiare/digital-learning-e-nuove-modalita-di-apprendimento  →  Digital learning e nuove modalità di apprendimento
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso  →  Il tuo percorso
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso/preparati-ad-accedere  →  Preparati ad accedere
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso/iscriviti-alluniversita  →  Iscriviti all'Università
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso/gestisci-la-tua-carriera  →  Gestisci la tua carriera
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso/tasse-isee-e-agevolazioni  →  Tasse, ISEE e agevolazioni
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso/segreterie-e-servizi  →  Segreterie e servizi
+  https://www.unifi.it/it/studia-con-noi/il-tuo-percorso/regolamenti-scadenze-e-faq  →  Regolamenti, scadenze e FAQ
+
+======================================================================
+URL: https://www.unifi.it/it/eventi/esposizione-temporanea-la-balena-itinerante
+======================================================================
+--- TESTO VISIBILE (primi 14000 char) ---
+Esposizione temporanea "La balena itinerante" | Università di Firenze
+Salta al contenuto principale
+Form di ricerca
+Campo cerca
+Cerca
+CercaChi
+Servizi online
+Intranet
+#COMUNICAZIONE
+it
+en
+Bottone cerca
+Facebook
+X
+YouTube
+Spotify
+Instagram
+LinkedIn
+Telegram
+Flickr
+Ateneo
+Expand
+										Ateneo
+Chi siamo
+Storia e profilo dell'Ateneo
+Missione e visione
+Organi
+Strutture
+Statuto e normativa
+Organizzazione
+Elezioni
+Lavora con noi
+Reclutamento - Bandi di concorso
+Procedure di assunzione
+Formazione e sviluppo delle competenze
+Docenti e ricercatori internazionali
+Agevolazioni fiscali per chi rientra dall'estero
+Informazioni per il personale non strutturato
+Pianificazione e bilanci
+Piano Strategico di Ateneo
+Piano Integrato di Attività e Organizzazione (PIAO)
+Piano Uguaglianza di Genere
+Bilanci
+Qualità e trasparenza
+Amministrazione trasparente
+Carta dei servizi
+Qualità in Ateneo
+Protezione dati
+Albo Ufficiale
+Bandi di gara e procedure immobiliari
+Atti di notifica
+Nel mondo
+Accoglienza agli ospiti internazionali
+Erasmus+ e Mobilità internazionale
+Accordi internazionali
+Visiting professor
+Iniziative e reti internazionali
+Cooperazione allo sviluppo
+Studia con noi
+Expand
+										Studia con noi
+Orientamento
+Materiali e guide per la scelta
+Open Day
+Parla con noi
+Altri eventi e iniziative
+Eventi di orientamento prenotabili online
+Progetti per le scuole
+Cosa studiare
+Perché studiare a Firenze
+Lauree triennali e magistrali
+General course, microcredenziali e open badge
+Dottorati, master e scuole di specializzazione
+Digital learning e nuove modalità di apprendimento
+Il tuo percorso
+Preparati ad accedere
+Iscriviti all'Università
+Gestisci la tua carriera
+Tasse, ISEE e agevolazioni
+Segreterie e servizi
+Regolamenti, scadenze e FAQ
+Vivi l'università
+Campus e servizi
+Erasmus+ e oltre
+Benessere e inclusione
+Supporto durante lo studio
+Opportunità ed esperienze
+Partecipazione, diritti e tutele
+Dopo la laurea
+Job placement e imprenditorialità
+Formazione continua e percorsi per insegnanti
+Esami di Stato
+Borse di ricerca e premi di laurea
+Pergamene
+Ricerca, innovazione e società
+Expand
+										Ricerca, innovazione e società
+Fare ricerca
+Finanziamenti e servizi di supporto
+Infrastrutture
+PNRR e Unifi
+Integrità, etica e sicurezza della ricerca
+HR Excellence in Research
+Collaborare con l'Università
+Accordi e partnership
+Opportunità e networking
+Giovani talenti in enti e imprese
+Sviluppo delle competenze per le organizzazioni
+Investire con l'Università
+Brevetti e proprietà intellettuale
+Spin-off e Startup
+Open Innovation
+Sponsorizzazioni
+Partecipare e creare valore
+Iniziative culturali e divulgative
+Teatro e musica
+Azioni per la sostenibilità
+Sostieni l'Università di Firenze
+Unifi official store
+Info per
+Future matricole
+Studentesse e studenti
+Laureate e laureati
+Alumnae e Alumni
+Enti e aziende
+Cittadine e cittadini
+Famiglie e mondo della scuola
+CercaChi
+Servizi online
+Intranet
+#COMUNICAZIONE
+Facebook
+X
+YouTube
+Spotify
+Instagram
+LinkedIn
+Telegram
+Flickr
+Vai a HR Excellence in Research
+Vai a Uniwell
+Vai a HR Excellence in Research
+Vai a Uniwell
+Ateneo
+Expand
+										Ateneo
+Chi siamo
+Storia e profilo dell'Ateneo
+Missione e visione
+Organi
+Strutture
+Statuto e normativa
+Organizzazione
+Elezioni
+Lavora con noi
+Reclutamento - Bandi di concorso
+Procedure di assunzione
+Formazione e sviluppo delle competenze
+Docenti e ricercatori internazionali
+Agevolazioni fiscali per chi rientra dall'estero
+Informazioni per il personale non strutturato
+Pianificazione e bilanci
+Piano Strategico di Ateneo
+Piano Integrato di Attività e Organizzazione (PIAO)
+Piano Uguaglianza di Genere
+Bilanci
+Qualità e trasparenza
+Amministrazione trasparente
+Carta dei servizi
+Qualità in Ateneo
+Protezione dati
+Albo Ufficiale
+Bandi di gara e procedure immobiliari
+Atti di notifica
+Nel mondo
+Accoglienza agli ospiti internazionali
+Erasmus+ e Mobilità internazionale
+Accordi internazionali
+Visiting professor
+Iniziative e reti internazionali
+Cooperazione allo sviluppo
+Studia con noi
+Expand
+										Studia con noi
+Orientamento
+Materiali e guide per la scelta
+Open Day
+Parla con noi
+Altri eventi e iniziative
+Eventi di orientamento prenotabili online
+Progetti per le scuole
+Cosa studiare
+Perché studiare a Firenze
+Lauree triennali e magistrali
+General course, microcredenziali e open badge
+Dottorati, master e scuole di specializzazione
+Digital learning e nuove modalità di apprendimento
+Il tuo percorso
+Preparati ad accedere
+Iscriviti all'Università
+Gestisci la tua carriera
+Tasse, ISEE e agevolazioni
+Segreterie e servizi
+Regolamenti, scadenze e FAQ
+Vivi l'università
+Campus e servizi
+Erasmus+ e oltre
+Benessere e inclusione
+Supporto durante lo studio
+Opportunità ed esperienze
+Partecipazione, diritti e tutele
+Dopo la laurea
+Job placement e imprenditorialità
+Formazione continua e percorsi per insegnanti
+Esami di Stato
+Borse di ricerca e premi di laurea
+Pergamene
+Ricerca, innovazione e società
+Expand
+										Ricerca, innovazione e società
+Fare ricerca
+Finanziamenti e servizi di supporto
+Infrastrutture
+PNRR e Unifi
+Integrità, etica e sicurezza della ricerca
+HR Excellence in Research
+Collaborare con l'Università
+Accordi e partnership
+Opportunità e networking
+Giovani talenti in enti e imprese
+Sviluppo delle competenze per le organizzazioni
+Investire con l'Università
+Brevetti e proprietà intellettuale
+Spin-off e Startup
+Open Innovation
+Sponsorizzazioni
+Partecipare e creare valore
+Iniziative culturali e divulgative
+Teatro e musica
+Azioni per la sostenibilità
+Sostieni l'Università di Firenze
+Unifi official store
+Info per
+Future matricole
+Studentesse e studenti
+Laureate e laureati
+Alumnae e Alumni
+Enti e aziende
+Cittadine e cittadini
+Famiglie e mondo della scuola
+Home
+Eventi
+Esposizione temporanea "La balena itinerante"
+Esposizione temporanea "La balena itinerante"
+Mostra di arte contemporanea dedicata alla salvaguardia del mare e delle balene
+10 Ottobre / 08 Novembre 2026
+Orario:
+da martedì a domenica, 9-17
+Sede:
+Museo di Storia Naturale, Geologia e Paleontologia, via G. La Pira, 6 - Firenze
+Promosso da:
+Sistema Museale di Ateneo
+In collaborazione con Accademia di Belle Arti di Firenze, Associazione Balenanumerocinque e con il patrocinio del Comune di Sinalunga
+Maggiori informazioni e modalità di partecipazione
+Università degli Studi di Firenze
+P.zza S.Marco, 4 - 50121 Firenze
+Centralino +39 055 27571
+E-mail:
+[email protected]
+Posta certificata:
+[email protected]
+P.IVA/Cod.Fis. 01279680480
+Albo Ufficiale
+Amministrazione Trasparente
+Unifi official store
+Attuazione misure PNRR
+Bandi e concorsi
+Intranet
+UNIFI App
+Servizi informatici
+URP | Ufficio Relazioni con il Pubblico
+Sedi
+Mappa del sito
+Webmaster e redazione web
+Elenco dei siti tematici
+Accessibilità
+Feed RSS
+Note legali del sito
+Privacy policy
+Cambia idea sui cookie
+Facebook
+X
+YouTube
+Spotify
+Instagram
+LinkedIn
+Telegram
+Flickr
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+  <a class='nav-link--it-ateneo-lavora-con-noi fs-28'> Lavora con noi
+  <a class='nav-link--it-ateneo-lavora-con-noi-reclutamento-bandi-di-concorso'> Reclutamento - Bandi di concorso
+  <a class='nav-link--it-ateneo-lavora-con-noi-procedure-di-assunzione'> Procedure di assunzione
+  <a class='nav-link--it-ateneo-lavora-con-noi-formazione-e-sviluppo-delle-competenze'> Formazione e sviluppo delle competenze
+  <a class='nav-link--it-ateneo-lavora-con-noi-docenti-e-ricercatori-internazionali'> Docenti e ricercatori internazionali
+  <a class='nav-link--it-ateneo-lavora-con-noi-agevolazioni-fiscali-chi-rientra-dallestero'> Agevolazioni fiscali per chi rientra dall'estero
+  <a class='nav-link--it-ateneo-lavora-con-noi-informazioni-il-personale-non-strutturato'> Informazioni per il personale non strutturato
+  <a class='nav-link--it-studia-con-noi-cosa-studiare-dottorati-master-e-scuole-di-specializzazione'> Dottorati, master e scuole di specializzazione
+  <a class='nav-link--it-studia-con-noi-dopo-la-laurea-job-placement-e-imprenditorialita'> Job placement e imprenditorialità
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita fs-28'> Collaborare con l'Università
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-accordi-e-partnership'> Accordi e partnership
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-opportunita-e-networking'> Opportunità e networking
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-giovani-talenti-enti-e-imprese'> Giovani talenti in enti e imprese
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-sviluppo-delle-competenze-le'> Sviluppo delle competenze per le organizzazioni
+  <a class='nav-link--it-ateneo-lavora-con-noi fs-28'> Lavora con noi
+  <a class='nav-link--it-ateneo-lavora-con-noi-reclutamento-bandi-di-concorso'> Reclutamento - Bandi di concorso
+  <a class='nav-link--it-ateneo-lavora-con-noi-procedure-di-assunzione'> Procedure di assunzione
+  <a class='nav-link--it-ateneo-lavora-con-noi-formazione-e-sviluppo-delle-competenze'> Formazione e sviluppo delle competenze
+  <a class='nav-link--it-ateneo-lavora-con-noi-docenti-e-ricercatori-internazionali'> Docenti e ricercatori internazionali
+  <a class='nav-link--it-ateneo-lavora-con-noi-agevolazioni-fiscali-chi-rientra-dallestero'> Agevolazioni fiscali per chi rientra dall'estero
+  <a class='nav-link--it-ateneo-lavora-con-noi-informazioni-il-personale-non-strutturato'> Informazioni per il personale non strutturato
+  <a class='nav-link--it-studia-con-noi-cosa-studiare-dottorati-master-e-scuole-di-specializzazione'> Dottorati, master e scuole di specializzazione
+  <a class='nav-link--it-studia-con-noi-dopo-la-laurea-job-placement-e-imprenditorialita'> Job placement e imprenditorialità
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita fs-28'> Collaborare con l'Università
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-accordi-e-partnership'> Accordi e partnership
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-opportunita-e-networking'> Opportunità e networking
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-giovani-talenti-enti-e-imprese'> Giovani talenti in enti e imprese
+  <a class='nav-link--it-ricerca-innovazione-e-societa-collaborare-con-luniversita-sviluppo-delle-competenze-le'> Sviluppo delle competenze per le organizzazioni
+  <div class='evento__orario mt-2'> Orario: da martedì a domenica, 9-17
+  <a class='nav-link nav-link--it-ateneo-lavora-con-noi-reclutamento-bandi-di-concorso'> Bandi e concorsi
+
+--- LINK INTERNI (href → testo) ---
+  https://www.unifi.it/it/eventi/esposizione-temporanea-la-balena-itinerante#main  →  Salta al contenuto principale
+  https://www.unifi.it/it/home/accesso-ai-servizi-online-di-ateneo  →  Servizi online
+  https://www.unifi.it/it/ateneo/comunicazione  →  #COMUNICAZIONE
+  https://www.unifi.it/it/eventi/esposizione-temporanea-la-balena-itinerante  →  it
+  https://www.unifi.it/en/node/12496  →  en
   https://www.unifi.it/it/ateneo  →  Ateneo
   https://www.unifi.it/it/ateneo/chi-siamo  →  Chi siamo
   https://www.unifi.it/it/ateneo/chi-siamo/storia-e-profilo-dellateneo  →  Storia e profilo dell'Ateneo
