@@ -27,12 +27,14 @@ in corso o imminenti, e che una fine anteriore all'inizio cada l'anno dopo
 from __future__ import annotations
 
 import re
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, time, timedelta
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from sources.base import Event, ROME, http_get
+from sources.descriptions import describe_html
 from sources.italian_dates import ITALIAN_MONTHS
 
 SOURCE_NAME = "Musei Civici (MUS.E)"
@@ -40,6 +42,9 @@ CATEGORY = "Mostre"
 BASE_URL = "https://musefirenze.it"
 LIST_URL = f"{BASE_URL}/mostre/"
 REQUEST_TIMEOUT = 20
+# Le mostre in corso sono una manciata: bastano pochi thread per scaricarne
+# le schede, da cui si ricava la descrizione.
+PARALLEL_WORKERS = 5
 
 # Sedi già coperte da scraper dedicati, che le trattano con più dettaglio:
 # evita di pubblicare due volte la stessa mostra.
@@ -92,6 +97,20 @@ def _resolve_years(s_day: int, s_mon: int, e_day: int, e_mon: int, today: date):
         if end >= today and start <= today + timedelta(days=400):
             return start, end
     return None
+
+
+def _describe(url: str) -> str | None:
+    """Testo di presentazione dalla pagina della singola mostra.
+
+    L'elenco porta solo titolo, sede e date: la descrizione sta nella scheda.
+    Se la pagina non risponde si resta senza descrizione, senza far fallire
+    la fonte.
+    """
+    try:
+        resp = http_get(url, timeout=REQUEST_TIMEOUT)
+    except Exception:  # noqa: BLE001
+        return None
+    return describe_html(resp.text)
 
 
 def fetch() -> list[Event]:
@@ -163,4 +182,11 @@ def fetch() -> list[Event]:
             f"Nessuna scheda mostra riconosciuta su {LIST_URL}: "
             "la struttura della pagina è cambiata."
         )
+
+    # Le descrizioni stanno nelle schede: si scaricano in parallelo, sono
+    # poche (una manciata di mostre in corso alla volta).
+    if events:
+        with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:
+            for ev, desc in zip(events, ex.map(_describe, [e.url for e in events])):
+                ev.description = desc
     return events

@@ -605,6 +605,7 @@ body.hide-past .event.past-today { display: none; }
 .ongoing-event .title a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--border); }
 .ongoing-event .title a:hover { border-bottom-color: var(--accent); }
 .ongoing-event .meta-line { color: var(--muted); font-size: .85rem; }
+.ongoing-event .desc { color: var(--muted); font-size: .85rem; margin-top: .25rem; }
 .ongoing-event .closing { color: var(--accent); font-size: .82rem; margin-top: .2rem; }
 """
 
@@ -1430,6 +1431,13 @@ def render(
                 if ev.url else _esc(ev.title)
             )
             ev_id = _event_id(ev)
+            # Le mostre hanno spesso una descrizione utile a capire di cosa
+            # si tratta: finora veniva raccolta dagli scraper ma mai mostrata
+            # in questa sezione.
+            ongoing_desc_html = (
+                f'<div class="desc">{_esc(ev.description)}</div>'
+                if ev.description else ""
+            )
             iso_start = ev.start.date().isoformat()
             iso_end = ev.end.date().isoformat() if ev.end else iso_start
             ongoing_html_parts.append(
@@ -1448,6 +1456,7 @@ def render(
                 f'title="Aggiungi ai preferiti">☆</button>'
                 f'<p class="title">{title_html}</p>'
                 f'<div class="meta-line">{" · ".join(meta_bits)}</div>'
+                f'{ongoing_desc_html}'
                 f'<div class="closing">{_esc(closing_str)}</div>'
                 f'</div>'
             )

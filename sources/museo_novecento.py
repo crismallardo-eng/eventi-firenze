@@ -13,6 +13,7 @@ from datetime import date, datetime
 from html import unescape
 
 from sources.base import Event, ROME, http_get
+from sources.descriptions import describe_html
 
 SOURCE_NAME = "Museo Novecento"
 CATEGORY = "Mostre"
@@ -59,5 +60,7 @@ def fetch() -> list[Event]:
             end=datetime.combine(end_d, datetime.min.time(), tzinfo=ROME) if end_d else None,
             url=link,
             venue="Museo Novecento",
+            # Il testo di presentazione sta nel corpo HTML restituito dall'API.
+            description=describe_html((item.get("content") or {}).get("rendered", "")),
         ))
     return events

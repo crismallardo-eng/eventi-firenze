@@ -14,6 +14,7 @@ from html import unescape
 from bs4 import BeautifulSoup
 
 from sources.base import Event, ROME, http_get
+from sources.descriptions import describe_html
 from sources.italian_dates import parse_italian_date
 
 SOURCE_NAME = "Palazzo Strozzi"
@@ -72,6 +73,9 @@ def _event_for_item(item: dict) -> Event | None:
         end=datetime.combine(end_d, datetime.min.time(), tzinfo=ROME) if end_d else None,
         url=link,
         venue="Palazzo Strozzi",
+        # La pagina è già scaricata per leggere le date: se ne ricava anche
+        # il testo di presentazione, senza richieste aggiuntive.
+        description=describe_html(page.text),
     )
 
 
