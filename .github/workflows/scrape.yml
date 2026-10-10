@@ -31,7 +31,12 @@ permissions:
   issues: write     # serve per aprire issue su anomalie
 
 concurrency:
-  group: pages
+  # NON chiamarlo "pages": e' il nome che GitHub Pages usa internamente per
+  # serializzare i propri deployment. Con quel nome il workflow finiva nella
+  # stessa coda dei deployment di Pages, e un deployment appeso (1 ottobre
+  # 2026) ha bloccato ogni run successivo per nove giorni: entravano in coda
+  # e venivano annullati dall'arrivo del successivo, all'infinito.
+  group: scrape-eventi
   cancel-in-progress: false
 
 jobs:
