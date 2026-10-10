@@ -1,155 +1,435 @@
 
 ======================================================================
-URL: https://www.bargellomusei.it/cosa-accade/
+URL: https://www.caffeletterariofirenze.it/
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/cosa-accade/
+ERRORE: ConnectionError: HTTPSConnectionPool(host='www.caffeletterariofirenze.it', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.caffeletterariofirenze.it', port=443): Failed to resolve 'www.caffeletterariofirenze.it' ([Errno -2] Name or service not known)"))
 
 ======================================================================
-URL: https://www.bargellomusei.it/eventi/
+URL: https://www.caffeletterariofirenze.it/eventi/
+======================================================================
+ERRORE: ConnectionError: HTTPSConnectionPool(host='www.caffeletterariofirenze.it', port=443): Max retries exceeded with url: /eventi/ (Caused by NameResolutionError("HTTPSConnection(host='www.caffeletterariofirenze.it', port=443): Failed to resolve 'www.caffeletterariofirenze.it' ([Errno -2] Name or service not known)"))
+
+======================================================================
+URL: https://www.musicarte.it/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Eventi | Musei del Bargello
-Vai al contenuto
-Chi siamo
-Multimedia
-Aggiornamenti
-Servizi
-Contatti
-ITA
-EN
-I musei
-Museo Nazionale del Bargello
-Cappelle Medicee
-Orsanmichele
-Palazzo Davanzati
-Casa Martelli
-Visita
-Biglietti
-Come arrivare
-Itinerari tematici
-Percorsi di visita
-Accessibilità e servizi al pubblico
-Pianifica la tua visita
-Cosa accade
-Didattica
-Sostienici
-Apri la ricerca
-I musei
-Museo Nazionale del Bargello
-Cappelle Medicee
-Orsanmichele
-Palazzo Davanzati
-Casa Martelli
-Visita
-Biglietti
-Come arrivare
-Itinerari tematici
-Percorsi di visita
-Accessibilità e servizi al pubblico
-Pianifica la tua visita
-Cosa accade
-Didattica
-Sostienici
-Apri la ricerca
-Chi siamo
-Multimedia
-Aggiornamenti
-Servizi
-Contatti
-ITA
-EN
-ITA
-EN
-Cerca nel sito
-Ricerca per:
-Seguici
-Cosa accade
-Tutto
-Oggi
-Seleziona dal calendario
-Archivio eventi
-Loading...
-Incontri, Didattica, Visite tematiche
-3 Lug - 30 Nov 2026
-Restauro del Basamento del Perseo di Benvenuto Cellini: vediamolo nel dettaglio
-Lo staff del Museo racconta il progetto
-Museo Nazionale del Bargello
-Eventi
-26 - 27 Set 2026
-Giornate Europee del Patrimonio 26 e 27 settembre 2026: calendario attività GAMB
-'Proteggere il patrimonio: rinnovare, resistere, reinventare'
-Museo Nazionale del Bargello, Cappelle Medicee e Palazzo Davanzati
-Orsanmichele
-Casa Martelli
-Palazzo Davanzati
-Cappelle Medicee
-Museo Nazionale del Bargello
-Musei
-Cosa accade
-Percorsi di visita
-Didattica
-Sostienici
-Contatti
-Visita
-Come arrivare
-Itinerari tematici
-Accessibilità e servizi al pubblico
-Pianifica la tua visita
-Aggiornamenti
-News
-Avvisi
-Rimani connesso
-Rimani connesso
-Rimani connesso
-© 2026                        Musei del Bargello. Tutti i diritti sono riservati
+Centro Studi Musica & Arte - Firenze
+top of page
+IL CSMA
+Storia
+Qualità e Accreditamenti
 Amministrazione trasparente
+Direttivo e Staff
+MUSICA E INFANZIA
+La Ludoteca Musicale
+Musica materna
+Multiespressiva
+Musicando
+Laboratori per le scuole
+SCUOLA DI MUSICA
+Corsi di strumento e canto
+Coro e Orchestra
+Certificazioni ABRSM e Pre - AFAM
+Laboratorio Orchestrale
+Laboratorio di Musica da Camera
+Corsi nelle sedi distaccate
+Sezione moderna - Corsi MMI
+CORSI PERFEZIONAMENTO
+Corsi annuali e pluriennali
+SCUOLA DI MUSICOTERAPIA
+Corso triennale di musicoterapia
+Corso musicoterapia e autismo
+Incontri di Musicoterapia
+CORSO TECNICO DEL SUONO
+PROMETEO
+CORSI PROFESSIONALI
+Seminari di formazione 2024
+Corso base Kodály
+Corso Music Kindergarten Colourstrings
+EVENTI
+Concerti
+FLO.RE. Festival
+Florence Guitar Festival
+Progetto MusicArte
+PartecipArte
+NEWS
+CONTATTI
+Sedi distaccate
+Affitto spazi
+ALTRO
+Use tab to navigate through the menu items.
+La Musica al Centro!
+MUSICA E INFANZIA
+SCUOLA DI MUSICA
+PERFEZIONAMENTO
+FORMAZIONE
+Prenota la
+tua
+lezione
+di
+prova
+!
+Oppure
+vienici
+a
+trovare
+:
+Programmi didattici progettati sulle esigenze dell'allievo: oltre vent'anni di esperienza con i metodi più aggiornati per un approccio sereno ed efficace con la Musica.
+News
+Flussi di Memoria: Firenze 1966-2026
+sab 03 ott
+Piazza di San Lorenzo
+Scopri di più
+Details
+Concerto del Coro La compagnia della voce
+gio 18 giu
+Basilica di Santa Trinita
+Scopri di più
+Details
+FLORE Festival 2026 - Gocce d'acqua
+ven 05 giu
+Luogo da definire
+Scopri di più
+Details
+Spettacolo per i 30 anni del Centro Studi Musica & Arte
+dom 19 apr
+Teatro Reims
+Scopri di più
+Details
+Regala un corso di Musica
+mer 10 dic
+Firenze
+Scopri di più
+Details
+DALLE FELICI GLORIOSE SPONDE - Ciclo di conferenze-concerto sulla musica ai tempi del Granduca Pietro Leopoldo
+sab 25 ott
+Firenze
+Scopri di più
+Details
+3° Corso di perfezionamento in clarinetto, clarinetto basso, clarinetto piccolo 2025-26
+sab 25 ott
+Firenze
+Scopri di più
+Details
+4° Corso di Specializzazione in Musicoterapia e Autismo 2025-26
+sab 22 nov
+Firenze
+Scopri di più
+Details
+Formazione triennale in Musicoterapia - Open day
+ven 26 set
+Firenze
+Scopri di più
+Details
+8º Florence Guitar Festival - dal 2 al 5 ottobre 2025
+2-5 ottobre 2025
+Firenze
+Scopri di più
+Scopri di più
+Lezioni aperte 2025
+Dal 23 settembre al 11 ottobre 2025
+Centro Studi Musica & Arte
+Scopri di più
+Scopri di più
+Open day di strumento e canto 2025 - SMS a Bagno a Ripoli
+Dal 22 settembre
+Bagno A Ripoli
+Scopri di più
+SCOPRI
+Open day Corsi di musica presso l'SMS di Rifredi (zona Piazza Dalmazia)
+Dal 22 al 29 settembre 2025
+Firenze
+Scopri di più
+SCOPRI
+Alessia Zanghì - Masterclass di Pianoforte
+sab 13 set
+Firenze
+Scopri di più
+Details
+Laboratorio Orchestrale
+2 prove al mese sabato 18:30-20.30
+Centro Studi Musica & Arte
+Scopri di più
+SCOPRI
+Coro giovanile La Compagnia della voce
+Giovedì 18:30-20:30
+Centro Studi Musica & Arte
+Scopri di più
+SCOPRI
+Coro adulti
+Dal ottobre a maggio
+Centro Studi Musica & Arte
+Scopri di più
+SCOPRI
+Corso di perfezionamento in Violino tenuto da Lorenzo Fuoco
+2025-2026
+Centro Studi Musica & Arte
+Scopri di più
+SCOPRI
+Carica altro
+>
+ORARI DI APERTURA:
+​
+Lunedì
+16:00-19:30
+Martedì - Giovedì
+09:30-13:00/15:30-19:30
+Venerdì
+09:00-13:00/16:00-19:30
+Sabato
+09:00-14:00​
+ISCRIVITI ALLA NOSTRA NEWSLETTER
+ISCRIVITI ORA
+Il tuo modulo è stato inviato!
+INDIRIZZO
+Via Pietrapiana, 32
+50121 Firenze
+tel /fax +39 055 3860572
+cell +39 388 3754871
+email:
+centromusicarte@musicarte.it
+info@musicarte.it
+Ente accreditato dalla Regione Toscana.
+Codice di Accreditamento: OF0229
+Ente accreditato dal M.I.U.R., direttiva 170/2016
+Utilizza la carta docente
+Ente certificato per la qualità ISO 9001:2015
+Membro dell'Ass. Italiana delle Scuole di Musica e dell'EMU
+membro del Forum Nazionale per l'Educazione Musicale
+© 2020 CSMA webmaster -
 Privacy Policy
-Cookie Policy
-Crediti
-Gestisci Consenso Cookie
-Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni del dispositivo. Il consenso a queste tecnologie ci permetterà di elaborare dati come il comportamento di navigazione o ID unici su questo sito. Non acconsentire o ritirare il consenso può influire negativamente su alcune caratteristiche e funzioni.
-Funzionale
-Funzionale
-Sempre attivo
-L'archiviazione tecnica o l'accesso sono strettamente necessari al fine legittimo di consentire l'uso di un servizio specifico esplicitamente richiesto dall'abbonato o dall'utente, o al solo scopo di effettuare la trasmissione di una comunicazione su una rete di comunicazione elettronica.
-Preferenze
-Preferenze
-L'archiviazione tecnica o l'accesso sono necessari per lo scopo legittimo di memorizzare le preferenze che non sono richieste dall'abbonato o dall'utente.
-Statistiche
-Statistiche
-L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici.
-L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici anonimi. Senza un mandato di comparizione, una conformità volontaria da parte del vostro Fornitore di Servizi Internet, o ulteriori registrazioni da parte di terzi, le informazioni memorizzate o recuperate per questo scopo da sole non possono di solito essere utilizzate per l'identificazione.
-Marketing
-Marketing
-L'archiviazione tecnica o l'accesso sono necessari per creare profili di utenti per inviare pubblicità, o per tracciare l'utente su un sito web o su diversi siti web per scopi di marketing simili.
-Gestisci opzioni
-Gestisci servizi
-Gestisci {vendor_count} fornitori
-Per saperne di più su questi scopi
-Accetta
-Nega
-Visualizza le preferenze
-Salva preferenze
-Visualizza le preferenze
-{title}
-{title}
-{title}
-Gestisci consenso
+bottom of page
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <li class='menu-item menu-item-type-post_type_archive menu-item-object-multimedia menu-item-981 nav-item'> Multimedia
-  <button class='menu-item-has-children btn d-none d-xl-inline-flex align-items-center text-decoration-none ps-3 pe-0'> Apri la ricerca
-  <button class='menu-item-has-children btn d-none d-xl-inline-flex align-items-center text-decoration-none ps-3 pe-0'> Apri la ricerca
-  <li class='menu-item menu-item-type-post_type_archive menu-item-object-multimedia menu-item-981 nav-item'> Multimedia
-  <a class='fs-6 d-block fw-light text-decoration-underline'> Archivio eventi
-  <a class='text-decoration-none'> Incontri, Didattica, Visite tematiche 3 Lug - 30 Nov 2026 Restauro del Basamento del Perseo di Benvenuto Cellini: vediamolo nel dettaglio Lo staff del Museo rac
-  <a class='text-decoration-none'> Eventi 26 - 27 Set 2026 Giornate Europee del Patrimonio 26 e 27 settembre 2026: calendario attività GAMB 'Proteggere il patrimonio: rinnovare, resistere, reinve
 
 --- LINK INTERNI (href → testo) ---
-  https://www.bargellomusei.it/eventi/#content  →  Vai al contenuto
-  https://www.bargellomusei.it/eventi/  →  ITA
+  https://www.musicarte.it  →  
+  https://www.musicarte.it/storia  →  Storia
+  https://www.musicarte.it/qualità-e-accreditamenti  →  Qualità e Accreditamenti
+  https://www.musicarte.it/amminitrazione-trasparente  →  Amministrazione trasparente
+  https://www.musicarte.it/consiglio-direttivo  →  Direttivo e Staff
+  https://www.musicarte.it/musica-e-infanzia  →  MUSICA E INFANZIA
+  https://www.musicarte.it/la-ludoteca  →  La Ludoteca Musicale
+  https://www.musicarte.it/suzuki-ecme  →  Musica materna
+  https://www.musicarte.it/musica-materna  →  Multiespressiva
+  https://www.musicarte.it/multiespressiva  →  Musicando
+  https://www.musicarte.it/laboratori-per-le-scuole  →  Laboratori per le scuole
+  https://www.musicarte.it/scuola-di-musica  →  SCUOLA DI MUSICA
+  https://www.musicarte.it/corsi-strumento-e-canto  →  Corsi di strumento e canto
+  https://www.musicarte.it/coro-e-orchestra  →  Coro e Orchestra
+  https://www.musicarte.it/certificazioni-abrsm-e-pre-afam  →  Certificazioni ABRSM e Pre - AFAM
+  https://www.musicarte.it/laboratorio-orchestrale  →  Laboratorio Orchestrale
+  https://www.musicarte.it/laboratorio-di-musica-da-camera  →  Laboratorio di Musica da Camera
+  https://www.musicarte.it/corsi-nelle-sedi-distaccate  →  Corsi nelle sedi distaccate
+  https://www.musicarte.it/sezione-moderna-corsi-mmi  →  Sezione moderna - Corsi MMI
+  https://www.musicarte.it/corsi-perfezionamento-annuali  →  Corsi annuali e pluriennali
+  https://www.musicarte.it/scuola-di-musicoterapia  →  SCUOLA DI MUSICOTERAPIA
+  https://www.musicarte.it/scuola-musicoterapia-dinamica  →  Corso triennale di musicoterapia
+  https://www.musicarte.it/corso-musicoterapia-e-autismo  →  Corso musicoterapia e autismo
+  https://www.musicarte.it/incontri-di-musicoterapia  →  Incontri di Musicoterapia
+  https://www.musicarte.it/corso-annuale-di-tecnico-del-suono  →  CORSO TECNICO DEL SUONO
+  https://www.musicarte.it/prometeo  →  PROMETEO
+  https://www.musicarte.it/formazione-professionale  →  CORSI PROFESSIONALI
+  https://www.musicarte.it/seminari-di-formazione-2024  →  Seminari di formazione 2024
+  https://www.musicarte.it/corso-base-kodaly  →  Corso base Kodály
+  https://www.musicarte.it/corso-music-kindergarten-colourstrings  →  Corso Music Kindergarten Colourstrings
+  https://www.musicarte.it/concerti  →  Concerti
+  https://www.musicarte.it/corsi-estivi-imoc  →  FLO.RE. Festival
+  https://www.musicarte.it/florence-guitar-festival  →  Florence Guitar Festival
+  https://www.musicarte.it/team-1  →  Progetto MusicArte
+  https://www.musicarte.it/parteciparte  →  PartecipArte
+  https://www.musicarte.it/news  →  NEWS
+  https://www.musicarte.it/contatti  →  CONTATTI
+  https://www.musicarte.it/sedi-distaccate  →  Sedi distaccate
+  https://www.musicarte.it/affitto-spazi  →  Affitto spazi
+  https://www.musicarte.it/#comp-km9b7o4y  →  
+  https://www.musicarte.it/#comp-km9b7o5l  →  
+  https://www.musicarte.it/#comp-me4dpe8q  →  
+  https://www.musicarte.it/#comp-me4el4lh  →  
+  https://www.musicarte.it/#comp-km9d9lw3  →  
+  https://www.musicarte.it/#comp-me4flafi  →  
+  https://www.musicarte.it/#comp-l9wl6u4l  →  
+  https://www.musicarte.it/#comp-me4dwtop  →  
+  https://www.musicarte.it/#comp-me4fe0ui  →  
+  https://www.musicarte.it/#comp-me4dkb23  →  
+  https://www.musicarte.it/event-details/flussi-di-memoria-firenze-1966-2026  →  Flussi di Memoria: Firenze 1966-2026
+  https://www.musicarte.it/event-details/concerto-del-coro-la-compagnia-della-voce  →  Concerto del Coro La compagnia della voce
+  https://www.musicarte.it/event-details/flore-festival-2026-gocce-dacqua  →  FLORE Festival 2026 - Gocce d'acqua
+  https://www.musicarte.it/event-details/spettacolo-per-i-30-anni-del-centro-studi-musica-arte  →  Spettacolo per i 30 anni del Centro Studi Musica & Arte
+  https://www.musicarte.it/event-details/regala-un-corso-di-musica  →  Regala un corso di Musica
+  https://www.musicarte.it/event-details/dalle-felici-gloriose-sponde-ciclo-di-conferenze-concerto-sulla-musica-ai-tempi-del-granduca-pietro-leopoldo  →  DALLE FELICI GLORIOSE SPONDE - Ciclo di conferenze-concerto sulla musi
+  https://www.musicarte.it/event-details/3-corso-di-perfezionamento-in-clarinetto-clarinetto-basso-clarinetto-piccolo-2025-26  →  3° Corso di perfezionamento in clarinetto, clarinetto basso, clarinett
+  https://www.musicarte.it/event-details/4-corso-di-specializzazione-in-musicoterapia-e-autismo-2025-26  →  4° Corso di Specializzazione in Musicoterapia e Autismo 2025-26
+  https://www.musicarte.it/event-details/formazione-triennale-in-musicoterapia-open-day  →  Formazione triennale in Musicoterapia - Open day
+  https://www.musicarte.it/event-details/8-florence-guitar-festival-dal-2-al-5-ottobre-2025  →  8º Florence Guitar Festival - dal 2 al 5 ottobre 2025
+  https://www.musicarte.it/event-details/lezioni-aperte-2025  →  Lezioni aperte 2025
 
 ======================================================================
-URL: https://www.bargellomusei.it/mostre-e-eventi/
+URL: https://lumen.fi.it/
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://www.bargellomusei.it/mostre-e-eventi/
+--- TESTO VISIBILE (primi 14000 char) ---
+Home - Lumen
+Skip to content
+Home
+ASSOCIATI
+LA STORIA DI LUMEN
+LO SPAZIO E LE ATTIVITÀ
+Tu Viaggi Noi Ascoltiamo
+Partner
+F.A.Q.
+Lumen Sky Stazione Meteo
+×
+Home
+ASSOCIATI
+LA STORIA DI LUMEN
+LO SPAZIO E LE ATTIVITÀ
+Tu Viaggi Noi Ascoltiamo
+Partner
+F.A.Q.
+Lumen Sky Stazione Meteo
+Iscriviti alla Newsletter!
+Iscrivendoti accetti la nostra
+privacy policy
+La missione di LUMEN è creare uno spazio in cui le persone possano costruire autonomamente le opportunità per intervenire attivamente nella loro comunità.
+Attraverso la partecipazione e l’empowerment individuale, LUMEN si impegna
+a promuovere la creatività, la partecipazione civica e la rigenerazione urbana, incoraggiando la costruzione di un ambiente in cui ogni individuo possa contribuire
+al cambiamento positivo.
+Lo spazio e le attività
+CENTRI ESTIVI
+Cosmo
+scopri di più
+ASSOCIATI
+Sostieni Lumen
+scopri di più
+BILANCIO
+Investire in Cultura
+scopri di più
+LA CUCINA
+Il ristorante di Lumen
+scopri di più
+LUMEN LAB
+Laboratori
+scopri di più
+ORTO BIO
+Sostenibilità
+scopri di più
+RING STAGE
+Il Palchetto
+scopri di più
+LOCAL MARKET
+KM0
+scopri di più
+SPORT ARENA
+by Decathlon
+scopri di più
+JUNGLE STAGE
+Serra Nera
+scopri di più
+PLASTIC FREE
+Sostenibilità
+scopri di più
+NAVETTA
+Mobilità Sostenibile
+scopri di più
+POSTCARD
+Street Art Building
+scopri di più
+FREE WATER
+Acqua Gratis
+scopri di più
+FREE WIFI
+Coworking Open Air
+scopri di più
+FAB LAB
+Seri & more
+scopri di più
+GARDEN STAGE
+Main Stage
+scopri di più
+PLAY GROUND
+Giochi Analogici
+scopri di più
+LA TAVOLA
+Sala Ristorante
+scopri di più
+CHILL AREA
+Relax Area
+scopri di più
+“Tu viaggi, noi ascoltiamo”
+Dedica 1 minuto al sondaggio, grazie!
+Il DATABASE degli enti di Terzo settore che operano negli spazi pubblici per rigenerarli, in Italia e in Europa.
+Questo database, aperto a tutte le realtà che volessero aderirvi, è uno strumento per conoscere le buone pratiche attive e comprendere come metterle in relazione, per creare competenze e nuovi strumenti di crescita per ciascuno.
+Scopri di più
+Supporter, stakeholder e best practices.
+Lumen vuole diventare un punto di riferimento per chi desidera intervenire sul territorio, riqualificare aree dismesse e coinvolgere il tessuto sociale attraverso processi bottom up.
+Ecco alcune testimonianze di  partners o enti italiani ed europei che stanno affrontando un processo, simile e altrettanto complesso, per realizzare il proprio progetto. Enjoy!
+Visita il nostro canale Youtube
+La vibe
+Amici e partner
+In questi anni innumerevoli persone ci hanno aiutato a nascere, crescere ed evolvere. Grazie.
+Immaginare uno spazio vuol dire guardare oltre le mille difficoltà che si presentano ogni volta che varchiamo il nostro cancello. Per farlo servono radici salde in un territorio, ma anche orizzonti a cui mirare e rami per protendersi verso il mondo. Lumen è fatto di persone che provengono dai mondi più disparati, e che portano nuova linfa ad un progetto comune. Siamo come gli alberi di una foresta: indipendenti ma interconnessi. E solo scambiandoci informazioni e capacità possiamo crescere più rigogliosi.
+scoprili tutti
+Lumen è certificato plastic free
+Lumen dice NO alla plastica usa e getta.
+Per responsabilità e per buonsenso
+: la sostenibilità per noi è al primo posto, e con queste certificazioni vogliamo metterlo nero su bianco. Grazie quindi a CupHero, Worldrise, Eco Event Plastic Free e Firenze Plastic Free.
+Worldrise
+è un’organizzazione no-profit che da oltre un decennio agisce per la conservazione efficace dei mari italiani.
+Un team di Ocean Positive People, che facilita un cambiamento positivo capace di (ri)connettere le persone al mare, creare consapevolezza circa l’importanza dell’oceano e concretizzarsi nell’impegno collettivo per la sua salvaguardia.
+I
+bicchieri CupHero
+sono pensati per garantire una
+riduzione dei rifiuti fino all’80%
+durante eventi e manifestazioni, senza rinunciare alla qualità, alla sicurezza alimentare e al design. Ogni bicchiere è progettato per essere resistente, pratico, lavabile e utilizzabile centinaia di volte.
+Il bollino
+Eco Evento Plastic Free
+è un riconoscimento dedicato a tutti gli eventi che si impegnano ad essere sostenibili dal punto di vista ambientale, con un focus specifico alla gestione dei rifiuti e alla riduzione e/o eliminazione dell’utilizzo della plastica.
+Da anni il Comune di Firenze ha intrapreso insieme a Publiacqua il progetto
+Firenze Plastic Free
+sul corretto uso dell’acqua e sulla limitazione dell’uso della plastica.
+Prima
+anni di startup
+0
+mq ridonati alla città
+0
+attività sviluppate
+0
+anni di concessione
+0
+sustainability
+lumenfirenze
+Facebook
+Instagram
+Youtube
+Telegram
+Via del guarlone 25, FI
+cultura@lumen.fi.it
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+
+--- LINK INTERNI (href → testo) ---
+  https://lumen.fi.it/#jupiterx-main  →  Skip to content
+  https://lumen.fi.it/  →  
+  https://lumen.fi.it/associati/  →  ASSOCIATI
+  https://lumen.fi.it/storialumen/  →  LA STORIA DI LUMEN
+  https://lumen.fi.it/spazioattivita/  →  LO SPAZIO E LE ATTIVITÀ
+  https://lumen.fi.it/tu-viaggi-noi-ascoltiamo/  →  Tu Viaggi Noi Ascoltiamo
+  https://lumen.fi.it/partner/  →  Partner
+  https://lumen.fi.it/f-a-q/  →  F.A.Q.
+  https://lumen.fi.it/lumen-sky/  →  Lumen Sky Stazione Meteo
+  https://lumen.fi.it/centri-estivi-cosmo-circensi/  →  
+  https://lumen.fi.it/tesseramento/  →  
+  https://lumen.fi.it/bilancio2025/  →  
+  https://lumen.fi.it/menu/  →  
+  https://lumen.fi.it/lumen-lab/  →  
+  https://lumen.fi.it/coultura-orto-e-sostenibilita/  →  
+  https://lumen.fi.it/ring-stage-palchetto-2/  →  
+  https://lumen.fi.it/orto-bio-local-market-sostenibilita/  →  
+  https://lumen.fi.it/benvenuti-nella-decathlon-arena-di-lumen/  →  
+  https://lumen.fi.it/insonorizzazione-creativa/  →  
+  https://lumen.fi.it/plastic-free/  →  
+  https://lumen.fi.it/giulio-vesprini-lumen-urban-postcards-g0095/  →  
+  https://lumen.fi.it/free-water/  →  
+  https://lumen.fi.it/free-wifi/  →  
+  https://lumen.fi.it/garden-stage/  →  
+  https://lumen.fi.it/database/  →  
