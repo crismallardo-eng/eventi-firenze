@@ -1,63 +1,9 @@
 
 ======================================================================
-URL: https://www.museonovecento.it/wp-json/wp/v2/mostre?per_page=2&_fields=title,content
+URL: https://musefirenze.it/mostre/drama-four-acts/
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-[{"title":{"rendered":"DANIELLE MCKINNEY. TRA NOI"},"content":{"rendered":"\n
-<\/p>\n\n\n\n
-A cura di Sergio Risaliti e di Stefania Rispoli<\/h2>\n\n\n\n
-\n
-\n
-Il Museo Novecento apre le sue porte a un\u2019altra protagonista della pittura contemporanea
-Danielle Mckinney<\/strong> (Montgomery, Alabama, 1981), artista americana recentemente inclusa dal TIME tra le 100 figure pi\u00f9 influenti del mondo dell\u2019arte del 2026.\u00a0<\/p>\n\n\n\n
-Dal 17 ottobre 2026 al 28 febbraio 2027<\/strong>, il museo presenta Danielle Mckinney. Tra noi, curata da
-Sergio Risaliti<\/strong> e
-Stefania Rispoli<\/strong>. L\u2019esposizione, la prima a Firenze, riunisce 20 opere, alcune delle quali inedite, in dialogo con dipinti e sculture provenienti dalla Raccolta di Alberto Della Ragione della collezione permanente del museo.\u00a0<\/p>\n\n\n\n
-Al centro della mostra \u00e8 la pittura di Mckinney, che evoca, attraverso un uso sapiente del colore e del chiaroscuro, atmosfere sospese dove il tempo sembra essersi fermato: interni domestici costruiti con precisione in cui figure femminili sono immerse in momenti di solitudine e quiete introspezione. Formata inizialmente come fotografa, l\u2019artista costruisce immagini dalla forte impronta cinematografica, confrontandosi con la tradizione della pittura occidentale e con temi legati alla rappresentazione del corpo e dello sguardo. <\/p>\n\n\n\n
-Il percorso mette le opere di
-McKinney<\/strong> in relazione con alcuni maestri italiani del Novecento, tra cui Arturo Martini, Felice Casorati, Giorgio Morandi e Filippo de Pisis, creando risonanze attorno ai temi della luce, dello spazio e della figura. A completare il progetto, una selezione di testi poetici di Lucille Clifton, Louise Gl\u00fcck e June Jordan, scelta con la curatela della poetessa
-Elisa Biagini<\/strong>.<\/p>\n<\/div><\/div>\n<\/div><\/div><\/div>\n\n\n\n
-\n
-<\/a><\/div><\/div>\n<\/div>\n","protected":false}},{"title":{"rendered":"VICTOR MAN"},"content":{"rendered":"\n
-<\/p>\n\n\n\n
-A cura di Sergio Risaliti<\/h2>\n\n\n\n
-<\/p>\n\n\n\n
-\n
-\n
-Il
-Museo Novecento <\/strong>\u00e8 lieto di annunciare la mostra dedicata a
-Victor Man. <\/strong>L\u2019esposizione, a cura di
-Sergio Risaliti<\/strong>,  verr\u00e0 allestita nelle sale al piano terra delle Ex Leopoldine in piazza Santa Maria Novella dal
-26 settembre 2026 al 7 marzo 2027<\/strong>. Saranno presentati circa 25 dipinti in un percorso che esplora temi ricorrenti tra cui la maternit\u00e0, il ritratto e l\u2019autoritratto, la natura morta, la figura femminile. <\/p>\n\n\n\n
-Si potranno ammirare opere quali
-Lelkek temetoje, der Friedhof der Seelen<\/em> (2019)<\/strong>,
-Maternity with Legend<\/em> (2024)<\/strong>,
-Maternity<\/em> (2025)<\/strong>,
-Curve delle Anime<\/em>(2025)<\/strong>,
-Reclining Maiden \u2013 Prelude of Equinox<\/em>(2025\u20132026)<\/strong> e
-Transfiguration, Cassa Oscura<\/em> (2025\u20132026)<\/strong>, insieme ai lavori pi\u00f9 recenti dell\u2019artista. Completeranno il percorso espositivo cinque dipinti della serie
-Luminary Petals on a Wet Black Bough<\/em><\/strong>,\u00a0 tra questi
-Untitled (After Michelangelo)<\/em> (2023)<\/strong>.<\/p>\n\n\n\n
-La mostra \u00e8 promossa dal
-Comune di Firenze<\/strong> e realizzata con il supporto di
-Galerie Max Hetzler<\/strong> e
-David Zwirner Gallery<\/strong>.<\/p>\n<\/div><\/div>\n\n\n\n
-\n
-<\/p>\n<\/div><\/div>\n<\/div><\/div><\/div>\n\n\n\n
-\n
-<\/a><\/div><\/div>\n<\/div>\n","protected":false}}]
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-
---- LINK INTERNI (href → testo) ---
-  https://www.museonovecento.it/wp-json/wp/v2/\"https:\/\/www.museonovecento.it\/wp-content\/uploads\/2026\/10\/INVITI_DIGITALI_MCKINNEY__-scaled.jpg\"  →  <\/a><\/div><\/div>\n<\/div>\n","protected":false}},{"title":{"rendere
-  https://www.museonovecento.it/wp-json/wp/v2/\"https:\/\/www.museonovecento.it\/wp-content\/uploads\/2026\/07\/SAVE-THE-DATE_MAN-scaled.jpg\"  →  <\/a><\/div><\/div>\n<\/div>\n","protected":false}}]
-
-======================================================================
-URL: https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/
-======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-Oltre il Rinascimento. Tra Dürer e Parmigianino | MUS.E
+Drama: Four Acts | MUS.E
 Musei
 Visite guidate e attività
 Eventi
@@ -106,308 +52,132 @@ Museo delle Terre Nuove
 Casa Masaccio
 Museo Leonardiano di Vinci
 MOSTRA
-Palazzo Medici Riccardi
-Oltre il Rinascimento. Tra Dürer e Parmigianino
-BIGLIETTI a partire da €10,00
+Forte di Belvedere
+Drama: Four Acts
+BIGLIETTI a partire da5,00
 dal
-10 Settembre 26
+24 Giugno 26
 al
-05 Gennaio 27
-Un percorso che permette al pubblico di approfondire le tecniche, i linguaggi e i temi sviluppati dai grandi artisti del Cinquecento europeo - con uno sguardo anche al tardo Quattrocento e al primo Seicento - ponendo un’attenzione speciale alle sfide e ai risultati nel mondo dell’incisione e valorizzandone i protagonisti.
+16 Ottobre 26
+Un percorso espositivo in quattro atti
 Orari
-01 Novembre - 28 Febbraio
+24 Giugno - 16 Ottobre
 LUN
-9:00 - 19:00
-MAR
-9:00 - 19:00
-MER
 Chiuso
+MAR
+10:00 - 20:00 (ultimo ingresso ore 19)
+MER
+10:00 - 20:00 (ultimo ingresso ore 19)
 GIO
-9:00 - 19:00
+10:00 - 20:00 (ultimo ingresso ore 19)
 VEN
-9:00 - 19:00
+10:00 - 20:00 (ultimo ingresso ore 19)
 SAB
-9:00 - 19:00
+10:00 - 20:00 (ultimo ingresso ore 19)
 DOM
-9:00 - 19:00
+10:00 - 20:00 (ultimo ingresso ore 19)
 Dove
-Via de' Ginori 2, Firenze
+Via San Leonardo, 1 Firenze
+Café Belvedere Firenze
+Il Café al piano loggia della palazzina è aperto con accesso libero il martedì dalle 10 alle 20 e dal mercoledì alla domenica dalle 10 alle 23.
 Biglietti
-€ 15,00
-Intero
-€ 10,00
-Ridotto (18-25; studenti universitari)
-€ 4,00
-Visite guidate e attività (NON residenti città metropolitana)
-€ 2,00
-Visite guidate e attività (residenti città metropolitana)
 € 0,00
-0-17 anni; guide turistiche abilitate; giornalisti accreditati; disabili e loro accompagnatori; gruppi di studenti e rispettivi insegnanti; membri ICOM, ICOMOS e ICCROM; residenti Città Metropolitana di Firenze la prima domenica del mese.
-La biglietteria chiude un'ora prima del museo.
-«Mi interessano quei casi di confine nell’arte, in cui il terreno acquisito diventa incerto e la visione classica si disgrega. Oltre quel punto, le cose si fanno più vive»
-.
-Georg Baselitz
-Il segno come luogo di sperimentazione, la figura umana come campo di tensione, l’eredità classica spinta verso esiti inattesi. Dal
-10 settembre 2026 al 5 gennaio 2027
-Palazzo Medici Riccardi
-ospita
-“Oltre il Rinascimento. Tra Dürer e Parmigianino”
-, una mostra dedicata alla straordinaria ricchezza tecnica ed estetica della grafica manierista europea e al profondo rapporto che
-Georg Baselitz
-, fra i maggiori artisti contemporanei, ha costruito con i maestri del Cinquecento attraverso decenni di ricerca e collezionismo.
-Promossa da
-Città Metropolitana di Firenze
-e organizzata da
-Fondazione MUS.E
-, l’esposizione – a cura di
-Daniel Blau, Sergio Risaliti e Valentina Zucchi
-– riunisce una selezione di circa
-150 opere
-, provenienti dalla
-collezione privata di Georg Baselitz
-e dalle raccolte del
-Museo di Belle Arti di Budapest
-. Il percorso permette al pubblico di approfondire le tecniche, i linguaggi e i temi sviluppati dai grandi artisti del Cinquecento europeo – con uno sguardo anche al tardo Quattrocento e al primo Seicento – ponendo un’attenzione speciale alle sfide e ai risultati nel mondo dell’incisione e valorizzandone i protagonisti.
-L’artista e il collezionista
-L’apertura di
-“Oltre il Rinascimento”
-, il 10 settembre, precede di appena tre giorni la conclusione di
-“Baselitz. AVANTI!”
-, la grande mostra che il
-Museo Novecento
-di Firenze dedica all’artista fino al 13 settembre 2026, offrendosi come suo naturale e prezioso completamento. Il progetto del Museo Novecento attraversa oltre sessant’anni di attività del maestro tedesco attraverso circa 170 opere tra stampe, dipinti e sculture, ponendo al centro una dimensione fondamentale della sua ricerca: la produzione grafica e incisoria.
-Questa breve ma significativa concomitanza offre al pubblico una speciale occasione per osservare, attraverso due prospettive complementari, la personalità e la ricerca di Baselitz. Al Museo Novecento emerge l’artista che ha fatto della grafica un terreno autonomo di sperimentazione, trasformazione e continua messa in discussione dell’immagine; a Palazzo Medici Riccardi si rivela invece il collezionista e conoscitore dei maestri antichi, attratto dalla libertà inventiva, dalle dissonanze e dall’approccio anticonvenzionale della grafica manierista. Nei giorni immediatamente successivi all’apertura della mostra di Palazzo Medici Riccardi, il pubblico potrà così comporre un ideale percorso fiorentino fra
-il Baselitz artista e il Baselitz collezionista
-. Alla sua preziosa raccolta si accompagnano poi alcuni capolavori scelti, provenienti dal Museo di Belle Arti di Budapest, che, come cammei, accompagnano ed esaltano il racconto espositivo con sottolineature di rara finezza e di grande rilievo.
-Tra memoria classica e sensibilità contemporanea
-Il progetto ospitato a Palazzo Medici Riccardi prende avvio dall’importante mostra
-“The Mannerist Mind. Prints from the Georg Baselitz Collection”
-, presentata tra la fine del 2025 e l’inizio del 2026 proprio nelle sale del
-Museo di Belle Arti di Budapest
-con una selezione di stampe manieriste appartenenti alle collezioni del museo ungherese e alla raccolta dell’artista tedesco. La mostra fiorentina ne propone una nuova interpretazione, costruita intorno al dialogo fra le opere del Cinquecento e la sensibilità di uno dei protagonisti dell’arte del nostro tempo. Alle stampe, poi, si affiancano
-quattro importanti sculture di Baselitz
-, che paiono marcare il viaggio nel mondo della grafica manierista evidenziandone le connessioni con la contemporaneità, e il suo eloquente autoritratto.
-Baselitz, infatti, non è stato soltanto un artista radicale e innovativo, ma
-anche un collezionista di grande rilievo
-. La sua raccolta di stampe dei maestri antichi nasce da un interesse maturato già negli anni Sessanta e sviluppato con continuità per oltre sei decenni. Alla curiosità dell’artista si è unito l’occhio dell’intenditore, dando vita a un patrimonio di opere di grande pregio, capace di restituire le sue affinità, le sue predilezioni e le domande che hanno accompagnato la sua ricerca.
-Il legame fra Baselitz e il Museo di Belle Arti di Budapest si è consolidato nel tempo: nel 2017 il museo gli ha dedicato una mostra monografica e, tre anni più tardi, l’artista ha donato trenta incisioni alle collezioni ungheresi. L’esposizione fiorentina sviluppa questo dialogo e mette a confronto
-due differenti forme di raccolta
-–
-quella di un’istituzione pubblica e quella privata di un artista
-– invitando a riflettere
-sull’idea stessa di collezione
-come impulso a conservare, custodire, studiare e condividere le opere.
-La grafica e l’origine della passione per il Manierismo
-Al centro della mostra è appunto la
-produzione grafica
-, intesa non come ambito secondario rispetto alla pittura, ma come terreno privilegiato di ricerca e sperimentazione, oltre che di incredibile espressione formale. Come gli artisti del passato utilizzavano disegni e stampe quali riserve di immagini, modelli e ispirazioni, così Baselitz ha raccolto nel corso della propria vita un ricchissimo patrimonio grafico, che riunisce i risultati di maestri italiani, francesi, tedeschi, fiamminghi offrendo uno sguardo d’eccezione su ciò che gli artisti cercarono, sperimentarono e ottennero grazie alle tecniche incisorie.
-La storia della collezione manierista di Baselitz ha peraltro un significativo punto di partenza: l’acquisto, nel 1964, della stampa
-“Il sacrificio” di Antonio Fantuzzi da Trento
-, che riprende e interpreta il dipinto di Rosso Fiorentino a Fontainebleau
-. Da quel momento l’artista ha continuato ad ampliare la propria raccolta, attratto dall’approccio anticonvenzionale, dalla libertà inventiva e dalla straordinaria figurazione delle stampe del periodo. Nelle forme instabili ed eccentriche del Manierismo Baselitz ha riconosciuto una possibilità di superamento della norma e di messa in discussione della visione classica.
-I maestri in mostra e la sperimentazione tecnica
-La mostra presenta quindi i lavori di innovativi artisti italiani del tardo Quattrocento e del Manierismo, fra cui
-Andrea Mantegna
+Ingresso - Residenti della Città Metropolitana di Firenze - minori 18 anni, possessori Card del fiorentino, membri ICOM, ICOMOS, ICCROM, guide turistiche e interpreti, giornalisti, disabili e accompagnatori
+€ 8,00
+Non residenti della Città Metropolitana di Firenze - Ingresso
+€ 5,00
+Ridotto (18-25 anni e studenti universitari)
+€ 4,00
+Visita alla mostra in corso e attività - Residenti della Città Metropolitana di Firenze
+€ 8,00
+Visita alla mostra in corso e attività - Non residenti della Città Metropolitana di Firenze
+Tornano le grandi mostre al Forte Belvedere e ad inaugurarle, il 24 giugno, sarà “Drama: Four Acts”, un progetto della Fondazione MUS.E, con il coordinamento scientifico del Museo Novecento promosso da Comune di Firenze, composto da quattro mostre ideate e curate da Sergio Risaliti
+Si parte il
+24 giugno
+con
+“God Year”
+, la mostra personale di
+Paolo Canevari
+realizzata al primo piano della Palazzina. Il
+16 luglio
+sarà invece protagonista
+Marino Marini
+, uno dei grandi artisti del Novecento, di cui verranno esposte una serie di sculture in bronzo raccolte con il titolo
+“No Heroes”
+. A partire da quel giorno le opere di Marino dialogheranno con quelle di Canevari, in un allestimento di forte connotazione drammatica, mentre a settembre prenderà vita il terzo atto. Si tratterà di un intervento site specific dell’artista norvegese
+Per Barclay
 ,
-Parmigianino,
-Andrea Schiavone
-; i maestri incisori francesi della scuola di Fontainebleau, come
-Léon
-Davent, Geoffroy Dumonstier
+“Oscuro Abbagliante”
+. Anche in questo caso le opere di Marino saranno relazionate a quelle di Barclay. A completare il percorso sarà inoltre un’installazione sonora di
+Friedrich Andreoni
+, collocata sul bastione affacciato su Firenze, pensata per accompagnare il visitatore lungo il percorso espositivo.
+God Year
+Tra gli artisti italiani più conosciuti a livello internazionale, Canevari è noto per l’utilizzo di differenti materiali e medium, quali il
+disegno
+, il
+video
+, la
+scultura
+, l’
+installazione
+e la
+performance
+. Nella sua pratica interdisciplinare utilizza
+oggetti e simboli comuni
+facilmente riconoscibili al fine di commentare e, spesso, decostruire e criticare ideologie, credenze religiose e narrazioni politiche, oltre ai grandi miti del progresso e della felicità sociale. Cresciuto a contatto con le pratiche delle avanguardie contemporanee (arte povera, arte concettuale, performing art), educato alla scultura in ambito familiare, ha sempre saputo rileggere in senso nuovo l’arte classica e rinascimentale, quella moderna e del modernismo. Questa specificità ha permesso all’artista di muoversi nel mondo con intelligenza, sia teorica sia pratica.
+L’arte di Canevari pone lo spettatore di fronte alla
+realtà più dura e tragica
+, comunicando la violenza fratricida dei nostri tempi senza la retorica tipica dei media, talvolta complici di travisamenti di fatti e immagini, nonché di manipolazioni del senso delle parole. Le sue opere svelano con leggerezza e ironia il cinismo dell’Economia e del Capitale, la natura distruttiva e oppressiva del
+Potere
+, quello omologante di ogni
+Ideologia
+, proponendo l’opera d’arte come oggetto materico, ansioso e perturbante.
+L’immagine, per Canevari, ha una funzione complessa, non riducendosi mai a una semplice informazione o una mera didascalia. Si tratta di uno strumento poetico e iconico utile alla presa di coscienza e alla crescita cognitiva. Dal punto di vista iconico e simbolico è sempre trattata e fatta funzionare come un’esperienza aperta, dai significati plurimi. Una Rolls-Royce è tatuata con il messaggio “HO FAME”; un bambino palleggia con un cranio tra le rovine di palazzi bombardati; piccoli e grandi carri armati realizzati con la ‘pelle’ degli pneumatici trasformano il gioco in immagine di guerra e viceversa. Una figura lignea della Vergine Maria sorregge uno pneumatico sulla testa come se fosse un’aureola; cappi realizzati con la gomma delle camere d’aria evocano immagini di sacrificio e condanna; un uomo (l’artista in persona) vestito elegantemente di nero accoglie a braccia aperte un ordigno che cade dal cielo. Uno pneumatico tagliato serve a costruire sulla parete la parola Dio, accoppiando la dimensione materialistica della civiltà industriale con quella spirituale, il movimento orizzontale (l’auto) con quello verticale (la teologia).
+Canevari lavora spesso sull’ambiguità dei segni, dei materiali e delle forme, trasformando le immagini più familiari in
+presenze inquietanti
+, in dispositivi critici e decostruttivi. La sua ricerca nasce dalla tensione tra il linguaggio dell’arte e quello della realtà, tra estetica e politica, mettendo in dialogo, e spesso in conflitto, simboli culturali, emblemi del potere, riferimenti alla storia politica e religiosa, miti collettivi, stereotipi e luoghi comuni, oggetti della vita quotidiana. Attraverso queste opposizioni costruisce una visione tragica dell’esistenza contemporanea, in cui ogni
+simbolo
+può rivelare il proprio
+lato oscuro
+e ogni immagine può caricarsi di significati contraddittori e universali.
+La riflessione sulla violenza, sulla memoria e sui meccanismi di controllo, separazione e censura che attraversano la società contemporanea viene posta al centro attraverso l’utilizzo di materiali poveri e industriali, come la gomma degli pneumatici, che diventa metafora della condizione sociale e dei pericoli che nascono con lo sfruttamento delle risorse energetiche. Il petrolio, i suoi derivati, l’industria automobilistica, sono messi sotto accusa. L’oro nero è tra i più potenti strumenti di supremazia nella geopolitica, coefficiente di ricchezza e predominio globale. La risorsa, ad oggi necessaria al progresso, è anche quell’elemento che può scatenare guerre e crisi finanziarie.
+Esemplare è l’opera intitolata “Landscape”: una bandiera americana copre una pila di bidoni e pneumatici, che appaiono come un feretro. Si tratta di una potente, icastica riflessione sullo stretto legame tra la miscela oleosa e la grande potenza americana.
+Il titolo stesso della mostra, “God Year”, è un’espressione ricavata dal nome di una delle più note industrie di pneumatici che evoca “l’anno del Signore”, mostrando quanto sia sottile il confine tra sacro e profano, tra portatori di pace e produttori di morte, tra progresso e povertà, tra verità e false retoriche.
+In molte opere l’artista ricorre inoltre alla dimensione del gioco e del sacrificio, due elementi solo apparentemente opposti. Il gioco assume una funzione insieme catartica e perversa: dietro la leggerezza dell’azione ludica si celano dinamiche di sopraffazione, rituali collettivi e forme simboliche cariche di violenza. Il sacrificio, a sua volta, richiama archetipi antichi e strutture profonde dell’inconscio collettivo, diventando uno strumento attraverso cui Canevari interroga le contraddizioni della storia e della contemporaneità, le pulsioni e gli istinti mortiferi e distruttivi che nutrono e pervadono gli esseri umani, il gruppo, gli adepti, le masse guidate o sottomesse da valori e ideali di morte o di supremazia razziale. È proprio in questa oscillazione tra innocenza e crudeltà, tra ironia e tragedia, tra gioco e violenza che la sua opera trova una delle sue espressioni più potenti.
+In collaborazione con Galleria Stein e con Petri Corse Automobili Rolls-Royce Sales & Service Specialist Firenze.
+No Heroes
+Dal 16 luglio il progetto espositivo Drama: Four Acts si arricchisce di un nuovo capitolo con l’apertura al pubblico di No Heroes, la mostra dedicata a Marino Marini negli spazi del Forte Belvedere.
+Promosso dal Comune di Firenze e realizzato dalla Fondazione Mus.e, con il coordinamento scientifico del Museo Novecento e con l’ideazione e la curatela di Sergio Risaliti, Drama: Four Acts ha inaugurato l’estate culturale di Belvedere Firenze attraverso un percorso che intreccia arte contemporanea, patrimonio storico e paesaggio. Il progetto si sviluppa nell’arco della stagione estiva come un dramma in quattro atti, mettendo in relazione artisti e linguaggi di epoche differenti.
+Il secondo atto vede protagonista uno dei più grandi maestri della scultura del Novecento. Con No Heroes, una selezione di cinque sculture in bronzo di Marino Marini entra infatti in dialogo con le opere di Canevari, dando vita a un allestimento di forte intensità emotiva e concettuale.
+Al primo piano della Palazzina, il confronto tra Marino Marini e Paolo Canevari affronta il tema della storia, esplorando l’essenza più profonda della
+condizione
+umana
+, dei conflitti e della crisi della civiltà umanistica. Le opere di Marino Marini, caratterizzate da una straordinaria forza espressiva e da una costante ricerca identitaria legata alla figura umana e ai suoi archetipi, si confrontano con il linguaggio contemporaneo di Paolo Canevari, che utilizza materiali industriali e di recupero per evocare tensioni storiche, sociali e politiche.
+Fulcro della ricerca di Marino Marini è il celebre
+tema del cavallo e del cavaliere
+, affrontato dall’artista come metafora della condizione umana e del rapporto tra
+individuo
+,
+natura
 e
-Juste de Juste
-; olandesi e tedeschi come
-Albrecht
-Dürer
-o
-Hans Sebald Beham
-e alcuni fra i maggiori sperimentatori del chiaroscuro, da
-Ugo da Carpi
-a
-Domenico Beccafumi
-, da
-Andrea Andreani
-a
-Hendrick Goltzius
-. A questi si affiancano capolavori scelti dalle collezioni di Budapest, fra i quali opere di
-Antonio del Pollaiolo
-e dello stesso Parmigianino.
-Le diverse xilografie, anche a più matrici, acqueforti, incisioni a bulino o a puntasecca documentano le molteplici possibilità offerte dalle tecniche incisorie, dimostrando come esse possano esprimere effetti assai diversi fra loro, di volta in volta lineari, chiaroscurali, tonali. La lavorazione delle matrici, la perizia nell’esecuzione dei segni, le variazioni introdotte nei processi di stampa e le infinite possibilità di resa diventano strumenti espressivi attraverso i quali gli artisti del Cinquecento mettono alla prova la tradizione e costruiscono non solo nuove immagini, ma anche una nuova visione, circolando in tutta Europa e favorendo così il confronto tra diverse sensibilità, modelli ed esperienze.
-Il percorso espositivo si snoda nel tempo e nello spazio:
-a partire dalle celebri stampe di Albrecht Dürer, fra cui il celebre
-Rinoceronte
-, è in
-mostra una nutrita serie di opere di Lucas Cranach il Vecchio
-, in dialogo con una sua – rara – matrice xilografica; a essa seguono le meravigliose stampe chiaroscurali di
-Domenico Beccafumi
-e Ugo da Carpi, come il famoso e potente
-Diogene
-, per lasciare spazio poi all’inventivo e sapiente Jacques Bellange. Si prosegue con
-una serie di stampe derivate da un dipinto perduto di Arcimboldo
-, di cui una assunta a icona della mostra, e di fantasiose figure di costume, per dedicare poi un’attenzione speciale alle ricerche di
-Parmigianino
-e dei suoi intorno all’opera raffaellesca e sul tema iconografico della
-Deposizione di Cristo
-. Le figure solitarie, siano esse in meditazione, in posa eroica o monumentale, ritmano le ultime sale in controcanto rispetto alle opere degli artisti della scuola di Fontainebleau, per chiudere – in omaggio al nostro Rinascimento – con i pionieristici lavori di Antonio Pollaiolo e di Andrea Mantegna.
-Ad accompagnare la mostra saranno anche presenti alcune teche con strumenti e apparati relativi alle diverse tecniche dell’incisione, a cura della Fondazione Il Bisonte, utili a comprendere i molteplici processi e passaggi esecutivi.
-Visite guidate e attività
-Sono inoltre in programma le visite guidate alla mostra, tutti i sabati e tutte le domeniche alle ore 15, e l’attività per famiglie la domenica alle 10.30, con laboratorio di incisione. Visite e attività sono prenotabili anche dalle scuole primarie e secondarie di primo e secondo grado.
-A cura di
-Daniel Blau, Sergio Risaliti e Valentina Zucchi
-Promossa da
-Città Metropolitana di Firenze
-Organizzata da
-Fondazione MUS.E
-Scopri il museo
-Visita il museo
-Palazzo Medici Riccardi
-Il primo palazzo dei Medici, dove vissero Cosimo il Vecchio e Lorenzo il Magnifico e lavorarono artisti come Donatello, Michelangelo, Paolo Uccello e Botticelli.
-Visita il museo
-Attività correlate
-Tutte le attività
-2,00 - 4€
-Secondaria I grado
-Secondaria II grado
-•
-Palazzo Medici Riccardi
-Visita alla mostra Oltre il Rinascimento
-Attività legata alla mostra in corso.
-2,00 - 4€
-Primaria
-Secondaria I grado
-•
-Palazzo Medici Riccardi
-Laboratorio di incisione
-Attività legata alla mostra in corso.
-2,00 - 4€
-Famiglie con bambini
-•
-Palazzo Medici Riccardi
-Laboratorio di incisione
-8-12
-A partire dal 20 settembre. Attività legata alla mostra in corso.
-2,00 - 4€
-Giovani e adulti
-•
-Palazzo Medici Riccardi
-Visita alla mostra Oltre il Rinascimento
-Attività legata alla mostra in corso.
-Tutte le attività
-Newsletter
-ISCRIVITI ADESSO
-INFO E PRENOTAZIONI
-PRIVATI
-+39 055 0541450
-[email protected]
-SCUOLE
-+39 055 0541451
-[email protected]
-Fondazione MUS.E
-Sede Legale: Palazzo Vecchio,
-Piazza Signoria 1, 50122 Firenze
-P.I.05118160489 – C.F.94083520489
-Iscritta al n° 111 del Registro delle Persone
-Giuridiche Private
-Le tue preferenze relative alla privacy
-LINK UTILI
-Amministrazione trasparente
-Domenica Metropolitana
-Sito ufficiale Musei Civici Fiorentini
-Sito ufficiale Feel Florence
-Sito Firenze Patrimonio Mondiale
-Privacy policy
-Cookie policy
-Accessibilità
-GOOGLE ARTS AND CULTURE
-Il Museo di Palazzo Vecchio partecipa all’Art
-Project del Google Cultural Institute.
-SCOPRI IL PROGETTO
-SOCIAL
-Designed & developed by
-Alias2k
-SPONSORSHIP
-Designed & developed by
-Alias2k
-Verifica disponibilità
-Periodo individuato per lo svolgimento della/e attività:
-Fascia Oraria:
-Mattina
-Pomeriggio
-Quando disponibile
-Numero adulti:
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-Numero bambini
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-Fasce Età Bambini
-—Seleziona un'opzione—
-4/7
-8/12
-12+
-Nome e Cognome
-Nazione
-Regione
-—Seleziona un'opzione—
-Abruzzo
-Basilicata
-Calabria
-Campania
-Emilia romagna
-Friuli venezia giulia
-Lazio
-Liguria
-Lombardia
-Marche
-Molise
-Piemonte
-Puglia
-Sardegna
-Sicilia
-Toscana
-Trentino alto adige
-Umbria
-Valle d'aosta
-Veneto
-Comune
-Cellulare
-Email
-Note
-Dichiaro di aver preso visione dell'informativa ai sensi dell'art. 13 del D.Lgs. n. 196/2003 sul sito istituzionale della Fondazione MUS.E ed autorizzo il trattamento dei miei dati personali ai sensi della citata normativa |
-Leggi informativa
-.
-Autorizzo la Fondazione MUS.E. a contattarmi in futuro per l'invio di informazioni e materiali relativi alla promozione di prossimi eventi od iniziative di natura artistica e/o culturale.
+storia
+. Se nelle opere degli anni Trenta le figure conservano un equilibrio monumentale e una misura classica, l’esperienza della
+Seconda guerra mondiale
+, quella dello sterminio e delle apocalissi nucleari, trasforma profondamente questo linguaggio. I corpi si irrigidiscono, le forme diventano spigolose, il cavallo si impenna fino a disarcionare il cavaliere come nella serie dei Miracoli. La perdita di equilibrio diventa così immagine della crisi dell’uomo moderno, travolto da una violenza che non riesce più a governare. Cavallo e cavaliere assolvono in fondo a una critica
+della
+nuova società tecnologica e industriale
+, oppressiva,
+disumanizzante
+, responsabile di conflitti sociali e distruzioni fratricide. Sentimenti e sensazioni del tragico della storia che Marino trasferisce nelle sue ultime e drammatiche sculture, quali i Gridi e i Miracoli, con le figure frante, distorte, urlanti e accasciate. Così scriveva l’artista a proposito dell’energia nucleare: “Gli uomini hanno scoperto qualcosa che è più grande di loro, qualcosa che non riescono più a dominare, che diventa pericoloso per l’umanità […], l’artista avverte tutto ciò come e cento volte più degli altri […] quindi diventa tragico, assolutamente tragico. Ecco perché le mie sculture sono forme selezionate, architetture di un’enorme tragedia […]. I cavalieri e il cavallo, nelle mie ultime opere, sono diventati strani fossili, simboli di un mondo scomparso, o piuttosto, di un mondo che io credo sia destinato a scomparire per sempre”. Esempio altissimo nella sua scarna modellazione è la figura del Prigioniero, in cui si ravvede l’umanità inerme, sconfitta, vittima sacrificale della storia e del male provocato dal progresso e dalle letali ambizioni del potere umano.
+In mostra sarà presentata anche una Bagnante, che nella sua postura accovacciata ricorda il celebre Adolescente di Michelangelo. Nella figura di Marino Marini, pare adesso prevalere un sentimento di
+introversa malinconia
+, di sconforto e avvilimento. Ultime delle cinque sculture più rappresentative del mondo di Marino Marini è la Danzatrice, collocata in una sala caratterizzata dalle sculture in copertone di Canevari. Come il Funambolo, anche la danzatrice è figura del circo, luogo di giochi acrobatici, coreografie mirabolanti, messe in scena sarcastiche, che tanto affascinarono Marino. Se nella parabola artistica di Marino si assiste alla dissoluzione del mito dell’eroe, simbolo di un’umanità trionfante, virile, ma disillusa, dopo guerre fratricide e possibili apocalissi tecnologiche, ecco che le figure del saltimbanco e della danzatrice si impongono al tempo della disumanizzazione moderna come alternativa vitale e speranzosa. Sono figure di un’età primigenia dell’umanità in cui fantasia e creatività, gioco e ironia dominavano la scena dell’arte e del sacro, figure a cui l’artista si ricollega per contrastare ed
+esorcizzare il male che corrode ogni passato e futuro umanesimo
+. Così si esprimeva Marino a proposito della sua fascinazione per il circo e le sue figure: “Ho vissuto dietro il teatro, perché dietro di esso vi è, per la fantasia, un mondo formidabile: la forma si mescola con i colori, si mescola con il personaggio che si falsa; il falso diventa vero, il vero diventa falso; lì il mondo della fantasia si apre. È un mondo di giocolieri, dove non c’è più né maschio né femmina: colori e forme che cambiano, diventano piatte, diventano piene; tutto il mondo vissuto e immaginato sta dietro un fondale di teatro. Da questo mondo ho avuto una grande impressione ed è stata di una grande importanza per un certo per
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='exhibition-date'> dal 10 Settembre 26 al 05 Gennaio 27
-  <div class='col-12 col-lg-5 date-title'> 01 Novembre - 28 Febbraio
+  <div class='exhibition-date'> dal 24 Giugno 26 al 16 Ottobre 26
+  <div class='col-12 col-lg-5 date-title'> 24 Giugno - 16 Ottobre
   <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> Mattina Pomeriggio Quando disponibile
   <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
   <select class='wpcf7-form-control wpcf7-select wpcf7-validates-as-required'> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
@@ -415,16 +185,16 @@ Autorizzo la Fondazione MUS.E. a contattarmi in futuro per l'invio di informazio
 
 --- LINK INTERNI (href → testo) ---
   https://musefirenze.it/  →  
-  https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/  →  Musei
+  https://musefirenze.it/mostre/drama-four-acts/  →  Musei
   https://musefirenze.it/attivita/  →  Visite guidate e attività
   https://musefirenze.it/eventi/  →  Eventi
   https://musefirenze.it/mostre/  →  Mostre
   https://musefirenze.it/news/  →  News
   https://musefirenze.it/muse/  →  Fondazione MUS.E
   https://musefirenze.it/blog/  →  Blog
-  https://musefirenze.it/en/exhibits/beyond-the-renaissance-between-durer-and-parmigianino/  →  en
-  https://musefirenze.it/fr/expositions/au-dela-de-la-renaissance-entre-durer-et-parmigianino/  →  fr
-  https://musefirenze.it/mostre/oltre-il-rinascimento-tra-durer-e-parmigianino/#mobile-menu  →  
+  https://musefirenze.it/en/museums-exhibitions-events-and-unique-experiences/  →  en
+  https://musefirenze.it/fr/home-francais/  →  fr
+  https://musefirenze.it/mostre/drama-four-acts/#mobile-menu  →  
   https://musefirenze.it/musei/museo-di-palazzo-vecchio/  →  Museo di Palazzo Vecchio
   https://musefirenze.it/musei/museo-novecento/  →  Museo Novecento
   https://musefirenze.it/musei/museo-stefano-bardini/  →  Museo Stefano Bardini
@@ -438,305 +208,26 @@ Autorizzo la Fondazione MUS.E. a contattarmi in futuro per l'invio di informazio
   https://musefirenze.it/musei/museo-delle-terre-nuove/  →  Museo delle Terre Nuove
   https://musefirenze.it/musei/casa-masaccio/  →  Casa Masaccio
   https://musefirenze.it/musei/museo-leonardiano-di-vinci/  →  Museo Leonardiano di Vinci
-  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7781-1024x681.jpg  →  
-  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7647-1024x681.jpg  →  
-  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7622-1024x681.jpg  →  
-  https://musefirenze.it/wp-content/uploads/2026/09/LIN_7596-1024x681.jpg  →  
-  https://musefirenze.it/attivita/visita-alla-mostra-oltre-il-rinascimento-2/  →  
-  https://musefirenze.it/attivita/laboratorio-di-incisione-3/  →  
-  https://musefirenze.it/attivita/laboratorio-di-incisione-2/  →  
-  https://musefirenze.it/attivita/visita-alla-mostra-oltre-il-rinascimento/  →  
-  https://musefirenze.it/cdn-cgi/l/email-protection#40292e262f002d353325262932252e3a256e2934  →  [email protected]
-  https://musefirenze.it/cdn-cgi/l/email-protection#2e4a474a4f5a5a474d4f6e435b5d4b48475c4b40544b00475a  →  [email protected]
+  https://musefirenze.it/wp-content/uploads/2026/06/NCCL4137-683x1024.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/NCCL4113-683x1024.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/NCCL4116-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/NCCL4140-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/no-heroes-belvedere-683x1024.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/no-heroes-belvedere-1-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/DSC_1125-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/DSC_1120-683x1024.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/DSC_1118-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/DSC_1105-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/DSC_1129-683x1024.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/DSC_1131-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/no-heroes-belvedere-2-1024x683.jpg  →  
+  https://musefirenze.it/wp-content/uploads/2026/06/NCCL4092-1024x683.jpg  →  
+  https://musefirenze.it/attivita/visita-al-forte-belvedere-e-alla-mostra-god-year/  →  
+  https://musefirenze.it/cdn-cgi/l/email-protection#ec85828a83ac81999f898a859e89829689c28598  →  [email protected]
+  https://musefirenze.it/cdn-cgi/l/email-protection#cda9a4a9acb9b9a4aeac8da0b8bea8aba4bfa8a3b7a8e3a4b9  →  [email protected]
   https://musefirenze.it/domenica-metropolitana/  →  Domenica Metropolitana
   https://musefirenze.it/privacy-policy-2/  →  Privacy policy
   https://musefirenze.it/cookie-policy/  →  Cookie policy
   https://musefirenze.it/accessibilita/  →  Accessibilità
   https://musefirenze.it/sponsor-donor-e-partner/  →  SPONSORSHIP
   https://musefirenze.it/privacy-policy/  →  Leggi informativa
-
-======================================================================
-URL: https://www.palazzostrozzi.org/mostra/broken/
-======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-Broken – Fondazione Palazzo Strozzi
-Vai al contenuto
-Biglietti
-Aperto oggi: 10.00-20.00
-Membership
-Biglietti
-Visita
-Mostre e attività
-Educazione
-Sostienici
-Altro
-Italiano
-|
-English
-Visita
-Biglietti e orari
-Visite guidate
-Visite private
-Domande frequenti
-Mostre e attività
-In corso
-Future
-Archivio
-Educazione
-Accessibilità
-Adulti
-Famiglie
-Scuole
-Giovani e teenager
-Università e accademie
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Broken
-Il potere del frammento
-Broken
-Il potere del frammento
-dal 25 settembre 2026
-al 24 gennaio 2027
-Cortile
-Piano nobile
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-dal 25 settembre 2026
-al 24 gennaio 2027
-Cortile
-Piano nobile
-Tutti i giorni 10.00-20.00
-Giovedì fino alle 23.00
-Ingresso a pagamento
-Amici di Palazzo Strozzi:
-gratuito
-Acquista il tuo biglietto
-Palazzo Strozzi presenta
-Broken. Il potere del frammento
-, una grande mostra dedicata al
-tema del frammento nella storia della scultura dall’archeologia all’arte di oggi
-.
-Organizzata con la National Gallery of Art di Washington
-, l’esposizione riunisce straordinarie e affascinanti opere
-dall’antico Egitto a Michelangelo
-,
-dalla Grecia classica a Rodin
-,
-fino ad artisti contemporanei
-come Louise Bourgeois, Francesco Vezzoli e Danh Vo.
-La mostra è un invito a compiere un
-viaggio tra luoghi ed epoche diverse
-, dalle antiche civiltà del mondo egizio, etrusco e greco-romano alle culture premoderne degli attuali Messico, Mali, Perù e Cambogia. Opere dei principali maestri della storia dell’arte, tra cui Giovanni Pisano, Michelangelo, Auguste Rodin, sono affiancate alle sculture di artisti contemporanei come Louise Bourgeois, Huma Bhabha, Robert Gober, Francesco Vezzoli e Danh Vo, che hanno assunto il frammento come punto di partenza per nuove possibilità espressive. In occasione della mostra, inoltre, Palazzo Strozzi presenta una nuova installazione dell’artista olandese-belga Mark Manders, concepita per il Cortile rinascimentale.
-Con
-oltre ottanta opere
-e reperti provenienti
-dai più importanti musei del mondo
-, tra cui il Metropolitan Museum di New York, il Louvre di Parigi, il British Museum di Londra e il Museo Nacional de Antropología di Città del Messico, la mostra indaga il frammento da un nuovo punto di vista: non come semplice resto di un’unità perduta, ma come oggetto autonomo, capace di custodire tracce di memoria e trasformazione.
-Il frammento nasce come una precisa scelta oppure
-racconta una storia di cui porta ancora i segni
-: iconoclastie antiche e moderne, guerre, rivoluzioni, vandalismi e calamità naturali, come l’alluvione di Firenze del 1966. Ne emerge una riflessione sul valore artistico, politico e simbolico che una scultura acquisisce in seguito alla propria rottura e sulla capacità del frammento di diventare strumento di conoscenza e immaginazione, presenza viva che continua a interrogare il nostro presente.
-Broken. Il potere del frammento
-è organizzata dalla Fondazione Palazzo Strozzi, Firenze, e dalla National Gallery of Art, Washington, dove sarà presentata in una versione rinnovata dal 3 marzo al 27 giugno 2027. La mostra è curata da C.D. Dickerson III, direttore del Center for Advanced Study in the Visual Art, e da Andrew Sears, assistant curator of northern European paintings, entrambi della National Gallery of Art, in collaborazione con Arturo Galansino, Direttore Generale della Fondazione Palazzo Strozzi.
-Sostenitori pubblici Fondazione Palazzo Strozzi: Comune di Firenze, Regione Toscana, Città Metropolitana di Firenze, Camera di Commercio di Firenze.
-Sostenitori privati Fondazione Palazzo Strozzi: Fondazione CR Firenze, Intesa Sanpaolo, Fondazione Hillary Merkus Recordati, Comitato dei Partner di Palazzo Strozzi.
-Cover: Arte egizia,
-Naso e labbra di Akhenaton
-, da Akhetaten, oggi Amarna, Egitto, 1353-1336 a.C. circa. New York, The Metropolitan Museum of Art, acquisto, dono di Edward S. Harkness, 1926 (26.7.1394) © The Metropolitan Museum of Art / Art Resource / Scala, Firenze
-Scopri
-anche
-Approfondimento
-11 settembre 2026 - 24 gennaio 2027
-Mitoraj al Museo Nazionale Romano
-Tee Shirt
-Scopri di più
-Chi siamo
-Fondazione Palazzo Strozzi
-Storia di Palazzo Strozzi
-Pubblicazioni e biblioteca
-Area stampa
-Contatti
-Sostienici
-Sponsorship
-Comitato dei Partner di Palazzo Strozzi
-Palazzo Strozzi Foundation USA
-Membership
-Info e prenotazioni
-Dal lunedì al venerdì, 9.00-18.00
-+39 055 26 45 155
-prenotazioni@palazzostrozzi.org
-Palazzo Strozzi, Piazza Strozzi s.n.c.
-50123 Firenze
-Iscriviti alla nostra
-Newsletter
-Dichiaro di aver preso visione della
-Privacy Policy.
-Presto il consenso per l'iscrizione alla newsletter e altre comunicazioni per finalità di marketing.
-Presto il consenso per attività di analisi e profilazione.
-Iscriviti
-Lascia questo campo vuoto se sei umano:
-Sostenitori pubblici
-Sostenitori privati
-Privacy e Policy
-–
-Cookie policy
-–
-Preferenze Cookie
-–
-Amministrazione trasparente
-–
-Dichiarazione di accessibilità
-–
-Credits
-© Fondazione Palazzo Strozzi, 2006-2026. Tutti i diritti riservati
-Italiano
-Inglese
-Tedesco
-Spagnolo
-Francese
-Italiano
-Polacco
-Svedese
-Finlandese
-Portoghese
-Rumeno
-Sloveno
-Slovacco
-Olandese
-Danese
-Greco
-Ceco
-Ungherese
-Lituano
-Lettone
-Estone
-Croato
-Irlandese
-Bulgaro
-Norvegese
-Turco
-Indonesiano
-Portoghese (Brasile)
-Giapponese
-Coreano
-Cinese semplificato
-Arabo
-Russo
-Hindi
-Ucraino
-Serbo
-English (UK)
-ایران
-ישראל
-Македонија
-ประเทศไทย
-Việt Nam
-Regolazioni di accessibilità
-Offerto da
-OneTap
-Nascondi barra degli strumenti
-Indietro
-Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?Per quanto tempo vuoi nascondere la barra degli strumenti di accessibilità?
-Durata nascondi barra strumenti
-Solo per questa sessione
-24 ore
-Una settimana
-Non ora
-Nascondi barra degli strumenti
-Seleziona il tuo profilo di accessibilità
-Modalità ipovedenti
-Migliora la resa visiva del sito
-Profilo sicuro contro le crisi
-Elimina i lampeggi e riduce i colori
-Modalità adatta all'ADHD
-Navigazione focalizzata, senza distrazioni
-Modalità cecità
-Riduce le distrazioni, migliora la concentrazione
-Modalità sicura per epilessia
-Attenua i colori e blocca il lampeggio
-Moduli contenuto
-Dimensione carattere
-+
-Predefinito
--
-Evidenzia link
-Interlinea
-+
-Predefinito
--
-Carattere leggibile
-Cursore
-Lente d'ingrandimento testo
-Carattere per dislessia
-Align Text
-Spaziatura lettere
-Spessore carattere
-Moduli colore
-Contrasto scuro
-Contrasto chiaro
-Alto contrasto
-Monochrome
-Saturazione
-Moduli orientamento
-Riga di lettura
-Maschera di lettura
-Il browser deve essere aggiornato
-Il tuo browser non supporta la sintesi vocale. Aggiorna il browser o usane uno con sintesi vocale abilitata (es. Chrome, Edge, Safari).
-Come aggiornare?
-Leggi pagina
-Navigazione da tastiera
-Nascondi immagini
-Disattiva suoni
-Evidenzia titoli
-Evidenzia contenuto
-Blocca animazioni
-Reimposta impostazioni
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='time-wrapper mb-2'> 11 settembre 2026 - 24 gennaio 2027
-
---- LINK INTERNI (href → testo) ---
-  https://www.palazzostrozzi.org/mostra/broken/#content  →  Vai al contenuto
-  https://www.palazzostrozzi.org  →  
-  https://www.palazzostrozzi.org/biglietti-orari/  →  Biglietti
-  https://www.palazzostrozzi.org/mostra/broken/#menu-main  →  
-  https://www.palazzostrozzi.org/membership/  →  Membership
-  https://www.palazzostrozzi.org/calendario/  →  Mostre e attività
-  https://www.palazzostrozzi.org/educazione/  →  Educazione
-  https://www.palazzostrozzi.org/sostienici/  →  Sostienici
-  https://www.palazzostrozzi.org/mostra/broken/  →  Italiano
-  https://www.palazzostrozzi.org/en/exhibition/broken/  →  English
-  https://www.palazzostrozzi.org/visite-guidate/  →  Visite guidate
-  https://www.palazzostrozzi.org/visite-private/  →  Visite private
-  https://www.palazzostrozzi.org/domande-frequenti-faq/  →  Domande frequenti
-  https://www.palazzostrozzi.org/mostre-future/  →  Future
-  https://www.palazzostrozzi.org/archivio/  →  Archivio
-  https://www.palazzostrozzi.org/educazione/accessibilita/  →  Accessibilità
-  https://www.palazzostrozzi.org/educazione/adulti/  →  Adulti
-  https://www.palazzostrozzi.org/educazione/famiglie/  →  Famiglie
-  https://www.palazzostrozzi.org/educazione/scuole/  →  Scuole
-  https://www.palazzostrozzi.org/educazione/teenager/  →  Giovani e teenager
-  https://www.palazzostrozzi.org/educazione/universita/  →  Università e accademie
-  https://www.palazzostrozzi.org/sponsorship/  →  Sponsorship
-  https://www.palazzostrozzi.org/partner-palazzo-strozzi/  →  Comitato dei Partner di Palazzo Strozzi
-  https://www.palazzostrozzi.org/palazzo-strozzi-foundation-usa/  →  Palazzo Strozzi Foundation USA
-  https://www.palazzostrozzi.org/fondazione-palazzo-strozzi/  →  Fondazione Palazzo Strozzi
-  https://www.palazzostrozzi.org/storia-palazzo-strozzi/  →  Storia di Palazzo Strozzi
-  https://www.palazzostrozzi.org/pubblicazioni/  →  Pubblicazioni e biblioteca
-  https://www.palazzostrozzi.org/area-stampa/  →  Area stampa
-  https://www.palazzostrozzi.org/contatti/  →  Contatti
-  https://www.palazzostrozzi.org/in-contatto/  →  
-  https://www.palazzostrozzi.org/approfondimento/mitoraj-al-museo-nazionale-romano/  →  Scopri di più
-  https://www.palazzostrozzi.org/dichiarazione-di-accessibilita/  →  Dichiarazione di accessibilità
-  https://www.palazzostrozzi.org/credits/  →  Credits
