@@ -114,6 +114,15 @@ def _looks_like_date(line: str) -> bool:
     return bool(_MONTH_RE.search(line) and _DAY_RE.search(line))
 
 
+# Righe di solo orario, a volte su una riga a sé sotto la data:
+# "ore 21.00 (domenica ore 16.45)".
+_ONLY_TIME_RE = re.compile(r"^\(?\s*ore\s+\d", re.IGNORECASE)
+
+
+def _looks_like_time(line: str) -> bool:
+    return bool(_ONLY_TIME_RE.match(line.strip()))
+
+
 # Etichette di rassegna: da sole non sono il titolo dello spettacolo, ma
 # messe davanti lo qualificano ("Laboratorio Puccini — La deriva...").
 _SERIES_LABELS = {
@@ -125,7 +134,9 @@ _SERIES_LABELS = {
 
 def _pick_title(lines: list[str]) -> str | None:
     useful = [l.strip() for l in lines
-              if len(l.strip()) >= 3 and not _looks_like_date(l)]
+              if len(l.strip()) >= 3
+              and not _looks_like_date(l)
+              and not _looks_like_time(l)]
     if not useful:
         return None
     first = useful[0]
