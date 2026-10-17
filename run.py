@@ -45,6 +45,7 @@ SOURCE_MODULES = [
     "sources.teatro_maggio",
     "sources.teatro_pergola",
     "sources.teatro_verdi",
+    "sources.teatro_puccini",
     "sources.tempo_reale",
     "sources.estate_fiorentina",
     "sources.metjazz",
