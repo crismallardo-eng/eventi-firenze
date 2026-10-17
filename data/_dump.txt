@@ -1,24 +1,95 @@
 
 ======================================================================
-URL: https://dice.fm/sitemap.xml
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/sitemap.xml
-
-======================================================================
-URL: https://dice.fm/venue/teatro-puccini-firenze
-======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/venue/teatro-puccini-firenze
-
-======================================================================
-URL: https://dice.fm/robots.txt
+URL: https://dice.fm/sitemaps/sitemap.xml
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-User-agent: *
-Disallow: /api/
+https://dice.fm/sitemaps/sitemap1.xml
+2026-10-17T00:10:09Z
+https://dice.fm/sitemaps/sitemap2.xml
+2026-10-17T00:10:18Z
+https://dice.fm/sitemaps/sitemap3.xml
+2026-10-17T00:10:25Z
+https://dice.fm/sitemaps/sitemap4.xml
+2026-10-17T00:10:32Z
+https://dice.fm/sitemaps/sitemap5.xml
+2026-10-17T00:10:40Z
+https://dice.fm/sitemaps/sitemap6.xml
+2026-10-17T00:10:47Z
+https://dice.fm/sitemaps/sitemap7.xml
+2026-10-17T00:10:53Z
+https://dice.fm/sitemaps/sitemap8.xml
+2026-10-17T00:10:55Z
 
-Sitemap: https://dice.fm/sitemaps/sitemap.xml
-Sitemap: https://dice.fm/sitemaps/artists/sitemap.xml
-Sitemap: https://dice.fm/sitemaps/venues/sitemap.xml
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+
+--- LINK INTERNI (href → testo) ---
+
+======================================================================
+URL: https://dice.fm/sitemaps/venues/sitemap.xml
+======================================================================
+--- TESTO VISIBILE (primi 14000 char) ---
+https://dice.fm/sitemaps/venues/sitemap1.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap2.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap3.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap4.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap5.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap6.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap7.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap8.xml
+2026-10-17T02:10:00Z
+https://dice.fm/sitemaps/venues/sitemap9.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap10.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap11.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap12.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap13.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap14.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap15.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap16.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap17.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap18.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap19.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap20.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap21.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap22.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap23.xml
+2026-10-17T02:10:01Z
+https://dice.fm/sitemaps/venues/sitemap24.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap25.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap26.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap27.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap28.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap29.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap30.xml
+2026-10-17T02:10:02Z
+https://dice.fm/sitemaps/venues/sitemap31.xml
+2026-10-17T02:10:02Z
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
 
