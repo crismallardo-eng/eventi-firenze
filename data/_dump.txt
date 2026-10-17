@@ -1,137 +1,15 @@
 
 ======================================================================
-URL: https://dice.fm/browse/florence
+URL: https://api.dice.fm/unified_search?q=firenze
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/browse/florence
+ERRORE: HTTPError: 403 Client Error: Forbidden for url: https://api.dice.fm/unified_search?q=firenze
 
 ======================================================================
-URL: https://dice.fm/browse/it/florence
+URL: https://dice.fm/api/events?city=florence
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/browse/it/florence
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/api/events?city=florence
 
 ======================================================================
-URL: https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets
+URL: https://api.dice.fm/events?city=florence
 ======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-Francesco Costa presenta: Come se ne esce. Il mondo dopo Donald Trump Biglietti | 27 ott | Teatro Puccini, Firenze | DICE
-Cerca per evento, locale o città
-Guarda che c'è di nuovo
-Richiedi assistenza
-Crea eventi
-Accedi / Registrati
-Scarica l'app
-DICE protegge lз fan e lз artistз dai bagarini. I biglietti vengono memorizzati in modo sicuro nell'app.
-Francesco Costa presenta: Come se ne esce. Il mondo dopo Donald Trump
-Teatro Puccini
-mar 27 ott, 21:00
-Artist signing
-Firenze
-4 €
-Quanto pagherai. Senza brutte sorprese.
-Hai un codice?
-Per sconti o biglietti bloccati
-Hai un codice?
-A proposito di
-Francesco Costa, in dialogo con Eugenio Cau, racconta gli Stati Uniti di oggi in occasione della presentazione del suo ultimo libro, "Come se ne esce. Il mondo dopo Donald Trump" (Mondadori).
-La crisi politica e culturale americana non nasce con Donald Tr...
-Continua a leggere
-Tutte le età
-Presentato da Fondazione Stensen.
-Line up
-Francesco Costa
-21:00
-Segui
-Locale
-Teatro Puccini
-Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia
-Apri su maps
-Apertura porte
-20:00
-Domande frequenti
-Perché è previsto un biglietto per partecipare all’incontro?
-Permettere a più persone possibili di partecipare significa affittare uno spazio più grande (e costoso) e operare con un maggiore sforzo organizzativo. Chiediamo un piccolo contributo a parziale copertura dei costi sostenuti, per rendere la serata piacevole e accessibile a tutti.
-Perché è necessario prendere un numero per accedere al firmacopie?
-Se siete tanti può essere antipatico stare in fila a lungo, così la successione è più ordinata e si può stimare quanto tempo manca prima del proprio turno. E se avete fretta di rientrare a casa lo scambio di numerini tra partecipanti è assolutamente consentito!
-Posso far firmare più di un libro?
-Sì, è possibile chiedere a Francesco di firmare Frontiera o altri suoi libri precedenti, o più copie dello stesso. L’unica cosa che vi chiediamo è di non chiedere Selfie o foto in posa per non rallentare oltremodo il firmacopie.
-Scarica l'app di DICE
-Scopri le migliori serate nella tua città con consigli personalizzati basati sulla tua libreria musicale
-Tieni sott'occhio le novità salvando eventi, condividendoli con gli amici o persino ascoltando nuova musica nell'app.
-Abbiamo reso semplice scambiare un biglietto con unə amicə o restituirlo alla lista d'attesa. Niente stress.
-iOS
-Android
-DICE protegge lз fan e lз artistз dai bagarini. I biglietti vengono memorizzati in modo sicuro nell'app.
-La nostra azienda
-Chi siamo
-Lavora con noi
-Diversità, uguaglianza 
-e inclusione
-Assistenza allз fan
-Richiedi assistenza
-Domande frequenti
-Chiedi un rimborso
-Risorse
-Artisti
-Locali
-Blog
-Stampa
-Partner
-iOS
-Android
-Italiano
-English
-English (United States)
-English (Canada)
-Français
-Español
-Català
-Italiano
-Português
-Deutsch
-Informativa sulla privacy
-Condizioni d'uso
-Condizioni di acquisto
-Impostazioni dei cookie
-iOS
-Android
-© DICE FM Holdings Ltd
-I loghi DICE e The Fan sono marchi registrati di DICE FM Holdings, Ltd.
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='EventDetailsTitle__Venues-sc-3ffadff4-1 kdoajM'> Teatro Puccini
-  <div class='EventDetailsTitle__Date-sc-3ffadff4-2 deMfEy'> mar 27 ott, 21:00
-  <div class='EventDetailsLineup__PerformingTime-sc-580d1e3e-13 gScKO'> 21:00
-  <div class='EventDetailsVenue__Container-sc-a57c3f7e-3 iUnzQb'> Locale Teatro Puccini Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia Apri su maps Apertura porte 20:00
-  <div class='EventDetailsVenue__Wrapper-sc-a57c3f7e-4 jDpSNg'> Locale Teatro Puccini Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia Apri su maps
-  <div class='EventDetailsVenue__Info-sc-a57c3f7e-7 KgtOn'> Locale Teatro Puccini Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia Apri su maps
-  <div class='EventDetailsVenue__Address-sc-a57c3f7e-5 cmurNP'> Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia
-  <div class='EventDetailsVenue__VenueButtons-sc-a57c3f7e-6 brPyDk'> Apri su maps
-  <a class='ButtonBase-sc-2d3bc5db-0 Button-sc-ad124a2f-0 EventDetailsVenue__OpenInMaps-sc-a57c3f7e-1 khcHrl hCGJZS blAIAS'> Apri su maps
-
---- LINK INTERNI (href → testo) ---
-  https://dice.fm/  →  
-  https://dice.fm/browse  →  Guarda che c'è di nuovo
-  https://dice.fm/help  →  Richiedi assistenza
-  https://dice.fm/partners  →  Crea eventi
-  https://dice.fm/login  →  Accedi / Registrati
-  https://dice.fm/download_the_app  →  Scarica l'app
-  https://dice.fm/artist/francesco-costa-v35nd  →  
-  https://dice.fm/about  →  Chi siamo
-  https://dice.fm/jobs  →  Lavora con noi
-  https://dice.fm/diversity-equity-inclusion  →  Diversità, uguaglianza 
-e inclusione
-  https://dice.fm/help/event_refund  →  Chiedi un rimborso
-  https://dice.fm/artists  →  Artisti
-  https://dice.fm/venues  →  Locali
-  https://dice.fm/blog  →  Blog
-  https://dice.fm/press  →  Stampa
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets  →  English
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=fr  →  Français
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=es  →  Español
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=ca  →  Català
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=it  →  Italiano
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=pt  →  Português
-  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=de  →  Deutsch
-  https://dice.fm/privacy_policy.html  →  Informativa sulla privacy
-  https://dice.fm/terms_and_conditions.html  →  Condizioni d'uso
-  https://dice.fm/ticket_purchase_terms.html  →  Condizioni di acquisto
+ERRORE: HTTPError: 403 Client Error: Forbidden for url: https://api.dice.fm/events?city=florence
