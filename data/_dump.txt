@@ -1,749 +1,137 @@
 
 ======================================================================
-URL: https://www.teatropuccini.it/fuori-abbonamento
+URL: https://dice.fm/browse/florence
+======================================================================
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/browse/florence
+
+======================================================================
+URL: https://dice.fm/browse/it/florence
+======================================================================
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/browse/it/florence
+
+======================================================================
+URL: https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets
 ======================================================================
 --- TESTO VISIBILE (primi 14000 char) ---
-Spettacoli fuori abbonamento - Teatro Puccini Firenze
-Il Cartellone
-Spettacoli in abbonamento
-Fuori Abbonamento
-Visioni Autunno Fiorentino
-Per Grandi e Puccini
-Laboratorio Puccini
-Altri Eventi
-Il Teatro
-Biglietteria
-Acquista
-Contatti
-Il Teatro
-Biglietteria
-Acquista
-Contatti
-Fuori Abbonamento – Teatro Puccini Firenze
-Ricerca per:
-Lunedì 30 novembre 2026, ore 21.00
-Maurizio Colombi
-Caveman l'uomo delle caverne
-Mercoledì 9 dicembre 2026, ore 21.00
-Patrick Facciolo
-Silvio, ci manchi?
-Le tecniche di comunicazione che hanno cambiato la nostra vita
-Sabato 21 e domenica 22 novembre 2026, ore 21.00
-GIORGIA FUMO
-OUT OF OFFICE
-Martedì 23 marzo 2027, ore 21.00
-Immanuel Casto
-Non ha senso ma mi adeguo
-Monologo di pragmatismo comico
-Lunedì 23 e martedì 24 novembre 2026, ore 21.00
-MARCO TRAVAGLIO
-Cornuti e contenti
-Ma non sarà anche colpa nostra?
-Venerdì 4 dicembre 2026, ore 21.00
-Accabadora
-dal romanzo di Michela Murgia
-Venerdì 23 ottobre 2026, ore 21.00
-SERENA BONGIOVANNI
-FORAMALOCCHIU
-Giovedì 21 gennaio 2027, ore 21.00
-ENRICO BERTOLINO
-Una Serata di ordinaria Ironia
-Mercoledì 24 marzo 2027, ore 21.00
-TIZIANO LA BELLA
-IN BUONA FEDE
-Giovedì 22 aprile 2027, ore 21.00
-GIORGIO MONTANINI
-LIVE
-Venredì 30 ottobre 2026, ore 21.00
-Jacopo Veneziani
-QUESTA NON È UNA PIPA
-L’ILLUSIONE NELL’ARTE DAL RINASCIMENTO A MAGRITTE
-Venerdì 18 dicembre 2026, ore 21.00
-FEDERICA CAMBA & GIANLUCA SCINTILLA FUBELLI
-Io marte tu mercole
-R-Evolution
-Sabato 3 aprile 2027, ore 21.00
-FRANCESCO PICCOLO e PIF
-ODIO L'ESTATE
-e altri momenti trascurabili
-Mercoledì 30 dicembre 2026, ore 21.00
-Giovedì 31 dicembre 2026, ore 22.00
-BANDA OSIRIS
-FINALE E GRAN FINALE
-Venerdì 20 novembre 2026, ore 21.00
-MONI OVADIA
-SORRIDERE, RIDERE, SGANASCIARSI, SCOMPISCIARSI
-Da venerdì 16 a domenica 18 ottobre / lunedì 14 e martedì 15 dicembre 2026
-ore 21.00 (domenica ore 16.45)
-JONATHAN CANINI
-TE LO GIURO SUL TUO EX
-Sabato 16 gennaio 2027, ore 21.00
-ALESSANDRO RICCIO
-BRUNA È LA NOTTE
-Venerdì 19 marzo 2027, ore 21.00
-ALESSANDRO RICCIO
-LE MILLE E UNA BRUNA
-Venerdì 7 maggio 2027, ore 21.00
-ALESSANDRO RICCIO
-BRUNA PER CARITà
-Venerdì 12 febbraio 2027, ore 21.00
-I CENTOUNO
-CI PENSIAMO DOMANI
-Mercoledì 2 dicembre 2026, ore 21.00
-MAURIZIO NICHETTI
-Occhi aperti!
-Serata tra amici
-Giovedì 11 febbraio 2027, ore 21.00
-RAFFAELLO TULLO
-ALGORITMO: LUI E L’AI
-Sabato 8 maggio 2027, ore 21.00
-FRANCESCO DI TULLIO
-GEN Z
-chi sono veramente?
-Martedì 6 ottobre 2026, ore 21.00
-BRICIOLE
-minuzzoli di David Riondino
-Sabato 27 febbraio 2027, ore 21.00
-MARIO TOZZI e LORENZO BAGLIONI
-CHI HA UCCISO IL PIANETA?
-Giovedì 12 novembre 2026, ore 21.00
-JACOPO FO
-COME È ESSER FIGLIO DI FRANCA RAME E DARIO FO
-Sabato 28 novembre 2026, ore 21.00
-UGO DIGHERO
-MISTERO BUFFO
-Il primo miracolo di Gesù bambino e La parpàja topola
-Martedì 10 novembre 2026, ore 21.00
-ADRIANO MILIANI
-IL COLLOQUIO
-come restare felici cercando un lavoro ai giorni nostri
-Giovedì 6 maggio 2027, ore 21.00
-UBALDO PANTANI
-INIMITABILE
-Mercoledì 21 ottobre 2026, ore 21.00
-CANTI E TANGHI PER BOBO E BIBI
-Venerdì 2 aprile 2027, ore 21.00
-GLI ILLUSIONISTI DELLA DANZA
-FOCUS
-PRISMA DI LUCE
-Venerdì 20 novembre 2026, ore 21.00
-Teatro delle Spiagge
-GIANGILBERTO MONTI
-LE CANZONI DEL SIGNOR DARIO FO
-Lunedì 1 marzo 2027, ore 21.00
-PIERLUCA MARITI
-ABBI PAZIENZA
-Mercoledì 4 novembre 2026, ore 21.00
-GIANMARIA VASSALLO
-TUTTOTOSCANO
-Niu ediscion
-Martedì 27 aprile 2027, ore 21.00
-VINCENZO COMUNALE
-PRIMA PAGINA
-Martedì 16 marzo 2027, ore 21.00
-ANDREA SCANZI
-ORA O MAI PIÙ
-Giovedì 14 gennaio 2027, ore 21.00
-SILVIA BENCIVELLI e DARIO VERGASSOLA
-MEDICINA SPERICOLATA
-Un viaggio tra scienza, coraggio e ironia
-Giovedì 4 marzo 2027, ore 21.00
-WALTER VELTRONI
-Le emozioni che abbiamo vissuto
-Gli anni ’70, sole e luna
-Sabato 24 aprile 2027, ore 21.00
-PAOLO KESSISOGLU
-Sfidati di me
-Domenica 24 gennaio 2027, ore 21.00
-PACIFICO
-DIARIO SENTIMENTALE DI UNA DONNA LIBERA
-Ornella Vanoni: le parole, la musica
-Mercoledì 7 aprile 2027, ore 21.00
-DANIELE GATTANO
-MINIMI SISTEMI E POCO ALTRO
-Lunedì 25 gennaio 2027 SOLD OUT
-Martedì 26 gennaio 2027 NUOVA DATA
-ore 21.00
-Michela Giraud
-FISICAMENTE MI PIACCIONO TUTTI
-Giovedì 15 aprile 2027, ore 21.00
-CORINNA GRANDI
-Anche voi qui?
-L'eleganza del fallimento
-Martedì 13 aprile 2027, ore 21.00
-ARIANNA PORCELLI SAFONOV
-PICCHIAMOCI
-Martedì 20 aprile 2027, ore 21.00
-CHIARA PAGLIACCIA
-LA RABBIA
-Giovedì 25 febbraio 2027, ore 21.00
-LA FABBRICA DEL NULLA
-MUSICA SCONVENIENTE
-Mercoledì 16 dicembre 2026, ore 21.00
-Padre Guidalberto Bormolini
-IL FUOCO DELLE PASSIONI
-Dall’amore che finisce all’amare che infinisce
-Sabato 6 febbraio 2027, ore 21.00
-Padre Guidalberto Bormolini
-TRAS-GREDIRE
-Andare oltre, fino al settimo cielo!
-Sponsor
-Con il patrocinio e contributo di
-Con il contributo di
-Sostenuto da
-Main sponsor
-Sponsor tecnico
-Media partner
-Fornitori ufficiali
-Fa parte di
-62 Poltrone in Memoria delle Vittime delle Mafie
-Progetto "Vittime delle mafie"
-Il Teatro Puccini ha inaugurato il progetto “Vittime delle mafie”, dedicando 62 poltrone della sala alle vittime della criminalità organizzata. Ogni posto riporterà un nome e un QR code con cenni biografici, trasformando il teatro in un luogo permanente di memoria e impegno civile.
-Scopri di più
-Scuola di teatro CATALYST presso il Teatro Puccini
-Scuola di Teatro e Arti sceniche e Centro Ricerca Formazione, dal 1998 attiva nel campo dell’insegnamento e della formazione teatrale presso la sede del Teatro Puccini di Firenze.
-Scopri di più
-Caffè del Teatro Puccini
-Aperitivi, pranzi, cene, eventi privati e feste per bambini. Per info 349 474 7509
-Scopri di più
-Spettacoli
-Il Cartellone
-Spettacoli Passati
-Spettacoli in abbonamento
-Fuori Abbonamento
-Visioni Autunno Fiorentino
-Per Grandi e Puccini
-Laboratorio Puccini
-Altri Eventi
-Contatti
-Via delle Cascine 41
-50144
+Francesco Costa presenta: Come se ne esce. Il mondo dopo Donald Trump Biglietti | 27 ott | Teatro Puccini, Firenze | DICE
+Cerca per evento, locale o città
+Guarda che c'è di nuovo
+Richiedi assistenza
+Crea eventi
+Accedi / Registrati
+Scarica l'app
+DICE protegge lз fan e lз artistз dai bagarini. I biglietti vengono memorizzati in modo sicuro nell'app.
+Francesco Costa presenta: Come se ne esce. Il mondo dopo Donald Trump
+Teatro Puccini
+mar 27 ott, 21:00
+Artist signing
 Firenze
-055 362067
-info@teatropuccini.it
-Orario Biglietteria
-La biglietteria del teatro è aperta dal mercoledì al sabato dalle ore 16.00 alle ore 19.00 e un’ora prima dell’inizio degli spettacoli.
-Acquista online
-Box office
-Legal
-Associazione Culturale Teatro Puccini
-P.I. 05241440485 — C.F. 94089000486
-Amministrazione Trasparente
-Cookie Policy
-Privacy Policy
-Modifica il tuo consenso sui cookie
-design
-Kidstudio
+4 €
+Quanto pagherai. Senza brutte sorprese.
+Hai un codice?
+Per sconti o biglietti bloccati
+Hai un codice?
+A proposito di
+Francesco Costa, in dialogo con Eugenio Cau, racconta gli Stati Uniti di oggi in occasione della presentazione del suo ultimo libro, "Come se ne esce. Il mondo dopo Donald Trump" (Mondadori).
+La crisi politica e culturale americana non nasce con Donald Tr...
+Continua a leggere
+Tutte le età
+Presentato da Fondazione Stensen.
+Line up
+Francesco Costa
+21:00
+Segui
+Locale
+Teatro Puccini
+Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia
+Apri su maps
+Apertura porte
+20:00
+Domande frequenti
+Perché è previsto un biglietto per partecipare all’incontro?
+Permettere a più persone possibili di partecipare significa affittare uno spazio più grande (e costoso) e operare con un maggiore sforzo organizzativo. Chiediamo un piccolo contributo a parziale copertura dei costi sostenuti, per rendere la serata piacevole e accessibile a tutti.
+Perché è necessario prendere un numero per accedere al firmacopie?
+Se siete tanti può essere antipatico stare in fila a lungo, così la successione è più ordinata e si può stimare quanto tempo manca prima del proprio turno. E se avete fretta di rientrare a casa lo scambio di numerini tra partecipanti è assolutamente consentito!
+Posso far firmare più di un libro?
+Sì, è possibile chiedere a Francesco di firmare Frontiera o altri suoi libri precedenti, o più copie dello stesso. L’unica cosa che vi chiediamo è di non chiedere Selfie o foto in posa per non rallentare oltremodo il firmacopie.
+Scarica l'app di DICE
+Scopri le migliori serate nella tua città con consigli personalizzati basati sulla tua libreria musicale
+Tieni sott'occhio le novità salvando eventi, condividendoli con gli amici o persino ascoltando nuova musica nell'app.
+Abbiamo reso semplice scambiare un biglietto con unə amicə o restituirlo alla lista d'attesa. Niente stress.
+iOS
+Android
+DICE protegge lз fan e lз artistз dai bagarini. I biglietti vengono memorizzati in modo sicuro nell'app.
+La nostra azienda
+Chi siamo
+Lavora con noi
+Diversità, uguaglianza 
+e inclusione
+Assistenza allз fan
+Richiedi assistenza
+Domande frequenti
+Chiedi un rimborso
+Risorse
+Artisti
+Locali
+Blog
+Stampa
+Partner
+iOS
+Android
+Italiano
+English
+English (United States)
+English (Canada)
+Français
+Español
+Català
+Italiano
+Português
+Deutsch
+Informativa sulla privacy
+Condizioni d'uso
+Condizioni di acquisto
+Impostazioni dei cookie
+iOS
+Android
+© DICE FM Holdings Ltd
+I loghi DICE e The Fan sono marchi registrati di DICE FM Holdings, Ltd.
 
 --- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='date-container'> Lunedì 30 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Lunedì 30 novembre 2026, ore 21.00
-  <div class='date-container'> Mercoledì 9 dicembre 2026, ore 21.00
-  <div class='date-wrapper'> Mercoledì 9 dicembre 2026, ore 21.00
-  <div class='date-container'> Sabato 21 e domenica 22 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Sabato 21 e domenica 22 novembre 2026, ore 21.00
-  <div class='date-container'> Martedì 23 marzo 2027, ore 21.00
-  <div class='date-wrapper'> Martedì 23 marzo 2027, ore 21.00
-  <div class='date-container'> Lunedì 23 e martedì 24 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Lunedì 23 e martedì 24 novembre 2026, ore 21.00
-  <div class='date-container'> Venerdì 4 dicembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 4 dicembre 2026, ore 21.00
-  <div class='date-container'> Venerdì 23 ottobre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 23 ottobre 2026, ore 21.00
-  <div class='date-container'> Giovedì 21 gennaio 2027, ore 21.00
-  <div class='date-wrapper'> Giovedì 21 gennaio 2027, ore 21.00
-  <div class='date-container'> Mercoledì 24 marzo 2027, ore 21.00
-  <div class='date-wrapper'> Mercoledì 24 marzo 2027, ore 21.00
-  <div class='date-container'> Giovedì 22 aprile 2027, ore 21.00
-  <div class='date-wrapper'> Giovedì 22 aprile 2027, ore 21.00
-  <div class='date-container'> Venredì 30 ottobre 2026, ore 21.00
-  <div class='date-wrapper'> Venredì 30 ottobre 2026, ore 21.00
-  <div class='date-container'> Venerdì 18 dicembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 18 dicembre 2026, ore 21.00
-  <div class='date-container'> Sabato 3 aprile 2027, ore 21.00
-  <div class='date-wrapper'> Sabato 3 aprile 2027, ore 21.00
-  <div class='date-container'> Mercoledì 30 dicembre 2026, ore 21.00 Giovedì 31 dicembre 2026, ore 22.00
-  <div class='date-wrapper'> Mercoledì 30 dicembre 2026, ore 21.00 Giovedì 31 dicembre 2026, ore 22.00
-  <div class='date-container'> Venerdì 20 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 20 novembre 2026, ore 21.00
-  <div class='date-container'> Da venerdì 16 a domenica 18 ottobre / lunedì 14 e martedì 15 dicembre 2026 ore 21.00 (domenica ore 16.45)
-  <div class='date-wrapper'> Da venerdì 16 a domenica 18 ottobre / lunedì 14 e martedì 15 dicembre 2026 ore 21.00 (domenica ore 16.45)
-  <div class='date-container'> Sabato 16 gennaio 2027, ore 21.00
-  <div class='date-wrapper'> Sabato 16 gennaio 2027, ore 21.00
-  <div class='date-container'> Venerdì 19 marzo 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 19 marzo 2027, ore 21.00
-  <div class='date-container'> Venerdì 7 maggio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 7 maggio 2027, ore 21.00
-  <div class='date-container'> Venerdì 12 febbraio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 12 febbraio 2027, ore 21.00
+  <div class='EventDetailsTitle__Venues-sc-3ffadff4-1 kdoajM'> Teatro Puccini
+  <div class='EventDetailsTitle__Date-sc-3ffadff4-2 deMfEy'> mar 27 ott, 21:00
+  <div class='EventDetailsLineup__PerformingTime-sc-580d1e3e-13 gScKO'> 21:00
+  <div class='EventDetailsVenue__Container-sc-a57c3f7e-3 iUnzQb'> Locale Teatro Puccini Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia Apri su maps Apertura porte 20:00
+  <div class='EventDetailsVenue__Wrapper-sc-a57c3f7e-4 jDpSNg'> Locale Teatro Puccini Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia Apri su maps
+  <div class='EventDetailsVenue__Info-sc-a57c3f7e-7 KgtOn'> Locale Teatro Puccini Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia Apri su maps
+  <div class='EventDetailsVenue__Address-sc-a57c3f7e-5 cmurNP'> Via delle Cascine 41, 50144 Firenze città metropolitana di Firenze, Italia
+  <div class='EventDetailsVenue__VenueButtons-sc-a57c3f7e-6 brPyDk'> Apri su maps
+  <a class='ButtonBase-sc-2d3bc5db-0 Button-sc-ad124a2f-0 EventDetailsVenue__OpenInMaps-sc-a57c3f7e-1 khcHrl hCGJZS blAIAS'> Apri su maps
 
 --- LINK INTERNI (href → testo) ---
-  https://www.teatropuccini.it  →  
-  https://www.teatropuccini.it/cartellone  →  Il Cartellone
-  https://www.teatropuccini.it/spettacoli-in-abbonamento  →  Spettacoli in abbonamento
-  https://www.teatropuccini.it/fuori-abbonamento  →  Fuori Abbonamento
-  https://www.teatropuccini.it/visioni-autunno-fiorentino  →  Visioni Autunno Fiorentino
-  https://www.teatropuccini.it/per-grandi-e-puccini  →  Per Grandi e Puccini
-  https://www.teatropuccini.it/laboratorio-puccini  →  Laboratorio Puccini
-  https://www.teatropuccini.it/altri-eventi  →  Altri Eventi
-  https://www.teatropuccini.it/il-teatro  →  Il Teatro
-  https://www.teatropuccini.it/biglietteria  →  Biglietteria
-  https://www.teatropuccini.it/contatti  →  Contatti
-  https://www.teatropuccini.it/maurizio-colombi-caveman-luomo-delle-caverne-nuova-replica-3/  →  Lunedì 30 novembre 2026, ore 21.00 Maurizio Colombi Caveman l'uomo del
-  https://www.teatropuccini.it/patrick-facciolo/  →  Mercoledì 9 dicembre 2026, ore 21.00 Patrick Facciolo Silvio, ci manch
-  https://www.teatropuccini.it/giorgia-fumo-out-of-office-nuova-data/  →  Sabato 21 e domenica 22 novembre 2026, ore 21.00 GIORGIA FUMO OUT OF O
-  https://www.teatropuccini.it/immanuel-casto-non-ha-senso/  →  Martedì 23 marzo 2027, ore 21.00 Immanuel Casto Non ha senso ma mi ade
-  https://www.teatropuccini.it/marco-travaglio-cornuti-e-contenti/  →  Lunedì 23 e martedì 24 novembre 2026, ore 21.00 MARCO TRAVAGLIO Cornut
-  https://www.teatropuccini.it/accabadora-dicembre-2026/  →  Venerdì 4 dicembre 2026, ore 21.00 Accabadora dal romanzo di Michela M
-  https://www.teatropuccini.it/serena-bongiovanni-foramalocchio/  →  Venerdì 23 ottobre 2026, ore 21.00 SERENA BONGIOVANNI FORAMALOCCHIU
-  https://www.teatropuccini.it/enrico-bertolino/  →  Giovedì 21 gennaio 2027, ore 21.00 ENRICO BERTOLINO Una Serata di ordi
-  https://www.teatropuccini.it/tiziano-la-bella-2/  →  Mercoledì 24 marzo 2027, ore 21.00 TIZIANO LA BELLA IN BUONA FEDE
-  https://www.teatropuccini.it/giorgio-montanini-live/  →  Giovedì 22 aprile 2027, ore 21.00 GIORGIO MONTANINI LIVE
-  https://www.teatropuccini.it/jacopo-veneziani-questa-non-e-una-pipa/  →  Venredì 30 ottobre 2026, ore 21.00 Jacopo Veneziani QUESTA NON È UNA P
-  https://www.teatropuccini.it/4561-2/  →  Venerdì 18 dicembre 2026, ore 21.00 FEDERICA CAMBA & GIANLUCA SCINTILL
-  https://www.teatropuccini.it/francesco-piccolo-e-pif-odio-estate/  →  Sabato 3 aprile 2027, ore 21.00 FRANCESCO PICCOLO e PIF ODIO L'ESTATE 
-  https://www.teatropuccini.it/banda-osiris-finale-e-gran-finale/  →  Mercoledì 30 dicembre 2026, ore 21.00 Giovedì 31 dicembre 2026, ore 22
-  https://www.teatropuccini.it/moni-ovadia/  →  Venerdì 20 novembre 2026, ore 21.00 MONI OVADIA SORRIDERE, RIDERE, SGA
-  https://www.teatropuccini.it/jonathan-canini-te-lo-giuro-sul-tuo-ex/  →  Da venerdì 16 a domenica 18 ottobre / lunedì 14 e martedì 15 dicembre 
-  https://www.teatropuccini.it/bruna-e-la-notte-2027/  →  Sabato 16 gennaio 2027, ore 21.00 ALESSANDRO RICCIO BRUNA È LA NOTTE
-  https://www.teatropuccini.it/le-mille-e-una-bruna/  →  Venerdì 19 marzo 2027, ore 21.00 ALESSANDRO RICCIO LE MILLE E UNA BRUN
-  https://www.teatropuccini.it/bruna-per-carita/  →  Venerdì 7 maggio 2027, ore 21.00 ALESSANDRO RICCIO BRUNA PER CARITà
-  https://www.teatropuccini.it/i-centouno-ci-pensiamo-domani/  →  Venerdì 12 febbraio 2027, ore 21.00 I CENTOUNO CI PENSIAMO DOMANI
-  https://www.teatropuccini.it/maurizio-nichetti-occhi-aperti/  →  Mercoledì 2 dicembre 2026, ore 21.00 MAURIZIO NICHETTI Occhi aperti! S
-  https://www.teatropuccini.it/raffaello-tullo-algoritmo-lui-e-l-ai/  →  Giovedì 11 febbraio 2027, ore 21.00 RAFFAELLO TULLO ALGORITMO: LUI E L
-  https://www.teatropuccini.it/gen-z/  →  Sabato 8 maggio 2027, ore 21.00 FRANCESCO DI TULLIO GEN Z chi sono ver
-  https://www.teatropuccini.it/briciole-minuzzoli-di-david-riondino/  →  Martedì 6 ottobre 2026, ore 21.00 BRICIOLE minuzzoli di David Riondino
-  https://www.teatropuccini.it/tozzi-baglioni-chi-ha-ucciso-il-pianeta/  →  Sabato 27 febbraio 2027, ore 21.00 MARIO TOZZI e LORENZO BAGLIONI CHI 
-  https://www.teatropuccini.it/jacopo-fo-come-e-esser-figlio-di-franca-rame-e-dario-fo/  →  Giovedì 12 novembre 2026, ore 21.00 JACOPO FO COME È ESSER FIGLIO DI F
-  https://www.teatropuccini.it/ugo-dighero-mistero-buffo/  →  Sabato 28 novembre 2026, ore 21.00 UGO DIGHERO MISTERO BUFFO Il primo 
-  https://www.teatropuccini.it/adriano-miliani-il-colloquio/  →  Martedì 10 novembre 2026, ore 21.00 ADRIANO MILIANI IL COLLOQUIO come 
-  https://www.teatropuccini.it/ubaldo-pantani-inimitabile/  →  Giovedì 6 maggio 2027, ore 21.00 UBALDO PANTANI INIMITABILE
-  https://www.teatropuccini.it/canti-e-tanghi-per-bobo-e-bibi/  →  Mercoledì 21 ottobre 2026, ore 21.00 CANTI E TANGHI PER BOBO E BIBI
-  https://www.teatropuccini.it/gli-illusionisti-della-danza-focus-prisma-di-luce/  →  Venerdì 2 aprile 2027, ore 21.00 GLI ILLUSIONISTI DELLA DANZA FOCUS PR
-  https://www.teatropuccini.it/giangilberto-monti/  →  Venerdì 20 novembre 2026, ore 21.00 Teatro delle Spiagge GIANGILBERTO 
-  https://www.teatropuccini.it/pierluca-mariti-abbi-pazienza/  →  Lunedì 1 marzo 2027, ore 21.00 PIERLUCA MARITI ABBI PAZIENZA
-  https://www.teatropuccini.it/gianmaria-vassallo-tuttotoscano/  →  Mercoledì 4 novembre 2026, ore 21.00 GIANMARIA VASSALLO TUTTOTOSCANO N
-  https://www.teatropuccini.it/vincenzo-comunale-prima-pagina/  →  Martedì 27 aprile 2027, ore 21.00 VINCENZO COMUNALE PRIMA PAGINA
-  https://www.teatropuccini.it/andrea-scanzi-ora-o-mai-piu/  →  Martedì 16 marzo 2027, ore 21.00 ANDREA SCANZI ORA O MAI PIÙ
-  https://www.teatropuccini.it/bencivelli-vergassola-medicina-spericolata/  →  Giovedì 14 gennaio 2027, ore 21.00 SILVIA BENCIVELLI e DARIO VERGASSOL
-  https://www.teatropuccini.it/walter-veltroni/  →  Giovedì 4 marzo 2027, ore 21.00 WALTER VELTRONI Le emozioni che abbiam
-  https://www.teatropuccini.it/paolo-kessisoglu/  →  Sabato 24 aprile 2027, ore 21.00 PAOLO KESSISOGLU Sfidati di me
-  https://www.teatropuccini.it/pacifico-diario-sentimentale-di-una-donna-libera/  →  Domenica 24 gennaio 2027, ore 21.00 PACIFICO DIARIO SENTIMENTALE DI UN
-  https://www.teatropuccini.it/daniele-gattano-minimi-sistemi-e-poco-altro/  →  Mercoledì 7 aprile 2027, ore 21.00 DANIELE GATTANO MINIMI SISTEMI E PO
-  https://www.teatropuccini.it/michela-giraud-fisicamente-mi-piacciono-tutti/  →  Lunedì 25 gennaio 2027 SOLD OUT Martedì 26 gennaio 2027 NUOVA DATA ore
-  https://www.teatropuccini.it/corinna-grandi/  →  Giovedì 15 aprile 2027, ore 21.00 CORINNA GRANDI Anche voi qui? L'eleg
-  https://www.teatropuccini.it/arianna-porcelli-safonov-picchiamoci/  →  Martedì 13 aprile 2027, ore 21.00 ARIANNA PORCELLI SAFONOV PICCHIAMOCI
-  https://www.teatropuccini.it/chiara-pagliaccia-2/  →  Martedì 20 aprile 2027, ore 21.00 CHIARA PAGLIACCIA LA RABBIA
-  https://www.teatropuccini.it/la-fabbrica-del-nulla/  →  Giovedì 25 febbraio 2027, ore 21.00 LA FABBRICA DEL NULLA MUSICA SCONV
-  https://www.teatropuccini.it/padre-bormolini-il-fuoco-delle-passioni/  →  Mercoledì 16 dicembre 2026, ore 21.00 Padre Guidalberto Bormolini IL F
-  https://www.teatropuccini.it/padre-bormolini-tras-gredire/  →  Sabato 6 febbraio 2027, ore 21.00 Padre Guidalberto Bormolini TRAS-GRE
-  https://www.teatropuccini.it/il-teatro-puccini-dedica-62-poltrone-alle-vittime-delle-mafie/  →  62 Poltrone in Memoria delle Vittime delle Mafie
-
-======================================================================
-URL: https://www.teatropuccini.it/visioni-autunno-fiorentino
-======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-Visioni Autunno Fiorentino - Teatro Puccini Firenze
-Il Cartellone
-Spettacoli in abbonamento
-Fuori Abbonamento
-Visioni Autunno Fiorentino
-Per Grandi e Puccini
-Laboratorio Puccini
-Altri Eventi
-Il Teatro
-Biglietteria
-Acquista
-Contatti
-Il Teatro
-Biglietteria
-Acquista
-Contatti
-Visioni Autunno Fiorentino – Teatro Puccini Firenze
-Ricerca per:
-Venredì 30 ottobre 2026, ore 21.00
-Jacopo Veneziani
-QUESTA NON È UNA PIPA
-L’ILLUSIONE NELL’ARTE DAL RINASCIMENTO A MAGRITTE
-Venerdì 20 novembre 2026, ore 21.00
-MONI OVADIA
-SORRIDERE, RIDERE, SGANASCIARSI, SCOMPISCIARSI
-Domenica 15 novembre 2026, ore 21.00
-LICIA LANERA
-JAMES
-Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45)
-Laboratorio Puccini
-DANIELE TIMPANO
-CACCIA 'L DRAGO
-Martedì 6 ottobre 2026, ore 21.00
-BRICIOLE
-minuzzoli di David Riondino
-Giovedì 12 novembre 2026, ore 21.00
-JACOPO FO
-COME È ESSER FIGLIO DI FRANCA RAME E DARIO FO
-Sabato 28 novembre 2026, ore 21.00
-UGO DIGHERO
-MISTERO BUFFO
-Il primo miracolo di Gesù bambino e La parpàja topola
-Martedì 10 novembre 2026, ore 21.00
-ADRIANO MILIANI
-IL COLLOQUIO
-come restare felici cercando un lavoro ai giorni nostri
-Mercoledì 21 ottobre 2026, ore 21.00
-CANTI E TANGHI PER BOBO E BIBI
-Sabato 21 novembre 2026, ore 21.30
-Laboratorio Puccini
-PAOLA DE CRESCENZO e GIUSEPPE SCARPATO
-EMMA
-Venerdì 20 novembre 2026, ore 21.00
-Teatro delle Spiagge
-GIANGILBERTO MONTI
-LE CANZONI DEL SIGNOR DARIO FO
-Mercoledì 4 novembre 2026, ore 21.00
-GIANMARIA VASSALLO
-TUTTOTOSCANO
-Niu ediscion
-Sabato 3 ottobre 2026, ore 17.00
-Parco dell'Anconella
-FRATELLI DALLA VIA
-ANTROPOCÈNE E ALTRI POCÉTI
-Domenica 4 ottobre 2026, ore 17.00
-Parco di Villa Strozzi
-GIOVANNIN SENZA PAURA
-Pupi di Stac
-Domenica 11 ottobre 2026, ore 17.00
-Parco di Villa Strozzi
-ISOLE FERME LEGGERMENTE MOSSE
-Compagnia dei Cosi
-Sponsor
-Con il patrocinio e contributo di
-Con il contributo di
-Sostenuto da
-Main sponsor
-Sponsor tecnico
-Media partner
-Fornitori ufficiali
-Fa parte di
-62 Poltrone in Memoria delle Vittime delle Mafie
-Progetto "Vittime delle mafie"
-Il Teatro Puccini ha inaugurato il progetto “Vittime delle mafie”, dedicando 62 poltrone della sala alle vittime della criminalità organizzata. Ogni posto riporterà un nome e un QR code con cenni biografici, trasformando il teatro in un luogo permanente di memoria e impegno civile.
-Scopri di più
-Scuola di teatro CATALYST presso il Teatro Puccini
-Scuola di Teatro e Arti sceniche e Centro Ricerca Formazione, dal 1998 attiva nel campo dell’insegnamento e della formazione teatrale presso la sede del Teatro Puccini di Firenze.
-Scopri di più
-Caffè del Teatro Puccini
-Aperitivi, pranzi, cene, eventi privati e feste per bambini. Per info 349 474 7509
-Scopri di più
-Spettacoli
-Il Cartellone
-Spettacoli Passati
-Spettacoli in abbonamento
-Fuori Abbonamento
-Visioni Autunno Fiorentino
-Per Grandi e Puccini
-Laboratorio Puccini
-Altri Eventi
-Contatti
-Via delle Cascine 41
-50144
-Firenze
-055 362067
-info@teatropuccini.it
-Orario Biglietteria
-La biglietteria del teatro è aperta dal mercoledì al sabato dalle ore 16.00 alle ore 19.00 e un’ora prima dell’inizio degli spettacoli.
-Acquista online
-Box office
-Legal
-Associazione Culturale Teatro Puccini
-P.I. 05241440485 — C.F. 94089000486
-Amministrazione Trasparente
-Cookie Policy
-Privacy Policy
-Modifica il tuo consenso sui cookie
-design
-Kidstudio
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='date-container'> Venredì 30 ottobre 2026, ore 21.00
-  <div class='date-wrapper'> Venredì 30 ottobre 2026, ore 21.00
-  <div class='date-container'> Venerdì 20 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 20 novembre 2026, ore 21.00
-  <div class='date-container'> Domenica 15 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Domenica 15 novembre 2026, ore 21.00
-  <div class='date-container'> Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45) Laboratorio Puccini
-  <div class='date-wrapper'> Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45) Laboratorio Puccini
-  <div class='date-container'> Martedì 6 ottobre 2026, ore 21.00
-  <div class='date-wrapper'> Martedì 6 ottobre 2026, ore 21.00
-  <div class='date-container'> Giovedì 12 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Giovedì 12 novembre 2026, ore 21.00
-  <div class='date-container'> Sabato 28 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Sabato 28 novembre 2026, ore 21.00
-  <div class='date-container'> Martedì 10 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Martedì 10 novembre 2026, ore 21.00
-  <div class='date-container'> Mercoledì 21 ottobre 2026, ore 21.00
-  <div class='date-wrapper'> Mercoledì 21 ottobre 2026, ore 21.00
-  <div class='date-container'> Sabato 21 novembre 2026, ore 21.30 Laboratorio Puccini
-  <div class='date-wrapper'> Sabato 21 novembre 2026, ore 21.30 Laboratorio Puccini
-  <div class='date-container'> Venerdì 20 novembre 2026, ore 21.00 Teatro delle Spiagge
-  <div class='date-wrapper'> Venerdì 20 novembre 2026, ore 21.00 Teatro delle Spiagge
-  <div class='date-container'> Mercoledì 4 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Mercoledì 4 novembre 2026, ore 21.00
-  <div class='date-container'> Sabato 3 ottobre 2026, ore 17.00 Parco dell'Anconella
-  <div class='date-wrapper'> Sabato 3 ottobre 2026, ore 17.00 Parco dell'Anconella
-  <div class='date-container'> Domenica 4 ottobre 2026, ore 17.00 Parco di Villa Strozzi
-  <div class='date-wrapper'> Domenica 4 ottobre 2026, ore 17.00 Parco di Villa Strozzi
-  <div class='date-container'> Domenica 11 ottobre 2026, ore 17.00 Parco di Villa Strozzi
-  <div class='date-wrapper'> Domenica 11 ottobre 2026, ore 17.00 Parco di Villa Strozzi
-
---- LINK INTERNI (href → testo) ---
-  https://www.teatropuccini.it  →  
-  https://www.teatropuccini.it/cartellone  →  Il Cartellone
-  https://www.teatropuccini.it/spettacoli-in-abbonamento  →  Spettacoli in abbonamento
-  https://www.teatropuccini.it/fuori-abbonamento  →  Fuori Abbonamento
-  https://www.teatropuccini.it/visioni-autunno-fiorentino  →  Visioni Autunno Fiorentino
-  https://www.teatropuccini.it/per-grandi-e-puccini  →  Per Grandi e Puccini
-  https://www.teatropuccini.it/laboratorio-puccini  →  Laboratorio Puccini
-  https://www.teatropuccini.it/altri-eventi  →  Altri Eventi
-  https://www.teatropuccini.it/il-teatro  →  Il Teatro
-  https://www.teatropuccini.it/biglietteria  →  Biglietteria
-  https://www.teatropuccini.it/contatti  →  Contatti
-  https://www.teatropuccini.it/jacopo-veneziani-questa-non-e-una-pipa/  →  Venredì 30 ottobre 2026, ore 21.00 Jacopo Veneziani QUESTA NON È UNA P
-  https://www.teatropuccini.it/moni-ovadia/  →  Venerdì 20 novembre 2026, ore 21.00 MONI OVADIA SORRIDERE, RIDERE, SGA
-  https://www.teatropuccini.it/licia-lanera-james/  →  Domenica 15 novembre 2026, ore 21.00 LICIA LANERA JAMES
-  https://www.teatropuccini.it/daniele-timpano-caccia-l-drago/  →  Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45) 
-  https://www.teatropuccini.it/briciole-minuzzoli-di-david-riondino/  →  Martedì 6 ottobre 2026, ore 21.00 BRICIOLE minuzzoli di David Riondino
-  https://www.teatropuccini.it/jacopo-fo-come-e-esser-figlio-di-franca-rame-e-dario-fo/  →  Giovedì 12 novembre 2026, ore 21.00 JACOPO FO COME È ESSER FIGLIO DI F
-  https://www.teatropuccini.it/ugo-dighero-mistero-buffo/  →  Sabato 28 novembre 2026, ore 21.00 UGO DIGHERO MISTERO BUFFO Il primo 
-  https://www.teatropuccini.it/adriano-miliani-il-colloquio/  →  Martedì 10 novembre 2026, ore 21.00 ADRIANO MILIANI IL COLLOQUIO come 
-  https://www.teatropuccini.it/canti-e-tanghi-per-bobo-e-bibi/  →  Mercoledì 21 ottobre 2026, ore 21.00 CANTI E TANGHI PER BOBO E BIBI
-  https://www.teatropuccini.it/paola-de-crescenzo-giuseppe-scarpato-emma/  →  Sabato 21 novembre 2026, ore 21.30 Laboratorio Puccini PAOLA DE CRESCE
-  https://www.teatropuccini.it/giangilberto-monti/  →  Venerdì 20 novembre 2026, ore 21.00 Teatro delle Spiagge GIANGILBERTO 
-  https://www.teatropuccini.it/gianmaria-vassallo-tuttotoscano/  →  Mercoledì 4 novembre 2026, ore 21.00 GIANMARIA VASSALLO TUTTOTOSCANO N
-  https://www.teatropuccini.it/antropocene-e-altri-poceti/  →  Sabato 3 ottobre 2026, ore 17.00 Parco dell'Anconella FRATELLI DALLA V
-  https://www.teatropuccini.it/giovannin-senza-paura-2/  →  Domenica 4 ottobre 2026, ore 17.00 Parco di Villa Strozzi GIOVANNIN SE
-  https://www.teatropuccini.it/isole-ferme/  →  Domenica 11 ottobre 2026, ore 17.00 Parco di Villa Strozzi ISOLE FERME
-  https://www.teatropuccini.it/il-teatro-puccini-dedica-62-poltrone-alle-vittime-delle-mafie/  →  62 Poltrone in Memoria delle Vittime delle Mafie
-  https://www.teatropuccini.it/spettacoli-passati  →  Spettacoli Passati
-  https://www.teatropuccini.it/amministrazione-trasparente  →  Amministrazione Trasparente
-
-======================================================================
-URL: https://www.teatropuccini.it/spettacoli-in-abbonamento
-======================================================================
---- TESTO VISIBILE (primi 14000 char) ---
-Spettacoli in abbonamento - Teatro Puccini Firenze
-Il Cartellone
-Spettacoli in abbonamento
-Fuori Abbonamento
-Visioni Autunno Fiorentino
-Per Grandi e Puccini
-Laboratorio Puccini
-Altri Eventi
-Il Teatro
-Biglietteria
-Acquista
-Contatti
-Il Teatro
-Biglietteria
-Acquista
-Contatti
-Spettacoli in abbonamento – Teatro Puccini Firenze
-Ricerca per:
-Lunedì 8 marzo 2027, ore 21.00
-RICORDATEMI COME VI PARE
-Venerdì 6 e sabato 7 novembre 2026, ore 21.00
-Paolo Calabresi
-Tutti gli uomini che non sono
-Venerdì 13 e sabato 14 novembre 2026, ore 21.00
-AMBRA ANGIOLINI
-LA MISTERIOSA SCOMPARSA DI W
-Mercoledì 25 novembre 2026, ore 21.00
-FEDERICA ROSELLINI
-IVAN E I CANI
-Venerdì 18 dicembre 2026, ore 21.30
-Laboratorio Puccini
-GIORGIA CERRUTI
-APE REGINA
-una giornata per Molly Bloom
-Venerdì 11 e 12 dicembre 2026, ore 21.00
-COMPAGNIA FINZI PASCA
-PRIMA FACIE
-Venerdì 15 gennaio 2027, ore 21.00
-week end
-di Annibale Ruccello
-Venerdì 29 e sabato 30 gennaio 2027, ore 21.00
-PAOLO HENDEL E LUCIA VASINI
-TERZO TEMPO
-Sabato 13 e domenica 14 febbraio 2027, ore 21.00
-domenica ore 16.45
-MARCO PAOLINI
-BESTIARIO IDRICO
-Venerdì 19 e sabato 20 febbraio 2027, ore 21.00
-OBLIVION
-WIN FOR LIFE
-Venerdì 5 e sabato 6 marzo 2027, ore 21.00
-CARROZZERIA ORFEO
-MISURARE IL SALTO DELLE RANE
-Sabato 20 e domenica 21 marzo 2027
-ore 21.00 (domenica ore 16.45)
-ANDREA PENNACCHI
-ALIENI IN LAGUNA
-Venerdì 9 e sabato 10 aprile 2027, ore 21.00
-FAMILIE FLÖZ
-FINALE un’ouverture
-Venerdì 16 e sabato 17 aprile 2027, ore 21.00
-ALE & FRANZ
-CAPITOL’HO
-Domenica 15 novembre 2026, ore 21.00
-LICIA LANERA
-JAMES
-Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45)
-Laboratorio Puccini
-DANIELE TIMPANO
-CACCIA 'L DRAGO
-Giovedì 17 dicembre 2026, ore 21.00
-LODO GUENZI
-MORTE ACCIDENTALE DI UN ANARCHICO
-Venerdì 22 gennaio 2027, ore 21.00
-GIORGIO MARCHESI e SIMONETTA SOLDER
-L'AMANTE
-Venerdì 5 febbraio 2027, ore 21.00
-FRANCESCO SCIANNA
-HOSPITALITY SUITE
-Venerdì 26 febbraio 2027, ore 21.00
-GIANLUCA FERRATO
-LA CERIMONIA DEL MASSAGGIO
-Giovedì 25 febbraio 2027, ore 21.30
-Laboratorio Puccini
-Les Moustaches
-Un ratto
-tragedia di luce e di buio
-Mercoledì 31 marzo 2027, ore 21.00
-ALAA SHEHADA
-THE HORSE OF JENIN
-Sponsor
-Con il patrocinio e contributo di
-Con il contributo di
-Sostenuto da
-Main sponsor
-Sponsor tecnico
-Media partner
-Fornitori ufficiali
-Fa parte di
-62 Poltrone in Memoria delle Vittime delle Mafie
-Progetto "Vittime delle mafie"
-Il Teatro Puccini ha inaugurato il progetto “Vittime delle mafie”, dedicando 62 poltrone della sala alle vittime della criminalità organizzata. Ogni posto riporterà un nome e un QR code con cenni biografici, trasformando il teatro in un luogo permanente di memoria e impegno civile.
-Scopri di più
-Scuola di teatro CATALYST presso il Teatro Puccini
-Scuola di Teatro e Arti sceniche e Centro Ricerca Formazione, dal 1998 attiva nel campo dell’insegnamento e della formazione teatrale presso la sede del Teatro Puccini di Firenze.
-Scopri di più
-Caffè del Teatro Puccini
-Aperitivi, pranzi, cene, eventi privati e feste per bambini. Per info 349 474 7509
-Scopri di più
-Spettacoli
-Il Cartellone
-Spettacoli Passati
-Spettacoli in abbonamento
-Fuori Abbonamento
-Visioni Autunno Fiorentino
-Per Grandi e Puccini
-Laboratorio Puccini
-Altri Eventi
-Contatti
-Via delle Cascine 41
-50144
-Firenze
-055 362067
-info@teatropuccini.it
-Orario Biglietteria
-La biglietteria del teatro è aperta dal mercoledì al sabato dalle ore 16.00 alle ore 19.00 e un’ora prima dell’inizio degli spettacoli.
-Acquista online
-Box office
-Legal
-Associazione Culturale Teatro Puccini
-P.I. 05241440485 — C.F. 94089000486
-Amministrazione Trasparente
-Cookie Policy
-Privacy Policy
-Modifica il tuo consenso sui cookie
-design
-Kidstudio
-
---- ELEMENTI CON CLASSI date/time/venue/location ---
-  <div class='date-container'> Lunedì 8 marzo 2027, ore 21.00
-  <div class='date-wrapper'> Lunedì 8 marzo 2027, ore 21.00
-  <div class='date-container'> Venerdì 6 e sabato 7 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 6 e sabato 7 novembre 2026, ore 21.00
-  <div class='date-container'> Venerdì 13 e sabato 14 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 13 e sabato 14 novembre 2026, ore 21.00
-  <div class='date-container'> Mercoledì 25 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Mercoledì 25 novembre 2026, ore 21.00
-  <div class='date-container'> Venerdì 18 dicembre 2026, ore 21.30 Laboratorio Puccini
-  <div class='date-wrapper'> Venerdì 18 dicembre 2026, ore 21.30 Laboratorio Puccini
-  <div class='date-container'> Venerdì 11 e 12 dicembre 2026, ore 21.00
-  <div class='date-wrapper'> Venerdì 11 e 12 dicembre 2026, ore 21.00
-  <div class='date-container'> Venerdì 15 gennaio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 15 gennaio 2027, ore 21.00
-  <div class='date-container'> Venerdì 29 e sabato 30 gennaio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 29 e sabato 30 gennaio 2027, ore 21.00
-  <div class='date-container'> Sabato 13 e domenica 14 febbraio 2027, ore 21.00 domenica ore 16.45
-  <div class='date-wrapper'> Sabato 13 e domenica 14 febbraio 2027, ore 21.00 domenica ore 16.45
-  <div class='date-container'> Venerdì 19 e sabato 20 febbraio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 19 e sabato 20 febbraio 2027, ore 21.00
-  <div class='date-container'> Venerdì 5 e sabato 6 marzo 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 5 e sabato 6 marzo 2027, ore 21.00
-  <div class='date-container'> Sabato 20 e domenica 21 marzo 2027 ore 21.00 (domenica ore 16.45)
-  <div class='date-wrapper'> Sabato 20 e domenica 21 marzo 2027 ore 21.00 (domenica ore 16.45)
-  <div class='date-container'> Venerdì 9 e sabato 10 aprile 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 9 e sabato 10 aprile 2027, ore 21.00
-  <div class='date-container'> Venerdì 16 e sabato 17 aprile 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 16 e sabato 17 aprile 2027, ore 21.00
-  <div class='date-container'> Domenica 15 novembre 2026, ore 21.00
-  <div class='date-wrapper'> Domenica 15 novembre 2026, ore 21.00
-  <div class='date-container'> Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45) Laboratorio Puccini
-  <div class='date-wrapper'> Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45) Laboratorio Puccini
-  <div class='date-container'> Giovedì 17 dicembre 2026, ore 21.00
-  <div class='date-wrapper'> Giovedì 17 dicembre 2026, ore 21.00
-  <div class='date-container'> Venerdì 22 gennaio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 22 gennaio 2027, ore 21.00
-  <div class='date-container'> Venerdì 5 febbraio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 5 febbraio 2027, ore 21.00
-  <div class='date-container'> Venerdì 26 febbraio 2027, ore 21.00
-  <div class='date-wrapper'> Venerdì 26 febbraio 2027, ore 21.00
-
---- LINK INTERNI (href → testo) ---
-  https://www.teatropuccini.it  →  
-  https://www.teatropuccini.it/cartellone  →  Il Cartellone
-  https://www.teatropuccini.it/spettacoli-in-abbonamento  →  Spettacoli in abbonamento
-  https://www.teatropuccini.it/fuori-abbonamento  →  Fuori Abbonamento
-  https://www.teatropuccini.it/visioni-autunno-fiorentino  →  Visioni Autunno Fiorentino
-  https://www.teatropuccini.it/per-grandi-e-puccini  →  Per Grandi e Puccini
-  https://www.teatropuccini.it/laboratorio-puccini  →  Laboratorio Puccini
-  https://www.teatropuccini.it/altri-eventi  →  Altri Eventi
-  https://www.teatropuccini.it/il-teatro  →  Il Teatro
-  https://www.teatropuccini.it/biglietteria  →  Biglietteria
-  https://www.teatropuccini.it/contatti  →  Contatti
-  https://www.teatropuccini.it/ricordatemi-come-vi-pare-da-michela-murgia/  →  Lunedì 8 marzo 2027, ore 21.00 RICORDATEMI COME VI PARE
-  https://www.teatropuccini.it/paolo-calabresi/  →  Venerdì 6 e sabato 7 novembre 2026, ore 21.00 Paolo Calabresi Tutti gl
-  https://www.teatropuccini.it/ambra-angiolini/  →  Venerdì 13 e sabato 14 novembre 2026, ore 21.00 AMBRA ANGIOLINI LA MIS
-  https://www.teatropuccini.it/ivan-e-i-cani-federica-rosellini/  →  Mercoledì 25 novembre 2026, ore 21.00 FEDERICA ROSELLINI IVAN E I CANI
-  https://www.teatropuccini.it/ape-regina/  →  Venerdì 18 dicembre 2026, ore 21.30 Laboratorio Puccini GIORGIA CERRUT
-  https://www.teatropuccini.it/prima-facie-finzi-pasca/  →  Venerdì 11 e 12 dicembre 2026, ore 21.00 COMPAGNIA FINZI PASCA PRIMA F
-  https://www.teatropuccini.it/week-end-di-annibale-ruccello/  →  Venerdì 15 gennaio 2027, ore 21.00 week end di Annibale Ruccello
-  https://www.teatropuccini.it/paolo-hendel-e-lucia-vasini/  →  Venerdì 29 e sabato 30 gennaio 2027, ore 21.00 PAOLO HENDEL E LUCIA VA
-  https://www.teatropuccini.it/marco-paolini-bestiario-idrico/  →  Sabato 13 e domenica 14 febbraio 2027, ore 21.00 domenica ore 16.45 MA
-  https://www.teatropuccini.it/oblivion-win-for-life/  →  Venerdì 19 e sabato 20 febbraio 2027, ore 21.00 OBLIVION WIN FOR LIFE
-  https://www.teatropuccini.it/carrozzeria-orfeo-misurare-il-salto-delle-rane/  →  Venerdì 5 e sabato 6 marzo 2027, ore 21.00 CARROZZERIA ORFEO MISURARE 
-  https://www.teatropuccini.it/andrea-pennacchi-alieni-in-laguna/  →  Sabato 20 e domenica 21 marzo 2027 ore 21.00 (domenica ore 16.45) ANDR
-  https://www.teatropuccini.it/familie-floz-finale/  →  Venerdì 9 e sabato 10 aprile 2027, ore 21.00 FAMILIE FLÖZ FINALE un’ou
-  https://www.teatropuccini.it/ale-franz-capitolho/  →  Venerdì 16 e sabato 17 aprile 2027, ore 21.00 ALE & FRANZ CAPITOL’HO
-  https://www.teatropuccini.it/licia-lanera-james/  →  Domenica 15 novembre 2026, ore 21.00 LICIA LANERA JAMES
-  https://www.teatropuccini.it/daniele-timpano-caccia-l-drago/  →  Sabato 28 e domenica 29 novembre 2026, ore 21.30 (domenica ore 18.45) 
-  https://www.teatropuccini.it/lodo-guenzi/  →  Giovedì 17 dicembre 2026, ore 21.00 LODO GUENZI MORTE ACCIDENTALE DI U
-  https://www.teatropuccini.it/amante-giorgio-marchesi-simonetta-solder/  →  Venerdì 22 gennaio 2027, ore 21.00 GIORGIO MARCHESI e SIMONETTA SOLDER
-  https://www.teatropuccini.it/francesco-scianna-hospitality-suite/  →  Venerdì 5 febbraio 2027, ore 21.00 FRANCESCO SCIANNA HOSPITALITY SUITE
-  https://www.teatropuccini.it/la-cerimonia-del-massaggio/  →  Venerdì 26 febbraio 2027, ore 21.00 GIANLUCA FERRATO LA CERIMONIA DEL 
-  https://www.teatropuccini.it/les-moustaches-un-ratto-2027/  →  Giovedì 25 febbraio 2027, ore 21.30 Laboratorio Puccini Les Moustaches
-  https://www.teatropuccini.it/the-horse-of-jenin/  →  Mercoledì 31 marzo 2027, ore 21.00 ALAA SHEHADA THE HORSE OF JENIN
-  https://www.teatropuccini.it/il-teatro-puccini-dedica-62-poltrone-alle-vittime-delle-mafie/  →  62 Poltrone in Memoria delle Vittime delle Mafie
-  https://www.teatropuccini.it/spettacoli-passati  →  Spettacoli Passati
-  https://www.teatropuccini.it/amministrazione-trasparente  →  Amministrazione Trasparente
+  https://dice.fm/  →  
+  https://dice.fm/browse  →  Guarda che c'è di nuovo
+  https://dice.fm/help  →  Richiedi assistenza
+  https://dice.fm/partners  →  Crea eventi
+  https://dice.fm/login  →  Accedi / Registrati
+  https://dice.fm/download_the_app  →  Scarica l'app
+  https://dice.fm/artist/francesco-costa-v35nd  →  
+  https://dice.fm/about  →  Chi siamo
+  https://dice.fm/jobs  →  Lavora con noi
+  https://dice.fm/diversity-equity-inclusion  →  Diversità, uguaglianza 
+e inclusione
+  https://dice.fm/help/event_refund  →  Chiedi un rimborso
+  https://dice.fm/artists  →  Artisti
+  https://dice.fm/venues  →  Locali
+  https://dice.fm/blog  →  Blog
+  https://dice.fm/press  →  Stampa
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets  →  English
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=fr  →  Français
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=es  →  Español
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=ca  →  Català
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=it  →  Italiano
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=pt  →  Português
+  https://dice.fm/event/g5vr32-francesco-costa-presenta-come-se-ne-esce-il-mondo-dopo-donald-trump-27th-oct-teatro-puccini-firenze-tickets?lng=de  →  Deutsch
+  https://dice.fm/privacy_policy.html  →  Informativa sulla privacy
+  https://dice.fm/terms_and_conditions.html  →  Condizioni d'uso
+  https://dice.fm/ticket_purchase_terms.html  →  Condizioni di acquisto
