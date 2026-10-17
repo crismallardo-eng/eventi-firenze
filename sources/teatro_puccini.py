@@ -109,6 +109,31 @@ def _days_by_month(text: str) -> list[tuple[int, int, int]]:
     return out
 
 
+def _looks_like_date(line: str) -> bool:
+    """True per le righe che sono una data, non un titolo."""
+    return bool(_MONTH_RE.search(line) and _DAY_RE.search(line))
+
+
+# Etichette di rassegna: da sole non sono il titolo dello spettacolo, ma
+# messe davanti lo qualificano ("Laboratorio Puccini — La deriva...").
+_SERIES_LABELS = {
+    "laboratorio puccini", "visioni", "visioni autunno fiorentino",
+    "per grandi e puccini", "fuori abbonamento", "altri eventi",
+    "spettacoli in abbonamento", "il cartellone",
+}
+
+
+def _pick_title(lines: list[str]) -> str | None:
+    useful = [l.strip() for l in lines
+              if len(l.strip()) >= 3 and not _looks_like_date(l)]
+    if not useful:
+        return None
+    first = useful[0]
+    if first.lower() in _SERIES_LABELS and len(useful) > 1:
+        return f"{first} — {useful[1]}"
+    return first
+
+
 def _card_of(date_div):
     """Risale dal blocco data alla scheda che contiene il link allo spettacolo."""
     node = date_div
@@ -150,16 +175,13 @@ def _events_from(url: str, today: date) -> list[Event]:
             continue
         ev_url = urljoin(BASE_URL, link_a["href"].split("?")[0])
 
-        # Titolo: la prima riga della scheda dopo quella della data.
-        lines = [l for l in card.stripped_strings if l.strip()]
-        title = None
-        for i, line in enumerate(lines):
-            if line.strip() == text.strip() and i + 1 < len(lines):
-                title = lines[i + 1].strip()
-                break
+        # Titolo: la prima riga della scheda che non sia essa stessa una data.
+        # Confrontare con il testo del blocco data non basta: quando le date
+        # sono articolate ("Da venerdì 16 a domenica 18 ottobre / lunedì 14 e
+        # martedì 15 dicembre 2026") il sito le spezza in più nodi, nessuno
+        # coincide col testo intero e come titolo finiva la data stessa.
+        title = _pick_title([l for l in card.stripped_strings if l.strip()])
         if not title:
-            title = link_a.get_text(" ", strip=True)
-        if not title or len(title) < 3:
             continue
 
         tm = _TIME_RE.search(text)
