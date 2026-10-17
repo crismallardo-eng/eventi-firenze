@@ -1,15 +1,25 @@
 
 ======================================================================
-URL: https://api.dice.fm/unified_search?q=firenze
+URL: https://dice.fm/sitemap.xml
 ======================================================================
-ERRORE: HTTPError: 403 Client Error: Forbidden for url: https://api.dice.fm/unified_search?q=firenze
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/sitemap.xml
 
 ======================================================================
-URL: https://dice.fm/api/events?city=florence
+URL: https://dice.fm/venue/teatro-puccini-firenze
 ======================================================================
-ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/api/events?city=florence
+ERRORE: HTTPError: 404 Client Error: Not Found for url: https://dice.fm/venue/teatro-puccini-firenze
 
 ======================================================================
-URL: https://api.dice.fm/events?city=florence
+URL: https://dice.fm/robots.txt
 ======================================================================
-ERRORE: HTTPError: 403 Client Error: Forbidden for url: https://api.dice.fm/events?city=florence
+--- TESTO VISIBILE (primi 14000 char) ---
+User-agent: *
+Disallow: /api/
+
+Sitemap: https://dice.fm/sitemaps/sitemap.xml
+Sitemap: https://dice.fm/sitemaps/artists/sitemap.xml
+Sitemap: https://dice.fm/sitemaps/venues/sitemap.xml
+
+--- ELEMENTI CON CLASSI date/time/venue/location ---
+
+--- LINK INTERNI (href → testo) ---
